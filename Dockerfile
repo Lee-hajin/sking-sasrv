@@ -1,5 +1,13 @@
 FROM centos:8
 
+WORKDIR /etc/yum.repos.d
+RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-Linux-*;
+RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-Linux-*;
+
+RUN dnf update -y;
+RUN dnf --disablerepo '*' --enablerepo extras swap centos-linux-repos centos-stream-repos -y;
+RUN dnf distro-sync -y;
+
 RUN yum update -y
 RUN yum install -y gcc gcc-c++ glibc-devel make cmake
 RUN yum install -y zip unzip zlib zlib-devel readline-devel
