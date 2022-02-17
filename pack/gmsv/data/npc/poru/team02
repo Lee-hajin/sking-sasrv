@@ -1,0 +1,62 @@
+NomalMainMsg:뭐야? 농땡이 피우지말고 어서 일하라고!
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM!=18557&ENDEV=64
+NomalWindowMsg:뭐?! 돌을 잃어버렸다고..?\n아! 아까 부하중 한명이 주웠다고 했어!\n다신 잃어버리지 말라고!!!
+ItemFullMsg:가방이 가득찬거 같은데?
+GetItem:18557
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙이라 이야기를 듣기만해도 엄청나구만~~\n넌 정말 강한힘을 가지고 있어
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ENDEV=56&ITEM=18557
+NomalWindowMsg:그 돌을 소중히 어겨!\n잘못했다가 잃어버리기라도 하면 큰일날거야!
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ENDEV=56&ITEM!=18557&ENDEV!=64
+NomalWindowMsg:뭐?! 돌을 잃어버렸다고..?\n아! 아까 부하중 한명이 주웠다고 했어!\n다신 잃어버리지 말라고!!!
+ItemFullMsg:가방이 가득찬거 같은데?
+GetItem:18557
+EventEnd
+
+EventNo:56
+TYPE:ACCEPT
+EVENT:NOWEV=64&NOWEV=56&PET=30-719&ITEM=2478
+AcceptMsg:\n디오를 이렇게 빨리 시켜서 오다니..\n정말 대단하군
+ThanksMsg:이 돌은 장로에게 받은 정말 귀한돌이라고!\n이돌은 성스러운 힘이 있어 널 지켜줄거야.\n이 돌을 너에게 주마
+ItemFullMsg:뭐야! 가방이 너무 무거운거 같은데?
+DelPet:PET=30-719*1
+DelItem:2478
+GetItem:18557
+EndSetFlg:56
+EventEnd
+
+EventNo:56
+TYPE:MESSAGE
+EVENT:NOWEV=64&NOWEV=56&PET<30-719
+NomalWindowMsg:뭐야, 시간 없는대 빨리빨리해와!\n아직 디오가 덜 성장한거 같은데?
+EventEnd
+
+EventNo:67
+TYPE:MESSAGE
+EVENT:NOWEV=64&NOWEV=67
+NomalWindowMsg:\n빨리 가야되\n어서 부관을 만나 디오를 받아봐
+EventEnd
+
+EventNo:67
+TYPE:REQUEST
+EVENT:NOWEV=64&ENDEV=55
+RequestMsg:내가 바로 미란다다!\n나는 바다 건너 용의 동굴 뒤를 공격할꺼야!\n같이 갈래?
+ThanksMsg:좋아 좋아! 우리는 벌목을 먼저 해야 해, 벌목공 디오를 네가 30레벨까지 키워주기 바래. 부관을 찾아가서 디오를 만나게 해달라고 하렴!\n아참! 벌목 허가증은 꼭 가지고 가렴!그래야지 벌목을 할 수 있을거야 잘 부탁한다.
+EventEnd

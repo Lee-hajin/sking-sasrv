@@ -1,0 +1,48 @@
+NomalMainMsg:참여를 하고싶다고..? 넌 아직 할수가 없어.
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=27
+NomalWindowMsg:오···자네는 채굴권을 차지한 그 사내구만.!\n정말 강하더군 나도 놀랐어.
+EventEnd
+
+EventNo:27
+TYPE:MESSAGE
+EVENT:NOWEV=27&ITEM=2533
+NomalWindowMsg:뭐야 어째서 권리서가 너에게 있는거지?
+EventEnd
+
+EventNo:27
+TYPE:MESSAGE
+EVENT:NOWEV=27&ITEM=2535
+NomalWindowMsg:바카스와의 시합을 해봐.!\n
+EventEnd
+
+EventNo:27
+TYPE:ACCEPT
+EVENT:NOWEV=27&ITEM=2534
+AcceptMsg:정마로 가지고 올 줄은 몰랐는걸!\n그걸 나에게 넘겨주면\n시합 참가를 인정해 주마!
+ThanksMsg:이건 참가 허가증이야.\n광부 바카스는 만만한 상대가 아닐꺼야.\n조심해서 상대하라고.!
+GetItem:2535
+DelItem:2534*1,2536
+ItemFullMsg:가방이 가득찬거 같군.\n가방을 비우고와.!
+EventEnd
+
+EventNo:27
+TYPE:MESSAGE
+EVENT:NOWEV=27&ITEM=2536
+NomalWindowMsg:뭐야? 아직도 출발 안한거야?\n어서 다녀오라고.!
+EventEnd
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:NOWEV=27
+RequestMsg:뭐야 너는?\n응? 데니무 채굴단의 대표로 시합에 나가고 싶다고?\n
+ThanksMsg:허가증을 받기 전에 데니무 채굴단의 대표로 적합한지 판단을 해야겠군.\n채굴권을 줄태니 아르마르 광석을 채굴해 와.\n그렇다면 허가증을 너에게 주지.
+StopMsg:
+EndStopMsg:
+NoStopMsg:
+GetItem:2536*1
+ItemFullMsg:가방이 가득찬거 같군.\n가방을 비우고와.!
+EventEnd
+

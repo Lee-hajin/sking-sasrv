@@ -1,0 +1,35 @@
+NomalMainMsg:·····
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2507
+AcceptMsg:\n\n\n　　　정답을 노랑으로 바꾸시겠습니까？
+ThanksMsg:\n\n　　　정답을 노랑으로 교체하셨습니다.
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+DelItem:2507*1
+GetItem:2508*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2508
+AcceptMsg:\n\n\n　　　정답을 노랑으로 바꾸시겠습니까？
+ThanksMsg:\n\n　　　정답을 노랑으로 교체하셨습니다.
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+DelItem:2508*1
+GetItem:2508*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM!=2507,NOWEV=28&ITEM!=2508
+AcceptMsg:\n\n\n　　　노랑을 선택하시겠습니까？
+ThanksMsg:\n\n　　　노랑을 선택 하였습니다！
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+GetItem:2508*1
+EventEnd
+
+
+

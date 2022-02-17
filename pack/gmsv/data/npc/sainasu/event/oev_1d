@@ -1,0 +1,42 @@
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2575&ENDEV=17,LV>0&ITEM=2576&ENDEV=17,LV>0&ITEM=2577&ENDEV=17,LV>0&ITEM=2578&ENDEV=17,LV>0&ITEM=2579&ENDEV=17,LV>0&ITEM=2580&ENDEV=17,LV>0&ITEM=2581&ENDEV=17,LV>0&ITEM=2582&ENDEV=17,LV>0&ITEM=2583&ENDEV=17,LV>0&ITEM=2584&ENDEV=17,LV>0&ITEM=2585&ENDEV=17,LV>0&ITEM=2586&ENDEV=17,LV>0&ITEM=2587&ENDEV=17
+NomalWindowMsg:\n\n당신은「C 코스」로 루트로 배정을 받았습니다.\n현재 저는「D 코스」의 문제만 출제해드립니다.
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2575
+NomalWindowMsg:\n정답 입니다!\n정답은「샴기르」입니다.\n\n다음 체크포인트로 이동해주세요.
+ItemFullMsg:흠··· 가방이 무거우셔서 체크스톤을 받아가실 수 없습니다.
+KeyWord:샴기르
+DelItem:2575
+GetItem:2576
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2576,LV>0&ITEM=2577,LV>0&ITEM=2578,LV>0&ITEM=2579,LV>0&ITEM=2580,LV>0&ITEM=2581,LV>0&ITEM=2582,LV>0&ITEM=2583,LV>0&ITEM=2584,LV>0&ITEM=2585,LV>0&ITEM=2586,LV>0&ITEM=2587
+NomalWindowMsg:\n체크스톤을 가지고 다음 체크포인트로 이동하여 문제를 풀어주시기 바랍니다.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2575
+NomalWindowMsg:\n「D 코스」\n정답을 말씀해주시기 바랍니다.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:당신은 SOT에 참여 하지 않으셨습니다.\n쟈쟈마을에서 SOT를 참여하신 후 찾아와주세요.
+EventEnd
+
+
+
+
+

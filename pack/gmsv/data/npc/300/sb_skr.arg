@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:이 앞으로는 힘과 지식을 가진자만 통과할 수 있다.
+askbattlemsg2:니가 ㄱ이곳을 통과 할수 있는 힘과 지식이 있는가?
+askbattlemsg3:만약! 그런것이 너에게 있다면 그것을 나에게 보여줘봐!
+start msg:
+dieact:1
+warpfl:32011
+warpx:56
+warpy:36
+end msg:
+enemyno:1399,1401,1402,1400,1403
+deniedmsg 넌 이곳을 지나갈 수 없어！
+onebattle:0

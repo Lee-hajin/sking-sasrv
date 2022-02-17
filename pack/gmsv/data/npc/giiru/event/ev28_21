@@ -1,0 +1,36 @@
+NomalMainMsg:·····
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2515
+AcceptMsg:\n\n\n　　　정답을 바다로 바꾸시겠습니까？
+ThanksMsg:\n\n　　　정답을 교체하였습니다.
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+DelItem:2515*1
+GetItem:2516*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2516
+AcceptMsg:\n\n\n　　　정답을 바다로 바꾸시겠습니까？
+ThanksMsg:\n\n　　　정답을 교체하였습니다.
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+DelItem:2516*1
+GetItem:2516*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM!=2515,NOWEV=28&ITEM!=2516
+AcceptMsg:\n\n\n　　　바다를 선택하시겠습니까？
+ThanksMsg:\n\n　　　바다를 선택 하였습니다！
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+GetItem:2516*1
+EventEnd
+
+
+
+

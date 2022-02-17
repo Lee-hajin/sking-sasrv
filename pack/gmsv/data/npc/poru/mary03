@@ -1,0 +1,39 @@
+NomalMainMsg:음... 첨보는 사람같은데 날 알아?
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n어서 빨리 니스대륙을 많은 사람들에게 알려야되!
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=65&ITEM=18553
+NomalWindowMsg:\n이 곳을 찾아가서 공문을 보내자!\n어쩌면 돌을 가지고 있을지도 몰라
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=65&ITEM=18552&ITEM=18551
+NomalWindowMsg:\n타이탄이 좋아할거야!\n어서 빨리 가져다줘
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=65
+NomalWindowMsg:\n이런... 난 이쪽을 찾아볼태니 넌 저쪽을 찾아봐!
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64
+NomalWindowMsg:\n타이탄의 고민이 무엇일까?\n그에게 물어보자!
+EventEnd
+

@@ -1,0 +1,36 @@
+NomalMainMsg:来的好呀！你好吗？制作问题真快撝！
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2509
+AcceptMsg:\n\n\n　　　沥翠阑４３４ＫＧ栏肺 官操矫摆嚼聪鳖？
+ThanksMsg:\n\n　　　沥翠阑 背眉窍看嚼聪促.
+ItemFullMsg:\n\n　　　酒捞袍沫捞 何练钦聪促.
+DelItem:2509*1
+GetItem:2510*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2510
+AcceptMsg:\n\n\n　　　沥翠阑４３４ＫＧ栏肺 官操矫摆嚼聪鳖？
+ThanksMsg:\n\n　　　沥翠阑 背眉窍看嚼聪促.
+ItemFullMsg:\n\n　　　酒捞袍沫捞 何练钦聪促.
+DelItem:2510*1
+GetItem:2510*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM!=2509,NOWEV=28&ITEM!=2510
+AcceptMsg:\n\n\n　　　沥翠捞４３４ＫＧ扼绊 积阿窍绞聪鳖？
+ThanksMsg:\n\n　　　沥翠阑 急琶窍看嚼聪促.
+ItemFullMsg:\n\n　　　酒捞袍沫捞 何练钦聪促.
+GetItem:2510*1
+EventEnd
+
+
+
+

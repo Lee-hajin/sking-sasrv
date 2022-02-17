@@ -1,0 +1,19 @@
+NomalMainMsg:마스터님께 가봐
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=47
+NomalWindowMsg:\n그 공룡을 가지고 모험을 떠나봐\n그 공룡은 어마어마한 힘을 가지고 있어!
+EventEnd
+
+EventNo:47
+TYPE:ACCEPT
+EVENT:ENDEV=44&NOWEV=47&ITEM=2759
+AcceptMsg:\n\n그것은 퀴즈마스터에게서 받은\n『수수께끼의 상자』군! 굉장한걸!\n정말 이겼네! 그럼 상자를 열어줄께!
+ThanksMsg:\n\n상자안 내용을 얻으려면 OK를 누르시오.
+PetFullMsg:\n\n페트의칸을 한칸 비워주시기 바랍니다.
+GetPet:352
+DelItem:2759
+EndSetFlg:47
+EventEnd
+

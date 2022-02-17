@@ -1,0 +1,69 @@
+NomalMainMsg:뭐지? 농땡이나 피우고있고 어서 일하라고!
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM!=18559&ENDEV=64
+NomalWindowMsg:뭐?! 돌을 잃어버렸다고..?\n아! 아까 부하중 한명이 주웠다고 했어!\n다신 잃어버리지 말라고!!!
+ItemFullMsg:가방이 가득찬거 같은데?
+GetItem:18559
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙이라 기대되는군..
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ENDEV=57&ITEM=18559
+NomalWindowMsg:좋아! 너도 이제 떠날 준비를 하라고!
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ENDEV=57&ITEM!=18559&ENDEV!=64
+NomalWindowMsg:뭐?! 돌을 잃어버렸다고..?\n아! 아까 부하중 한명이 주웠다고 했어!\n다신 잃어버리지 말라고!!!
+ItemFullMsg:가방이 가득찬거 같은데?
+GetItem:18559
+EventEnd
+
+
+
+EventNo:57
+TYPE:ACCEPT
+EVENT:NOWEV=64&NOWEV=57&PET=33-721&ITEM=2432
+AcceptMsg:오 벌써 꼬미를 키워온건가?
+ThanksMsg:감사의 표시로 장로에게 받은 성스러운 돌을 너에게 주지! 장로가 말하길 이 성스러운 돌은 신비한 힘을 가지고 있으니 널 도와줄거야!\n방금 우리가 생포한 이 페트도 너에게 줄께 잘 길러봐
+ItemFullMsg:가방에 빈공간이 없는거같군.
+PetFullMsg:페트를 너무많이 기르고 있는거 아니야?
+GetItem:18559
+GetPet:1558
+DelItem:2432
+DelPet:PET=33-721*1
+EndSetFlg:57
+EventEnd
+
+
+EventNo:57
+TYPE:MESSAGE
+EVENT:NOWEV=64&NOWEV=57&PET<33-721
+NomalWindowMsg:어? 아직 꼬미가 덜 성장한거 같은데?
+EventEnd
+
+
+EventNo:68
+TYPE:MESSAGE
+EVENT:NOWEV=64&NOWEV=68
+NomalWindowMsg:\n조련사에게 한번 가봐!\n꼬미를 훈련시켜 포루섬으로 날아가야지
+EventEnd
+
+
+EventNo:68
+TYPE:REQUEST
+EVENT:NOWEV=64&ENDEV=55
+RequestMsg:안녕! 포루섬에 가본적 없지? 넌 타이탄 대장이\n소개해서 온거구나.\n이럴수가! 그럼 나의 계획을 말해주지! 나는 루디마을을 공격할거야. 그래서 공룡들의 이목을 끄는거야 멋지지 않아?
+ThanksMsg:마을의 장로가 말하기를 꼬미는 신비한 힘을 가지고 있대. 꼬미를 훈련시켜 33레벨이 되면 특\n별한 빛자루로 사람을 태우고 날수 있게 되지.\n이것이 바로 계획의 핵심이야 나를 도와 조련사를 찾아 꼬미를 훈련시키자.
+EventEnd

@@ -1,0 +1,39 @@
+NomalMainMsg:넌 누구지?
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>69&ITEM=2754
+AcceptMsg:\n아아! 여기까지 잘 왔군!\n게다가 아이템교환권까지!\n교환권을 떨어뜨리는 사람이 많은데\n잃어버리지 않고 잘 가지고 온 너에게\n좋은것을 선물하마!
+ThanksMsg:\n모험에 도움이 될 선물일거야!
+ItemFullMsg:\n\n가방에 빈공간이 부족한거 같은데?
+GetRandItem:11807,11817,11827,11837,11847,2692,2695
+DelItem:2754
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>49&ITEM=2754
+AcceptMsg:\n아아! 여기까지 잘 왔군!\n게다가 아이템교환권까지!\n교환권을 떨어뜨리는 사람이 많은데\n잃어버리지 않고 잘 가지고 온 너에게\n좋은것을 선물하마!
+ThanksMsg:\n모험에 도움이 될 선물일거야!
+ItemFullMsg:\n\n가방에 빈공간이 부족한거 같은데?
+GetRandItem:450,451,449,549,552,543,653,646
+DelItem:2754
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29&ITEM=2754
+AcceptMsg:\n아아! 여기까지 잘 왔군!\n게다가 아이템교환권까지!\n교환권을 떨어뜨리는 사람이 많은데\n잃어버리지 않고 잘 가지고 온 너에게\n좋은것을 선물하마!
+ThanksMsg:\n모험에 도움이 될 선물일거야!
+ItemFullMsg:\n\n가방에 빈공간이 부족한거 같은데?
+GetRandItem:21,22,29,131,221,227,329,421,521,630,729,831,931,1031,1131,1255,1268
+DelItem:2754
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n뭐야~ 아직 퀴즈마스터가 되기는 멀었어!
+EventEnd

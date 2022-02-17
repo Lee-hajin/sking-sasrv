@@ -1,0 +1,35 @@
+NomalMainMsg:사라는 잘 지내고 있을까... 아! 사라는 17년전 잃어버린 딸이에요.
+
+EventNo:21
+TYPE:ACCEPT
+EVENT:ENDEV=20&NOWEV=21&ITEM=2488
+AcceptMsg:이것은 내 딸으로부터의 편지군요.\n그럼 그애는 무사히 자라고 있군요!
+ThanksMsg:사라의 얼굴을 못본건 아쉽지만 그래도 잘 자라고 있는거에 만족합니다.\n정말 감사합니다!!\n이 물건은 아내의 유품 중 하나지만 보답으로 드리겠습니다.
+ItemFullMsg:가방이 너무 무거우신거 같네요.
+DelItem:2488
+GetItem:2489
+EndSetFlg:21
+EventEnd
+
+EventNo:20
+TYPE:REQUEST
+EVENT:ITEM=2486
+RequestMsg:벌써 딸이 없어진지 16년이 되는군..\n아름산 동굴에 살고 있는 쟌족에게\n끌려갔지만 지금도 무사한지 걱정되서.\n가능하면 딸을 데려오고 싶은데 부탁할수 없을까요?
+ThanksMsg:부탁합니다! 딸이 살아있다고 하면\n아름산에 있는 산적의 아지트에 있다고\n생각합니다. 가능하면 그 애의 엄마의\n유품인 헤어 브릿지를 건네주세요.\n헤어 브릿지는 아들이 갖고 있으니\n받아가세요.
+StopMsg:흠.. 혹시 못하겠습니까?
+EndStopMsg:알겠습니다.. 
+NoStopMsg:아들에게 한번 가보세요!
+DelItem:2486
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&ENDEV=21&ENDEV!=160
+NomalMsg:딸의 행방을 알수있게 해주셔서 정말 감사합니다.
+EventEnd
+
+EventNo:20
+TYPE:MESSAGE
+EVENT:NOWEV=20&ITEM=2487
+NomalMsg:헤어 브릿지를 딸에게 건네주세요. 딸은 알아볼거에요.
+EventEnd

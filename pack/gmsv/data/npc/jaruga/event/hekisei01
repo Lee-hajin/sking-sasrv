@@ -1,0 +1,27 @@
+NomalMainMsg:당신은 무엇때문에 이런곳까지 오신건가요?
+
+EventNo:46
+TYPE:ACCEPT
+EVENT:LV>64&NOWEV=46&ITEM=2769
+AcceptMsg:\n이 벽청동굴을 제압하셨군요.\n\n당신은 물의 가호를 받을 만한 인물이라고 인정합니다.
+ThanksMsg:\n그럼, 그 벽청의 수정을 내 쪽으로...\n이 것을 세계의 물을 정화하기 위하여 사용\n하겠습니다.\n대단히 고맙습니다. 그럼, 이 물의 반지를 가지십시오.\n반드시 당신에게 도움이 될 것이라고 생각합니다.
+ItemFullMsg:\n가방이 무거워서 반지를 가져가실 수 없군요.
+DelItem:2769
+GetItem:2770
+Charm:1
+EndSetFlg:46
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>64&NOWEV=46&ITEM!=2769,LV>64&NOWEV=46
+AcceptMsg:\n벽청동굴을 제압하셨군요.\n쿠키에 있던 나의 하인에게 대강의 사정은\n들었을 거라고 생각됩니다.\n\n지금부터 중요한 이야기를 하겠습니다만,\n다 들울 수 있겠습니까?
+ThanksMsg:\n이 세계의 물은 나일 갈수록 더러워지고 있습니다.\n더러워지는 물을 정화하기위해\n벽청의 수정이 필요합니다.\n벽청의 수정은 감벽의 돌과 군청의 물에 의해서 생성됩니다.\n그래서, 당신이 이 돌과 물을 가지고
+ThanksMsg2:\n이 동굴앞에 있는 현자에게 그것을 주어서\n수정을 만들게 하세요. 그렇게 해서\n벽청의 수정을 내가 있는 곳으로 가지고 오지 않겠습니까?\n수정을 제가 있는 곳으로 가지고 왔을때,당신을 물을 정복한자로 인정하겠습니다.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&ENDEV=46
+NomalWindowMsg:\n정말 감사합니다.\n그「물의 반지」를 꼭 간직하십시오.\n당신이 물의 정복자라는 것을 칭호하는 물건 입니다.
+EventEnd

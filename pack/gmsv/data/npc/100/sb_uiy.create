@@ -1,0 +1,35 @@
+NPCCREATE
+{
+floorid=10007
+borncenter=29,39,1,1
+movecenter=20,20,100,100
+createnum=1
+time=60000
+dir=4
+graphicname=100431
+name=ÀðÇÑ ¿ïÇÁ
+enemy=sb_uiy1|file:100/sb_uiy1.arg
+}
+{
+floorid=10007
+borncenter=28,39,1,1
+movecenter=20,20,100,100
+createnum=1
+time=60000
+dir=4
+graphicname=100439
+name=ÀðÇÑ ·Îµå
+enemy=sb_uiy2|file:100/sb_uiy2.arg
+}
+{
+floorid=10007
+borncenter=30,39,1,1
+movecenter=20,20,100,100
+createnum=1
+time=60000
+dir=4
+graphicname=100436
+name=ÀðÇÑ ±â¸£
+enemy=sb_uiy3|file:100/sb_uiy3.arg
+}
+

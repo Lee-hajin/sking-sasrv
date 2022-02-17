@@ -1,0 +1,45 @@
+version: '3.1'
+
+services:
+  ssm_sadb:
+    image: mysql:5.7
+    container_name: ssm_sadb
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - 3306:3306
+    networks:
+      sa_network:
+        ipv4_address: 172.30.0.100
+
+  ssm_saac:
+    image: ssm-sasrv
+    container_name: ssm_saac
+    command: tail -F /var/logs
+    ports:
+      - 10001:10001
+    security_opt:
+      - seccomp:unconfined
+    networks:
+      sa_network:
+        ipv4_address: 172.30.0.10
+
+  ssm_gmsv:
+    image: ssm-sasrv
+    container_name: ssm_gmsv
+    command: tail -F /var/logs
+    ports:
+      - 19065:19065
+    security_opt:
+      - seccomp:unconfined
+    networks:
+      sa_network:
+        ipv4_address: 172.30.0.20
+
+networks:
+  sa_network:
+    ipam:
+      config:
+        - subnet: 172.30.0.0/24

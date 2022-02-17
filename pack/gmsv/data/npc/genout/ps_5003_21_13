@@ -1,0 +1,13 @@
+nomal_rate:0.6
+main_msg:안녕하세요.\n무엇을 하시겠습니까？\n
+realy_msg:정말로 판매하시겠습니까？
+over_msg:최대 소지금이 초과되었습니다.\n남은 금액은 은행으로 입금됩니다.
+thanks_msg:이용해주셔서 감사합니다.
+special_rate:1.5
+special_pet:
+
+
+
+
+
+

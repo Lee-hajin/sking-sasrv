@@ -1,0 +1,22 @@
+NomalMainMsg:···
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30&NOWEV=54
+NomalWindowMsg:사람들에게 우리의 말을 전해줘.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&NOWEV=29&ENDEV=30&NOWEV=54
+AcceptMsg1:\n\n아무리 생각해도 말이야. 세상에는 알 수 없는 비밀로 가득 찬거 같아.
+AcceptMsg2:\n\n거짓에 눈이 멀어서 진실을 모르는 자들에게 너는 나의 말을 전해주겠어?
+AcceptMsg3:\n\n진실을 알지 못한다면 정령의 세계는 멸망에 빠지게 될거야...
+AcceptMsg4:\n\n거짓된 망자들이 채석장과 정령의 세계를 더럽히고 있다는 소리를 들었다. 
+AcceptMsg5:진리를 모르고 암흑속으로 빠져든다면 모든게 멸망 할꺼야.우리정령들은 정령의 세계가 그런식으로 되는것을 바라지않아.\n그래서 사람들을 믿고 당분간은 지켜보려고해.너는 우리를 대신해 사람들을 설득해주겠어?
+ThanksMsg:우리 정령들의 힘이 담겨있는 옷이야\n 우리의 말을 꼭 전해줘
+ItemFullMsg:정령의 옷을 받으려면 소지품창을 비워줘.
+GetItem:2551
+EndSetFlg:29
+Charm:1
+EventEnd

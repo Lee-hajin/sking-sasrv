@@ -1,0 +1,31 @@
+NomalMainMsg:티켓 판매원 입니다.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV<11,DR<11,DR=77,DR=777
+AcceptMsg:투기장에 입장하려구? \n너는 레벨이 낮으니까 티켓을 그냥 줄게
+ThanksMsg:입장권은 바닥에 버리시면 소멸되니 조심히 사용해\n\n입장권이 없으면 다시 나올수 없어
+ItemFullMsg:아이템창이 부족합니다.
+GetItem:2597
+DelItem:2521,2522,2523,2524,2598,2599,2600,2601,2602
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2597
+NomalMsg:티켓을 소지하고 있습니다！
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>10
+AcceptMsg:투기장에 입장하시려구요? \n입장료는%8dStone입니다。\n즐거운시간되세요!
+ThanksMsg:입장권은 바닥에 버리시면 소멸되오니 조심히 사용하세요!\n입장권이 없으면 다시 나올수 없어요!
+StoneLessMsg:소지금애이 부족합니다.
+ItemFullMsg:아이템창이 부족합니다.
+DelStone:LV*3
+GetItem:2597
+DelItem:2521,2522,2523,2524,2598,2599,2600,2601,2602
+EventEnd
+

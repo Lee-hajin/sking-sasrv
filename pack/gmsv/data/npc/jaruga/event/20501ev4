@@ -1,0 +1,12 @@
+NomalMainMsg:우루리 마을의 공기는 정말 깨끗해.
+
+EventNo:-1
+TYPE:CLEAN
+EVENT:ENDEV=18
+CleanFlg:18
+CleanFlgMsg:어이! 나뭇꾼 바루의 소문 알고 싶어?
+CleanMainMsg:바루가 또 도끼를 부러뜨린거 같아.!\n한번 찾아가볼래?
+EventEnd
+
+
+

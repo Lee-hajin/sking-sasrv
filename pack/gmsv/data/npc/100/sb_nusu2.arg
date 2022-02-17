@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:어째서 내가 그걸 가지고 있지?
+askbattlemsg2:설마 우리를 혼내겠다는 생각은 아니겠지?
+startmsg:하하하하! 그 말에 실수했다는 것을 알도록 해주지!
+dieact:0
+item:2431
+end msg:하하하·· 나약한 녀석
+enemyno:514,518
+deniedmsg:뭔대 이곳까지 온거지？난 아무것도 안했다고！
+time:300
+

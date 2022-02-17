@@ -1,0 +1,102 @@
+NomalMainMsg:으윽.... 배가고파 견딜수 없어
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63&ITEM=18542
+NomalWindowMsg:\n덕분에 살수있었어!!\n정말로 고마워
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=63&ITEM=1501&ITEM!=18538
+StopMsg:이런...
+NoStopMsg:정말 고마워
+EndStopMsg:너무 배가고파...
+AcceptMsg:나에게 내구력 회복약을 줄수 있니?\n배가 고파서 견딜수 없어...
+ThanksMsg:음~체력이 많이 회복되었군 감사의 표시로\n갈고리 모양의 옥을 너에게 줄께 너에게 많은\n도움이 될꺼야.\n기력 회복약 60 짜리 있어?\n내 기력이 얼마 남지 않았어..
+ItemFullMsg:뭐야.. 가방이 가득찬거 같아
+NpcWarp:5501.43.5,5502.10.7,5503.18.13,5503.48.77,5505.16.27,5505.46.73,5506.54.5,5506.7.38,5507.89.12,5507.49.25,5508.29.5
+GetItem:18538
+DelItem:1501*1
+
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=1512&NOWEV=63&ITEM!=18539&ITEM=18538
+StopMsg:이런...
+NoStopMsg:정말 고마워
+EndStopMsg:너무 배가고파...
+AcceptMsg:나에게 기력력 회복약을 줄수 있니?\n배가 고파서 견딜수 없어...
+ThanksMsg:음~기력이 많이 회복되었군 감사의 표시로\n갈고리 모양의 옥을 너에게 줄께 너에게 많은\n도움이 될꺼야.\n혹시 미트로프 있어?\n아직 배가 너무고파..
+ItemFullMsg:뭐야.. 가방이 가득찬거 같아
+NpcWarp:5501.43.5,5502.10.7,5503.18.13,5503.48.77,5505.16.27,5505.46.73,5506.54.5,5506.7.38,5507.89.12,5507.49.25,5508.29.5
+GetItem:18539
+DelItem:1512*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=18539*1&ITEM=12667&NOWEV=63&ITEM!=18540
+StopMsg:이런...
+NoStopMsg:정말 고마워
+EndStopMsg:너무 배가고파...
+AcceptMsg:나에게 미트로프를 줄수 있니?\n배가 고파서 견딜수 없어...
+ThanksMsg:음~배가 약간 부르군 감사의 표시로\n갈고리 모양의 옥을 너에게 줄께 너에게 많은\n도움이 될꺼야.\n혹시 담백한 고기스튜 있어?\n고기스튜를 먹고싶어..
+ItemFullMsg:뭐야.. 가방이 가득찬거 같아
+NpcWarp:5501.43.5,5502.10.7,5503.18.13,5503.48.77,5505.16.27,5505.46.73,5506.54.5,5506.7.38,5507.89.12,5507.49.25,5508.29.5
+GetItem:18540
+DelItem:12667*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=18540*1&ITEM=12507&NOWEV=63&ITEM!=18541
+StopMsg:이런...
+NoStopMsg:정말 고마워
+EndStopMsg:너무 배가고파...
+AcceptMsg:나에게 담백한 고기스튜를 줄수 있니?\n그게 먹고싶어...
+ThanksMsg:음~배가 좀 부르군 감사의 표시로\n갈고리 모양의 옥을 너에게 줄께 너에게 많은\n도움이 될꺼야.\n혹시 파워업 버섯 있어?\n파워업 버섯이 먹고싶어..
+ItemFullMsg:뭐야.. 가방이 가득찬거 같아
+NpcWarp:5501.43.5,5502.10.7,5503.18.13,5503.48.77,5505.16.27,5505.46.73,5506.54.5,5506.7.38,5507.89.12,5507.49.25,5508.29.5
+GetItem:18541
+DelItem:12507*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=18541*1&ITEM=12849&NOWEV=63&ITEM!=18542
+StopMsg:이런...
+NoStopMsg:정말 고마워
+EndStopMsg:너무 배가고파...
+AcceptMsg:나에게 파워업 버섯을 줄수 있니?\n그게 먹고싶어...
+ThanksMsg:고마워! 감사의 표시로\n갈고리 모양의 옥을 너에게 줄께 너에게 많은\n도움이 될꺼야.\n정말 고마워 덕분에 배를 채울수 있었어!
+ItemFullMsg:뭐야.. 가방이 가득찬거 같아
+NpcWarp:5501.43.5,5502.10.7,5503.18.13,5503.48.77,5505.16.27,5505.46.73,5506.54.5,5506.7.38,5507.89.12,5507.49.25,5508.29.5
+GetItem:18542
+DelItem:12849*1
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63&ITEM=18541
+NomalWindowMsg:\n음...\n파워업 버섯을 먹고싶은데 혹시 없을까?
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63&ITEM=18540
+NomalWindowMsg:\n아직 배가 고프다...\n좀 단백한 고기스튜를 먹고싶은데 혹시 없을까?
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=18539&ITEM=18538
+NomalWindowMsg:\n배가 너무 고프다...\n지금이라도 쓰러질꺼 같아...
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63
+NomalWindowMsg:\n혹시 내구력회복약과 기력회복약을 구해다줄 수 있어..?\n너무 많이 다쳐서 좀 부탁좀 할께...
+EventEnd

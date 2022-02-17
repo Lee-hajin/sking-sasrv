@@ -1,0 +1,9321 @@
+NPCCREATE
+
+
+#line 13
+{
+floorid=702
+borncorner=355,109,355,109
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60009|43|105
+}
+# between
+{
+floorid=60009
+borncorner=43,105,43,105
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|355|109
+}
+#line 15
+{
+floorid=60035
+borncorner=23,99,23,99
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60009|28|28
+}
+#line 16
+{
+floorid=60009
+borncorner=11,4,11,4
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60010|6|49
+}
+# between
+{
+floorid=60010
+borncorner=6,49,6,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60009|11|4
+}
+#line 17
+{
+floorid=60078
+borncorner=6,49,6,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60009|11|4
+}
+#line 18
+{
+floorid=60009
+borncorner=21,3,21,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60036|25|49
+}
+# between
+{
+floorid=60036
+borncorner=25,49,25,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60009|21|3
+}
+#line 22
+{
+floorid=60053
+borncorner=15,65,15,65
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|54|150
+}
+# between
+{
+floorid=707
+borncorner=54,150,54,150
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60053|15|65
+}
+#line 23
+{
+floorid=707
+borncorner=53,150,53,150
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60053|15|65
+}
+#line 25
+{
+floorid=60053
+borncorner=55,23,55,23
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60055|31|99
+}
+# between
+{
+floorid=60055
+borncorner=31,99,31,99
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60053|55|23
+}
+#line 29
+{
+floorid=60055
+borncorner=38,67,38,67
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60056|41|51
+}
+# between
+{
+floorid=60056
+borncorner=41,51,41,51
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60055|38|67
+}
+#line 30
+{
+floorid=60055
+borncorner=31,58,31,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60056|32|57
+}
+# between
+{
+floorid=60056
+borncorner=32,57,32,57
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60055|31|58
+}
+#line 31
+{
+floorid=60055
+borncorner=46,43,46,43
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60056|40|44
+}
+# between
+{
+floorid=60056
+borncorner=40,44,40,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60055|46|43
+}
+#line 32
+{
+floorid=60055
+borncorner=19,69,19,69
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60056|15|54
+}
+# between
+{
+floorid=60056
+borncorner=15,54,15,54
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60055|19|69
+}
+#line 33
+{
+floorid=60055
+borncorner=17,43,17,43
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60056|15|46
+}
+# between
+{
+floorid=60056
+borncorner=15,46,15,46
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60055|17|43
+}
+#line 34
+{
+floorid=60055
+borncorner=35,34,35,34
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60056|28|38
+}
+# between
+{
+floorid=60056
+borncorner=28,38,28,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60055|35|34
+}
+#line 38
+{
+floorid=60054
+borncorner=42,48,42,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60056|35|12
+}
+# between
+{
+floorid=60056
+borncorner=35,12,35,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|42|48
+}
+#line 42
+{
+floorid=60054
+borncorner=22,41,22,41
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|20|36
+}
+# between
+{
+floorid=60054
+borncorner=20,36,20,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|22|41
+}
+#line 43
+{
+floorid=60054
+borncorner=28,38,28,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|26|33
+}
+# between
+{
+floorid=60054
+borncorner=26,33,26,33
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|28|38
+}
+#line 44
+{
+floorid=60054
+borncorner=33,31,33,31
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|34|36
+}
+# between
+{
+floorid=60054
+borncorner=34,36,34,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|33|31
+}
+#line 45
+{
+floorid=60054
+borncorner=39,28,39,28
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|41|33
+}
+# between
+{
+floorid=60054
+borncorner=41,33,41,33
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|39|28
+}
+#line 46
+{
+floorid=60054
+borncorner=45,27,45,27
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|56|38
+}
+# between
+{
+floorid=60054
+borncorner=56,38,56,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|45|27
+}
+#line 47
+{
+floorid=60054
+borncorner=44,33,44,33
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|57|32
+}
+# between
+{
+floorid=60054
+borncorner=57,32,57,32
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|44|33
+}
+#line 48
+{
+floorid=60054
+borncorner=51,29,51,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|48|34
+}
+# between
+{
+floorid=60054
+borncorner=48,34,48,34
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|51|29
+}
+#line 49
+{
+floorid=60054
+borncorner=65,35,65,35
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|64|41
+}
+# between
+{
+floorid=60054
+borncorner=64,41,64,41
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|65|35
+}
+#line 50
+{
+floorid=60054
+borncorner=66,48,66,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|55|59
+}
+# between
+{
+floorid=60054
+borncorner=55,59,55,59
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|66|48
+}
+#line 51
+{
+floorid=60054
+borncorner=69,53,69,53
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|51|53
+}
+# between
+{
+floorid=60054
+borncorner=51,53,51,53
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|69|53
+}
+#line 52
+{
+floorid=60054
+borncorner=58,51,58,51
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|61|57
+}
+# between
+{
+floorid=60054
+borncorner=61,57,61,57
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|58|51
+}
+#line 53
+{
+floorid=60054
+borncorner=45,55,45,55
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|46|60
+}
+# between
+{
+floorid=60054
+borncorner=46,60,46,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|45|55
+}
+#line 54
+{
+floorid=60054
+borncorner=38,60,38,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|32|53
+}
+# between
+{
+floorid=60054
+borncorner=32,53,32,53
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|38|60
+}
+#line 55
+{
+floorid=60054
+borncorner=31,60,31,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|38|54
+}
+# between
+{
+floorid=60054
+borncorner=38,54,38,54
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|31|60
+}
+#line 56
+{
+floorid=60054
+borncorner=26,50,26,50
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|18|54
+}
+# between
+{
+floorid=60054
+borncorner=18,54,18,54
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|26|50
+}
+#line 57
+{
+floorid=60054
+borncorner=22,48,22,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|24|57
+}
+# between
+{
+floorid=60054
+borncorner=24,57,24,57
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60054|22|48
+}
+#line 63
+{
+floorid=708
+borncorner=225,254,225,254
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60049|62|8
+}
+# between
+{
+floorid=60049
+borncorner=62,8,62,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|225|254
+}
+#line 64
+{
+floorid=708
+borncorner=225,253,225,253
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60049|62|7
+}
+# between
+{
+floorid=60049
+borncorner=62,7,62,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|225|253
+}
+#line 66
+{
+floorid=60049
+borncorner=12,26,12,26
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|9|25
+}
+# between
+{
+floorid=60050
+borncorner=9,25,9,25
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60049|12|26
+}
+#line 67
+{
+floorid=60049
+borncorner=12,25,12,25
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|9|24
+}
+# between
+{
+floorid=60050
+borncorner=9,24,9,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60049|12|25
+}
+#line 68
+{
+floorid=60049
+borncorner=11,42,11,42
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|9|42
+}
+# between
+{
+floorid=60050
+borncorner=9,42,9,42
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60049|11|42
+}
+#line 69
+{
+floorid=60049
+borncorner=11,41,11,41
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|9|41
+}
+# between
+{
+floorid=60050
+borncorner=9,41,9,41
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60049|11|41
+}
+#line 70
+{
+floorid=60049
+borncorner=63,34,63,34
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|42|28
+}
+#line 71
+{
+floorid=60049
+borncorner=63,33,63,33
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|42|27
+}
+#line 72
+{
+floorid=60049
+borncorner=62,60,62,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|54|57
+}
+# between
+{
+floorid=60050
+borncorner=54,57,54,57
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60049|62|60
+}
+#line 73
+{
+floorid=60049
+borncorner=62,61,62,61
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|54|58
+}
+# between
+{
+floorid=60050
+borncorner=54,58,54,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60049|62|61
+}
+#line 77
+{
+floorid=60050
+borncorner=22,7,22,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|38|15
+}
+# between
+{
+floorid=60051
+borncorner=38,15,38,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|22|7
+}
+#line 78
+{
+floorid=60050
+borncorner=21,7,21,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|37|15
+}
+# between
+{
+floorid=60051
+borncorner=37,15,37,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|21|7
+}
+#line 79
+{
+floorid=60050
+borncorner=68,29,68,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|108|11
+}
+# between
+{
+floorid=60051
+borncorner=108,11,108,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|68|29
+}
+#line 80
+{
+floorid=60050
+borncorner=69,29,69,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|109|11
+}
+# between
+{
+floorid=60051
+borncorner=109,11,109,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|69|29
+}
+#line 81
+{
+floorid=60050
+borncorner=65,59,65,59
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|87|62
+}
+# between
+{
+floorid=60051
+borncorner=87,62,87,62
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|65|59
+}
+#line 82
+{
+floorid=60050
+borncorner=64,59,64,59
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|86|62
+}
+# between
+{
+floorid=60051
+borncorner=86,62,86,62
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|64|59
+}
+#line 83
+{
+floorid=60050
+borncorner=84,59,84,59
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|114|38
+}
+# between
+{
+floorid=60051
+borncorner=114,38,114,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|84|59
+}
+#line 84
+{
+floorid=60050
+borncorner=83,59,83,59
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|113|38
+}
+# between
+{
+floorid=60051
+borncorner=113,38,113,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|83|59
+}
+#line 85
+{
+floorid=60050
+borncorner=42,16,42,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|75|15
+}
+# between
+{
+floorid=60051
+borncorner=75,15,75,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|42|16
+}
+#line 86
+{
+floorid=60050
+borncorner=41,16,41,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|74|15
+}
+# between
+{
+floorid=60051
+borncorner=74,15,74,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|41|16
+}
+#line 87
+{
+floorid=60050
+borncorner=27,27,27,27
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|22|55
+}
+# between
+{
+floorid=60051
+borncorner=22,55,22,55
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|27|27
+}
+#line 88
+{
+floorid=60050
+borncorner=27,26,27,26
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|22|54
+}
+# between
+{
+floorid=60051
+borncorner=22,54,22,54
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|27|26
+}
+#line 89
+{
+floorid=60050
+borncorner=42,39,42,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|49|68
+}
+# between
+{
+floorid=60051
+borncorner=49,68,49,68
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|42|39
+}
+#line 90
+{
+floorid=60050
+borncorner=41,39,41,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|48|68
+}
+# between
+{
+floorid=60051
+borncorner=48,68,48,68
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|41|39
+}
+#line 91
+{
+floorid=60050
+borncorner=56,27,56,27
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|36|56
+}
+# between
+{
+floorid=60051
+borncorner=36,56,36,56
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|56|27
+}
+#line 92
+{
+floorid=60050
+borncorner=56,26,56,26
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|36|55
+}
+# between
+{
+floorid=60051
+borncorner=36,55,36,55
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60050|56|26
+}
+#line 96
+{
+floorid=60051
+borncorner=21,43,21,43
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60052|11|11
+}
+# between
+{
+floorid=60052
+borncorner=11,11,11,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|21|43
+}
+#line 97
+{
+floorid=60051
+borncorner=21,42,21,42
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60052|11|10
+}
+# between
+{
+floorid=60052
+borncorner=11,10,11,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|21|42
+}
+#line 98
+{
+floorid=60051
+borncorner=111,80,111,80
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60052|48|55
+}
+# between
+{
+floorid=60052
+borncorner=48,55,48,55
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|111|80
+}
+#line 99
+{
+floorid=60051
+borncorner=110,80,110,80
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60052|47|55
+}
+# between
+{
+floorid=60052
+borncorner=47,55,47,55
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60051|110|80
+}
+#line 104
+{
+floorid=60050
+borncorner=42,28,42,28
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60052|38|21
+}
+#line 105
+{
+floorid=60050
+borncorner=42,27,42,27
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60052|38|20
+}
+#line 113
+{
+floorid=705
+borncorner=96,11,96,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60063|49|89
+}
+# between
+{
+floorid=60063
+borncorner=49,89,49,89
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|96|11
+}
+#line 114
+{
+floorid=705
+borncorner=97,11,97,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60063|50|89
+}
+# between
+{
+floorid=60063
+borncorner=50,89,50,89
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|97|11
+}
+#line 116
+{
+floorid=60063
+borncorner=0,28,0,28
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60064|57|19
+}
+# between
+{
+floorid=60064
+borncorner=57,19,57,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60063|0|28
+}
+#line 117
+{
+floorid=60063
+borncorner=0,29,0,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60064|57|20
+}
+# between
+{
+floorid=60064
+borncorner=57,20,57,20
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60063|0|29
+}
+#line 119
+{
+floorid=60064
+borncorner=9,6,9,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60065|10|12
+}
+# between
+{
+floorid=60065
+borncorner=10,12,10,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60064|9|6
+}
+#line 122
+{
+floorid=60066
+borncorner=32,38,32,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60065|73|57
+}
+#line 123
+{
+floorid=60069
+borncorner=32,38,32,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60065|73|57
+}
+#line 125
+{
+floorid=60066
+borncorner=41,35,41,35
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|93|51
+}
+# between
+{
+floorid=60067
+borncorner=93,51,93,51
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|41|35
+}
+#line 126
+{
+floorid=60066
+borncorner=51,36,51,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|104|50
+}
+# between
+{
+floorid=60067
+borncorner=104,50,104,50
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|51|36
+}
+#line 127
+{
+floorid=60066
+borncorner=41,29,41,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|93|38
+}
+# between
+{
+floorid=60067
+borncorner=93,38,93,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|41|29
+}
+#line 128
+{
+floorid=60066
+borncorner=51,29,51,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|103|36
+}
+# between
+{
+floorid=60067
+borncorner=103,36,103,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|51|29
+}
+#line 130
+{
+floorid=60066
+borncorner=30,7,30,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|45|23
+}
+# between
+{
+floorid=60067
+borncorner=45,23,45,23
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|30|7
+}
+#line 131
+{
+floorid=60066
+borncorner=37,7,37,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|56|23
+}
+# between
+{
+floorid=60067
+borncorner=56,23,56,23
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|37|7
+}
+#line 132
+{
+floorid=60066
+borncorner=30,17,30,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|45|34
+}
+# between
+{
+floorid=60067
+borncorner=45,34,45,34
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|30|17
+}
+#line 133
+{
+floorid=60066
+borncorner=37,17,37,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|56|33
+}
+# between
+{
+floorid=60067
+borncorner=56,33,56,33
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|37|17
+}
+#line 135
+{
+floorid=60066
+borncorner=8,29,8,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|29|48
+}
+# between
+{
+floorid=60067
+borncorner=29,48,29,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|8|29
+}
+#line 136
+{
+floorid=60066
+borncorner=8,35,8,35
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|27|60
+}
+# between
+{
+floorid=60067
+borncorner=27,60,27,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|8|35
+}
+#line 137
+{
+floorid=60066
+borncorner=19,29,19,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|40|49
+}
+# between
+{
+floorid=60067
+borncorner=40,49,40,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|19|29
+}
+#line 138
+{
+floorid=60066
+borncorner=19,35,19,35
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|39|60
+}
+# between
+{
+floorid=60067
+borncorner=39,60,39,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60066|19|35
+}
+#line 140
+{
+floorid=60068
+borncorner=25,25,25,25
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|78|60
+}
+#line 141
+{
+floorid=60068
+borncorner=18,26,18,26
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|78|72
+}
+#line 142
+{
+floorid=60068
+borncorner=12,21,12,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|80|85
+}
+#line 143
+{
+floorid=60068
+borncorner=33,32,33,32
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|80|92
+}
+#line 144
+{
+floorid=60068
+borncorner=25,33,25,33
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|87|109
+}
+#line 145
+{
+floorid=60068
+borncorner=17,35,17,35
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|92|115
+}
+#line 146
+{
+floorid=60068
+borncorner=32,41,32,41
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|111|117
+}
+#line 147
+{
+floorid=60068
+borncorner=25,42,25,42
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60067|120|117
+}
+#line 151
+
+#line 153
+{
+floorid=708
+borncorner=71,51,71,51
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|84
+}
+# between
+{
+floorid=60072
+borncorner=69,84,69,84
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|71|51
+}
+#line 156
+{
+floorid=60075
+borncorner=61,6,61,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|71|51
+}
+#line 157
+{
+floorid=60077
+borncorner=61,6,61,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|71|51
+}
+#line 159
+{
+floorid=60072
+borncorner=69,60,69,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|58
+}
+# between
+{
+floorid=60072
+borncorner=69,58,69,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|60
+}
+#line 160
+{
+floorid=60072
+borncorner=69,48,69,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|69|48
+}
+# between
+{
+floorid=60073
+borncorner=69,48,69,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|48
+}
+#line 161
+{
+floorid=60073
+borncorner=69,37,69,37
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|69|35
+}
+# between
+{
+floorid=60073
+borncorner=69,35,69,35
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|69|37
+}
+#line 162
+{
+floorid=60073
+borncorner=69,24,69,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|24
+}
+# between
+{
+floorid=60072
+borncorner=69,24,69,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|69|24
+}
+#line 163
+{
+floorid=60072
+borncorner=59,24,59,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|57|24
+}
+# between
+{
+floorid=60072
+borncorner=57,24,57,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|59|24
+}
+#line 164
+{
+floorid=60072
+borncorner=44,24,44,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|44|24
+}
+# between
+{
+floorid=60073
+borncorner=44,24,44,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|44|24
+}
+#line 165
+{
+floorid=60073
+borncorner=34,24,34,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|32|24
+}
+# between
+{
+floorid=60073
+borncorner=32,24,32,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|34|24
+}
+#line 167
+{
+floorid=60073
+borncorner=19,24,19,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|19|24
+}
+# between
+{
+floorid=60072
+borncorner=19,24,19,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|19|24
+}
+#line 168
+{
+floorid=60072
+borncorner=19,34,19,34
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|19|36
+}
+# between
+{
+floorid=60072
+borncorner=19,36,19,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|19|34
+}
+#line 169
+{
+floorid=60072
+borncorner=19,58,19,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|19|60
+}
+# between
+{
+floorid=60072
+borncorner=19,60,19,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|19|58
+}
+#line 170
+{
+floorid=60072
+borncorner=32,72,32,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|34|72
+}
+# between
+{
+floorid=60072
+borncorner=34,72,34,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|32|72
+}
+#line 171
+{
+floorid=60072
+borncorner=44,72,44,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|44|72
+}
+# between
+{
+floorid=60073
+borncorner=44,72,44,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|44|72
+}
+#line 172
+{
+floorid=60073
+borncorner=57,72,57,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|59|72
+}
+# between
+{
+floorid=60073
+borncorner=59,72,59,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|57|72
+}
+#line 173
+{
+floorid=60073
+borncorner=69,72,69,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|69|72
+}
+# between
+{
+floorid=60074
+borncorner=69,72,69,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|69|72
+}
+#line 174
+{
+floorid=60074
+borncorner=59,72,59,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|57|72
+}
+# between
+{
+floorid=60074
+borncorner=57,72,57,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|59|72
+}
+#line 175
+{
+floorid=60074
+borncorner=34,72,34,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|32|72
+}
+# between
+{
+floorid=60074
+borncorner=32,72,32,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|34|72
+}
+#line 176
+{
+floorid=60074
+borncorner=19,72,19,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|19|72
+}
+# between
+{
+floorid=60073
+borncorner=19,72,19,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|19|72
+}
+#line 177
+{
+floorid=60073
+borncorner=19,58,19,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|19|60
+}
+# between
+{
+floorid=60073
+borncorner=19,60,19,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|19|58
+}
+#line 178
+{
+floorid=60073
+borncorner=19,48,19,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|19|48
+}
+# between
+{
+floorid=60074
+borncorner=19,48,19,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|19|48
+}
+#line 179
+{
+floorid=60074
+borncorner=19,36,19,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|19|34
+}
+# between
+{
+floorid=60074
+borncorner=19,34,19,34
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|19|36
+}
+#line 180
+{
+floorid=60074
+borncorner=32,24,32,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|34|24
+}
+# between
+{
+floorid=60074
+borncorner=34,24,34,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|32|24
+}
+#line 181
+{
+floorid=60074
+borncorner=57,24,57,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|59|24
+}
+# between
+{
+floorid=60074
+borncorner=59,24,59,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|57|24
+}
+#line 182
+{
+floorid=60074
+borncorner=69,35,69,35
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|69|37
+}
+# between
+{
+floorid=60074
+borncorner=69,37,69,37
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|69|35
+}
+#line 183
+{
+floorid=60074
+borncorner=59,48,59,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|57|48
+}
+# between
+{
+floorid=60074
+borncorner=57,48,57,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60074|59|48
+}
+#line 184
+{
+floorid=60074
+borncorner=44,48,44,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60073|44|48
+}
+#line 185
+{
+floorid=60073
+borncorner=44,48,44,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|45|48
+}
+#line 187
+{
+floorid=60072
+borncorner=81,72,81,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 188
+{
+floorid=60072
+borncorner=81,48,81,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 189
+{
+floorid=60072
+borncorner=81,24,81,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 190
+{
+floorid=60072
+borncorner=69,12,69,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 191
+{
+floorid=60072
+borncorner=44,12,44,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 192
+{
+floorid=60072
+borncorner=19,12,19,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 193
+{
+floorid=60072
+borncorner=7,24,7,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 194
+{
+floorid=60072
+borncorner=7,48,7,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 195
+{
+floorid=60072
+borncorner=7,72,7,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 196
+{
+floorid=60072
+borncorner=19,84,19,84
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 197
+{
+floorid=60072
+borncorner=44,84,44,84
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 198
+{
+floorid=60072
+borncorner=59,72,59,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 199
+{
+floorid=60072
+borncorner=57,72,57,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 200
+{
+floorid=60072
+borncorner=19,72,19,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 201
+{
+floorid=60072
+borncorner=19,48,19,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 202
+{
+floorid=60072
+borncorner=32,48,32,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 203
+{
+floorid=60072
+borncorner=34,48,34,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 204
+{
+floorid=60072
+borncorner=44,36,44,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 205
+{
+floorid=60072
+borncorner=57,48,57,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 206
+{
+floorid=60072
+borncorner=44,58,44,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 207
+{
+floorid=60072
+borncorner=59,48,59,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 208
+{
+floorid=60072
+borncorner=69,37,69,37
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 209
+{
+floorid=60072
+borncorner=69,35,69,35
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 210
+{
+floorid=60072
+borncorner=44,34,44,34
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 211
+{
+floorid=60072
+borncorner=34,24,34,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 212
+{
+floorid=60072
+borncorner=32,24,32,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 213
+{
+floorid=60072
+borncorner=44,60,44,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 215
+{
+floorid=60073
+borncorner=69,84,69,84
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 216
+{
+floorid=60073
+borncorner=81,72,81,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 217
+{
+floorid=60073
+borncorner=81,48,81,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 218
+{
+floorid=60073
+borncorner=81,24,81,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 219
+{
+floorid=60073
+borncorner=69,12,69,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 220
+{
+floorid=60073
+borncorner=44,12,44,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 221
+{
+floorid=60073
+borncorner=19,12,19,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 222
+{
+floorid=60073
+borncorner=7,24,7,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 223
+{
+floorid=60073
+borncorner=7,48,7,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 224
+{
+floorid=60073
+borncorner=7,72,7,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 225
+{
+floorid=60073
+borncorner=19,84,19,84
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 226
+{
+floorid=60073
+borncorner=44,84,44,84
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 227
+{
+floorid=60073
+borncorner=69,60,69,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 228
+{
+floorid=60073
+borncorner=69,58,69,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 229
+{
+floorid=60073
+borncorner=59,48,59,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 230
+{
+floorid=60073
+borncorner=59,24,59,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 231
+{
+floorid=60073
+borncorner=57,24,57,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 232
+{
+floorid=60073
+borncorner=44,34,44,34
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 233
+{
+floorid=60073
+borncorner=19,34,19,34
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 234
+{
+floorid=60073
+borncorner=19,36,19,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 235
+{
+floorid=60073
+borncorner=32,48,32,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 236
+{
+floorid=60073
+borncorner=32,72,32,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 237
+{
+floorid=60073
+borncorner=34,72,34,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 238
+{
+floorid=60073
+borncorner=44,60,44,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 239
+{
+floorid=60073
+borncorner=44,36,44,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 240
+{
+floorid=60073
+borncorner=57,48,57,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 241
+{
+floorid=60073
+borncorner=44,58,44,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 242
+{
+floorid=60073
+borncorner=34,48,34,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 244
+{
+floorid=60074
+borncorner=69,84,69,84
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 245
+{
+floorid=60074
+borncorner=81,72,81,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 246
+{
+floorid=60074
+borncorner=81,48,81,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 247
+{
+floorid=60074
+borncorner=81,24,81,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 248
+{
+floorid=60074
+borncorner=69,12,69,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 249
+{
+floorid=60074
+borncorner=44,12,44,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 250
+{
+floorid=60074
+borncorner=19,12,19,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 251
+{
+floorid=60074
+borncorner=7,24,7,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 252
+{
+floorid=60074
+borncorner=7,48,7,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 253
+{
+floorid=60074
+borncorner=7,72,7,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 254
+{
+floorid=60074
+borncorner=19,84,19,84
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 255
+{
+floorid=60074
+borncorner=44,84,44,84
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 256
+{
+floorid=60074
+borncorner=69,60,69,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 257
+{
+floorid=60074
+borncorner=69,58,69,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 258
+{
+floorid=60074
+borncorner=44,34,44,34
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 259
+{
+floorid=60074
+borncorner=32,48,32,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 260
+{
+floorid=60074
+borncorner=19,58,19,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 261
+{
+floorid=60074
+borncorner=19,60,19,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 262
+{
+floorid=60074
+borncorner=44,60,44,60
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 263
+{
+floorid=60074
+borncorner=44,58,44,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 264
+{
+floorid=60074
+borncorner=34,48,34,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 265
+{
+floorid=60074
+borncorner=44,36,44,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60072|69|75
+}
+#line 268
+{
+floorid=60075
+borncorner=40,27,40,27
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60075|40|33
+}
+# between
+{
+floorid=60075
+borncorner=40,33,40,33
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60075|40|27
+}
+#line 269
+{
+floorid=60075
+borncorner=47,40,47,40
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60075|53|40
+}
+# between
+{
+floorid=60075
+borncorner=53,40,53,40
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60075|47|40
+}
+#line 270
+{
+floorid=60075
+borncorner=40,47,40,47
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60075|40|52
+}
+# between
+{
+floorid=60075
+borncorner=40,52,40,52
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60075|40|47
+}
+#line 271
+{
+floorid=60075
+borncorner=28,40,28,40
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60075|33|40
+}
+# between
+{
+floorid=60075
+borncorner=33,40,33,40
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60075|28|40
+}
+#line 273
+{
+floorid=60077
+borncorner=40,27,40,27
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|40|33
+}
+# between
+{
+floorid=60077
+borncorner=40,33,40,33
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|40|27
+}
+#line 274
+{
+floorid=60077
+borncorner=47,40,47,40
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|53|40
+}
+# between
+{
+floorid=60077
+borncorner=53,40,53,40
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|47|40
+}
+#line 275
+{
+floorid=60077
+borncorner=40,47,40,47
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|40|52
+}
+# between
+{
+floorid=60077
+borncorner=40,52,40,52
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|40|47
+}
+#line 276
+{
+floorid=60077
+borncorner=28,40,28,40
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|33|40
+}
+# between
+{
+floorid=60077
+borncorner=33,40,33,40
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|28|40
+}
+#line 278
+{
+floorid=60076
+borncorner=13,3,13,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|37|40
+}
+#line 279
+{
+floorid=60076
+borncorner=14,3,14,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|37|40
+}
+#line 281
+{
+floorid=60076
+borncorner=26,3,26,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|37|40
+}
+#line 282
+{
+floorid=60076
+borncorner=27,3,27,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|37|40
+}
+#line 284
+{
+floorid=60076
+borncorner=39,3,39,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|37|40
+}
+#line 285
+{
+floorid=60076
+borncorner=40,3,40,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|37|40
+}
+#line 287
+{
+floorid=60076
+borncorner=52,3,52,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|37|40
+}
+#line 288
+{
+floorid=60076
+borncorner=53,3,53,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60077|37|40
+}
+#line 291
+{
+floorid=601
+borncorner=4,13,4,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|100|566|478
+}
+#line 292
+{
+floorid=601
+borncorner=4,14,4,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|100|566|478
+}
+
+{
+floorid=700
+borncorner=373,218,373,218
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60005|0|24
+}
+#line 10
+{
+floorid=700
+borncorner=373,219,373,219
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60005|0|25
+}
+#line 12
+{
+floorid=60005
+borncorner=0,24,0,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|372|218
+}
+#line 13
+{
+floorid=60005
+borncorner=0,25,0,25
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|372|219
+}
+#line 15
+{
+floorid=60005
+borncorner=46,23,46,23
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60006|0|22
+}
+# between
+{
+floorid=60006
+borncorner=0,22,0,22
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60005|46|23
+}
+#line 21
+{
+floorid=700
+borncorner=33,213,33,213
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60003|48|7
+}
+#line 22
+{
+floorid=700
+borncorner=33,214,33,214
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60003|48|8
+}
+#line 24
+{
+floorid=60003
+borncorner=48,7,48,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|34|213
+}
+#line 25
+{
+floorid=60003
+borncorner=48,8,48,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|34|214
+}
+#line 27
+{
+floorid=60003
+borncorner=0,37,0,37
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60004|48|36
+}
+# between
+{
+floorid=60004
+borncorner=48,36,48,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60003|0|37
+}
+#line 28
+{
+floorid=60003
+borncorner=0,38,0,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60004|48|37
+}
+# between
+{
+floorid=60004
+borncorner=48,37,48,37
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60003|0|38
+}
+#line 34
+{
+floorid=700
+borncorner=194,371,194,371
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60007|29|3
+}
+#line 35
+{
+floorid=700
+borncorner=195,371,195,371
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60007|29|3
+}
+#line 37
+{
+floorid=60007
+borncorner=29,3,29,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|194|370
+}
+#line 38
+{
+floorid=60007
+borncorner=29,3,29,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|194|370
+}
+#line 40
+{
+floorid=60007
+borncorner=26,49,26,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60008|29|3
+}
+#line 41
+{
+floorid=60007
+borncorner=27,49,27,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60008|29|3
+}
+#line 43
+{
+floorid=60008
+borncorner=29,3,29,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60007|27|49
+}
+#line 49
+{
+floorid=700
+borncorner=205,44,205,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60001|23|39
+}
+#line 50
+{
+floorid=700
+borncorner=206,44,206,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60001|24|39
+}
+#line 52
+{
+floorid=60001
+borncorner=23,39,23,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|205|45
+}
+#line 53
+{
+floorid=60001
+borncorner=24,39,24,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|206|45
+}
+#line 55
+{
+floorid=60001
+borncorner=6,3,6,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60002|7|39
+}
+#line 57
+{
+floorid=60002
+borncorner=7,39,7,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60001|6|3
+}
+#line 58
+{
+floorid=60002
+borncorner=8,39,8,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60001|6|3
+}
+#line 62
+{
+floorid=701
+borncorner=393,225,393,225
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60004|0|7
+}
+# between
+{
+floorid=60004
+borncorner=0,7,0,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|393|225
+}
+#line 63
+{
+floorid=701
+borncorner=393,225,393,225
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60004|0|7
+}
+# between
+{
+floorid=60004
+borncorner=0,7,0,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|393|225
+}
+#line 65
+{
+floorid=701
+borncorner=385,390,385,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|385|10
+}
+#line 66
+{
+floorid=701
+borncorner=386,390,386,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|386|10
+}
+#line 67
+{
+floorid=701
+borncorner=387,390,387,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|387|10
+}
+#line 68
+{
+floorid=701
+borncorner=388,390,388,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|388|10
+}
+#line 69
+{
+floorid=701
+borncorner=389,390,389,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|389|10
+}
+#line 71
+{
+floorid=701
+borncorner=384,15,384,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|382|387
+}
+#line 72
+{
+floorid=701
+borncorner=385,15,385,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|383|387
+}
+#line 73
+{
+floorid=701
+borncorner=386,15,386,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|384|387
+}
+#line 74
+{
+floorid=701
+borncorner=387,15,387,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|385|387
+}
+#line 76
+{
+floorid=701
+borncorner=305,13,305,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|305|390
+}
+#line 77
+{
+floorid=701
+borncorner=306,13,306,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|306|390
+}
+#line 82
+{
+floorid=702
+borncorner=385,9,385,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|385|389
+}
+#line 83
+{
+floorid=702
+borncorner=386,9,386,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|386|389
+}
+#line 84
+{
+floorid=702
+borncorner=387,9,387,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|387|389
+}
+#line 85
+{
+floorid=702
+borncorner=388,9,388,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|388|389
+}
+#line 86
+{
+floorid=702
+borncorner=389,9,389,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|389|389
+}
+#line 88
+{
+floorid=702
+borncorner=391,12,391,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|14
+}
+#line 89
+{
+floorid=702
+borncorner=391,13,391,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|15
+}
+#line 90
+{
+floorid=702
+borncorner=391,14,391,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|16
+}
+#line 91
+{
+floorid=702
+borncorner=391,15,391,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|17
+}
+#line 92
+{
+floorid=702
+borncorner=391,16,391,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|18
+}
+#line 93
+{
+floorid=702
+borncorner=391,17,391,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|19
+}
+#line 94
+{
+floorid=702
+borncorner=391,18,391,18
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|20
+}
+#line 95
+{
+floorid=702
+borncorner=391,19,391,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|21
+}
+#line 97
+{
+floorid=702
+borncorner=389,49,389,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|48
+}
+#line 98
+{
+floorid=702
+borncorner=389,50,389,50
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|49
+}
+#line 99
+{
+floorid=702
+borncorner=389,51,389,51
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|50
+}
+#line 100
+{
+floorid=702
+borncorner=389,52,389,52
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|51
+}
+#line 101
+{
+floorid=702
+borncorner=389,53,389,53
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|52
+}
+#line 102
+{
+floorid=702
+borncorner=389,54,389,54
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|53
+}
+#line 103
+{
+floorid=702
+borncorner=389,55,389,55
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|9|54
+}
+#line 107
+{
+floorid=703
+borncorner=222,4,222,4
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60008|26|49
+}
+# between
+{
+floorid=60008
+borncorner=26,49,26,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|222|4
+}
+#line 108
+{
+floorid=703
+borncorner=223,4,223,4
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60008|27|49
+}
+# between
+{
+floorid=60008
+borncorner=27,49,27,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|223|4
+}
+#line 110
+{
+floorid=703
+borncorner=8,14,8,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|390|12
+}
+#line 111
+{
+floorid=703
+borncorner=8,15,8,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|390|13
+}
+#line 112
+{
+floorid=703
+borncorner=8,16,8,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|390|14
+}
+#line 113
+{
+floorid=703
+borncorner=8,17,8,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|390|15
+}
+#line 114
+{
+floorid=703
+borncorner=8,18,8,18
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|390|16
+}
+#line 115
+{
+floorid=703
+borncorner=8,19,8,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|390|17
+}
+#line 116
+{
+floorid=703
+borncorner=8,20,8,20
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|390|18
+}
+#line 117
+{
+floorid=703
+borncorner=8,21,8,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|390|19
+}
+#line 119
+{
+floorid=703
+borncorner=8,48,8,48
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|388|49
+}
+#line 120
+{
+floorid=703
+borncorner=8,49,8,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|388|50
+}
+#line 121
+{
+floorid=703
+borncorner=8,50,8,50
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|388|51
+}
+#line 122
+{
+floorid=703
+borncorner=8,51,8,51
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|388|52
+}
+#line 123
+{
+floorid=703
+borncorner=8,52,8,52
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|388|53
+}
+#line 124
+{
+floorid=703
+borncorner=8,53,8,53
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|388|54
+}
+#line 125
+{
+floorid=703
+borncorner=8,54,8,54
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|388|55
+}
+#line 127
+{
+floorid=703
+borncorner=390,9,390,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|12|11
+}
+#line 128
+{
+floorid=703
+borncorner=390,10,390,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|12|12
+}
+#line 129
+{
+floorid=703
+borncorner=390,11,390,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|12|13
+}
+#line 130
+{
+floorid=703
+borncorner=390,12,390,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|12|14
+}
+#line 131
+{
+floorid=703
+borncorner=390,13,390,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|12|15
+}
+#line 134
+{
+floorid=703
+borncorner=390,81,390,81
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|13|81
+}
+#line 135
+{
+floorid=703
+borncorner=390,82,390,82
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|13|82
+}
+#line 136
+{
+floorid=703
+borncorner=390,83,390,83
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|13|83
+}
+#line 137
+{
+floorid=703
+borncorner=390,84,390,84
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|13|84
+}
+#line 138
+{
+floorid=703
+borncorner=390,85,390,85
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|13|85
+}
+#line 139
+{
+floorid=703
+borncorner=390,86,390,86
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|13|86
+}
+#line 140
+{
+floorid=703
+borncorner=390,87,390,87
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|13|87
+}
+#line 141
+{
+floorid=703
+borncorner=390,88,390,88
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|13|88
+}
+#line 142
+{
+floorid=703
+borncorner=390,89,390,89
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|13|89
+}
+#line 143
+{
+floorid=703
+borncorner=390,90,390,90
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|13|90
+}
+#line 145
+{
+floorid=703
+borncorner=390,114,390,114
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|12|112
+}
+#line 146
+{
+floorid=703
+borncorner=390,115,390,115
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|12|113
+}
+#line 147
+{
+floorid=703
+borncorner=390,116,390,116
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|12|114
+}
+#line 148
+{
+floorid=703
+borncorner=390,117,390,117
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|12|115
+}
+#line 149
+{
+floorid=703
+borncorner=390,118,390,118
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|12|116
+}
+#line 151
+{
+floorid=703
+borncorner=390,261,390,261
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|10|261
+}
+#line 152
+{
+floorid=703
+borncorner=390,262,390,262
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|10|262
+}
+#line 153
+{
+floorid=703
+borncorner=390,263,390,263
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|10|263
+}
+#line 154
+{
+floorid=703
+borncorner=390,264,390,264
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|10|264
+}
+#line 155
+{
+floorid=703
+borncorner=390,265,390,265
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|10|265
+}
+#line 159
+{
+floorid=704
+borncorner=9,10,9,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|9
+}
+#line 160
+{
+floorid=704
+borncorner=9,11,9,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|10
+}
+#line 161
+{
+floorid=704
+borncorner=9,12,9,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|11
+}
+#line 162
+{
+floorid=704
+borncorner=9,13,9,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|12
+}
+#line 163
+{
+floorid=704
+borncorner=9,14,9,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|13
+}
+#line 166
+{
+floorid=704
+borncorner=11,81,11,81
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|81
+}
+#line 167
+{
+floorid=704
+borncorner=11,82,11,82
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|82
+}
+#line 168
+{
+floorid=704
+borncorner=11,83,11,83
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|83
+}
+#line 169
+{
+floorid=704
+borncorner=11,84,11,84
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|84
+}
+#line 170
+{
+floorid=704
+borncorner=11,85,11,85
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|85
+}
+#line 171
+{
+floorid=704
+borncorner=11,86,11,86
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|86
+}
+#line 172
+{
+floorid=704
+borncorner=11,87,11,87
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|87
+}
+#line 173
+{
+floorid=704
+borncorner=11,88,11,88
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|88
+}
+#line 174
+{
+floorid=704
+borncorner=11,89,11,89
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|89
+}
+#line 175
+{
+floorid=704
+borncorner=11,90,11,90
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|90
+}
+#line 177
+{
+floorid=704
+borncorner=11,112,11,112
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|114
+}
+#line 178
+{
+floorid=704
+borncorner=11,113,11,113
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|115
+}
+#line 179
+{
+floorid=704
+borncorner=11,114,11,114
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|116
+}
+#line 180
+{
+floorid=704
+borncorner=11,115,11,115
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|117
+}
+#line 181
+{
+floorid=704
+borncorner=11,116,11,116
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|118
+}
+#line 183
+{
+floorid=704
+borncorner=9,261,9,261
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|261
+}
+#line 184
+{
+floorid=704
+borncorner=9,262,9,262
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|262
+}
+#line 185
+{
+floorid=704
+borncorner=9,263,9,263
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|263
+}
+#line 186
+{
+floorid=704
+borncorner=9,264,9,264
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|264
+}
+#line 187
+{
+floorid=704
+borncorner=9,265,9,265
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|389|265
+}
+#line 189
+{
+floorid=704
+borncorner=14,9,14,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|13|389
+}
+#line 190
+{
+floorid=704
+borncorner=15,9,15,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|14|389
+}
+#line 191
+{
+floorid=704
+borncorner=16,9,16,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|15|389
+}
+#line 192
+{
+floorid=704
+borncorner=17,9,17,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|16|389
+}
+#line 196
+{
+floorid=60006
+borncorner=45,23,45,23
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|11|208
+}
+# between
+{
+floorid=705
+borncorner=11,208,11,208
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60006|45|23
+}
+#line 197
+{
+floorid=705
+borncorner=11,209,11,209
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60006|45|23
+}
+#line 199
+{
+floorid=705
+borncorner=13,390,13,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|14|10
+}
+#line 200
+{
+floorid=705
+borncorner=14,390,14,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|15|10
+}
+#line 201
+{
+floorid=705
+borncorner=15,390,15,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|16|10
+}
+#line 202
+{
+floorid=705
+borncorner=16,390,16,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|17|10
+}
+#line 204
+{
+floorid=705
+borncorner=23,9,23,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|22|390
+}
+#line 205
+{
+floorid=705
+borncorner=24,9,24,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|23|390
+}
+#line 206
+{
+floorid=705
+borncorner=25,9,25,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|24|390
+}
+#line 207
+{
+floorid=705
+borncorner=26,9,26,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|25|390
+}
+#line 208
+{
+floorid=705
+borncorner=27,9,27,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|26|390
+}
+#line 209
+{
+floorid=705
+borncorner=28,9,28,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|27|390
+}
+#line 210
+{
+floorid=705
+borncorner=29,9,29,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|28|390
+}
+#line 211
+{
+floorid=705
+borncorner=30,9,30,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|29|390
+}
+#line 212
+{
+floorid=705
+borncorner=31,9,31,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|30|390
+}
+#line 213
+{
+floorid=705
+borncorner=32,9,32,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|31|390
+}
+#line 215
+{
+floorid=705
+borncorner=257,8,257,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|257|389
+}
+#line 216
+{
+floorid=705
+borncorner=258,8,258,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|258|389
+}
+#line 217
+{
+floorid=705
+borncorner=259,8,259,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|259|389
+}
+#line 218
+{
+floorid=705
+borncorner=260,8,260,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|260|389
+}
+#line 222
+{
+floorid=706
+borncorner=22,391,22,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|23|10
+}
+#line 223
+{
+floorid=706
+borncorner=23,391,23,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|24|10
+}
+#line 224
+{
+floorid=706
+borncorner=24,391,24,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|25|10
+}
+#line 225
+{
+floorid=706
+borncorner=25,391,25,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|26|10
+}
+#line 226
+{
+floorid=706
+borncorner=26,391,26,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|27|10
+}
+#line 227
+{
+floorid=706
+borncorner=27,391,27,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|28|10
+}
+#line 228
+{
+floorid=706
+borncorner=28,391,28,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|29|10
+}
+#line 229
+{
+floorid=706
+borncorner=29,391,29,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|30|10
+}
+#line 230
+{
+floorid=706
+borncorner=30,391,30,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|31|10
+}
+#line 231
+{
+floorid=706
+borncorner=31,391,31,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|32|10
+}
+#line 233
+{
+floorid=706
+borncorner=257,390,257,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|257|9
+}
+#line 234
+{
+floorid=706
+borncorner=258,390,258,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|258|9
+}
+#line 235
+{
+floorid=706
+borncorner=259,390,259,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|259|9
+}
+#line 236
+{
+floorid=706
+borncorner=260,390,260,390
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|260|9
+}
+#line 238
+{
+floorid=706
+borncorner=9,368,9,368
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|388|367
+}
+#line 239
+{
+floorid=706
+borncorner=9,369,9,369
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|388|368
+}
+#line 240
+{
+floorid=706
+borncorner=9,370,9,370
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|388|369
+}
+#line 241
+{
+floorid=706
+borncorner=9,371,9,371
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|388|370
+}
+#line 243
+{
+floorid=706
+borncorner=11,307,11,307
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|388|305
+}
+#line 244
+{
+floorid=706
+borncorner=11,308,11,308
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|388|306
+}
+#line 245
+{
+floorid=706
+borncorner=11,309,11,309
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|388|307
+}
+#line 246
+{
+floorid=706
+borncorner=11,310,11,310
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|388|308
+}
+#line 247
+{
+floorid=706
+borncorner=11,311,11,311
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|388|309
+}
+#line 248
+{
+floorid=706
+borncorner=11,312,11,312
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|388|310
+}
+#line 249
+{
+floorid=706
+borncorner=11,313,11,313
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|388|311
+}
+#line 253
+{
+floorid=707
+borncorner=228,389,228,389
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60002|34|4
+}
+# between
+{
+floorid=60002
+borncorner=34,4,34,4
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|228|389
+}
+#line 255
+{
+floorid=707
+borncorner=389,367,389,367
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|10|368
+}
+#line 256
+{
+floorid=707
+borncorner=389,368,389,368
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|10|369
+}
+#line 257
+{
+floorid=707
+borncorner=389,369,389,369
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|10|370
+}
+#line 258
+{
+floorid=707
+borncorner=389,370,389,370
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|10|371
+}
+#line 260
+{
+floorid=707
+borncorner=389,304,389,304
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|12|307
+}
+#line 261
+{
+floorid=707
+borncorner=389,305,389,305
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|12|307
+}
+#line 262
+{
+floorid=707
+borncorner=389,306,389,306
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|12|308
+}
+#line 263
+{
+floorid=707
+borncorner=389,307,389,307
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|12|309
+}
+#line 264
+{
+floorid=707
+borncorner=389,308,389,308
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|12|310
+}
+#line 265
+{
+floorid=707
+borncorner=389,309,389,309
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|12|311
+}
+#line 266
+{
+floorid=707
+borncorner=389,310,389,310
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|12|312
+}
+#line 267
+{
+floorid=707
+borncorner=389,311,389,311
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|12|313
+}
+#line 269
+{
+floorid=707
+borncorner=10,378,10,378
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|390|377
+}
+#line 270
+{
+floorid=707
+borncorner=10,379,10,379
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|390|378
+}
+#line 271
+{
+floorid=707
+borncorner=10,380,10,380
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|390|379
+}
+#line 272
+{
+floorid=707
+borncorner=10,381,10,381
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|390|380
+}
+#line 273
+{
+floorid=707
+borncorner=10,382,10,382
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|390|381
+}
+#line 274
+{
+floorid=707
+borncorner=10,383,10,383
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|390|382
+}
+#line 275
+{
+floorid=707
+borncorner=10,384,10,384
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|390|383
+}
+#line 280
+{
+floorid=708
+borncorner=390,377,390,377
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|11|378
+}
+#line 281
+{
+floorid=708
+borncorner=390,378,390,378
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|11|379
+}
+#line 282
+{
+floorid=708
+borncorner=390,379,390,379
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|11|380
+}
+#line 283
+{
+floorid=708
+borncorner=390,380,390,380
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|11|381
+}
+#line 284
+{
+floorid=708
+borncorner=390,381,390,381
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|11|382
+}
+#line 285
+{
+floorid=708
+borncorner=390,382,390,382
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|11|383
+}
+#line 286
+{
+floorid=708
+borncorner=390,383,390,383
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|11|384
+}
+#line 289
+{
+floorid=708
+borncorner=382,388,382,388
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|384|16
+}
+#line 290
+{
+floorid=708
+borncorner=383,388,383,388
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|385|16
+}
+#line 291
+{
+floorid=708
+borncorner=384,388,384,388
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|386|16
+}
+#line 292
+{
+floorid=708
+borncorner=385,388,385,388
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|387|16
+}
+#line 294
+{
+floorid=708
+borncorner=305,391,305,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|305|14
+}
+#line 295
+{
+floorid=708
+borncorner=306,391,306,391
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|701|306|14
+}
+#line 301
+{
+floorid=7000
+borncorner=9,119,9,119
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|96|222
+}
+#line 302
+{
+floorid=7000
+borncorner=9,120,9,120
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|96|223
+}
+#line 303
+{
+floorid=7000
+borncorner=9,121,9,121
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|96|224
+}
+#line 304
+{
+floorid=7000
+borncorner=9,122,9,122
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|96|225
+}
+#line 306
+{
+floorid=700
+borncorner=97,222,97,222
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|10|119
+}
+#line 307
+{
+floorid=700
+borncorner=97,223,97,223
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|10|120
+}
+#line 308
+{
+floorid=700
+borncorner=97,224,97,224
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|10|121
+}
+#line 309
+{
+floorid=700
+borncorner=97,225,97,225
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|10|122
+}
+#line 312
+{
+floorid=7000
+borncorner=93,189,93,189
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|181|294
+}
+#line 313
+{
+floorid=7000
+borncorner=94,189,94,189
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|182|294
+}
+#line 314
+{
+floorid=7000
+borncorner=95,189,95,189
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|183|294
+}
+#line 315
+{
+floorid=7000
+borncorner=96,189,96,189
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|184|294
+}
+#line 316
+{
+floorid=7000
+borncorner=97,189,97,189
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|185|294
+}
+#line 317
+{
+floorid=7000
+borncorner=98,189,98,189
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|186|294
+}
+#line 319
+{
+floorid=700
+borncorner=181,293,181,293
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|93|188
+}
+#line 320
+{
+floorid=700
+borncorner=182,293,182,293
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|94|188
+}
+#line 321
+{
+floorid=700
+borncorner=183,293,183,293
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|95|188
+}
+#line 322
+{
+floorid=700
+borncorner=184,293,184,293
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|96|188
+}
+#line 323
+{
+floorid=700
+borncorner=185,293,185,293
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|97|188
+}
+#line 324
+{
+floorid=700
+borncorner=186,293,186,293
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|98|188
+}
+#line 328
+{
+floorid=7000
+borncorner=188,110,188,110
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|278|213
+}
+#line 329
+{
+floorid=7000
+borncorner=188,111,188,111
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|278|214
+}
+#line 330
+{
+floorid=7000
+borncorner=188,112,188,112
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|278|215
+}
+#line 331
+{
+floorid=7000
+borncorner=188,113,188,113
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|278|216
+}
+#line 332
+{
+floorid=7000
+borncorner=188,114,188,114
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|278|217
+}
+#line 333
+{
+floorid=7000
+borncorner=188,115,188,115
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|278|218
+}
+#line 334
+{
+floorid=7000
+borncorner=188,116,188,116
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|278|219
+}
+#line 335
+{
+floorid=7000
+borncorner=188,117,188,117
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|278|220
+}
+#line 337
+{
+floorid=700
+borncorner=277,213,277,213
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|187|110
+}
+#line 338
+{
+floorid=700
+borncorner=277,214,277,214
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|187|111
+}
+#line 339
+{
+floorid=700
+borncorner=277,215,277,215
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|187|112
+}
+#line 340
+{
+floorid=700
+borncorner=277,216,277,216
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|187|113
+}
+#line 341
+{
+floorid=700
+borncorner=277,217,277,217
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|187|114
+}
+#line 342
+{
+floorid=700
+borncorner=277,218,277,218
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|187|115
+}
+#line 343
+{
+floorid=700
+borncorner=277,219,277,219
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|187|116
+}
+#line 344
+{
+floorid=700
+borncorner=277,220,277,220
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|187|117
+}
+#line 348
+{
+floorid=7000
+borncorner=82,22,82,22
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|170|123
+}
+#line 349
+{
+floorid=7000
+borncorner=83,22,83,22
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|171|123
+}
+#line 350
+{
+floorid=7000
+borncorner=84,22,84,22
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|172|123
+}
+#line 351
+{
+floorid=7000
+borncorner=85,22,85,22
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|173|123
+}
+#line 352
+{
+floorid=7000
+borncorner=86,22,86,22
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|700|174|123
+}
+#line 354
+{
+floorid=700
+borncorner=170,124,170,124
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|82|23
+}
+#line 355
+{
+floorid=700
+borncorner=171,124,171,124
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|83|23
+}
+#line 356
+{
+floorid=700
+borncorner=172,124,172,124
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|84|23
+}
+#line 357
+{
+floorid=700
+borncorner=173,124,173,124
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|85|23
+}
+#line 358
+{
+floorid=700
+borncorner=174,124,174,124
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|86|23
+}
+
+#line 8
+{
+floorid=708
+borncorner=142,180,142,180
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7100|11|29
+}
+# between
+{
+floorid=7100
+borncorner=11,29,11,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|142|180
+}
+#line 9
+{
+floorid=708
+borncorner=143,180,143,180
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7100|12|29
+}
+# between
+{
+floorid=7100
+borncorner=12,29,12,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|708|143|180
+}
+#line 11
+{
+floorid=7100
+borncorner=25,15,25,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7105|0|20
+}
+# between
+{
+floorid=7105
+borncorner=0,20,0,20
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7100|25|15
+}
+#line 12
+{
+floorid=7100
+borncorner=25,16,25,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7105|0|21
+}
+# between
+{
+floorid=7105
+borncorner=0,21,0,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7100|25|16
+}
+#line 14
+{
+floorid=7100
+borncorner=14,1,14,1
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7112|13|29
+}
+# between
+{
+floorid=7112
+borncorner=13,29,13,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7100|14|1
+}
+#line 15
+{
+floorid=7100
+borncorner=15,1,15,1
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7112|14|29
+}
+# between
+{
+floorid=7112
+borncorner=14,29,14,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7100|15|1
+}
+#line 17
+{
+floorid=7100
+borncorner=0,14,0,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|38|20
+}
+# between
+{
+floorid=7111
+borncorner=38,20,38,20
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7100|0|14
+}
+#line 18
+{
+floorid=7100
+borncorner=0,15,0,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|38|21
+}
+# between
+{
+floorid=7111
+borncorner=38,21,38,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7100|0|15
+}
+#line 20
+{
+floorid=7105
+borncorner=22,2,22,2
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7106|5|19
+}
+# between
+{
+floorid=7106
+borncorner=5,19,5,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7105|22|2
+}
+#line 21
+{
+floorid=7105
+borncorner=23,2,23,2
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7106|6|19
+}
+# between
+{
+floorid=7106
+borncorner=6,19,6,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7105|23|2
+}
+#line 23
+{
+floorid=7106
+borncorner=0,13,0,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7112|28|16
+}
+# between
+{
+floorid=7112
+borncorner=28,16,28,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7106|0|13
+}
+#line 24
+{
+floorid=7106
+borncorner=0,14,0,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7112|28|17
+}
+# between
+{
+floorid=7112
+borncorner=28,17,28,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7106|0|14
+}
+#line 26
+{
+floorid=7106
+borncorner=3,1,3,1
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7107|12|29
+}
+# between
+{
+floorid=7107
+borncorner=12,29,12,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7106|3|1
+}
+#line 27
+{
+floorid=7106
+borncorner=4,1,4,1
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7107|13|29
+}
+# between
+{
+floorid=7107
+borncorner=13,29,13,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7106|4|1
+}
+#line 29
+{
+floorid=7107
+borncorner=0,14,0,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7108|23|7
+}
+# between
+{
+floorid=7108
+borncorner=23,7,23,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7107|0|14
+}
+#line 30
+{
+floorid=7107
+borncorner=0,15,0,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7108|23|8
+}
+# between
+{
+floorid=7108
+borncorner=23,8,23,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7107|0|15
+}
+#line 32
+{
+floorid=7108
+borncorner=13,14,13,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7112|12|1
+}
+# between
+{
+floorid=7112
+borncorner=12,1,12,1
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7108|13|14
+}
+#line 33
+{
+floorid=7108
+borncorner=14,14,14,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7112|13|1
+}
+# between
+{
+floorid=7112
+borncorner=13,1,13,1
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7108|14|14
+}
+#line 35
+{
+floorid=7108
+borncorner=0,7,0,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|28|16
+}
+# between
+{
+floorid=7109
+borncorner=28,16,28,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7108|0|7
+}
+#line 36
+{
+floorid=7108
+borncorner=0,8,0,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|28|17
+}
+# between
+{
+floorid=7109
+borncorner=28,17,28,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7108|0|8
+}
+#line 38
+{
+floorid=7109
+borncorner=11,29,11,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7110|4|1
+}
+# between
+{
+floorid=7110
+borncorner=4,1,4,1
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|11|29
+}
+#line 39
+{
+floorid=7109
+borncorner=12,29,12,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7110|5|1
+}
+# between
+{
+floorid=7110
+borncorner=5,1,5,1
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|12|29
+}
+#line 41
+{
+floorid=7110
+borncorner=8,10,8,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7112|0|13
+}
+# between
+{
+floorid=7112
+borncorner=0,13,0,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7110|8|10
+}
+#line 42
+{
+floorid=7110
+borncorner=8,11,8,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7112|0|14
+}
+# between
+{
+floorid=7112
+borncorner=0,14,0,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7110|8|11
+}
+#line 44
+{
+floorid=7110
+borncorner=5,19,5,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|16|1
+}
+# between
+{
+floorid=7111
+borncorner=16,1,16,1
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7110|5|19
+}
+#line 45
+{
+floorid=7110
+borncorner=6,19,6,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|17|1
+}
+# between
+{
+floorid=7111
+borncorner=17,1,17,1
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7110|6|19
+}
+#line 54
+{
+floorid=7105
+borncorner=28,11,28,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7120|0|9
+}
+# between
+{
+floorid=7120
+borncorner=0,9,0,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7105|28|11
+}
+#line 55
+{
+floorid=7105
+borncorner=28,12,28,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7120|0|10
+}
+# between
+{
+floorid=7120
+borncorner=0,10,0,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7105|28|12
+}
+#line 57
+{
+floorid=7105
+borncorner=17,12,17,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7117|0|11
+}
+# between
+{
+floorid=7117
+borncorner=0,11,0,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7105|17|12
+}
+#line 58
+{
+floorid=7105
+borncorner=17,13,17,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7117|0|12
+}
+# between
+{
+floorid=7117
+borncorner=0,12,0,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7105|17|13
+}
+#line 63
+{
+floorid=7111
+borncorner=28,12,28,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7119|17|24
+}
+# between
+{
+floorid=7119
+borncorner=17,24,17,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|28|12
+}
+#line 64
+{
+floorid=7111
+borncorner=29,12,29,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7119|18|24
+}
+# between
+{
+floorid=7119
+borncorner=18,24,18,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|29|12
+}
+#line 66
+{
+floorid=7111
+borncorner=26,29,26,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7118|0|22
+}
+# between
+{
+floorid=7118
+borncorner=0,22,0,22
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|26|29
+}
+#line 67
+{
+floorid=7111
+borncorner=26,30,26,30
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7118|0|23
+}
+# between
+{
+floorid=7118
+borncorner=0,23,0,23
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|26|30
+}
+#line 69
+{
+floorid=7111
+borncorner=9,25,9,25
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7121|4|9
+}
+# between
+{
+floorid=7121
+borncorner=4,9,4,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|9|25
+}
+#line 70
+{
+floorid=7111
+borncorner=10,25,10,25
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7121|5|9
+}
+# between
+{
+floorid=7121
+borncorner=5,9,5,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|10|25
+}
+#line 72
+{
+floorid=7111
+borncorner=9,14,9,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7116|6|14
+}
+# between
+{
+floorid=7116
+borncorner=6,14,6,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|9|14
+}
+#line 73
+{
+floorid=7111
+borncorner=10,14,10,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7116|7|14
+}
+# between
+{
+floorid=7116
+borncorner=7,14,7,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7111|10|14
+}
+#line 75
+{
+floorid=7107
+borncorner=7,21,7,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7122|4|14
+}
+# between
+{
+floorid=7122
+borncorner=4,14,4,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7107|7|21
+}
+#line 76
+{
+floorid=7107
+borncorner=8,21,8,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7122|5|14
+}
+# between
+{
+floorid=7122
+borncorner=5,14,5,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7107|8|21
+}
+#line 78
+{
+floorid=7107
+borncorner=17,9,17,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7124|0|8
+}
+# between
+{
+floorid=7124
+borncorner=0,8,0,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7107|17|9
+}
+#line 79
+{
+floorid=7107
+borncorner=17,10,17,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7124|0|9
+}
+# between
+{
+floorid=7124
+borncorner=0,9,0,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7107|17|10
+}
+#line 81
+{
+floorid=7107
+borncorner=20,23,20,23
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7123|0|5
+}
+# between
+{
+floorid=7123
+borncorner=0,5,0,5
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7107|20|23
+}
+#line 82
+{
+floorid=7107
+borncorner=20,24,20,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7123|0|6
+}
+# between
+{
+floorid=7123
+borncorner=0,6,0,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7107|20|24
+}
+#line 84
+{
+floorid=7109
+borncorner=15,20,15,20
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7125|0|6
+}
+# between
+{
+floorid=7125
+borncorner=0,6,0,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|15|20
+}
+#line 85
+{
+floorid=7109
+borncorner=15,21,15,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7125|0|7
+}
+# between
+{
+floorid=7125
+borncorner=0,7,0,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|15|21
+}
+#line 87
+{
+floorid=7109
+borncorner=11,8,11,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7126|6|9
+}
+# between
+{
+floorid=7126
+borncorner=6,9,6,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|11|8
+}
+#line 88
+{
+floorid=7109
+borncorner=12,8,12,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7126|7|9
+}
+# between
+{
+floorid=7126
+borncorner=7,9,7,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|12|8
+}
+#line 90
+{
+floorid=7109
+borncorner=4,8,4,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7127|5|11
+}
+# between
+{
+floorid=7127
+borncorner=5,11,5,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|4|8
+}
+#line 91
+{
+floorid=7109
+borncorner=5,8,5,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7127|6|11
+}
+# between
+{
+floorid=7127
+borncorner=6,11,6,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|5|8
+}
+#line 93
+{
+floorid=7105
+borncorner=26,26,26,26
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7129|0|19
+}
+# between
+{
+floorid=7129
+borncorner=0,19,0,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7105|26|26
+}
+#line 94
+{
+floorid=7105
+borncorner=26,27,26,27
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7129|0|20
+}
+# between
+{
+floorid=7129
+borncorner=0,20,0,20
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7105|26|27
+}
+#line 96
+{
+floorid=60100
+borncorner=54,69,54,69
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|24|4
+}
+#line 97
+{
+floorid=60100
+borncorner=55,69,55,69
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7109|24|4
+}
+#line 105
+{
+floorid=60040
+borncorner=6,3,6,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7134|30|39
+}
+# between
+{
+floorid=7134
+borncorner=30,39,30,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60040|6|3
+}
+#line 106
+{
+floorid=7134
+borncorner=31,39,31,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60040|6|3
+}
+#line 108
+{
+floorid=7133
+borncorner=0,3,0,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7134|33|6
+}
+#line 109
+{
+floorid=7133
+borncorner=0,4,0,4
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7134|33|6
+}
+#line 111
+{
+floorid=7135
+borncorner=9,3,9,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7134|33|6
+}
+#line 119
+{
+floorid=7130
+borncorner=10,3,10,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7129|32|29
+}
+#line 120
+{
+floorid=7130
+borncorner=10,3,10,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7129|33|29
+}
+#line 122
+{
+floorid=7131
+borncorner=10,3,10,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7129|32|29
+}
+#line 123
+{
+floorid=7131
+borncorner=10,3,10,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7129|33|29
+}
+#line 129
+{
+floorid=702
+borncorner=219,227,219,227
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|41|11
+}
+#line 130
+{
+floorid=702
+borncorner=220,227,220,227
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|42|11
+}
+#line 132
+{
+floorid=7200
+borncorner=41,10,41,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|219|226
+}
+#line 133
+{
+floorid=7200
+borncorner=42,10,42,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|702|220|226
+}
+#line 140
+{
+floorid=7201
+borncorner=0,6,0,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|41|68
+}
+# between
+{
+floorid=7200
+borncorner=41,68,41,68
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7201|0|6
+}
+#line 141
+{
+floorid=7201
+borncorner=0,7,0,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|41|68
+}
+#line 143
+{
+floorid=7202
+borncorner=0,10,0,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|30|92
+}
+# between
+{
+floorid=7200
+borncorner=30,92,30,92
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7202|0|10
+}
+#line 144
+{
+floorid=7202
+borncorner=0,11,0,11
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|30|92
+}
+#line 146
+{
+floorid=7203
+borncorner=16,37,16,37
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|18|47
+}
+# between
+{
+floorid=7200
+borncorner=18,47,18,47
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7203|16|37
+}
+#line 147
+{
+floorid=7203
+borncorner=17,37,17,37
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|18|47
+}
+#line 149
+{
+floorid=7204
+borncorner=0,8,0,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|63|44
+}
+# between
+{
+floorid=7200
+borncorner=63,44,63,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7204|0|8
+}
+#line 150
+{
+floorid=7204
+borncorner=0,9,0,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|63|45
+}
+# between
+{
+floorid=7200
+borncorner=63,45,63,45
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7204|0|9
+}
+#line 152
+{
+floorid=7205
+borncorner=6,14,6,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|58|32
+}
+# between
+{
+floorid=7200
+borncorner=58,32,58,32
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7205|6|14
+}
+#line 153
+{
+floorid=7205
+borncorner=7,14,7,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|59|32
+}
+# between
+{
+floorid=7200
+borncorner=59,32,59,32
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7205|7|14
+}
+#line 155
+{
+floorid=7206
+borncorner=7,16,7,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|17|73
+}
+# between
+{
+floorid=7200
+borncorner=17,73,17,73
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7206|7|16
+}
+#line 156
+{
+floorid=7206
+borncorner=7,17,7,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|17|74
+}
+# between
+{
+floorid=7200
+borncorner=17,74,17,74
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7206|7|17
+}
+#line 158
+{
+floorid=7207
+borncorner=0,5,0,5
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|60|85
+}
+#line 159
+{
+floorid=7207
+borncorner=0,6,0,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|60|85
+}
+#line 160
+{
+floorid=7213
+borncorner=0,5,0,5
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|60|85
+}
+#line 161
+{
+floorid=7213
+borncorner=0,6,0,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|60|85
+}
+#line 164
+{
+floorid=7208
+borncorner=0,6,0,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|93|46
+}
+# between
+{
+floorid=7200
+borncorner=93,46,93,46
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7208|0|6
+}
+#line 165
+{
+floorid=7208
+borncorner=0,7,0,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|93|46
+}
+#line 167
+{
+floorid=7209
+borncorner=0,6,0,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|46|100
+}
+# between
+{
+floorid=7200
+borncorner=46,100,46,100
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7209|0|6
+}
+#line 168
+{
+floorid=7209
+borncorner=0,7,0,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|46|100
+}
+#line 170
+{
+floorid=7210
+borncorner=0,5,0,5
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|16|104
+}
+#line 171
+{
+floorid=7210
+borncorner=0,6,0,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|16|104
+}
+#line 172
+{
+floorid=7214
+borncorner=0,5,0,5
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|16|104
+}
+#line 173
+{
+floorid=7214
+borncorner=0,6,0,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|16|104
+}
+#line 175
+{
+floorid=7211
+borncorner=4,16,4,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|77|73
+}
+# between
+{
+floorid=7200
+borncorner=77,73,77,73
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7211|4|16
+}
+#line 176
+{
+floorid=7211
+borncorner=4,17,4,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|77|73
+}
+#line 178
+{
+floorid=7212
+borncorner=4,14,4,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|98|65
+}
+# between
+{
+floorid=7200
+borncorner=98,65,98,65
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7212|4|14
+}
+#line 179
+{
+floorid=7212
+borncorner=4,15,4,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|98|65
+}
+#line 187
+{
+floorid=60201
+borncorner=27,46,27,46
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60202|27|46
+}
+# between
+{
+floorid=60202
+borncorner=27,46,27,46
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60201|27|46
+}
+#line 189
+{
+floorid=60202
+borncorner=42,3,42,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60203|42|3
+}
+# between
+{
+floorid=60203
+borncorner=42,3,42,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60202|42|3
+}
+#line 191
+{
+floorid=60203
+borncorner=42,24,42,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60204|42|24
+}
+# between
+{
+floorid=60204
+borncorner=42,24,42,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60203|42|24
+}
+#line 193
+{
+floorid=60204
+borncorner=42,45,42,45
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60205|42|45
+}
+# between
+{
+floorid=60205
+borncorner=42,45,42,45
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60204|42|45
+}
+#line 195
+{
+floorid=60205
+borncorner=56,46,56,46
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60206|56|46
+}
+# between
+{
+floorid=60206
+borncorner=56,46,56,46
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60205|56|46
+}
+#line 197
+{
+floorid=60206
+borncorner=56,8,56,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60207|56|8
+}
+# between
+{
+floorid=60207
+borncorner=56,8,56,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60206|56|8
+}
+#line 199
+{
+floorid=60213
+borncorner=23,17,23,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60207|55|16
+}
+#line 201
+{
+floorid=60210
+borncorner=6,19,6,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7001|41|5
+}
+#line 203
+{
+floorid=60210
+borncorner=7,19,7,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7001|41|5
+}
+#line 205
+{
+floorid=60212
+borncorner=6,19,6,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7001|41|5
+}
+#line 207
+{
+floorid=60212
+borncorner=7,19,7,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7001|41|5
+}
+#line 209
+{
+floorid=60208
+borncorner=23,17,23,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60207|55|16
+}
+#line 213
+{
+floorid=60209
+borncorner=6,19,6,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7001|41|5
+}
+#line 215
+{
+floorid=60209
+borncorner=7,19,7,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7001|41|5
+}
+#line 217
+{
+floorid=60211
+borncorner=6,19,6,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7001|41|5
+}
+#line 219
+{
+floorid=60211
+borncorner=7,19,7,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7001|41|5
+}
+#line 224
+{
+floorid=706
+borncorner=194,147,194,147
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|13|68
+}
+#line 225
+{
+floorid=706
+borncorner=194,148,194,148
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|13|69
+}
+#line 226
+{
+floorid=706
+borncorner=194,149,194,149
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|13|70
+}
+#line 227
+{
+floorid=706
+borncorner=194,150,194,150
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|13|71
+}
+#line 228
+{
+floorid=706
+borncorner=194,151,194,151
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|13|72
+}
+#line 229
+{
+floorid=706
+borncorner=194,152,194,152
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|13|73
+}
+#line 231
+{
+floorid=7300
+borncorner=12,68,12,68
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|193|147
+}
+#line 232
+{
+floorid=7300
+borncorner=12,69,12,69
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|193|148
+}
+#line 233
+{
+floorid=7300
+borncorner=12,70,12,70
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|193|149
+}
+#line 234
+{
+floorid=7300
+borncorner=12,71,12,71
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|193|150
+}
+#line 235
+{
+floorid=7300
+borncorner=12,72,12,72
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|193|151
+}
+#line 236
+{
+floorid=7300
+borncorner=12,73,12,73
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|706|193|152
+}
+#line 240
+{
+floorid=7300
+borncorner=47,38,47,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7304|8|19
+}
+# between
+{
+floorid=7304
+borncorner=8,19,8,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|47|38
+}
+#line 241
+{
+floorid=7300
+borncorner=48,38,48,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7304|9|19
+}
+# between
+{
+floorid=7304
+borncorner=9,19,9,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|48|38
+}
+#line 244
+{
+floorid=7305
+borncorner=0,12,0,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|80|36
+}
+#line 245
+{
+floorid=7305
+borncorner=0,13,0,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|80|36
+}
+#line 246
+{
+floorid=7300
+borncorner=80,36,80,36
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7305|0|12
+}
+#line 249
+{
+floorid=7306
+borncorner=7,15,7,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|31|38
+}
+# between
+{
+floorid=7300
+borncorner=31,38,31,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7306|7|15
+}
+#line 250
+{
+floorid=7306
+borncorner=8,15,8,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|32|38
+}
+# between
+{
+floorid=7300
+borncorner=32,38,32,38
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7306|8|15
+}
+#line 253
+{
+floorid=7307
+borncorner=8,13,8,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|63|39
+}
+# between
+{
+floorid=7300
+borncorner=63,39,63,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7307|8|13
+}
+#line 254
+{
+floorid=7307
+borncorner=9,13,9,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|64|39
+}
+# between
+{
+floorid=7300
+borncorner=64,39,64,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7307|9|13
+}
+#line 257
+{
+floorid=7300
+borncorner=59,110,59,110
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7303|2|9
+}
+# between
+{
+floorid=7303
+borncorner=2,9,2,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|59|110
+}
+#line 258
+{
+floorid=7300
+borncorner=59,111,59,111
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7303|2|10
+}
+# between
+{
+floorid=7303
+borncorner=2,10,2,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|59|111
+}
+#line 261
+{
+floorid=7308
+borncorner=4,14,4,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|37|95
+}
+# between
+{
+floorid=7300
+borncorner=37,95,37,95
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7308|4|14
+}
+#line 262
+{
+floorid=7308
+borncorner=5,14,5,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|38|95
+}
+# between
+{
+floorid=7300
+borncorner=38,95,38,95
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7308|5|14
+}
+#line 265
+{
+floorid=7300
+borncorner=48,122,48,122
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7309|0|14
+}
+# between
+{
+floorid=7309
+borncorner=0,14,0,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|48|122
+}
+#line 266
+{
+floorid=7300
+borncorner=48,123,48,123
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7309|0|15
+}
+# between
+{
+floorid=7309
+borncorner=0,15,0,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|48|123
+}
+#line 269
+{
+floorid=7300
+borncorner=49,97,49,97
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7310|0|8
+}
+# between
+{
+floorid=7310
+borncorner=0,8,0,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|49|97
+}
+#line 270
+{
+floorid=7300
+borncorner=49,98,49,98
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7310|0|9
+}
+# between
+{
+floorid=7310
+borncorner=0,9,0,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7300|49|98
+}
+#line 277
+{
+floorid=705
+borncorner=279,339,279,339
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|32|26
+}
+#line 278
+{
+floorid=705
+borncorner=280,339,280,339
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|33|26
+}
+#line 279
+{
+floorid=705
+borncorner=281,339,281,339
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|34|26
+}
+#line 281
+{
+floorid=7350
+borncorner=32,25,32,25
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|279|338
+}
+#line 282
+{
+floorid=7350
+borncorner=33,25,33,25
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|280|338
+}
+#line 283
+{
+floorid=7350
+borncorner=34,25,34,25
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|281|338
+}
+#line 287
+{
+floorid=7354
+borncorner=2,9,2,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|77|64
+}
+# between
+{
+floorid=7350
+borncorner=77,64,77,64
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7354|2|9
+}
+#line 288
+{
+floorid=7354
+borncorner=2,10,2,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|77|65
+}
+# between
+{
+floorid=7350
+borncorner=77,65,77,65
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7354|2|10
+}
+#line 291
+{
+floorid=7353
+borncorner=0,16,0,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|53|43
+}
+# between
+{
+floorid=7350
+borncorner=53,43,53,43
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7353|0|16
+}
+#line 292
+{
+floorid=7353
+borncorner=0,17,0,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|53|44
+}
+# between
+{
+floorid=7350
+borncorner=53,44,53,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7353|0|17
+}
+#line 295
+{
+floorid=7355
+borncorner=9,15,9,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|68|57
+}
+# between
+{
+floorid=7350
+borncorner=68,57,68,57
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7355|9|15
+}
+#line 296
+{
+floorid=7355
+borncorner=10,15,10,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|69|57
+}
+# between
+{
+floorid=7350
+borncorner=69,57,69,57
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7355|10|15
+}
+#line 299
+{
+floorid=7356
+borncorner=2,9,2,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|37|42
+}
+# between
+{
+floorid=7350
+borncorner=37,42,37,42
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7356|2|9
+}
+#line 300
+{
+floorid=7356
+borncorner=2,10,2,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|37|43
+}
+# between
+{
+floorid=7350
+borncorner=37,43,37,43
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7356|2|10
+}
+#line 303
+{
+floorid=7357
+borncorner=9,17,9,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|45|37
+}
+# between
+{
+floorid=7350
+borncorner=45,37,45,37
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7357|9|17
+}
+#line 304
+{
+floorid=7357
+borncorner=10,17,10,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|46|37
+}
+# between
+{
+floorid=7350
+borncorner=46,37,46,37
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7357|10|17
+}
+#line 307
+{
+floorid=7358
+borncorner=8,20,8,20
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|26|44
+}
+# between
+{
+floorid=7350
+borncorner=26,44,26,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7358|8|20
+}
+#line 308
+{
+floorid=7358
+borncorner=9,20,9,20
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|27|44
+}
+# between
+{
+floorid=7350
+borncorner=27,44,27,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7358|9|20
+}
+#line 311
+{
+floorid=7359
+borncorner=2,9,2,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|63|65
+}
+# between
+{
+floorid=7350
+borncorner=63,65,63,65
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7359|2|9
+}
+#line 312
+{
+floorid=7359
+borncorner=2,10,2,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7350|63|66
+}
+# between
+{
+floorid=7350
+borncorner=63,66,63,66
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7359|2|10
+}
+#line 323
+{
+floorid=707
+borncorner=385,155,385,155
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60314|34|5
+}
+# between
+{
+floorid=60314
+borncorner=34,5,34,5
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|707|385|155
+}
+#line 324
+{
+floorid=60314
+borncorner=35,54,35,54
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7301|48|28
+}
+# between
+{
+floorid=7301
+borncorner=48,28,48,28
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60314|35|54
+}
+#line 327
+{
+floorid=7301
+borncorner=39,75,39,75
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|4|12
+}
+# between
+{
+floorid=60337
+borncorner=4,12,4,12
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7301|39|75
+}
+#line 329
+{
+floorid=60313
+borncorner=0,18,0,18
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7301|39|75
+}
+#line 331
+{
+floorid=60342
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60313|0|18
+}
+#line 332
+{
+floorid=60342
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60313|0|18
+}
+#line 336
+{
+floorid=7301
+borncorner=47,120,47,120
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7302|19|44
+}
+#line 338
+{
+floorid=7302
+borncorner=20,44,20,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7301|47|120
+}
+#line 339
+{
+floorid=7302
+borncorner=19,44,19,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7301|47|120
+}
+#line 340
+{
+floorid=7302
+borncorner=18,44,18,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7301|47|120
+}
+#line 341
+{
+floorid=7302
+borncorner=17,44,17,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7301|47|120
+}
+#line 343
+{
+floorid=7302
+borncorner=34,18,34,18
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60338|9|44
+}
+# between
+{
+floorid=60338
+borncorner=9,44,9,44
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7302|34|18
+}
+#line 344
+{
+floorid=60338
+borncorner=45,3,45,3
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60339|23|6
+}
+# between
+{
+floorid=60339
+borncorner=23,6,23,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60338|45|3
+}
+#line 345
+{
+floorid=60339
+borncorner=45,28,45,28
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60340|45|28
+}
+# between
+{
+floorid=60340
+borncorner=45,28,45,28
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60339|45|28
+}
+#line 346
+{
+floorid=60340
+borncorner=15,4,15,4
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60341|28|3d
+}
+# between
+{
+floorid=60341
+borncorner=28,3d,28,3d
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60340|15|4
+}
+#line 349
+{
+floorid=60317
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 350
+{
+floorid=60317
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 352
+{
+floorid=60318
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 353
+{
+floorid=60318
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 355
+{
+floorid=60319
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 356
+{
+floorid=60319
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 358
+{
+floorid=60320
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 359
+{
+floorid=60320
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 361
+{
+floorid=60321
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 362
+{
+floorid=60321
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 364
+{
+floorid=60322
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 365
+{
+floorid=60322
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 367
+{
+floorid=60323
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 368
+{
+floorid=60323
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 370
+{
+floorid=60324
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 371
+{
+floorid=60324
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 373
+{
+floorid=60325
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 374
+{
+floorid=60325
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 376
+{
+floorid=60326
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 377
+{
+floorid=60326
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 379
+{
+floorid=60327
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 380
+{
+floorid=60327
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 382
+{
+floorid=60328
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 383
+{
+floorid=60328
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 385
+{
+floorid=60329
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 386
+{
+floorid=60329
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 388
+{
+floorid=60330
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 389
+{
+floorid=60330
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 391
+{
+floorid=60331
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 392
+{
+floorid=60331
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 394
+{
+floorid=60332
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 395
+{
+floorid=60332
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 397
+{
+floorid=60333
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 398
+{
+floorid=60333
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 400
+{
+floorid=60334
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 401
+{
+floorid=60334
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 403
+{
+floorid=60335
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 404
+{
+floorid=60335
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 406
+{
+floorid=60336
+borncorner=18,9,18,9
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 407
+{
+floorid=60336
+borncorner=18,10,18,10
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60337|11|8
+}
+#line 419
+{
+floorid=705
+borncorner=82,364,82,364
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60300|7|29
+}
+# between
+{
+floorid=60300
+borncorner=7,29,7,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|705|82|364
+}
+#line 420
+{
+floorid=60300
+borncorner=55,13,55,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60301|0|4
+}
+#line 421
+{
+floorid=60301
+borncorner=0,4,0,4
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60300|55|13
+}
+#line 422
+{
+floorid=60301
+borncorner=0,5,0,5
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60300|55|13
+}
+#line 424
+{
+floorid=60301
+borncorner=89,19,89,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7352|71|61
+}
+#line 425
+{
+floorid=60301
+borncorner=89,20,89,20
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7352|71|61
+}
+#line 428
+{
+floorid=7352
+borncorner=36,74,36,74
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60303|4|4
+}
+# between
+{
+floorid=60303
+borncorner=4,4,4,4
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7352|36|74
+}
+#line 430
+{
+floorid=7352
+borncorner=71,61,71,61
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60301|88|19
+}
+#line 432
+{
+floorid=7352
+borncorner=36,74,36,74
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60303|4|4
+}
+# between
+{
+floorid=60303
+borncorner=4,4,4,4
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7352|36|74
+}
+#line 434
+{
+floorid=60304
+borncorner=4,4,4,4
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7352|36|74
+}
+#line 445
+{
+floorid=60302
+borncorner=1,16,1,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60303|6|23
+}
+# between
+{
+floorid=60303
+borncorner=6,23,6,23
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60302|1|16
+}
+#line 446
+{
+floorid=60305
+borncorner=1,16,1,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60303|6|24
+}
+#line 449
+{
+floorid=60306
+borncorner=0,18,0,18
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7352|86|36
+}
+#line 455
+{
+floorid=60308
+borncorner=0,23,0,23
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60309|40|16
+}
+# between
+{
+floorid=60309
+borncorner=40,16,40,16
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60308|0|23
+}
+#line 456
+{
+floorid=60309
+borncorner=28,7,28,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60310|25|49
+}
+# between
+{
+floorid=60310
+borncorner=25,49,25,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60309|28|7
+}
+#line 457
+{
+floorid=60310
+borncorner=40,5,40,5
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60311|11|31
+}
+# between
+{
+floorid=60311
+borncorner=11,31,11,31
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|60310|40|5
+}
+#line 458
+{
+floorid=60312
+borncorner=0,18,0,18
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7352|86|36
+}
+#line 463
+{
+floorid=60343
+borncorner=0,18,0,18
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7352|86|36
+}
+#line 466
+{
+floorid=7452
+borncorner=15,30,15,30
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|73|189
+}
+#line 471
+{
+floorid=7020
+borncorner=0,6,0,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|115|128
+}
+#line 472
+{
+floorid=7020
+borncorner=0,7,0,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|115|129
+}
+#line 475
+{
+floorid=7411
+borncorner=23,49,23,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|87|133
+}
+#line 476
+{
+floorid=7411
+borncorner=24,49,24,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|88|133
+}
+#line 477
+{
+floorid=7411
+borncorner=25,49,25,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|89|133
+}
+#line 483
+{
+floorid=7015
+borncorner=7,19,7,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|20|160
+}
+#line 484
+{
+floorid=7015
+borncorner=8,19,8,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|20|160
+}
+#line 485
+{
+floorid=7015
+borncorner=17,19,17,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|27|161
+}
+#line 486
+{
+floorid=7015
+borncorner=18,19,18,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|27|161
+}
+#line 488
+{
+floorid=7024
+borncorner=7,19,7,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|20|160
+}
+#line 489
+{
+floorid=7024
+borncorner=8,19,8,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|20|160
+}
+#line 490
+{
+floorid=7024
+borncorner=17,19,17,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|27|161
+}
+#line 491
+{
+floorid=7024
+borncorner=18,19,18,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|27|161
+}
+#line 494
+{
+floorid=7453
+borncorner=0,7,0,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|334|182
+}
+#line 495
+{
+floorid=7453
+borncorner=0,8,0,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|334|183
+}
+#line 497
+{
+floorid=7454
+borncorner=0,7,0,7
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|334|182
+}
+#line 498
+{
+floorid=7454
+borncorner=0,8,0,8
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|334|183
+}
+#line 501
+{
+floorid=7450
+borncorner=23,58,23,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|147|146
+}
+#line 502
+{
+floorid=7450
+borncorner=23,59,23,59
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|147|146
+}
+#line 508
+{
+floorid=7021
+borncorner=12,31,12,31
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|136|97
+}
+#line 509
+{
+floorid=7021
+borncorner=12,32,12,32
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|136|98
+}
+#line 511
+{
+floorid=7000
+borncorner=137,97,137,97
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7021|13|31
+}
+#line 512
+{
+floorid=7000
+borncorner=137,98,137,98
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7021|13|32
+}
+#line 515
+#{
+#floorid=7128
+#borncorner=26,39,26,39
+#time=0
+#ignoreinvincible=1
+#createnum=1
+#enemy=npcgen_warp|7112|14|18
+#}
+#line 516
+#{
+#floorid=7128
+#borncorner=27,39,27,39
+#time=0
+#ignoreinvincible=1
+#createnum=1
+#enemy=npcgen_warp|7112|14|18
+#}
+#line 517
+#{
+#floorid=7128
+#borncorner=28,39,28,39
+#time=0
+#ignoreinvincible=1
+#createnum=1
+#enemy=npcgen_warp|7112|14|18
+#}
+#line 518
+#{
+#floorid=7128
+#borncorner=29,39,29,39
+#time=0
+#ignoreinvincible=1
+#createnum=1
+#enemy=npcgen_warp|7112|15|18
+#}
+#line 519
+#{
+#floorid=7129
+#borncorner=30,39,30,39
+#time=0
+#ignoreinvincible=1
+#createnum=1
+#enemy=npcgen_warp|7112|15|18
+#}
+#line 521
+#{
+#floorid=7112
+#borncorner=14,18,14,18
+#time=0
+#ignoreinvincible=1
+#createnum=1
+#enemy=npcgen_warp|7128|28|39
+#}
+#line 522
+#{
+#floorid=7112
+#borncorner=15,18,15,18
+#time=0
+#ignoreinvincible=1
+#createnum=1
+#enemy=npcgen_warp|7128|29|39
+#}
+#line 525
+#{
+#floorid=60101
+#borncorner=56,19,56,19
+#time=0
+#ignoreinvincible=1
+#createnum=1
+#enemy=npcgen_warp|7128|40|10
+#}
+#line 526
+#{
+#floorid=60102
+#borncorner=56,19,56,19
+#time=0
+#ignoreinvincible=1
+#createnum=1
+#enemy=npcgen_warp|7128|40|10
+#}
+#line 527
+#{
+#floorid=60103
+#borncorner=56,19,56,19
+#time=0
+#ignoreinvincible=1
+#createnum=1
+#enemy=npcgen_warp|7128|40|10
+#}
+#line 530
+{
+floorid=7200
+borncorner=78,19,78,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7217|15|29
+}
+# between
+{
+floorid=7217
+borncorner=15,29,15,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|78|19
+}
+#line 531
+{
+floorid=7200
+borncorner=79,19,79,19
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7217|16|29
+}
+# between
+{
+floorid=7217
+borncorner=16,29,16,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|79|19
+}
+#line 534
+{
+floorid=60215
+borncorner=29,29,29,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7217|15|13
+}
+#line 538
+{
+floorid=7022
+borncorner=11,39,11,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|136|97
+}
+#line 539
+{
+floorid=7022
+borncorner=12,39,12,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|136|97
+}
+#line 541
+{
+floorid=7023
+borncorner=11,39,11,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|136|97
+}
+#line 542
+{
+floorid=7023
+borncorner=12,39,12,39
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7000|136|97
+}
+#line 545
+{
+floorid=60216
+borncorner=29,29,29,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7217|15|13
+}
+#line 546
+{
+floorid=60216
+borncorner=30,29,30,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7217|16|13
+}
+#line 549
+{
+floorid=7451
+borncorner=23,58,23,58
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|147|146
+}
+#line 550
+{
+floorid=7451
+borncorner=23,59,23,59
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|703|147|146
+}
+#line 553
+{
+floorid=60316
+borncorner=0,18,0,18
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7301|39|75
+}
+#line 560
+{
+floorid=7200
+borncorner=100,22,100,22
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7215|24|49
+}
+#line 561
+{
+floorid=7200
+borncorner=101,22,101,22
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7215|25|49
+}
+#line 563
+{
+floorid=7215
+borncorner=23,49,23,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|100|23
+}
+#line 564
+{
+floorid=7215
+borncorner=24,49,24,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|100|23
+}
+#line 565
+{
+floorid=7215
+borncorner=25,49,25,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7200|101|23
+}
+#line 577
+{
+floorid=704
+borncorner=103,104,103,104
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|97|46
+}
+# between
+{
+floorid=7400
+borncorner=97,46,97,46
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|103|104
+}
+#line 578
+{
+floorid=704
+borncorner=104,104,104,104
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|98|46
+}
+# between
+{
+floorid=7400
+borncorner=98,46,98,46
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|104|104
+}
+#line 581
+{
+floorid=7401
+borncorner=23,49,23,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|87|133
+}
+#line 582
+{
+floorid=7401
+borncorner=24,49,24,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|88|133
+}
+#line 583
+{
+floorid=7401
+borncorner=25,49,25,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|89|133
+}
+#line 585
+{
+floorid=7412
+borncorner=23,49,23,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|87|133
+}
+#line 586
+{
+floorid=7412
+borncorner=24,49,24,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|88|133
+}
+#line 587
+{
+floorid=7412
+borncorner=25,49,25,49
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|89|133
+}
+#line 590
+{
+floorid=7403
+borncorner=4,14,4,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|128|128
+}
+# between
+{
+floorid=7400
+borncorner=128,128,128,128
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7403|4|14
+}
+#line 591
+{
+floorid=7403
+borncorner=4,15,4,15
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|128|129
+}
+# between
+{
+floorid=7400
+borncorner=128,129,128,129
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7403|4|15
+}
+#line 594
+{
+floorid=7400
+borncorner=35,129,35,129
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7404|15|24
+}
+# between
+{
+floorid=7404
+borncorner=15,24,15,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|35|129
+}
+#line 595
+{
+floorid=7400
+borncorner=36,129,36,129
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7404|16|24
+}
+# between
+{
+floorid=7404
+borncorner=16,24,16,24
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|36|129
+}
+#line 598
+{
+floorid=7405
+borncorner=13,21,13,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|86|94
+}
+# between
+{
+floorid=7400
+borncorner=86,94,86,94
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7405|13|21
+}
+#line 599
+{
+floorid=7405
+borncorner=14,21,14,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|87|94
+}
+# between
+{
+floorid=7400
+borncorner=87,94,87,94
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7405|14|21
+}
+#line 602
+{
+floorid=7406
+borncorner=20,21,20,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|129|104
+}
+# between
+{
+floorid=7400
+borncorner=129,104,129,104
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7406|20|21
+}
+#line 603
+{
+floorid=7406
+borncorner=21,21,21,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|130|104
+}
+# between
+{
+floorid=7400
+borncorner=130,104,130,104
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7406|21|21
+}
+#line 606
+{
+floorid=7407
+borncorner=3,13,3,13
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|102|77
+}
+# between
+{
+floorid=7400
+borncorner=102,77,102,77
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7407|3|13
+}
+#line 607
+{
+floorid=7407
+borncorner=3,14,3,14
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|102|78
+}
+# between
+{
+floorid=7400
+borncorner=102,78,102,78
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7407|3|14
+}
+#line 610
+{
+floorid=7408
+borncorner=15,21,15,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|131|79
+}
+# between
+{
+floorid=7400
+borncorner=131,79,131,79
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7408|15|21
+}
+#line 611
+{
+floorid=7408
+borncorner=16,21,16,21
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|132|79
+}
+# between
+{
+floorid=7400
+borncorner=132,79,132,79
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7408|16|21
+}
+#line 614
+{
+floorid=7409
+borncorner=10,28,10,28
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|81|73
+}
+# between
+{
+floorid=7400
+borncorner=81,73,81,73
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7409|10|28
+}
+#line 615
+{
+floorid=7409
+borncorner=10,29,10,29
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|81|74
+}
+# between
+{
+floorid=7400
+borncorner=81,74,81,74
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7409|10|29
+}
+#line 618
+{
+floorid=7410
+borncorner=10,17,10,17
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|65|81
+}
+# between
+{
+floorid=7400
+borncorner=65,81,65,81
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7410|10|17
+}
+#line 619
+{
+floorid=7410
+borncorner=10,18,10,18
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7400|65|82
+}
+# between
+{
+floorid=7400
+borncorner=65,82,65,82
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|7410|10|18
+}
+#line 629
+{
+floorid=7402
+borncorner=16,91,16,91
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|310|92
+}
+#line 630
+{
+floorid=7402
+borncorner=16,92,16,92
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|309|93
+}
+#line 631
+{
+floorid=7402
+borncorner=16,93,16,93
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|310|94
+}
+#line 636
+{
+floorid=7402
+borncorner=45,123,45,123
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|341|127
+}
+#line 637
+{
+floorid=7402
+borncorner=46,123,46,123
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|704|342|126
+}
+#line 644
+{
+floorid=3015
+borncorner=0,5,0,5
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|3000|99|62
+}
+#line 645
+{
+floorid=3015
+borncorner=0,6,0,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|3000|99|63
+}
+#line 647
+{
+floorid=3015
+borncorner=28,5,28,5
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|3016|0|50
+}
+# between
+{
+floorid=3016
+borncorner=0,50,0,50
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|3015|28|5
+}
+#line 648
+{
+floorid=3015
+borncorner=28,6,28,6
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|3016|0|51
+}
+# between
+{
+floorid=3016
+borncorner=0,51,0,51
+time=0
+ignoreinvincible=1
+createnum=1
+enemy=npcgen_warp|3015|28|6
+}

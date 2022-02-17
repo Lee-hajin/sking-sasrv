@@ -1,0 +1,62 @@
+NPCCREATE
+
+{
+floorid=20508
+borncorner=12,11,12,11
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16024
+name=대장장이 한
+enemy=changeevent|file:jaruga/event/20501ev1
+}
+
+{
+floorid=20507
+borncorner=32,29,32,29
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16207
+name=수장 코바르토
+enemy=changeevent|file:jaruga/event/20501ev2
+}
+
+{
+floorid=3300
+borncorner=60,75,60,75
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16018
+name=나뭇꾼 바루
+enemy=changeevent|file:jaruga/event/20501ev3
+}
+
+{
+floorid=3300
+borncorner=46,55,46,55
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16047
+name=수다쟁이 청년
+enemy=changeevent|file:jaruga/event/20501ev4
+}
+
+{
+floorid=3000
+borncorner=114,69,114,69
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16000
+name=목재상인 자쟌
+enemy=changeevent|file:jaruga/event/20501ev5
+}
+

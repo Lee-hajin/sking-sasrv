@@ -1,0 +1,10 @@
+WARP:811,34,15
+FREE:LV>0
+MONEY:-1
+FreeMsg:\n\n이곳을 나가시겠습니까？\n참가권은 모두 회수됩니다.
+PayMsg:
+PartyMsg:\n파티상태로는 나가실수 없습니다.
+DelItem:2751,2752,2754
+MoneyMsg:
+
+

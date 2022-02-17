@@ -1,0 +1,10 @@
+WARP:851,32,26
+FREE:LV>0
+MONEY:-1
+FreeMsg:\n\n이곳을 내려가고싶어？\n참가권은 모두 가져갈꺼야.!\n정말로 내려갈꺼야？
+PayMsg:
+PartyMsg:\n이봐, 파티를 풀어줄래？
+DelItem:2751,2752,2754
+MoneyMsg:
+
+

@@ -1,0 +1,27 @@
+NomalMainMsg:태풍만 아니었다면 . . . 고향이 그립다.
+
+EventNo:6
+TYPE:MESSAGE
+EVENT:NOWEV=6&ITEM=2414*2
+NomalWindowMsg:뭐야!\n두개나 가지고 있잖아.!\n조개가 없다면 나한테 와!
+EventEnd
+
+EventNo:6
+TYPE:ACCEPT
+EVENT:NOWEV=6&ITEM=2414
+AcceptMsg:마리너스에서 쟈루까지 바다를 건너서 왔어.\n여기에서 가게를 낼 계획이었지만 태풍때문에 조그만 조개밖에 남아있지 않게 되었지.\n이것으로 장사를 할 수도 없고...\n왜? 이 조개가 필요해?
+ThanksMsg:많으니깐 하나만 줄께.!
+ItemFullMsg:가방이 무거워서 받을 수 없을꺼 같은데?
+GetItem:2414
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=6&ITEM!=2414
+AcceptMsg:뭐야? 조개가 있는데?\n조개가 하나 더 필요할꺼 같아?
+ThanksMsg:그래.!\n하지만 더 이상을 줄 수 없어.\n나중에 은혜는 갚아!
+ItemFullMsg:가방이 무거워서 받을 수 없을꺼 같은데?
+GetItem:2414*1
+EventEnd
+

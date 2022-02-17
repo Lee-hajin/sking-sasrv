@@ -1,0 +1,97 @@
+NomalMainMsg:아르바이트를 통한 페트를 회수하고, 조달이용권을 지급해드리고 있습니다.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-558*5&ITEM=2590*1&ITEM=2596,PET>0-558*4&ITEM=2590*1&ITEM=2589*1&ITEM=2596,PET>0-558*3&ITEM=2590*1&ITEM=2589*2&ITEM=2596,PET>0-558*2&ITEM=2590*1&ITEM=2589*3&ITEM=2596,PET>0-558*1&ITEM=2590*1&ITEM=2589*4&ITEM=2596
+AcceptMsg:\n당신이 갖고 있는 그 소재공룡을\n 증명서로 바꾸겠습니까?\n이 증명서가 있으면 목장주인이\n아르바이트 대금을 지불해줄것입니다.
+ThanksMsg:\n교환방법은 다음과 같습니다.\n1마리 티켓이 5개를 소지했을 경우 5마리 티켓으로 교환\n5마리 티켓이 2장이면 10마리 티켓으로 교환\n최대 20마리 티켓까지 교환하실 수 있습니다.ItemFullMsg:\n소지품칸이 가득 찬거 같습니다.!
+NotDel:2596
+DelPet:EVDEL
+DelItem:EVDEL
+GetItem:2591*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-558*5&ITEM=2596,PET>0-558*4&ITEM=2589*1&ITEM=2596,PET>0-558*3&ITEM=2589*2&ITEM=2596,PET>0-558*2&ITEM=2589*3&ITEM=2596,PET>0-558*1&ITEM=2589*4&ITEM=2596
+AcceptMsg:\n당신이 갖고 있는 그 소재공룡을\n 증명서로 바꾸겠습니까?\n이 증명서가 있으면 목장주인이\n아르바이트 대금을 지불해줄것입니다.
+ThanksMsg:\n교환방법은 다음과 같습니다.\n1마리 티켓이 5개를 소지했을 경우 5마리 티켓으로 교환\n5마리 티켓이 2장이면 10마리 티켓으로 교환\n최대 20마리 티켓까지 교환하실 수 있습니다.ItemFullMsg:\n소지품칸이 가득 찬거 같습니다.!
+NotDel:2596
+DelPet:EVDEL
+DelItem:EVDEL
+GetItem:2590*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-558*4&ITEM=2596
+AcceptMsg:\n당신이 갖고 있는 그 소재공룡을\n 증명서로 바꾸겠습니까?\n이 증명서가 있으면 목장주인이\n아르바이트 대금을 지불해줄것입니다.
+ThanksMsg:\n교환방법은 다음과 같습니다.\n1마리 티켓이 5개를 소지했을 경우 5마리 티켓으로 교환\n5마리 티켓이 2장이면 10마리 티켓으로 교환\n최대 20마리 티켓까지 교환하실 수 있습니다.ItemFullMsg:\n소지품칸이 가득 찬거 같습니다.!
+DelPet:PET>0-558*4
+GetItem:2589*4
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-558*3&ITEM=2596
+AcceptMsg:\n당신이 갖고 있는 그 소재공룡을\n 증명서로 바꾸겠습니까?\n이 증명서가 있으면 목장주인이\n아르바이트 대금을 지불해줄것입니다.
+ThanksMsg:\n교환방법은 다음과 같습니다.\n1마리 티켓이 5개를 소지했을 경우 5마리 티켓으로 교환\n5마리 티켓이 2장이면 10마리 티켓으로 교환\n최대 20마리 티켓까지 교환하실 수 있습니다.ItemFullMsg:\n소지품칸이 가득 찬거 같습니다.!
+DelPet:PET>0-558*3
+GetItem:2589*3
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-558*2&ITEM=2596
+AcceptMsg:\n당신이 갖고 있는 그 소재공룡을\n 증명서로 바꾸겠습니까?\n이 증명서가 있으면 목장주인이\n아르바이트 대금을 지불해줄것입니다.
+ThanksMsg:\n교환방법은 다음과 같습니다.\n1마리 티켓이 5개를 소지했을 경우 5마리 티켓으로 교환\n5마리 티켓이 2장이면 10마리 티켓으로 교환\n최대 20마리 티켓까지 교환하실 수 있습니다.ItemFullMsg:\n소지품칸이 가득 찬거 같습니다.!
+DelPet:PET>0-558*2
+GetItem:2589*2
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-558*1&ITEM=2596
+AcceptMsg:\n당신이 갖고 있는 그 소재공룡을\n 증명서로 바꾸겠습니까?\n이 증명서가 있으면 목장주인이\n아르바이트 대금을 지불해줄것입니다.
+ThanksMsg:\n교환방법은 다음과 같습니다.\n1마리 티켓이 5개를 소지했을 경우 5마리 티켓으로 교환\n5마리 티켓이 2장이면 10마리 티켓으로 교환\n최대 20마리 티켓까지 교환하실 수 있습니다.ItemFullMsg:\n소지품칸이 가득 찬거 같습니다.!
+DelPet:PET>0-558*1
+GetItem:2589*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2591*2
+AcceptMsg:\n소지하고 계신 조달이용권을 압축하시겠습니까?
+ThanksMsg:\n압축 중 입니다.\n압축된 조달이용권을 수령 받으시겠습니까?
+ItemFullMsg:소지품칸이 가득 찬거 같습니다.!
+
+DelItem:2591*2
+GetItem:2592*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2591*1&ITEM=2590*2
+AcceptMsg:\n소지하고 계신 조달이용권을 압축하시겠습니까?
+ThanksMsg:\n압축 중 입니다.\n압축된 조달이용권을 수령 받으시겠습니까?
+ItemFullMsg:소지품칸이 가득 찬거 같습니다.!
+DelItem:2590*2,2591*1
+GetItem:2592*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2590*4
+AcceptMsg:\n소지하고 계신 조달이용권을 압축하시겠습니까?
+ThanksMsg:\n압축 중 입니다.\n압축된 조달이용권을 수령 받으시겠습니까?
+ItemFullMsg:소지품칸이 가득 찬거 같습니다.!
+DelItem:2590*4
+GetItem:2592*1
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2594,ITEM=2595,ITEM=2596
+NomalWindowMsg:조교의 팔찌를 이곳까지 가지고오시면 안됩니다.\n회수처리를 받고 다시 찾아오십시오.
+EventEnd
+

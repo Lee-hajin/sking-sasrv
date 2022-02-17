@@ -1,0 +1,43 @@
+NomalMainMsg:뭐야? 나에게는 볼일이 없는거 같은데?
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙? 나도 니스대륙을 한번 보고싶군.\n그 시대를 평정하는건 우리일것이야!!\n음하하하
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=55
+NomalWindowMsg:\n오! 그래 두목님께서 좋아하시더군. 좋아 우리의 전투력이 향상됐군!!!
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=55&PET=30-720&ITEM=2474
+NomalWindowMsg:\n아직 로우가 덜 성장한거 같은데?
+EventEnd
+
+
+EventNo:55
+TYPE:MESSAGE
+EVENT:NOWEV=55
+NomalWindowMsg:로우를 레벨 30까지 성장시켜 두목님에게 보여줘
+EventEnd
+
+
+
+EventNo:55
+TYPE:ACCEPT
+EVENT:NOWEV=66
+AcceptMsg:\n나는 부두목이다.\n대장이 나에게 전권을 위임했지. 더 훈련을 해야만 우리의 목표를 더욱 빨리 이룰수 있어.
+ThanksMsg:좋다! 로우를 너에게 줄태니 빨리 성장시켜 두목님에게 보이거라.
+PetFullMsg:뭐야! 페트를 너무 많이 데리고 있잖아?
+GetPet:1483
+EndSetFlg:66
+EventEnd
+
+

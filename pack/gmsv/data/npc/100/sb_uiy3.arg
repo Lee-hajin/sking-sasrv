@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:우리 삼형제에게 인정받은 사람만이
+askbattlemsg2:앞으로 전진할 수 있다.
+askbattlemsg3:시험해 보겠는가?
+startmsg:자 승부다!
+dieact:1
+warpfl:10007
+warpx:29
+warpy:37
+end msg:
+enemyno:294,295,296,297,298
+deniedmsg:더 이상 못지나가！
+

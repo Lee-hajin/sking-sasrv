@@ -1,0 +1,10 @@
+--此lua是人物做动作时进行回调，无返回值
+function FreeAction(charaindex, x, y, actionno)
+	
+	return;
+end
+function data()
+end
+function main()
+	data();
+end

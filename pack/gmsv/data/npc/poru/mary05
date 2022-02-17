@@ -1,0 +1,38 @@
+NomalMainMsg:뭐야? 너도 빨리 일이나 하라고! 농땡이 피울생각 하지말고
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n오..! 니스대륙이라 정말 보고싶군!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=57
+NomalWindowMsg:\n아이린 대장 한태 꼬미를 잘 가져다 준거같군.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=57&PET=33-721&ITEM=2432
+NomalWindowMsg:오! 꼬미를 벌써 육성하다니 대단한걸?\n「신선의 지팡이」도 잘 가지고왔군
+EventEnd
+
+EventNo:57
+TYPE:MESSAGE
+EVENT:NOWEV=57
+NomalWindowMsg:음? 이봐 꼬미를 받았잖아!!! 레벨 33까지 육성하라고.\n아참 「신선의 지팡이」는 잊지 말고!
+EventEnd
+
+
+EventNo:57
+TYPE:ACCEPT
+EVENT:NOWEV=68
+AcceptMsg:아이린 대장이 날 찾으라고 했나?
+ThanksMsg:\n좋아! 이 꼬미를 육성하여 대장에게 전해라
+PetFullMsg:페트칸이 부족한거 같은데?
+GetPet:1482
+EndSetFlg:68
+EventEnd
+

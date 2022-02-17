@@ -1,0 +1,24 @@
+NomalMainMsg:안녕하세요. JBA 본부접수팀 입니다.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM!=2479&ITEM!=2480
+AcceptMsg:＝＝＝＝＝＝　접수처　＝＝＝＝＝＝\n\n쟈루·사육가 협회 본부에\n오신 것을 환영합니다!\n소지하고 계신 SBC의 인정서는 회수처리 해야지만 JBA 인정서를 발급받으실수 있습니다.\nJBA 인정서를 발급 받으시겠습니까?
+ThanksMsg:이것이 JBA의 인정서입니다.\n이게 있으면 3층에서 직접 이곳으로\n올 수 있어요. 본인만 사용할 수 있으므로\n인정서를 지면에 놓는다던지 페트메일로\n보낼 수 없습니다.\n재발행할 경우는 다시 와주십시오.
+ItemFullMsg:\n\n 가방이 가득차서 인정서를 지급할수 없습니다.
+GetItem:2480
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM!=2480&ITEM=2479
+AcceptMsg:＝＝＝＝＝＝　접수처　＝＝＝＝＝＝\n\n쟈루·사육가 협회 본부에\n오신 것을 환영합니다!\nJBA 인정서가 필요하시다구요?
+ThanksMsg:이것이 JBA의 인정서입니다.\n이게 있으면 3층에서 직접 이곳으로\n올 수 있어요. 본인만 사용할 수 있으므로\n인정서를 지면에 놓는다던지 페트메일로\n보낼 수 없습니다.\n재발행할 경우는 다시 와주십시오.
+ItemFullMsg:\n\n 가방이 가득차서 인정서를 지급할수 없습니다.
+DelItem:2479
+GetItem:2480
+EventEnd
+
+
+

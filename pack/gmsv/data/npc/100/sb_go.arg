@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:너의 힘을 시험해 보지
+startmsg:덤벼라
+dieact:1
+warpfl:11107
+warpx:23
+warpy:35
+end msg:
+enemyno:527,526,528,529
+deniedmsg:더 이상 지나가는걸 용납 못한다.
+

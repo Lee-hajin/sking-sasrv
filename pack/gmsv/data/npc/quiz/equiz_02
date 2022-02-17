@@ -1,0 +1,42 @@
+NomalMainMsg:볼일이 없는것 같은데?
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=47
+NomalWindowMsg:\n안녕~ 그때 그 퀴즈마스터구나!\n넌 정말 대단했어 어쩜 그런 빠른시간내에 맞출수 있는거지?
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=44&NOWEV=47&ITEM=2759
+NomalWindowMsg:\n오! 퀴즈마스터의『수수께끼 상자』를 얻었구나!\n정말 대단해 퀴즈 마스터에 대해 적합하겠어!\n마스터의 제자에게 가져다줘봐!
+EventEnd
+
+
+EventNo:47
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=44&PET=77-12&ITEM!=2759&ITEM!=2753
+NomalWindowMsg:\n퀴즈마스터가 되기 위한 과제를\n멋지게 클리어 했군!\n그럼 레어페트와『퀴즈마스터 입문증』을가지고 뒤에 있는 아이에게 말을 걸어봐.\n그들이 퀴즈마스터 인정소의 담당한테\n너를 안내해줄거야.
+ItemFullMsg:\n\n\n이런 가방이 너무 무거운거같은데?
+GetItem:2753
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=44
+NomalWindowMsg:\n그 황금색 페트를 LV 77까지 길러서 가지고와!\n멋지게 과제를 끝마치고 오라구!
+EventEnd
+
+
+EventNo:44
+TYPE:ACCEPT
+EVENT:NOWEV=44&ITEM=2753
+AcceptMsg:\n\n아아! 그것이 퀴즈마스터 입문증이군!\n넌 퀴즈마스터로의 길을 걸을꺼야?
+ThanksMsg:\n좋아! 퀴즈마스터에 길을 걷기 위해선\n황금색 페트를 LV77까지 길러와야되 이놈은 먹는것도 많고 둔해서 기르기가 까다로울꺼야!\n퀴즈마스터의 길이라고 생각하고 근성을 가지로 해보렴.
+PetFullMsg:\n\n이런 페트를 너무 많이가지고 있는거 같은데?
+GetPet:14
+DelItem:2753
+EndSetFlg:44
+EventEnd
+

@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:SBC의 심사원입니다.
+askbattlemsg2:부리다의 인정심사를 받겠습니까?
+startmsg:당신의 역량을 시험해 보겠습니다.
+dieact:1
+warpfl:10920
+warpx:55
+warpy:28
+end msg:
+enemyno:941,942
+deniedmsg:당신은 더이상 넘어가실수 없습니다.
+alreadymsg:당신은 더이상 넘어가실수 없습니다.
+onebattle:1

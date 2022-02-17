@@ -1,0 +1,89 @@
+NPCCREATE
+{
+floorid=2000
+borncorner=99,78,99,78
+time=0
+createnum=1
+graphicname=16039
+name=마을 학자
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 해변의 도시로 해산물이 풍부하군！
+}
+{
+floorid=2000
+borncorner=69,33,69,33
+time=0
+createnum=1
+graphicname=16019
+name=마을 아저씨
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 마을의 후문이야！
+}
+{
+floorid=2000
+borncorner=97,85,97,85
+time=0
+createnum=1
+graphicname=16036
+name=마을 소녀
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|마리너스는 정말 행복한마을인거 같아！
+}
+{
+floorid=2000
+borncorner=59,109,59,109
+time=0
+createnum=1
+graphicname=16046
+name=마을 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|음··· 해저 깊숙한 곳에는 무엇이 있을까？
+}
+{
+floorid=2000
+borncorner=73,108,73,108
+time=0
+createnum=1
+graphicname=16022
+name=마을 아줌마
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|호호 수산물을 아주 싸게 판매하는군！
+}
+{
+floorid=2000
+borncorner=38,78,38,78
+time=0
+createnum=1
+graphicname=16045
+name=마을 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|마을 밖은 어떻게 생겼을까？
+}
+{
+floorid=2000
+borncorner=73,55,73,55
+time=0
+createnum=1
+graphicname=16204
+name=사육가
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|두리 이녀석 말을 너무 안들어！！！
+}
+{
+floorid=2000
+borncorner=72,55,72,55
+time=0
+createnum=1
+graphicname=100251
+name=두리
+dir=2
+ignoreinvincible=1
+enemy=npcgen_man|꿀-꿀
+}

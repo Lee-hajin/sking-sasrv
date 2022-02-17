@@ -1,0 +1,1 @@
+#define SERVER_VERTIME "2021년03월11일20:06:16"

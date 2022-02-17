@@ -1,0 +1,309 @@
+NPCCREATE
+{
+floorid=31101
+borncorner=17,27,17,27
+time=0
+createnum=1
+graphicname=16033
+name=모험가
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|흐음···무언가가 없어
+}
+{
+floorid=31101
+borncorner=46,7,46,7
+time=0
+createnum=1
+graphicname=16205
+name=경비원
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 막혀있습니다. 다른곳으로 가주십시오
+}
+{
+floorid=31101
+borncorner=43,35,43,35
+time=0
+createnum=1
+graphicname=16206
+name=경비원
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 막혀있습니다. 다른곳으로 가주십시오
+}
+{
+floorid=31101
+borncorner=15,39,15,39
+time=0
+createnum=1
+graphicname=16033
+name=모험가
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳 어딘가에 고르시스가 있다는 소문을 들었는데
+}
+{
+floorid=31102
+borncorner=10,4,10,4
+time=0
+createnum=1
+graphicname=16038
+name=안내원
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|조심하십시오. 무서운 공룡들이 나올수도 있어요！
+}
+{
+floorid=31102
+borncorner=40,3,40,3
+time=0
+createnum=1
+graphicname=16032
+name=시민
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|메루나 동굴은 고요하고 좋은 동굴이지···
+}
+{
+floorid=31102
+borncorner=46,6,46,6
+time=0
+createnum=1
+graphicname=16028
+name=시민
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|그 공룡들이 나오기 전에는 좋았는데···
+}
+{
+floorid=31102
+borncorner=44,12,44,12
+time=0
+createnum=1
+graphicname=16036
+name=소녀
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|우린 공룡들을 피해 이곳에 왔어!
+}
+{
+floorid=31102
+borncorner=43,33,43,33
+time=0
+createnum=1
+graphicname=16035
+name=상인
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|무슨볼일이지？
+}
+{
+floorid=31102
+borncorner=44,37,44,37
+time=0
+createnum=1
+graphicname=16030
+name=소녀
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|밖에서 꽃 구경하고싶다..
+}
+{
+floorid=31102
+borncorner=11,34,11,34
+time=0
+createnum=1
+graphicname=16200
+name=청년
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 사냥할때 필요한 무기가 있는곳이야！ 손대면 안되.!
+}
+{
+floorid=31102
+borncorner=15,36,15,36
+time=0
+createnum=1
+graphicname=16201
+name=무기 대여상
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|이곳에 사람이 아닌이상 무기를 대여할수 없습니다.
+}
+{
+floorid=31102
+borncorner=24,20,24,20
+time=0
+createnum=1
+graphicname=16034
+name=할머니
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|이곳엔 무슨일인가？
+}
+{
+floorid=31102
+borncorner=33,24,33,24
+time=0
+createnum=1
+graphicname=16205
+name=경비원
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 족장님께서 계신곳 입니다.
+}
+{
+floorid=31001
+borncorner=26,34,26,34
+time=0
+createnum=1
+graphicname=16047
+name=메루나 시민
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|왜.!! 광석캐야되니 말걸지말아줄래？
+}
+{
+floorid=31001
+borncorner=26,13,26,13
+time=0
+createnum=1
+graphicname=16048
+name=메루나 시민
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|흐 힘들다
+}
+{
+floorid=31001
+borncorner=37,5,37,5
+time=0
+createnum=1
+graphicname=16049
+name=메루나 시민 
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|광물들이 많이 쌓여있어····
+}
+{
+floorid=31001
+borncorner=11,25,11,25
+time=0
+createnum=1
+graphicname=16046
+name=메루나 시민
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|흠 뭔가 최첨단 기계가 없을까？
+}
+{
+floorid=31002
+borncorner=8,7,8,7
+time=0
+createnum=1
+graphicname=16017
+name=아저씨
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이 외딴곳엔 무슨일인가 허허
+}
+{
+floorid=31002
+borncorner=27,3,27,3
+time=0
+createnum=1
+graphicname=16018
+name=청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 고고학자님께서 살고계신 곳이야
+}
+{
+floorid=31002
+borncorner=40,3,40,3
+time=0
+createnum=1
+graphicname=16016
+name=마을 아저씨
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|오늘 저녁은 무엇을 먹을까~？
+}
+{
+floorid=31002
+borncorner=46,8,46,8
+time=0
+createnum=1
+graphicname=16209
+name=청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|여기 옆에있는 석상은 메루나의 수호석상이나 다름없지
+}
+{
+floorid=31002
+borncorner=43,36,43,36
+time=0
+createnum=1
+graphicname=16208
+name=방어구 판매상
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳에 주민이 아니면 구매할수 없어
+}
+{
+floorid=31002
+borncorner=43,39,43,39
+time=0
+createnum=1
+graphicname=16207
+name=무기 판매상
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|좋은무기 골라보라구！
+}
+{
+floorid=31002
+borncorner=11,40,11,40
+time=0
+createnum=1
+graphicname=16056
+name=경비원
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|오랫만에 쉬니깐 좋군！
+}
+{
+floorid=31002
+borncorner=6,20,6,20
+time=0
+createnum=1
+graphicname=16019
+name=고기상인
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|좋은 고기들이 많다고！ 골라봐
+}
+{
+floorid=31002
+borncorner=7,29,7,29
+time=0
+createnum=1
+graphicname=16025
+name=마을 할아버지
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|흠 무슨고기를 사갈까？
+}
+{
+floorid=31002
+borncorner=22,21,22,21
+time=0
+createnum=1
+graphicname=16044
+name=청년
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|아함 따분해
+}

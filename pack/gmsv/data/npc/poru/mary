@@ -1,0 +1,55 @@
+NomalMainMsg:길을 잃어버리신 건가요?
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙으로 가다니 정말 꿈만같아요!\n정말로 감사합니다.
+EventEnd
+
+
+EventNo:64
+TYPE:MESSAGE
+EVENT:NOWEV=64&ITEM=18556&ITEM=18557&ITEM=18558&ITEM=18559
+NomalWindowMsg:\n당신이 모든 성스러운 돌을 찾아냈습니다.\n어서 샴기르에게 건네 주세요.\n이렇게 하면 샴기르가 마을 사람들을 모두 데리고 니스대륙으로 갈 수 있어요!
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ITEM=18556&ITEM=18557&ITEM=18559&ITEM!=18544
+NomalWindowMsg:\n오 거이다 모으신거 같네요!\n정말 감사합니다. 조금만 더 힘내세요!
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ITEM=18544
+NomalWindowMsg:오!「용왕의 수호」가 당신을 공룡에게서 지켜줄 것 입니다.
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64
+NomalWindowMsg:돌을 수집해주세요.\n부탁드리겠습니다.
+EventEnd
+
+
+EventNo:64
+TYPE:REQUEST
+EVENT:ENDEV=63
+RequestMsg:용감한 자들이여! 나는 미궁의 바다의 수호신\n마리너스 입니다.\n내가 아는 바로는 포루섬의 온도가 계속 상승하\n고 있고 가뭄도 심해진다고 들었어요. 인류와\n공룡의 심한 충돌도 있어났죠.\n당신은 샴기르와 이 임무를 수행할수 있나요?
+ThanksMsg1:포루섬의 땅, 물, 불, 바람 네개의 성스러운 돌은 공룡에게서 얻은것인데 오랜 세월이 지난 후에야 얻어진 보석입니다.
+ThanksMsg2:수십년 이래 공룡은 점점 멸종되고 있어서 점점\n더 이런 성스러운 돌을 얻기가 매우어렵습니다.\n\n이 성스러운 돌이 분해될 때에는 무서운 일이 일어나지만, 돌을 다 모으면 소원을 이루어 준다고 합니다.
+ThanksMsg3:샴기르와 함께 이 성스러운 돌을 모두 모아 샴기르가 마을 주민과 평화로운 니스대륙으로 넘어가 마을을 건설할 수 있도록 도와주세요.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n길을 잃어버리신 건가요?
+EventEnd

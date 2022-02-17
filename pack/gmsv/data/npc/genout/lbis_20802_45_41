@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:0.6
+buy_msg:안녕하세요,감사합니다,사다,사다,사다,감사합니다,사다,사다,생각하다,kau,buy,주세요
+main_msg:안녕하세요.
+sell_msg:팔다,팔다,팔다,팔다,팔다,sell,uru
+sell_main:어떤 고기를 판매하실겁니까？
+other_msg:암시,정보,상황,고기,niku
+hint_msg:용이 사는 동굴 입니다.
+sellonly_msg:당신이 가진 고기를 판매하시겠습니까？
+stone_msg:소지금액이 가득차셨습니다！
+realy_msg:정말 괜찮겠습니까？
+LimitItemNo:1234-1249
+
+special_rate:1.0
+
+
+

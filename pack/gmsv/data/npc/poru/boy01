@@ -1,0 +1,41 @@
+NomalMainMsg:조심하세요! 공룡들이 덮칠수도 있으니
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙....나는 그 대륙이 어떤 대륙인지 모르겠는걸?\n그래도 그 곳은 좋은곳 일거같군.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ITEM=18556&ITEM=18557&ITEM=18558&ITEM=18559
+NomalWindowMsg:\n마침내 보석을 전부 구했구나!\n어서 마리너스를 만나봐
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:\n인관과 공룡의 관계라...너는 아직 잘 모르겠군....아마도 조금더 성장하면 알게 될꺼야........
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63
+NomalWindowMsg:내가 이미 조사한 바로는 할어버지와 손녀는 공룡에게 잡혀간 것 같아!\n용의 소굴은 둑 안에 있어, 둑의 위치는 오른쪽다르를 건너 강가를 걸어가면 찾을수 있어.\n나는 둑을 건너가서 할아버지와 손녀를 구해올거야.
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:아이야 두려워 하지마! 내가 있잖아.\n어떤 공룡도 너를 어쩌지 못해!\n아니~ 난 널 본적이 없어\n.............\n.............\n당신은 여기온지 얼마 안된 여행객 아닌가요!!\n빨리 위쪽 피난 동굴로 숨으세요!
+EventEnd
+
+
+

@@ -1,0 +1,58 @@
+NomalMainMsg:나는「일반 광석」을 감정해주고 있어. 일반 광석을 가져와
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2469*14
+AcceptMsg:일반 광석을 가지고 왔느냐!\n감정한 후 감정서를 사무실에 가져가면 환전해 줄거야!\n\n이것들의 가치를 감정하겠는가?
+ThanksMsg:음. 잠시만 기다리게나\n좋아 광석들의 감정이 끝났어\n감정결과 일반 광석이 맞구나\n이정도의 양이면 감정서를 네개 주겠내.
+ItemFullMsg:뭐야!\n가방의 여유공간이 없는거 같은데?
+DelItem:2469*14
+GetItem:2472*4
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2469*11,ITEM=2469*12,ITEM=2469*13
+AcceptMsg:일반 광석을 가지고 왔느냐!\n감정한 후 감정서를 사무실에 가져가면 환전해 줄거야!\n\n이것들의 가치를 감정하겠는가?
+ThanksMsg:음. 잠시만 기다리게나\n좋아 광석들의 감정이 끝났어\n감정결과 일반 광석이 맞구나\n이정도의 양이면 감정서를 세개 주겠내.
+ItemFullMsg:뭐야!\n가방의 여유공간이 없는거 같은데?
+DelItem:2469*11
+GetItem:2472*3
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2469*9,ITEM=2469*8,ITEM=2469*10
+AcceptMsg:일반 광석을 가지고 왔느냐!\n감정한 후 감정서를 사무실에 가져가면 환전해 줄거야!\n\n이것들의 가치를 감정하겠는가?
+ThanksMsg:음. 잠시만 기다리게나\n좋아 광석들의 감정이 끝났어\n감정결과 일반 광석이 맞구나\n이정도의 양이면 감정서를 두개 주겠내.
+ItemFullMsg:뭐야!\n가방의 여유공간이 없는거 같은데?
+DelItem:2469
+GetItem:2472*2
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2469*7,ITEM=2469*6,ITEM=2469*5
+AcceptMsg:일반 광석을 가지고 왔느냐!\n감정한 후 감정서를 사무실에 가져가면 환전해 줄거야!\n\n이것들의 가치를 감정하겠는가?
+ThanksMsg:음. 잠시만 기다리게나\n좋아 광석들의 감정이 끝났어\n감정결과 일반 광석이 맞구나\n이정도의 양이면 감정서를 한개 주겠내.
+ItemFullMsg:뭐야!\n가방의 여유공간이 없는거 같은데?
+DelItem:2469
+GetItem:2472*1
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2469*4,ITEM=2469*3,ITEM=2469*2,ITEM=2469*1
+NomalWindowMsg:뭐야~ 아직 감정을 받기에는 너무 양이 적은거 같은데?\n더 채석하고 오는게 좋을거 같아!
+EventEnd
+
+
+
+

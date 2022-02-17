@@ -1,0 +1,124 @@
+NPCCREATE
+{
+floorid=1300
+borncorner=29,57,29,57
+time=0
+createnum=1
+graphicname=16065
+name=호토르 학생
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|동굴에서 가끔씩 공룡들이 침범해 위헙을 주지
+}
+{
+floorid=1300
+borncorner=70,51,70,51
+time=0
+createnum=1
+graphicname=16046
+name=호토르 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|다른 마을은 어떻게 생겼을까？
+}
+{
+floorid=1300
+borncorner=25,50,25,50
+time=0
+createnum=1
+graphicname=16049
+name=호토르 청년
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|밖에 공룡들을 채집해서 키우고싶어！
+}
+{
+floorid=1300
+borncorner=35,60,35,60
+time=0
+createnum=1
+graphicname=16018
+name=호토르 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|무이의 고기는 정말 맛있더라！
+}
+{
+floorid=1300
+borncorner=37,26,37,26
+time=0
+createnum=1
+graphicname=16033
+name=마을 아가씨
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|호토르 마을에서는 카키고기가 유명하지
+}
+{
+floorid=1300
+borncorner=67,28,67,28
+time=0
+createnum=1
+graphicname=16046
+name=호토르 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|흠··· 뭐 재미난거 없을까
+}
+{
+floorid=1300
+borncorner=40,69,40,69
+time=0
+createnum=1
+graphicname=16046
+name=마을 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|흠···공룡들이 마을을 계속 위헙하는군
+}
+{
+floorid=1300
+borncorner=38,68,38,68
+time=0
+createnum=1
+graphicname=16049
+name=마을 청년
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|경비를 더 뽑아야 안전하지 않을까 생각하는데．．
+}
+#line 19
+{
+floorid=1300
+borncorner=40,71,40,71
+time=0
+createnum=1
+graphicname=16033
+name=마을 아가씨
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|무이라도 나타나게되면 마을이 위험해질꺼야！
+}
+{
+floorid=1300
+borncorner=54,27,54,27
+time=0
+createnum=1
+graphicname=16202
+name=경비원
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|이곳에는 촌장님이 계십니다.
+}
+{
+floorid=1300
+borncorner=51,27,51,27
+time=0
+createnum=1
+graphicname=16203
+name=경비원
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|피곤하구만···
+}
+

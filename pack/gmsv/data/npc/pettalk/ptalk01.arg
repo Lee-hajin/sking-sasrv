@@ -1,0 +1,19 @@
+{
+PETTEMPNO:718
+
+OTHER:
+TalkMsg:(．．．),(．．．)OVER
+
+TALKRUN3:
+FREE:LV>0
+PET:LV>74&LV<79
+TalkMsg:(．．．)OVER
+
+BOTH1:
+FREE:LV>0&ITEM=25000
+PET:LV=140&EXP>50000000
+exp:0
+AddItem:25001,25006
+DelItem:25000*1
+TalkMsg:\n\n(영혼의 돌이 반응하고 있습니다．．)\n\n(페트의 경험이 돌에 부여 되었습니다．．)OVER
+

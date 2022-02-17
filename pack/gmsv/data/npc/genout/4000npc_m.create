@@ -1,0 +1,177 @@
+NPCCREATE
+{
+floorid=4000
+borncorner=88,94,88,94
+time=0
+createnum=1
+graphicname=16066
+name=마을 여인
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|그러고보니 쟈쟈마을에 놀러 갔을때 본 그애는 어떻게 되었을까? 아직 돌아오지 않은것 같지만!
+}
+{
+floorid=4000
+borncorner=67,87,67,87
+time=0
+createnum=1
+graphicname=16019
+name=마을 사람
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|물건을 살 때에는 가게 사람에게「산다」라고 하면 살 수 있습니다. 또한 「팔다」라고 하면 팔 수 있습니다.
+}
+{
+floorid=4000
+borncorner=74,105,74,105
+time=0
+createnum=1
+graphicname=16044
+name=마을 청년
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|해저통로의 물고기들은 낚싯줄에 잘도 걸려.
+}
+{
+floorid=4000
+borncorner=66,75,66,75
+time=0
+createnum=1
+graphicname=16049
+name=마을 청년
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|나무 팔찌가 있으면 제로모 나무를 잘라서 팔 수 있을텐데···
+}
+{
+floorid=4000
+borncorner=74,84,74,84
+time=0
+createnum=1
+graphicname=16046
+name=마을 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|낚싯대의 나무라면「로드」라고 하는데 알고 있었나?
+}
+{
+floorid=4000
+borncorner=56,59,56,59
+time=0
+createnum=1
+graphicname=16031
+name=툰가의 부인
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|누군가 남편이 쟌족에 들어가는 것을 막아줬으면...
+}
+{
+floorid=4000
+borncorner=56,60,56,60
+time=0
+createnum=1
+graphicname=16008
+name=툰가의 딸
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|아빠는 굉장히 쎄! 아빠가 그렇게 말했거든!
+}
+{
+floorid=4000
+borncorner=75,92,75,92
+time=0
+createnum=1
+graphicname=16205
+name=경비원
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 촌장댁입니다. 특별한 용무가 없으신 분은 출입을 금합니다.
+}
+{
+floorid=4000
+borncorner=75,89,75,89
+time=0
+createnum=1
+graphicname=16205
+name=경비원
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 촌장댁입니다. 특별한 용무가 없으신 분은 출입을 금합니다.
+}
+{
+floorid=4000
+borncorner=70,56,70,56
+time=0
+createnum=1
+graphicname=16037
+name=마을 정보원
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|제로모의 나무를 자르려면 나무꾼의···무엇인지 잊어먹었어..
+}
+{
+floorid=4000
+borncorner=57,103,57,103
+time=0
+createnum=1
+graphicname=16002
+name=카루타나 선생님
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|나도 젊었을때는 여자들한테 인기가 많았어. 뭐야 그 눈은? 의심하는거야?
+}
+{
+floorid=4000
+borncorner=58,109,58,109
+time=0
+createnum=1
+graphicname=16003
+name=마을 아이
+dir=0
+ignoreinvincible=1
+enemy=npcgen_man|있잖아! 어딘가에 돌만으로 만들어진 마을이 있을까?
+}
+{
+floorid=4000
+borncorner=52,109,52,109
+time=0
+createnum=1
+graphicname=16004
+name=마을 아이
+dir=0
+ignoreinvincible=1
+enemy=npcgen_man|으음! 연애의 방정식은···
+}
+{
+floorid=4000
+borncorner=55,112,55,112
+time=0
+createnum=1
+graphicname=16005
+name=마을 아이
+dir=0
+ignoreinvincible=1
+enemy=npcgen_man|예예~ 선생님 잘 모르겠어요.
+}
+{
+floorid=4000
+borncorner=52,112,52,112
+time=0
+createnum=1
+graphicname=16006
+name=마을 아이
+dir=0
+ignoreinvincible=1
+enemy=npcgen_man|일단 손을 들고 보자····대답할 수 있을까?
+}
+{
+floorid=4000
+borncorner=55,109,55,109
+time=0
+createnum=1
+graphicname=16011
+name=마을 아이
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|재미없어잉.
+}

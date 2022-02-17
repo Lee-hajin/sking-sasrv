@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:응? 그건 시합 참가증이야!
+askbattlemsg2:나와 시합을 하기 위해 왔는가?
+startmsg:나의 상대가 너냐? 푸하하! 애송이 각오해라!
+dieact:0
+item:2535
+steal:1
+end msg:
+enemyno:1004
+deniedmsg:뭐야! 참가증을 가져와!
+time:300
+

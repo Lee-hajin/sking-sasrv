@@ -1,0 +1,46 @@
+NPCCREATE
+
+{
+floorid=6000
+borncorner=37,72,37,72
+time=0
+createnum=1
+graphicname=16066
+name=마을 아가씨
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 외딴곳에 잇는 쿠르마을 입니다!
+}
+{
+floorid=6000
+borncorner=53,79,53,79
+time=0
+createnum=1
+graphicname=16018
+name=마을 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|쿠르마을은 아주 고요한 마을이지
+}
+{
+floorid=6000
+borncorner=64,45,64,45
+time=0
+createnum=1
+graphicname=16044
+name=마을 청년
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|뒷길은 조심하는게 좋을꺼야！ 무서운 공룡들이 득실득실 거리니깐
+}
+{
+floorid=6000
+borncorner=74,67,74,67
+time=0
+createnum=1
+graphicname=16067
+name=마을 아가씨
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|음∼꽃향기 
+}

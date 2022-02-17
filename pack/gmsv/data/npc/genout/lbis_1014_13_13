@@ -1,0 +1,15 @@
+LIMITSHOP
+sell_rate:1.5
+buy_msg:안녕하세요,감사합니다baito,work,hataraku,nimotu,todoke
+main_msg:안녕하세요.
+sell_msg:팔다,팔다,팔다,팔다,팔다,sell,uru
+sell_main:무엇을 판매하시겠습니까？
+sellonly_msg:오늘의 아르바이트는 벌써 끝났다.\n전달할 물건이라면 접수 받는다.
+stone_msg:보유 스톤이 가득찾습니다.
+realy_msg:정말 괜찮겠습니까？
+LimitItemNo:2402,2403,2404
+special_item:
+special_rate:0.5
+
+
+

@@ -1,0 +1,15 @@
+LIMITSHOP
+sell_rate:0.6
+buy_msg:사다,정말로,kau,buy
+main_msg:안녕하세요.
+sell_msg:팔다,sell,uru
+sell_main:무엇을 판매하시겠습니까？
+sellonly_msg:음식을 구매중이야..\n탄광에 지친 인원을 달래줄\n먹을 음식이 없을까？
+stone_msg:보유 스톤이 가득찾습니다.
+realy_msg:정말 괜찮겠습니까？
+LimitItemNo:1600-2343
+special_item:
+special_rate:0.5
+
+
+

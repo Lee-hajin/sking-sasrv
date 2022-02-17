@@ -1,0 +1,23 @@
+NomalMainMsg:이곳은 어떻게 찾아온거지？
+
+EventNo:31
+TYPE:ACCEPT
+EVENT:ENDEV=28&NOWEV=31&ITEM=2517
+AcceptMsg:\n\n\n내 이름은 보로『화풍』을 담당하고 있지.
+ThanksMsg:\n\n너는 내게『지혜의 결정』을 주고 내가 너에게 목걸이를 주면 너는 인정받게 되지.\n\n내 제안을 받아드리겠나？
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+PetFullMsg:\n\n　　　페트칸이 부족합니다.
+DelItem:2517
+GetItem:2526
+GetPet:56
+EndSetFlg:31
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=28&ENDEV=31&ITEM!=2517&ITEM=2526&PET>0-93,ENDEV=28&ENDEV=31&ITEM!=2517&PET>0-93
+NomalWindowMsg:\n오형제의 가호를 받은 자여 더 높은 곳으로 나아가거라.
+EventEnd
+
+
+

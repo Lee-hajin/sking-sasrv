@@ -1,0 +1,19 @@
+NomalMainMsg:(단단히 묶여 있습니다)
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2697
+AcceptMsg:자루를 묶고 있는 끈을\n커팅돌로 자르시겠습니까？
+ThanksMsg:\n\n\n 자르시려면 OK 버튼을 눌러주세요.
+ItemFullMsg:\n\n\n아이템칸이 가득차 자루를 자를 수 없습니다.
+NpcWarp:122.198.39,122.234.96,122.105.158,122.246.158,122.162.12
+GetRandItem:32,44,59,156,164,169,243,254,260,339,343,360,439,444,457,532,544,560,643,650,668,742,752,760,32,156,243,254,339,439,532,643,742,2694,2695,2696
+DelItem:2697
+Break
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM!=2697
+NomalMsg:(단단히 묶여 있습니다)
+EventEnd

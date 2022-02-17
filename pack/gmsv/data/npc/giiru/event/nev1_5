@@ -1,0 +1,20 @@
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2528*1&ITEM=2529*1&ITEM=2530*1&ITEM=2531*1
+AcceptMsg:\n석상에 구멍이 뚫려 있다.\n갖고 있는 장신구를 넣어 보겠는가?
+ThanksMsg:\n네개의 장신구가 하나로 뭉쳐졌다.\n석상에게서 무언가가 나타났다.!!
+ItemFullMsg:\n가방이 가득차서 장신구를 돌려받았다.
+DelItem:2528*1,2529*1,2530*1,2531*1
+GetRandItem:51,52,71,148,171,241,271,375
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n석상에 구멍이 뚫려 있다.\n무언가 들어가는 구멍인거 같다.
+EventEnd
+
+
+
+
+

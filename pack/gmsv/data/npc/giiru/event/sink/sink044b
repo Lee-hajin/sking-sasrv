@@ -1,0 +1,54 @@
+NomalMainMsg:무척 목말라 보이는군.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2709
+AcceptMsg:\n\n무척 목말라 보이는군.\n항아리의 물이 있나？
+ThanksMsg:\n\n\n물을 마신뒤 토로쟈는 떠났다.
+ItemFullMsg:\n\n\n짐이 너무 많아서 가질 수 없을 것 같군.
+NpcWarp:30001.42.42,30008.41.58,30011.32.34,30008.78.64,30010.25.43,30012.34.40,30008.23.61,30001.42.42,30008.84.19
+GetItem:2716
+DelItem:2709
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2712
+AcceptMsg:\n\n무척 목말라 보이는군.\n항아리의 물이 있나？
+ThanksMsg:\n\n\n물을 마신뒤 토로쟈는 떠났다.
+ItemFullMsg:\n\n\n짐이 너무 많아서 가질 수 없을 것 같군.
+NpcWarp:30001.42.42,30008.41.58,30011.32.34,30008.78.64,30010.25.43,30012.34.40,30008.23.61,30001.42.42,30008.84.19
+GetItem:2717
+DelItem:2712
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2713
+AcceptMsg:\n\n무척 목말라 보이는군.\n항아리의 물이 있나？
+ThanksMsg:\n\n\n물을 마신뒤 토로쟈는 떠났다.\n항아리의 물이 텅 비었다.
+ItemFullMsg:\n\n\n짐이 너무 많아서 가질 수 없을 것 같군.
+NpcWarp:30001.42.42,30008.41.58,30011.32.34,30008.78.64,30010.25.43,30012.34.40,30008.23.61,30001.42.42,30008.84.19
+GetItem:2718
+DelItem:2713
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2710,LV>0&ITEM=2711,LV>0&ITEM=2712,LV>0&ITEM=2714,LV>0&ITEM=2715,LV>0&ITEM=2716,LV>0&ITEM=2717,LV>0&ITEM=2718
+AcceptMsg:\n\n무척 목말라 보이는군.\n항아리의 물이 있나？
+ThanksMsg:\n\n\n물을 마신뒤 토로쟈는 떠났다.\n항아리의 물이 없는 것 같다.
+ItemFullMsg:\n\n\n짐이 너무 많아서 가질 수 없을 것 같군.
+NpcWarp:30001.42.42,30008.41.58,30011.32.34,30008.78.64,30010.25.43,30012.34.40,30008.23.61,30001.42.42,30008.84.19
+DelItem:2710,2711,2712,2713,2714,2715,2716,2717,2718,
+GetItem:2708
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n\n무척 목말라 보이는군.
+EventEnd
+
+
+

@@ -1,0 +1,25 @@
+NPCCREATE
+
+{
+floorid=1112
+borncorner=16,15,16,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16000
+name=»çÅæ ÇÒ¾Æ¹ü
+enemy=changeevent|file:sainasu/event/event13_1
+}
+
+{
+floorid=1100
+borncorner=86,99,86,99
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16048
+name=ÂøÇÑ¼Ò³â
+enemy=changeevent|file:sainasu/event/event13_2
+}

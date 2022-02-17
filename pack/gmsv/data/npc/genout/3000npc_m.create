@@ -1,0 +1,100 @@
+NPCCREATE
+{
+floorid=3000
+borncorner=67,120,67,120
+time=0
+createnum=1
+graphicname=16209
+name=마을 사람
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 숲으로 둘러 쌓인 쟈쟈 마을이야! 어 알고 있니? 사육가 협회가 있는것 같아! 장소는 분명히···라토토산의····.
+}
+{
+floorid=3000
+borncorner=56,104,56,104
+time=0
+createnum=1
+graphicname=16055
+name=마을 청년
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|들은 것 있어? 남서쪽에 툰가라는 놈이 다리를 건너려는 사람들을 괴롭히고 있는것 같아!
+}
+{
+floorid=3000
+borncorner=57,105,57,105
+time=0
+createnum=1
+graphicname=16056
+name=마을 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|그럼 알고 있지! 툰가라는 애! 예쁜 부인이 있지 않았나?
+}
+{
+floorid=3000
+borncorner=103,67,103,67
+time=0
+createnum=1
+graphicname=16001
+name=마을 노인
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|택배가 생기고 나서부터 마을간 물건을 주고받는게 편해졌지
+}
+{
+floorid=3000
+borncorner=102,67,102,67
+time=0
+createnum=1
+graphicname=16071
+name=택배물건
+dir=4
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+{
+floorid=3000
+borncorner=91,60,91,60
+time=0
+createnum=1
+graphicname=16204
+name=경비원
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|여기는 촌장댁입니다. 특별히 용무가 없는 분의 출입은 금지합니다.
+}
+{
+floorid=3000
+borncorner=89,60,89,60
+time=0
+createnum=1
+graphicname=16204
+name=경비원
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|여기는 촌장댁입니다. 특별히 용무가 없는 분의 출입은 금지합니다.
+}
+{
+floorid=3000
+borncorner=101,98,101,98
+time=0
+createnum=1
+graphicname=16046
+name=마을 정보원
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 쟈루섬이라고 말하지만 좀더 북쪽으로 가면 사이너스라는 섬이 있는것 같아!
+}
+{
+floorid=3000
+borncorner=109,75,109,75
+time=0
+createnum=1
+graphicname=16046
+name=마을 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|라토토 산봉우리의 북쪽에 라토토 대동굴 이라는 것이 있지만 거기는 사육가의 집합장소인 것 같아!
+}

@@ -1,0 +1,39 @@
+NomalMainMsg:낚시란 정말 즐거운 스포츠인거 같구나.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2434
+AcceptMsg:오오! 내가 바라던 낚싯대군!
+ThanksMsg:음! 이 낚싯대는 장인의 기술이 담겨져 있어··\n낚싯대 장인은 재료의 따라 굉장한\n낚싯대를 만들수 있다고 하는군!\n일부러 나를위해 만들어 주다니 고맙군!\n답례로 조금전에 망에 걸린 물고기와\n감사의 선물을 줘야지!\n앞으로 이 낚싯대로 더 큰놈을 낚아야지!
+ItemFullMsg:음? 이런 가방이 가득찬거 같구만.
+GetItem:2437,11872*2,11863
+DelItem:2434*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2433
+AcceptMsg:오오! 내가 바라던 낚싯대군!
+ThanksMsg:음! 이 낚싯대는 장인의 기술이 담겨져 있어··\n낚싯대 장인은 재료의 따라 굉장한\n낚싯대를 만들수 있다고 하는군!\n일부러 나를위해 만들어 주다니 고맙군!\n답례로 조금전에 망에 걸린 물고기와\n감사의 선물을 줘야지!\n앞으로 이 낚싯대로 더 큰놈을 낚아야지!
+ItemFullMsg:음? 이런 가방이 가득찬거 같구만.
+GetItem:2436,11873,11863
+DelItem:2433*1
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2432
+AcceptMsg:오오! 내가 바라던 낚싯대군!
+ThanksMsg:음! 이 낚싯대는 장인의 기술이 담겨져 있어··\n낚싯대 장인은 재료의 따라 굉장한\n낚싯대를 만들수 있다고 하는군!\n일부러 나를위해 만들어 주다니 고맙군!\n답례로 조금전에 망에 걸린 물고기와\n감사의 선물을 줘야지!\n앞으로 이 낚싯대로 더 큰놈을 낚아야지!
+ItemFullMsg:음? 이런 가방이 가득찬거 같구만.
+GetItem:2435,11874,11863
+DelItem:2432*1
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&TIME!=0
+NomalWindowMsg:날씨가 좋으니 낚시를 하고 싶군!\n좀전에 낚싯대가 파도에 휩쓸려가 버렸어!\n그러고보니 이 마을에는 유명한 낚싯대\n장인이 있다고 해!\n그 사람의 낚싯대로 낚시를 하고 싶군!\n아니야! 가져와 달라는건 아니고···
+EventEnd

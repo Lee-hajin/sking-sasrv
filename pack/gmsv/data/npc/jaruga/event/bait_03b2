@@ -1,0 +1,102 @@
+NomalMainMsg:¾Æ¸£¹ÙÀÌÆ®¸¦ ÅëÇÑ ÆäÆ®¸¦ È¸¼öÇÏ°í, Á¶´ÞÀÌ¿ë±ÇÀ» Áö±ÞÇØµå¸®°í ÀÖ½À´Ï´Ù.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-559*5&ITEM=2590*1&ITEM=2595,PET>0-559*4&ITEM=2590*1&ITEM=2589*1&ITEM=2595,PET>0-559*3&ITEM=2590*1&ITEM=2589*2&ITEM=2595,PET>0-559*2&ITEM=2590*1&ITEM=2589*3&ITEM=2595,PET>0-559*1&ITEM=2590*1&ITEM=2589*4&ITEM=2595
+AcceptMsg:\n´ç½ÅÀÌ °®°í ÀÖ´Â ±× ¼ÒÀç°ø·æÀ»\n Áõ¸í¼­·Î ¹Ù²Ù°Ú½À´Ï±î?\nÀÌ Áõ¸í¼­°¡ ÀÖÀ¸¸é ¸ñÀåÁÖÀÎÀÌ\n¾Æ¸£¹ÙÀÌÆ® ´ë±ÝÀ» ÁöºÒÇØÁÙ°ÍÀÔ´Ï´Ù.
+ThanksMsg:\n±³È¯¹æ¹ýÀº ´ÙÀ½°ú °°½À´Ï´Ù.\n1¸¶¸® Æ¼ÄÏÀÌ 5°³¸¦ ¼ÒÁöÇßÀ» °æ¿ì 5¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\n5¸¶¸® Æ¼ÄÏÀÌ 2ÀåÀÌ¸é 10¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\nÃÖ´ë 20¸¶¸® Æ¼ÄÏ±îÁö ±³È¯ÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.
+ItemFullMsg:\n¼ÒÁöÇ°Ä­ÀÌ °¡µæ Âù°Å °°½À´Ï´Ù.!
+NotDel:2595
+DelPet:EVDEL
+DelItem:EVDEL
+GetItem:2591*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-559*5&ITEM=2595,PET>0-559*4&ITEM=2589*1&ITEM=2595,PET>0-559*3&ITEM=2589*2&ITEM=2595,PET>0-559*2&ITEM=2589*3&ITEM=2595,PET>0-559*1&ITEM=2589*4&ITEM=2595
+AcceptMsg:\n´ç½ÅÀÌ °®°í ÀÖ´Â ±× ¼ÒÀç°ø·æÀ»\n Áõ¸í¼­·Î ¹Ù²Ù°Ú½À´Ï±î?\nÀÌ Áõ¸í¼­°¡ ÀÖÀ¸¸é ¸ñÀåÁÖÀÎÀÌ\n¾Æ¸£¹ÙÀÌÆ® ´ë±ÝÀ» ÁöºÒÇØÁÙ°ÍÀÔ´Ï´Ù.
+ThanksMsg:\n±³È¯¹æ¹ýÀº ´ÙÀ½°ú °°½À´Ï´Ù.\n1¸¶¸® Æ¼ÄÏÀÌ 5°³¸¦ ¼ÒÁöÇßÀ» °æ¿ì 5¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\n5¸¶¸® Æ¼ÄÏÀÌ 2ÀåÀÌ¸é 10¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\nÃÖ´ë 20¸¶¸® Æ¼ÄÏ±îÁö ±³È¯ÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.
+ItemFullMsg:\n¼ÒÁöÇ°Ä­ÀÌ °¡µæ Âù°Å °°½À´Ï´Ù.!
+NotDel:2595
+DelPet:EVDEL
+DelItem:EVDEL
+GetItem:2590*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-559*4&ITEM=2595
+AcceptMsg:\n´ç½ÅÀÌ °®°í ÀÖ´Â ±× ¼ÒÀç°ø·æÀ»\n Áõ¸í¼­·Î ¹Ù²Ù°Ú½À´Ï±î?\nÀÌ Áõ¸í¼­°¡ ÀÖÀ¸¸é ¸ñÀåÁÖÀÎÀÌ\n¾Æ¸£¹ÙÀÌÆ® ´ë±ÝÀ» ÁöºÒÇØÁÙ°ÍÀÔ´Ï´Ù.
+ThanksMsg:\n±³È¯¹æ¹ýÀº ´ÙÀ½°ú °°½À´Ï´Ù.\n1¸¶¸® Æ¼ÄÏÀÌ 5°³¸¦ ¼ÒÁöÇßÀ» °æ¿ì 5¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\n5¸¶¸® Æ¼ÄÏÀÌ 2ÀåÀÌ¸é 10¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\nÃÖ´ë 20¸¶¸® Æ¼ÄÏ±îÁö ±³È¯ÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.
+ItemFullMsg:\n¼ÒÁöÇ°Ä­ÀÌ °¡µæ Âù°Å °°½À´Ï´Ù.!
+DelPet:PET>0-559*4
+GetItem:2589*4
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-559*3&ITEM=2595
+AcceptMsg:\n´ç½ÅÀÌ °®°í ÀÖ´Â ±× ¼ÒÀç°ø·æÀ»\n Áõ¸í¼­·Î ¹Ù²Ù°Ú½À´Ï±î?\nÀÌ Áõ¸í¼­°¡ ÀÖÀ¸¸é ¸ñÀåÁÖÀÎÀÌ\n¾Æ¸£¹ÙÀÌÆ® ´ë±ÝÀ» ÁöºÒÇØÁÙ°ÍÀÔ´Ï´Ù.
+ThanksMsg:\n±³È¯¹æ¹ýÀº ´ÙÀ½°ú °°½À´Ï´Ù.\n1¸¶¸® Æ¼ÄÏÀÌ 5°³¸¦ ¼ÒÁöÇßÀ» °æ¿ì 5¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\n5¸¶¸® Æ¼ÄÏÀÌ 2ÀåÀÌ¸é 10¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\nÃÖ´ë 20¸¶¸® Æ¼ÄÏ±îÁö ±³È¯ÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.
+ItemFullMsg:\n¼ÒÁöÇ°Ä­ÀÌ °¡µæ Âù°Å °°½À´Ï´Ù.!
+DelPet:PET>0-559*3
+GetItem:2589*3
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-559*2&ITEM=2595
+AcceptMsg:\n´ç½ÅÀÌ °®°í ÀÖ´Â ±× ¼ÒÀç°ø·æÀ»\n Áõ¸í¼­·Î ¹Ù²Ù°Ú½À´Ï±î?\nÀÌ Áõ¸í¼­°¡ ÀÖÀ¸¸é ¸ñÀåÁÖÀÎÀÌ\n¾Æ¸£¹ÙÀÌÆ® ´ë±ÝÀ» ÁöºÒÇØÁÙ°ÍÀÔ´Ï´Ù.
+ThanksMsg:\n±³È¯¹æ¹ýÀº ´ÙÀ½°ú °°½À´Ï´Ù.\n1¸¶¸® Æ¼ÄÏÀÌ 5°³¸¦ ¼ÒÁöÇßÀ» °æ¿ì 5¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\n5¸¶¸® Æ¼ÄÏÀÌ 2ÀåÀÌ¸é 10¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\nÃÖ´ë 20¸¶¸® Æ¼ÄÏ±îÁö ±³È¯ÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.
+ItemFullMsg:\n¼ÒÁöÇ°Ä­ÀÌ °¡µæ Âù°Å °°½À´Ï´Ù.!
+DelPet:PET>0-559*2
+GetItem:2589*2
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:PET>0-559*1&ITEM=2595
+AcceptMsg:\n´ç½ÅÀÌ °®°í ÀÖ´Â ±× ¼ÒÀç°ø·æÀ»\n Áõ¸í¼­·Î ¹Ù²Ù°Ú½À´Ï±î?\nÀÌ Áõ¸í¼­°¡ ÀÖÀ¸¸é ¸ñÀåÁÖÀÎÀÌ\n¾Æ¸£¹ÙÀÌÆ® ´ë±ÝÀ» ÁöºÒÇØÁÙ°ÍÀÔ´Ï´Ù.
+ThanksMsg:\n±³È¯¹æ¹ýÀº ´ÙÀ½°ú °°½À´Ï´Ù.\n1¸¶¸® Æ¼ÄÏÀÌ 5°³¸¦ ¼ÒÁöÇßÀ» °æ¿ì 5¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\n5¸¶¸® Æ¼ÄÏÀÌ 2ÀåÀÌ¸é 10¸¶¸® Æ¼ÄÏÀ¸·Î ±³È¯\nÃÖ´ë 20¸¶¸® Æ¼ÄÏ±îÁö ±³È¯ÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.
+ItemFullMsg:\n¼ÒÁöÇ°Ä­ÀÌ °¡µæ Âù°Å °°½À´Ï´Ù.!
+DelPet:PET>0-559*1
+GetItem:2589*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2591*2
+AcceptMsg:\n¼ÒÁöÇÏ°í °è½Å Á¶´ÞÀÌ¿ë±ÇÀ» ¾ÐÃàÇÏ½Ã°Ú½À´Ï±î?
+ThanksMsg:\n¾ÐÃà Áß ÀÔ´Ï´Ù.\n¾ÐÃàµÈ Á¶´ÞÀÌ¿ë±ÇÀ» ¼ö·É ¹ÞÀ¸½Ã°Ú½À´Ï±î?
+ItemFullMsg:¼ÒÁöÇ°Ä­ÀÌ °¡µæ Âù°Å °°½À´Ï´Ù.!
+DelItem:2591*2
+GetItem:2592*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2591*1&ITEM=2590*2
+AcceptMsg:\n¼ÒÁöÇÏ°í °è½Å Á¶´ÞÀÌ¿ë±ÇÀ» ¾ÐÃàÇÏ½Ã°Ú½À´Ï±î?
+ThanksMsg\nÕâÊÇÕûÀí¹ýµÄÖ¤Ã÷Êé¡£\nÔÚÈ¥ÄÁ³¡³¡Ö÷µÄÄÇ±ßÖ®Ç°\nÒªÍ×ÉÆ±£¹ÜÅ¶¡£
+ItemFullMsg:¼ÒÁöÇ°Ä­ÀÌ °¡µæ Âù°Å °°½À´Ï´Ù.!
+DelItem:2590*2,2591*1
+GetItem:2592*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2590*4
+AcceptMsg:\n¼ÒÁöÇÏ°í °è½Å Á¶´ÞÀÌ¿ë±ÇÀ» ¾ÐÃàÇÏ½Ã°Ú½À´Ï±î?
+ThanksMsg:\n¾ÐÃà Áß ÀÔ´Ï´Ù.\n¾ÐÃàµÈ Á¶´ÞÀÌ¿ë±ÇÀ» ¼ö·É ¹ÞÀ¸½Ã°Ú½À´Ï±î?
+ItemFullMsg:¼ÒÁöÇ°Ä­ÀÌ °¡µæ Âù°Å °°½À´Ï´Ù.!
+DelItem:2590*4
+GetItem:2592*1
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2594,ITEM=2595,ITEM=2596
+NomalWindowMsg:Á¶±³ÀÇ ÆÈÂî¸¦ ÀÌ°÷±îÁö °¡Áö°í¿À½Ã¸é ¾ÈµË´Ï´Ù.\nÈ¸¼öÃ³¸®¸¦ ¹Þ°í ´Ù½Ã Ã£¾Æ¿À½Ê½Ã¿À.
+EventEnd
+

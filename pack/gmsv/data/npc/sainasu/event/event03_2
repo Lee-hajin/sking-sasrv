@@ -1,0 +1,33 @@
+NomalMainMsg:흠. 무엇을 만들어볼까
+
+EventNo:5
+TYPE:ACCEPT
+EVENT:NOWEV=5&ITEM=2423
+AcceptMsg:오오!\n손자가 편지를 쓴건가?
+ThanksMsg:고맙군!\n답례로 너에게 이 도끼를 주마.\n그래 손자에게 주었던것과 달리 개량해서\n더 강한 물건이 되었지\n떨어뜨려도 깨지지 않아! 어떠냐?
+ItemFullMsg:가방이 무거워서 도끼를 줄 수 없을꺼 같군.
+GetItem:2448
+DelItem:2423
+EndSetFlg:5
+EventEnd
+
+
+EventNo:3
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:내 부탁을 들어주겠나?
+ThanksMsg:내가 만든 신기한 도끼를 호토르에 살고\n있는 손자 마티에게 가져다 주지 않겠니?\n나이를 먹어서 사막을 넘어갈 수가 없어!\n아무쪼록 부탁하네!
+StopMsg:왜그러나? 가지 못하겠나?
+EndStopMsg:흠. 그래 알겠내
+NoStopMsg:빨리 가져다 주게나!
+ItemFullMsg:가방이 무거워서 도끼를 줄 수 없어.
+GetItem:2416
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=3,ENDEV=5
+NomalMsg:음. 도끼는 어떤가 하하
+EventEnd
+
+

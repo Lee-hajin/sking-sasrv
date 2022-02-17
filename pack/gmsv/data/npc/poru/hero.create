@@ -1,0 +1,22 @@
+NPCCREATE
+
+{
+name=¹è°íÇÂ ¼¤±â¸£
+floorid=5501
+borncenter=43,5,1,1
+dir=6
+createnum=1
+enemy=changeevent|file:poru/samugiru
+graphicname=100036
+}
+{
+floorid=32021
+borncenter=31,22
+dir=6
+time=0
+createnum=1
+ignoreinvincible=1
+graphicname=4002
+name=°í´ë¹®¸í
+enemy=sb_dou|file:poru/samgiru01.arg
+}

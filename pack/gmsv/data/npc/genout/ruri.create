@@ -1,0 +1,23 @@
+NPCCREATE
+{
+floorid=21009
+borncorner=46,43,46,43
+time=0
+createnum=1
+graphicname=10063
+name=공지사항
+dir=4
+ignoreinvincible=1
+enemy=npcgen_signboard|file:genout/signb_21009_46_43
+}
+{
+floorid=21003
+borncorner=34,10,34,10
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100451
+name=대지의 심판
+enemy=npcgen_warpman|file:genout/wpm_21003_34_10
+}

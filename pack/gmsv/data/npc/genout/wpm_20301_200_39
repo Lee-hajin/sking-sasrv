@@ -1,0 +1,7 @@
+WARP:20301,200,41
+FREE:LV>0&ENDEV=40,LV>0&NOWEV=40
+MONEY:-1
+FreeMsg:\n\n당신은 앞으로 전진하고 싶습니까?\n이 앞이, 당신에게 무엇을 의미하는지\n잘 생각한 후 들어가세요.
+PayMsg:\n\n당신은 이곳을 넘어가실 수 없습니다.
+PartyMsg:\n파티를 해제하세요.
+MoneyMsg:\n\n돈이 부족한대！

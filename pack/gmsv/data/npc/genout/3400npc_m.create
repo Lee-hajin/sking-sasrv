@@ -1,0 +1,78 @@
+NPCCREATE
+{
+floorid=3400
+borncorner=63,42,63,42
+time=0
+createnum=1
+graphicname=16036
+name=마을 소녀
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|쿠키 마을에 어서오세요!
+}
+{
+floorid=3400
+borncorner=50,81,50,81
+time=0
+createnum=1
+graphicname=16018
+name=마을 사람
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 쟈루섬의 최남서에 위치한 쿠키마을입니다!
+}
+{
+floorid=3400
+borncorner=50,57,50,57
+time=0
+createnum=1
+graphicname=16017
+name=마을 사람
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|고기는 있어도 괜찮지만 무거우니깐 귀찮네!
+}
+{
+floorid=3400
+borncorner=64,50,64,50
+time=0
+createnum=1
+graphicname=16056
+name=마을 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|나에게는 누가 재물을 바치지 않으려나···
+}
+{
+floorid=3400
+borncorner=54,63,54,63
+time=0
+createnum=1
+graphicname=16207
+name=경비원(형)
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|여기는 촌장댁입니다. 특별한 용무가 없으신 분의 출입은 금지합니다.
+}
+{
+floorid=3400
+borncorner=54,61,54,61
+time=0
+createnum=1
+graphicname=16207
+name=경비원(동생)
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|여기는 촌장댁입니다. 특별한 용무가 없으신 분의 출입은 금지합니다.
+}
+{
+floorid=3400
+borncorner=57,49,57,49
+time=0
+createnum=1
+graphicname=16055
+name=마을 사람
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|이 페트샵에는 잘생긴 페트가 있어!
+}

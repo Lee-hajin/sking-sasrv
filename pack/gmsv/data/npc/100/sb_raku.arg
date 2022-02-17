@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:이 바위를 치워 주겠습니까?
+star tmsg:
+dieact:0
+end msg:
+enemyno:722,512,512,508,508
+deniedmsg:지금은 접근하지 않는것이 좋을것입니다.
+alreadymsg:지금은 접근하지 않는것이 좋을것입니다.
+time:300
+onebattle:1
+

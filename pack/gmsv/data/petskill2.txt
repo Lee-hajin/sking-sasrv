@@ -1,0 +1,118 @@
+대기,아무것도 하지 않음,PETSKILL_None,,,,0,1,5,2,500,PETSKILL_NONE
+공격,통상 공격,PETSKILL_NormalAttack,,,,1,1,6,2,1000,PETSKILL_NORMALATTACK
+방어,방어상태를 유지한다.,PETSKILL_NormalGuard,,,,2,1,5,2,1000,PETSKILL_NORMALGUARD
+가드브레이크,가드를 하고 있는 상대에게만 유효한 공격입니다.,PETSKILL_GuardBreak,,,,3,1,6,2,1500,PETSKILL_GUARDBREAK
+연속공격,절반의 공격력으로 2회 공격합니다. ,PETSKILL_ContinuationAttack,2,,,10,1,6,2,2000,PETSKILL_CONTINUATIONATTACK1
+삼단공격,1/3의 공격력으로 3회 공격합니다.,PETSKILL_ContinuationAttack,3,,,11,1,6,2,5000,PETSKILL_CONTINUATIONATTACK2
+T연속공격4,1/4의 공격력으로 4회 공격합니다.,PETSKILL_ContinuationAttack,4,,Te,12,1,6,2,15000,PETSKILL_CONTINUATIONATTACK3
+T연속공격5,1/5의 공격력으로 5회 공격합니다.,PETSKILL_ContinuationAttack,5,,Tf,13,1,6,2,25000,PETSKILL_CONTINUATIONATTACK4
+T연속공격6,1/6의 공격력으로 6회 공격합니다.,PETSKILL_ContinuationAttack,6,,,14,1,6,2,225000,PETSKILL_CONTINUATIONATTACK5
+T연속공격7,1/7의 공격력으로 7회 공격합니다.,PETSKILL_ContinuationAttack,7,,,15,1,6,2,625000,PETSKILL_CONTINUATIONATTACK6
+T연속공격8,1/8의 공격력으로 8회 공격합니다.,PETSKILL_ContinuationAttack,8,,,16,1,6,2,625000,PETSKILL_CONTINUATIONATTACK7
+T연속공격9,1/9의 공격력으로 9회 공격합니다.,PETSKILL_ContinuationAttack,9,,,17,1,6,2,1625000,PETSKILL_CONTINUATIONATTACK8
+충견 진돗개,캐릭터가 적의 공격을 회피하지 못할 경우 페트가 대신 맞아줍니다.,PETSKILL_Guardian,묑%-20  COM:묑샌,,,20,1,7,2,2500,PETSKILL_GUARDIAN1
+V충견 진돗개,캐릭터가 적의 공격을 회피하지 못할 경우 페트가 대신 맞아줍니다.,PETSKILL_Guardian,묑%-10  COM:묑샌,,,21,1,7,2,2500,PETSKILL_GUARDIAN2
+모아치기,한 턴 휴식 후 다음 턴에서 두 배의 데미지로 공격합니다.,PETSKILL_ChargeAttack,1 묑%+90,,,30,1,6,2,4000,PETSKILL_CHARGE1
+더블모아치기,2턴 휴식 후 약 두 배 이상의 데미지로 공격합니다.,PETSKILL_ChargeAttack,2 묑%+110,,,31,1,6,2,8000,PETSKILL_CHARGE2
+일격필살,1.5배의 데미지로 공격하지만 명중률이 낮아집니다. ,PETSKILL_Mighty,굡2 쀼긁30,,,40,1,6,2,2500,PETSKILL_MIGHTY1
+T일격필살,강력한 데미지로 공격하지만 명중률이 낮아집니다. ,PETSKILL_Mighty,굡3 쀼긁15,,Ta,41,1,6,2,25000,PETSKILL_MIGHTY2
+배수의 진1,25프로의 공격력을 얻지만 방어력이 35프로 감소합니다.,PETSKILL_PowerBalance,묑%+25 렝%-35,,,50,1,6,2,2000,PETSKILL_POWERBALANCE1
+배수의 진2,45프로의 공격력을 얻지만 방어력이 55프로 감소합니다.,PETSKILL_PowerBalance,묑%+45 렝%-55,,,51,1,6,2,2500,PETSKILL_POWERBALANCE2
+T배수의진3,방어력을 50% 감소 & 공격력을 80% 증가시켜 공격한다.,PETSKILL_PowerBalance,묑%+80 렝%-50,,Tb,52,1,6,2,30000,PETSKILL_POWERBALANCE3
+T배수의진4,방어력을 50% 감소 & 공격력을 100% 증가시켜 공격한다.,PETSKILL_PowerBalance,묑%+100 렝%-50,,,53,1,6,2,100000,PETSKILL_POWERBALANCE4
+T배수의진5,방어력을 90% 감소 & 공격력을 140% 증가시켜 공격한다.,PETSKILL_PowerBalance,묑%+110 렝%-90,,,54,1,6,2,130000,PETSKILL_POWERBALANCE5
+V배수의진3,방어력을 40% 감소 & 공격력을 90% 증가시켜 공격한다.,PETSKILL_PowerBalance,묑%+90 렝%-40,,Tb,55,1,6,2,30000,PETSKILL_POWERBALANCE6
+독 공격,공격력을 30프로 감소하여 독공격을 사용합니다.,PETSKILL_StatusChange,뗀 turn 3  묑%-30,,,60,1,6,2,2500,PETSKILL_POISON_ATTACK1
+맹독 공격,공격력을 50프로 감소하여 맹독공격을 사용합니다.,PETSKILL_StatusChange,뗀 turn 5  묑%-50,,,61,1,6,2,4000,PETSKILL_POISON_ATTACK2
+석화 공격,공격력을 30프로 감소하여 석화공격을 사용합니다.,PETSKILL_StatusChange,柯 turn 3  묑%-30,,,80,1,6,2,2300,PETSKILL_STONE
+혼란 공격,공격력을 30프로 감소하여 혼란공격을 사용합니다.,PETSKILL_StatusChange,쫘 turn 3 묑%-30,,,90,1,6,2,2000,PETSKILL_CONFUSION_ATTACK
+만취 공격,공격력을 30프로 감소하여 만취공격을 사용합니다.,PETSKILL_StatusChange,釐 turn 3 묑%-30,,,100,1,6,2,2000,PETSKILL_DRUNK_ATTACK
+수면 공격,공격력을 30프로 감소하여 수면공격을 사용합니다.,PETSKILL_StatusChange,추 turn 3  묑%-30,,,110,1,6,2,2500,PETSKILL_SLEEP_ATTACK
+지구일주,페트가 뒤로 달려갑니다. 다음 턴에 공격 목표의 뒤에서 공격합니다.,PETSKILL_EarthRound,묑%+90,,,120,1,6,2,2000,PETSKILL_EARTHROUND1
+T지구일주,페트가 뒤로 달려갑니다. 다음 턴에 공격 목표의 뒤에서 공격합니다.,PETSKILL_EarthRound,묑%+200,,,121,1,6,2,2000,PETSKILL_EARTHROUND1
+여행의 길동무,기술이 성공할 경우 상대방의 페트를 데리고 장외로 나갑니다.,PETSKILL_Abduct,,,,130,1,7,2,3000,PETSKILL_Abduct
+훔치기,상대의 물건을 훔칩니다.,PETSKILL_Steal,,,,140,1,7,2,0,PETSKILL_STEAL
+노가드 전법,직접 공격을 하지는 않지만 회피율과 반격 확률이 대폭 증가합니다.,PETSKILL_NoGuard,쀼긁%+30 럽샌%+50 삔懃%+20,,,150,1,5,2,3000,PETSKILL_NOGUARD1
+T노가드 전법,직접 공격을 하지는 않지만 회피율과 반격 확률이 대폭 증가합니다.,PETSKILL_NoGuard,쀼긁%+40 럽샌%+60 삔懃%+30,,Tc,151,1,5,2,15000,PETSKILL_NOGUARD2
+T노가드 전법,직접 공격을 하지는 않지만 회피율과 반격 확률이 대폭 증가합니다.,PETSKILL_NoGuard,쀼긁%+50 럽샌%+80 삔懃%+40,,Td,152,1,5,2,25000,PETSKILL_NOGUARD3
+가공,아이템을 가공하여 합성 아이템을 만듭니다.,PETSKILL_Merge,,,,200,2,0,1,1500,PETSKILL_MERGE
+요리,소재를 사용하여 요리를 만듭니다.,PETSKILL_Merge,,,,201,2,0,1,1000,PETSKILL_MERGE2
+낙마술,상대방이 탑승 상태일경우 페트에게서 떨어뜨립니다..,PETSKILL_FallGround,묑%-30,,Ca,210,1,6,2,3000,PETSKILL_FALLGROUND
+도둑질,상대방의 스톤을 훔칩니다.,PETSKILL_StealMoney,,,,211,1,7,2,3500,PETSKILL_STEALMONEY
+낙석,지속성 마법 Lv1,PETSKILL_AttackMagic,magic 301 item 19647,,,301,1,7,2,0,PETSKILL_AttactMagic
+천낙석,지속성 마법 Lv2,PETSKILL_AttackMagic,magic 302 item 19648,,,302,1,7,2,0,PETSKILL_AttactMagic
+토류,지속성 마법 Lv3-1,PETSKILL_AttackMagic,magic 303 item 19649,,,303,1,7,2,0,PETSKILL_AttactMagic
+대운석,지속성 마법 Lv3-2,PETSKILL_AttackMagic,magic 304 item 19650,,,304,1,7,2,0,PETSKILL_AttactMagic
+지진,지속성 마법 Lv3-3,PETSKILL_AttackMagic,magic 305 item 19651,,,305,1,7,2,0,PETSKILL_AttactMagic
+천화낙,지속성 마법 Lv4,PETSKILL_AttackMagic,magic 306 item 19652,,,306,1,7,2,0,PETSKILL_AttactMagic
+수성,수속성 마법 Lv1,PETSKILL_AttackMagic,magic 307 item 19653,,,307,1,7,2,0,PETSKILL_AttactMagic
+폭우,수속성 마법 Lv2,PETSKILL_AttackMagic,magic 308 item 19654,,,308,1,7,2,0,PETSKILL_AttactMagic
+빙석,수속성 마법 Lv3-1,PETSKILL_AttackMagic,magic 309 item 19655,,,309,1,7,2,0,PETSKILL_AttactMagic
+설풍,수속성 마법 Lv3-2,PETSKILL_AttackMagic,magic 310 item 19656,,,310,1,7,2,0,PETSKILL_AttactMagic
+수증기,수속성 마법 Lv3-3,PETSKILL_AttackMagic,magic 311 item 19657,,,311,1,7,2,0,PETSKILL_AttactMagic
+빙설폭우,수속성 마법 Lv4,PETSKILL_AttackMagic,magic 312 item 19658,,,312,1,7,2,0,PETSKILL_AttactMagic
+화염,화속성 마법 Lv1,PETSKILL_AttackMagic,magic 313 item 19659,,,313,1,7,2,0,PETSKILL_AttactMagic
+대화염,화속성 마법 Lv2,PETSKILL_AttackMagic,magic 314 item 19660,,,314,1,7,2,0,PETSKILL_AttactMagic
+화증기,화속성 마법 Lv3-1,PETSKILL_AttackMagic,magic 315 item 19661,,,315,1,7,2,0,PETSKILL_AttactMagic
+화선풍,화속성 마법 Lv3-2,PETSKILL_AttackMagic,magic 316 item 19662,,,316,1,7,2,0,PETSKILL_AttactMagic
+폭화기둥,화속성 마법 Lv3-3,PETSKILL_AttackMagic,magic 317 item 19663,,,317,1,7,2,0,PETSKILL_AttactMagic
+폭연발,화속성 마법 Lv4,PETSKILL_AttackMagic,magic 318 item 19664,,,318,1,7,2,0,PETSKILL_AttactMagic
+약풍,풍속성 마법 Lv1,PETSKILL_AttackMagic,magic 319 item 19665,,,319,1,7,2,0,PETSKILL_AttactMagic
+선풍,풍속성 마법 Lv2,PETSKILL_AttackMagic,magic 320 item 19666,,,320,1,7,2,0,PETSKILL_AttactMagic
+풍우,풍속성 마법 Lv3-1,PETSKILL_AttackMagic,magic 321 item 19667,,,321,1,7,2,0,PETSKILL_AttactMagic
+산풍,풍속성 마법 Lv3-2,PETSKILL_AttackMagic,magic 322 item 19668,,,322,1,7,2,0,PETSKILL_AttactMagic
+빙산풍,풍속성 마법 Lv3-3,PETSKILL_AttackMagic,magic 323 item 19669,,,323,1,7,2,0,PETSKILL_AttactMagic
+빙설폭우,풍속성 마법 Lv4,PETSKILL_AttackMagic,magic 324 item 19670,,,324,1,7,2,0,PETSKILL_AttactMagic
+화염꽃,마법 Lv5,PETSKILL_AttackMagic,magic 325 item 19671,,,325,1,7,2,0,PETSKILL_AttactMagic
+정화,파티원 전체를 정화시킨다.,PETSKILL_Refresh,홍,,,326,1,3,2,8000,PETSKILL_REFRESH
+부활술,해당 페트가 하나의 대상을 부활시킵니다.,ENEMYSKILL_ReLife,,,Ea,500,1,2,2,0,ENEMYSKILL_RELIFES
+회복술,해당 페트가 회복을 시켜줍니다.,ENEMYSKILL_ReHP,,,Eb,501,1,2,2,0,ENEMYSKILL_RELIFHP
+흡혈공격,공격력을 30퍼센트 감소하여，공격한 대상의 50프로의 체력을 빼앗습니다.,PETSKILL_DamageToHp,30|50,,Ba,503,1,6,2,2000,PETSKILL_DAMAGETOHP
+흡혈공격2,공격력을 20퍼센트 감소하여，공격한 대상의 70프로의 체력을 빼앗습니다.,PETSKILL_DamageToHp,20|70,,Bb,504,1,6,2,0,PETSKILL_DAMAGETOHP
+흡혈공격3,공격력을 10퍼센트 감소하여，공격한 대상의 100프로의 체력을 빼앗습니다.,PETSKILL_DamageToHp,10|100,,Bc,505,1,6,2,0,PETSKILL_DAMAGETOHP
+정령의 공격,공격력을 50퍼센트 감소하여상대방의 기력 50프로를 빼았습니다.,PETSKILL_MpDamage,50|50,,Bd,506,1,6,2,2000,PETSKILL_MPDAMAGE
+정령의 공격2,공격력을 50퍼센트 감소하여，상대방의 기력 75프로를 빼았습니다.,PETSKILL_MpDamage,50|75,,Bf,507,1,6,2,0,PETSKILL_MPDAMAGE
+정령의 공격3,공격력을 50퍼센트 감소하여，상대방의 기력 100프로를 빼았습니다.,PETSKILL_MpDamage,50|100,,Be,508,1,6,2,0,PETSKILL_MPDAMAGE
+수리,망가진 아이템을 수리합니다.,PETSKILL_Fixitem,,,,540,2,0,1,300,PETSKILL_FIXITEM
+난폭공격,공격력을 끌어올려 상대방을 랜덤으로 공격합니다.,PETSKILL_WildViolentAttack,묑%+80 렝%-35 쀼긁30,,Wa,541,1,6,2,1000,PETSKILL_WILDVIOLENTATTACK
+광속공격,30프로의 공격력을 얻지만 순발력이 30프로 감소합니다.,PETSKILL_SpeedyAttack,렝%-30 츌%+30,,,542,1,6,2,1000,PETSKILL_SPEEDYATTACK
+가드브레이크2,가드를 하고 있는 상대에게만 유효한 공격입니다.,PETSKILL_GuardBreak2,,,Ai,543,1,6,2,1000,PETSKILL_GUARDBREAK2
+강화공격,지속성 20프로를 강화하여 공격한다.,PETSKILL_Modifyattack,EA|20,,Dq,544,1,6,2,2000,PETSKILL_MODIFYATT
+강화공격,수속성 20프로를 강화하여 공격한다.,PETSKILL_Modifyattack,WA|20,,Sq,545,1,6,2,2000,PETSKILL_MODIFYATT
+강화공격,화속성 20프로를 강화하여 공격한다.,PETSKILL_Modifyattack,FI|20,,Hq,546,1,6,2,2000,PETSKILL_MODIFYATT
+강화공격,풍속성 20프로를 강화하여 공격한다.,PETSKILL_Modifyattack,WI|20,,Fq,547,1,6,2,2000,PETSKILL_MODIFYATT
+강화공격,지속성을 2배 강화하여 공격한다.,PETSKILL_Mdfyattack,EA|100,,,548,1,6,2,2000,PETSKILL_MDFYATTACK
+강화공격,수속성을 2배 강화하여 공격한다.,PETSKILL_Mdfyattack,WA|100,,,549,1,6,2,2000,PETSKILL_MDFYATTACK
+강화공격,화속성을 2배 강화하여 공격한다.,PETSKILL_Mdfyattack,FI|100,,,550,1,6,2,2000,PETSKILL_MDFYATTACK
+강화공격,풍속성을 2배 강화하여 공격한다.,PETSKILL_Mdfyattack,WI|100,,,551,1,6,2,2000,PETSKILL_MDFYATTACK
+철벽,3턴동안 아군의 방어력이 30퍼센트 증가합니다.,PETSKILL_MagicStatusChange,屆귿|3|30|홍,,,552,1,2,2,0,PETSKILL_MSTATUSCHANGH
+철벽,3턴동안 아군의 방어력이 30퍼센트 증가합니다.,PETSKILL_MagicStatusChange,屆귿|3|30|홍,,At,553,1,2,2,0,PETSKILL_MSTATUSCHANGH
+보석 장착술,보석이 장착 가능한 아이템에 보석을 장착한다,PETSKILL_Inslay,,,Da,572,2,0,1,3000,PETSKILL_INSLAY
+악마의 계약,해당 내구력 반을 악마와 계약하여 아군의 내구력을 회복시킵니다.,PETSKILL_Sacrifice,,,,573,1,1,2,0,PETSKILL_SACRIFICE
+깨물기,상대방이 장착하고 있는 장비를 파괴시킵니다.,PETSKILL_ToothCrushe,,,Ed,574,1,6,2,0,PETSKILL_TOOTHCRUSHE
+약점공격,공격력을 30프로 감소하여 약점공격을 사용합니다.,PETSKILL_Weaken,肯 turn 3 냥 50,,Ga,575,1,6,2,3000,PETSKILL_WEAKEN
+패기,상대방 전체의 약점을 들어냅니다.,PETSKILL_Weaken,肯 turn 3 냥 50,,,576,1,3,2,0,PETSKILL_WEAKEN
+맹독,상대방을 5턴 동안 맹독상태로 만듭니다. (한몸),PETSKILL_Deeppoison,양 turn 5 냥 50,,,577,1,6,2,0,PETSKILL_DEEPPOISON
+맹독,상대방을 5턴 동안 맹독상태로 만듭니다. (전체),PETSKILL_Deeppoison,양 turn 5 냥 50,,,578,1,3,2,0,PETSKILL_DEEPPOISON
+장애,상대방을 1턴 동안 장애상태로 만듭니다.,PETSKILL_Barrier,崍 turn 1 냥 50,,,579,1,3,2,0,PETSKILL_BARRIER
+봉인,상대방을 3턴 동안 봉인상태로 만듭니다.,PETSKILL_Nocast,칵 turn 3 냥 50,,Ra,580,1,3,2,1000,PETSKILL_NOCAST
+봉인 정화술,봉인 상태를 정화시킵니다.,PETSKILL_Refresh,칵,,Ah,583,1,2,2,2000,PETSKILL_REFRESH
+맹독 정화술,맹독 상태를 정화시킵니다.,PETSKILL_Refresh,양,,,584,1,2,2,5000,PETSKILL_REFRESH
+장애 정화술,장애 상태를 정화시킵니다.,PETSKILL_Refresh,崍,,,591,1,1,2,5000,PETSKILL_REFRESH
+고등 정화술,모든 상태를 정화시킵니다.,PETSKILL_Refresh,홍,,,592,1,2,2,8000,PETSKILL_REFRESH
+패기,적 전체의 약점을 들어냅니다.,PETSKILL_Refresh,肯,,,593,1,2,2,5000,PETSKILL_REFRESH
+정령왕의 힘,적 전체를 장애상태로 만듭니다.,PETSKILL_Barrier,崍 turn 3 냥 50,,,594,1,3,2,0,PETSKILL_BARRIER
+진화,해당 페트가 진화 합니다.,PETSKILL_Vary,묑%+30 츌%+30 침렝%-50,,Ia,600,1,5,2,1000,PETSKILL_VARY
+유리의 갑옷,3턴동안 아군의 방어력이 15퍼센트 증가합니다.,PETSKILL_SetMagicPet,3|15|TGH,,,601,1,2,2,2500,PETSKILL_SETMAGICPET
+벽청의 안식,아군의 내구력을 300 회복 합니다.,PETSKILL_SetMagicPet,3|300|HP,,Ka,602,1,2,2,2500,PETSKILL_SETMAGICPET
+진홍의 권능,3턴동안 아군의 공격력이 10퍼센트 증가합니다.,PETSKILL_SetMagicPet,3|10|STR,,La,603,1,2,2,2500,PETSKILL_SETMAGICPET
+천지의 숨결,3턴동안 아군의 순발력이 15퍼센트 증가합니다.,PETSKILL_SetMagicPet,3|15|DEX,,Ma,604,1,2,2,2500,PETSKILL_SETMAGICPET
+삼단모아치기,2턴 휴식 후 약 두 배 이상의 데미지로 공격합니다.,PETSKILL_ChargeAttack,3 묑%+150,,,605,1,6,2,8500,PETSKILL_CHARGE2
+여행의 길동무2,기술이 성공할 경우 상대방의 페트를 데리고 장외로 나갑니다.,PETSKILL_Abduct,60,,,607,1,7,2,5000,PETSKILL_Abduct
+여행의 길동무3,기술이 성공할 경우 상대방의 페트를 데리고 장외로 나갑니다.,PETSKILL_Abduct,80,,,608,1,7,2,3000,PETSKILL_Abduct
+얼음 공격,헤티아가 얼음 공격을 시전한다.,PETSKILL_BatFly,,,,609,1,3,2,0,PETSKILL_NONE
+공간 붕괴,헤티아가 공간 붕괴를 시전한다.,PETSKILL_DivideAttack,,,,610,1,3,1,0,PETSKILL_NONE
+신수의 포효,공격력을 150% 증가시켜 공격한다.,PETSKILL_PowerBalance,묑%+150 렝%-0,,Tb,611,1,6,2,30000,PETSKILL_POWERBALANCE7
+맹호의 분노,공격력을 150% 증가시켜 공격한다.,PETSKILL_PowerBalance,묑%+150 렝%-0,,Tb,612,1,6,2,30000,PETSKILL_POWERBALANCE8
+고대의 힘,공격력을 160% 증가시켜 공격한다.,PETSKILL_PowerBalance,묑%+160 렝%-0,,Tb,613,1,6,2,30000,PETSKILL_POWERBALANCE9
+

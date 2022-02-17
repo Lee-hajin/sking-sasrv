@@ -1,0 +1,7 @@
+NomalMainMsg:妈妈跟我说不可以跟奇怪的人说话．．．
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>80&ENDEV=81
+NomalWindowMsg:妈妈跟我说不可以跟奇怪的人说话．．．
+EventEnd

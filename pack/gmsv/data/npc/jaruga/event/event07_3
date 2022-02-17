@@ -1,0 +1,18 @@
+NomalMainMsg:꿀꿀
+
+EventNo:7
+TYPE:ACCEPT
+EVENT:NOWEV=7&ITEM=2414&ITEM=2425&ITEM!=2424
+AcceptMsg:꿀꿀꿀~꾸우우울!\n(번역)내가 팔고있는 꽃을 이 동굴에서\n유명해!\n\n너도 이 꽃을 갖고 싶니?
+ThanksMsg:꿀꿀꿀~꾸우우울!\n(번역)좋았어! 특별 서비스!! 공짜로 줄게!\n편지와 같이 전한다면 기뻐할거야.\n또 기회가 있으면 와!!
+ItemFullMsg:가！콱돨돛야덟綠쒔찮죄
+GetItem:2424
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=7,ENDEV=8&ITEM=2414
+NomalMsg:오! 오랫만이야.
+EventEnd
+
+

@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:음~ 그건 우리들의 발자국이군요...
+askbattlemsg2:지금이라면 용서해 줄 태니까!
+askbattlemsg3:이쪽으로 가지고 와요.
+startmsg:음~하하하! 속아 넘어갔군!!
+dieact:0
+item:2431
+end msg:하하하·· 나약하시군요
+enemyno:515,519
+deniedmsg:뭔대 이곳까지 온거지？난 아무것도 안했어!
+time:300
+

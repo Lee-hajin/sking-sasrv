@@ -1,0 +1,33 @@
+NomalMainMsg:···
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30&NOWEV=54,ENDEV=4&ENDEV=29&ENDEV=30&ENDEV=54
+NomalWindowMsg:「진실의 안경」에 대한 해답을 찾아보십시오.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&NOWEV=29&ENDEV=30&NOWEV=54
+NomalWindowMsg:「진실의 안경」에 대한 해답을 찾아보십시오.
+EventEnd
+
+EventNo:29
+TYPE:REQUEST
+EVENT:ENDEV=4&ENDEV=30&NOWEV=54&ITEM=2548
+RequestMsg:「진실의 안경」을 찾으신겁니까?
+ThanksMsg1:오.!「진실의 안경」을 찾으신것 같군요.\n한의 심부름꾼을 통하여「진실의 방」에 입장해보세요.\n해답을 찾으실수 있으실겁니다.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&NOWEV=30&NOWEV=54,ENDEV=4&ENDEV=30&NOWEV=54
+NomalWindowMsg:진신의 안경에 대해 알고있는 사람을 만나 해답을 찾아보세요.
+EventEnd
+
+EventNo:54
+TYPE:REQUEST
+EVENT:ENDEV=4&NOWEV=30
+RequestMsg1:당신이 찾고 있는 답을 알고 싶다면「진실의 안경」을 손에 넣으십시오.\「진실의 안경」을 물건일 수도 아닐수도..\n지금 그 사실을 아는 사람은 별로 없을겁니다.\n당신은「진실의 안경」을 손에 넣을 자신이 있습니까?
+ThanksMsg:진실의 안경에 대해 알고있는 사람에게 해답을 찾으십시오.
+EventEnd

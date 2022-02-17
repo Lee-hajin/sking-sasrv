@@ -1,0 +1,67 @@
+NPCCREATE
+{
+floorid=3200
+borncorner=34,44,34,44
+time=0
+createnum=1
+graphicname=16032
+name=마을 처녀
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|토토 마을에 어서오세요! 편히 쉬세요!
+}
+{
+floorid=3200
+borncorner=61,51,61,51
+time=0
+createnum=1
+graphicname=16036
+name=마을 소녀
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|최근에 라토토 산맥에 빨간 새가 집을 지은 것 같아요
+}
+{
+floorid=3200
+borncorner=53,45,53,45
+time=0
+createnum=1
+graphicname=16048
+name=마을 청년
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|라토토의 산정상에 올라간적 있니?
+}
+{
+floorid=3200
+borncorner=79,50,79,50
+time=0
+createnum=1
+graphicname=16025
+name=바텐더
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|나무열매로 만든 칵테일은 정말 가치가 있어
+}
+{
+floorid=3200
+borncorner=76,48,76,48
+time=0
+createnum=1
+graphicname=16014
+name=바니 걸
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|불사조? 그 빨간새를 말하는 걸까···
+}
+{
+floorid=3200
+borncorner=74,48,74,48
+time=0
+createnum=1
+graphicname=16024
+name=토토의 의사
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|불사조는 타오를 듯한 빨간색을 띈 새지. 끄윽!
+}

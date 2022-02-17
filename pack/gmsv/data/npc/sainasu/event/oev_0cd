@@ -1,0 +1,57 @@
+NomalMainMsg:안녕하세요.
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2587&ENDEV=17
+NomalWindowMsg:\n\nJOT 「C 구간」 완료 하셨습니다.\n해당 코스 체커에게 대화를 걸어 보상을 수령 받으십시오.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2587
+NomalWindowMsg:\n\nJOT 「D 구간」 완료 하셨습니다.\n해당 코스 체커에게 대화를 걸어 보상을 수령 받으십시오.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2576,LV>0&ITEM=2577,LV>0&ITEM=2578,LV>0&ITEM=2579&LV>0&ITEM=2580,LV>0&ITEM=2581,LV>0&ITEM=2582,LV>0&ITEM=2583,LV>0&ITEM=2584,LV>0&ITEM=2585,LV>0&ITEM=2586
+AcceptMsg:\nSOT 오리엔테링 도중 포기를 하시겠습니까?\n포기를 할 경우 체크스톤이 회수처리 됩니다.
+ThanksMsg:\n정상적으로 체크스톤 회수처리가 완료 되었습니다.
+DelItem:2576,2577,2578,2579,2580,2581,2582,2583,2584,2585,2586
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2575
+AcceptMsg:\SOT 오리엔테링 루트 진행에 문제가 있으십니까?
+ThanksMsg:\n정상적으로 체크스톤 회수처리가 완료 되었습니다.
+DelItem:2575
+EventEnd
+
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:LV>0&ENDEV=17
+RequestMsg:\n사이너스·오리엔테링. 약칭해서 SOT\n사이너스섬 전체를 도는 오리엔테링입니다.\n당신도 참가해보시지 않겠습니까?
+ThanksMsg:\n엄정한 심사결과 당신은 C코스 루트로\nJOT에 참가할 수 있습니다.\n이 체크스톤을 갖고 12곳의 포인트를\n돌아주세요.\n전부 모으면 체커의 지시에 따르세요.
+StopMsg:JOT C코스 루트를 포기하시겠습니까?
+EndStopMsg:C코스를 정상적으로 포기하였습니다.
+NoStopMsg:체크스톤을 갖고 12곳의 포인트를\n돌아주세요.\n전부 모으면 체커의 지시에 따르세요.
+ItemFullMsg:\n\n가방이 무거워 체크스톤을 소지하실 수 없습니다.
+GetItem:2575
+EventEnd
+
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:\n사이너스·오리엔테링. 약칭해서 SOT\n사이너스섬 전체를 도는 오리엔테링입니다.\n당신도 참가해보시지 않겠습니까?
+ThanksMsg:\n엄정한 심사결과 당신은 D코스 루트로\nJOT에 참가할 수 있습니다.\n이 체크스톤을 갖고 12곳의 포인트를\n돌아주세요.\n전부 모으면 체커의 지시에 따르세요.
+StopMsg:JOT D코스 루트를 포기하시겠습니까?
+EndStopMsg:D코스를 정상적으로 포기하였습니다.
+NoStopMsg:체크스톤을 갖고 12곳의 포인트를\n돌아주세요.\n전부 모으면 체커의 지시에 따르세요.
+ItemFullMsg:\n\n가방이 무거워 체크스톤을 소지하실 수 없습니다.
+GetItem:2575
+EventEnd
+

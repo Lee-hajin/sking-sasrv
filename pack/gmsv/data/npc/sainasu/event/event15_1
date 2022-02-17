@@ -1,0 +1,62 @@
+NomalMainMsg:아.. 자네는 여기서 무엇을 하고있는가? 나는 공룡박사라고 하네.
+
+EventNo:15
+TYPE:ACCEPT
+EVENT:NOWEV=15&PET>14-74
+AcceptMsg:그래 그 페트지.두마리 이상 갖고 있다면\n루니만 갖고 있게.. 그렇지 않으면\n아무거나 빼앗아 버릴꺼야!!
+ThanksMsg:상당히 잘 길러진 루니군!\n고마워!\n그럼 상으로 좋은 것을 줄께!
+ItemFullMsg:음? \n자네 가방이 가득찬거 같군.
+DelPet:PET>14-74*1
+GetRandItem:1350,1351,1352,1354,700,1455,1102,1122
+EndSetFlg:15
+EventEnd
+
+EventNo:16
+TYPE:ACCEPT
+EVENT:ENDEV=15&NOWEV=16&PET>29-191
+AcceptMsg:그래 그 페트지.두마리 이상 갖고 있다면\n베르가만 갖고 있게.. 그렇지 않으면\n아무거나 빼앗아 버릴꺼야!!
+ThanksMsg:상당히 잘 길러진 베르가군!\n그럼 상으로 페트를 주마!\n이페트는 보기드문 페트니깐 소중하게 키워야해!
+PetFullMsg:뭐야! 페트를 너무 많이 기르고 있구만.
+DelPet:PET>29-191*1
+GetPet:95
+EndSetFlg:16
+EventEnd
+
+EventNo:15
+TYPE:REQUEST
+EVENT:LV>9
+RequestMsg:나는 이곳에서 페트를 연구하는 하루라고\n하는사람이지!\n미안하지만, 부탁을 들어주지 않겠나?\n나도 이젠 늙어서..
+ThanksMsg:그래 들어주겠나!\n사실은 이제 다음 공룡에 관해 연구하고\n싶은데 갈수가 없어!나이가 있어서 말이지.\n사이너스의 동서를 흐르는 강을 건너면\n있는 갈색 공룡을 잡아와 줬으면 하네!\n자세한 것은 저쪽의 조수에게 물어보게!
+StopMsg:그래? 루니를 가져오지 못하겠나?
+EndStopMsg:어쩔수없지..\n다른 여행자를 찾아보는수밖에..
+NoStopMsg:그래! 자네는 할수있을거네. \n힘내시게!
+EventEnd
+
+
+EventNo:16
+TYPE:REQUEST
+EVENT:LV>15&ENDEV=15
+RequestMsg:만약 괜찮다면 한가지 부탁을 더 해도 되겠나?
+ThanksMsg:그래 해준단 말이지! 사실은\n남쪽섬에 베르가라고 하는 공룡이 있지!\n그 녀석도 가능하면 부탁하고 싶은데.\n레벨 30인 상태로 데리고 왔으면 좋겠네!\n미안하지만 부탁하네!
+StopMsg:그래? 베르가를 가져오지 못하겠나?
+EndStopMsg:어쩔수없지..\n다른 여행자를 찾아보는수밖에..
+NoStopMsg:그래! 자네는 할수있을거네. \n힘내시게!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=15&NOWEV=16&PET>29-191
+NomalMsg:흠.. 그 베르가는 아직 어린거 같은데?
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=15&ENDEV=16
+NomalMsg:자네 에게 좋은것을 가르쳐 주지. 거북이종류는 가공을 특히 잘하지.
+EventEnd
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+NomalMainMsg:아이를 밖에 데리고 가다 잃어버렸어요....아이고...
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:어! 아이를 구해주신 분이시군요\n정말로 감사해요...정말로\n앞으로는 더 주의 시키겠습니다!
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63
+NomalWindowMsg:\n아이고...\n아이를 밖에 데리고 가다 잃어버렸어요....아이고...\n아이를 밖에 데리고 가다 잃어버렸어요....
+EventEnd
+
+
+

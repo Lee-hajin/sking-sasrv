@@ -1,0 +1,10 @@
+WARP:811,32,26
+FREE:LV>0
+MONEY:-1
+FreeMsg:\n\n1층으로 가고싶어？\n바로 보내줄께！
+PayMsg:
+PartyMsg:\n파티상태로는 나갈수 없어.!
+DelItem:2751,2752,2754
+MoneyMsg:
+
+

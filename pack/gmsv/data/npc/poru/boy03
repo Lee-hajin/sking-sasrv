@@ -1,0 +1,42 @@
+NomalMainMsg:꿀꿀-
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2414&ENDEV=64
+NomalWindowMsg:\n이곳에서 니스대륙의 창시자 두명이 나타났다는게 믿겨지니?
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2414&NOWEV=64
+NomalWindowMsg:\n마리너스는 바다의 요정이지 바다의 신이 있다고 믿어?
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2414&ENDEV=63
+NomalWindowMsg:용왕을 보고온것 같군...\n무엇인지는 모르겠지만 이곳에선\n인간과 공룡간의 문제일거야...
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2414
+NomalWindowMsg:용의 소굴의 입구야！！절대로 조심해야되！！
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:꿀꿀-
+EventEnd

@@ -1,0 +1,14 @@
+NPCCREATE
+
+{
+floorid=3412
+borncorner=15,15,15,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16009
+name=¸¶·Ð
+enemy=changeevent|file:jaruga/event/kikukuev
+}
+

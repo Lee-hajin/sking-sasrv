@@ -1,0 +1,23 @@
+NomalMainMsg:윽..
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=18560*1
+AcceptMsg:물을 가져왔어???
+ThanksMsg:크..살것같다.\n이거는 물에 대한 보답이야
+StoneFullMsg:뭐야 스톤이 너무 많은거같은데?
+DelItem:18560*1
+GetStone:100
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n윽...이런\n이곳을 조사하다가 탈수증세가 일어났어\n물좀 가져다 줄수 있겠어?
+EventEnd
+

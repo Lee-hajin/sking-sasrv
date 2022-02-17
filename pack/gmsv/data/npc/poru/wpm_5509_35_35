@@ -1,0 +1,6 @@
+WARP:5510,16,49
+FREE:ITEM=2414
+MONEY:-1
+FreeMsg:\n\n저쪽에는 용의 던전이 있어 굉장히 위험한 곳인데......\n갈 준비는 다 된거지?
+PayMsg:꿀꿀-
+PartyMsg:\n이봐 파티를 풀어줄래?

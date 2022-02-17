@@ -1,0 +1,36 @@
+NomalMainMsg:·····
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2511
+AcceptMsg:\n\n\n　　　정답을 화풍으로 바꾸시겠습니까？
+ThanksMsg:\n\n　　　정답을 화풍으로 교체하셨습니다.
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+DelItem:2511*1
+GetItem:2511*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2512
+AcceptMsg:\n\n\n　　　정답을 화풍으로 바꾸시겠습니까？
+ThanksMsg:\n\n　　　정답을 화풍으로 교체하셨습니다.
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+DelItem:2512*1
+GetItem:2511*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM!=2511,NOWEV=28&ITEM!=2512
+AcceptMsg:\n\n\n　　　화풍을 선택하시겠습니까？
+ThanksMsg:\n\n　　　화풍을 선택 하였습니다！
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+GetItem:2511*1
+EventEnd
+
+
+
+

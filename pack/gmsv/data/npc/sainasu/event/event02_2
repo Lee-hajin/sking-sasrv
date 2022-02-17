@@ -1,0 +1,33 @@
+NomalMainMsg:샴기르의 꽃은 향기로워!
+
+EventNo:-1
+TYPE:CLEAN
+EVENT:ENDEV=2&ITEM!=2415&SP=1,ENDEV=2&ITEM!=2415&SP=2
+CleanFlg:2
+CleanFlgMsg:어머? 꽃을 잃어버렸구나.
+CleanMainMsg:유진이에게 이상한 조개를 다시 받아오면 꽃을 줄게!
+EventEnd
+
+EventNo:2
+TYPE:ACCEPT
+EVENT:NOWEV=2&ITEM=2414
+AcceptMsg:마리너스 유진이가 이것을?
+ThanksMsg:고마워! 답례로 이 꽃을 줄게\n이 꽃은 마르지 않는 꽃이야.
+ItemFullMsg:이런! 가방이 가득차서 답례를 줄 수 없어.!
+GetItem:2415
+DelItem:2414
+EndSetFlg:2
+EventEnd
+
+
+EventNo:2
+TYPE:REQUEST
+EVENT:LV>0&SP=0,LV>0&SP=3
+RequestMsg:\n부탁할게 있는데 들어줄래?
+ThanksMsg:이 꽃 오늘 아침에 딴거야!\n이 꽃을 마리너스에 살고 있는\n유진이에게 전해줬으면 해!\n꽃이 마르지 않도록 주의해서 전해줘!
+StopMsg:뭐야? 꽃을 못전달해주겠어?
+EndStopMsg:이런.. 아쉽네\n아주 싱싱한 꽃 이라 유진이가 좋아했을탠데..
+NoStopMsg:그래! 고마워.\n유진이는 마리너스 해변가에 있을거야!
+ItemFullMsg:이런! 가방이 가득차서 꽃을 넣을 공간이 없어!
+GetItem:2415
+EventEnd

@@ -1,0 +1,31 @@
+NomalMainMsg:자네는 아직 성인의 의식을 치룰수 없어.
+
+EventNo:4
+TYPE:ACCEPT
+EVENT:ITEM=2417*5
+AcceptMsg:그래.\n의식의 사자에게서 의식의 구슬을 가저왔나?
+ThanksMsg:샴기르 마을에 있는 동상을 보았나?\n그 동상이 바로 영웅 샴기르라네.\n전란의 시대에 태어난 영웅이지.\n자네도 이제 영웅 샴기르와 같이 전란의 영웅이 되야 할 거야.
+ItemFullMsg:잠깐! 가방이 무거워 의식의 장비를 받을수 없겠군.
+GetItem:2418,23258,23259
+DelItem:2417*5
+EndSetFlg:4
+EventEnd
+
+
+EventNo:4
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:\n나는 자네가 성인인지를 확인하는 판정가라네.\n성인이 되는 의식을 행하겠나?
+ThanksMsg:좋아! 자네에게 성인이 될 준비가 되어있나 판정을 내려보겠어.\n의식의 사자에게「의식을 구슬」을 받아 오게나.\n
+StopMsg:뭐야? 구해오지 못하겠는가?
+EndStopMsg:그래. 좀더 준비를 하고 오게나
+NoStopMsg:의식의 사자에게 「의식의 구슬」을 받아오게나
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4
+NomalMsg:영웅 샴기르와 같이 이 시대의 전란한 영웅이 되길 바라네.
+EventEnd
+

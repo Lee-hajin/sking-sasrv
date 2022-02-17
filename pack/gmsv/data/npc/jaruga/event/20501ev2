@@ -1,0 +1,23 @@
+NomalMainMsg:이곳의 물은 아주 맑아요.!
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2464
+NomalWindowMsg:항아리에 물이 가득찾는데요?\n물을 어서 한씨에게 가져가십시오.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2463
+AcceptMsg:그건 한씨의 항아리군요.\n이곳의 물을 퍼 가시려구요?
+ThanksMsg:알았습니다. 가져가세요.\n그러나 그 물을 노리고 있는 공룡들이\n지금보다 더 당신을 괴롭힐 것입니다.\n조심하세요.
+GetItem:2464*1
+DelItem:2463*1
+ItemFullMsg:항아리를 받을 공간이 없습니다.
+EventEnd
+
+
+
+
+
+

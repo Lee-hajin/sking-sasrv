@@ -1,0 +1,25 @@
+NomalMainMsg:소녀는 다친게 아니라 단지 길을 잃었을 뿐이야..
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\니스대륙이요? 그럼 당신이 저의 손자입니까?
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64
+NomalWindowMsg:할아버지는 알지 못하고 계신거같아 용왕이 우리를 해치려는게 아니라는걸
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\이 소녀는 다친게 아니라 단지 길을 잃었을 뿐이야..\n용왕과 말한후 사건의 진실이 밝혀졌어
+EventEnd
+
+
+

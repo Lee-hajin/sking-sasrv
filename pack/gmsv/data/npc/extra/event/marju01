@@ -1,0 +1,40 @@
+NomalMainMsg:오！젊은사람이 이런 외진곳엔 무슨일이지？
+
+EventNo:38
+TYPE:REQUEST
+EVENT:NOWEV=37&LV>49&ITEM=2687&ITEM!=2697
+RequestMsg:\n\n오！이 외딴곳에는 무슨일인가？\n미로가 많이 어지러웠을탠대！
+ThanksMsg:\n\n우편배달??\n이런곳까지 와줘서 정말 고맙네.
+StopMsg:
+EndStopMsg:
+NoStopMsg:
+ItemFullMsg:\n아이템칸이 가득 찬거같군 자네
+DelItem:2687
+GetItem:2697
+EndSetFlg:37
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=37&ENDEV=38&LV>49&ITEM!=2697,ENDEV=37&LV>49&ITEM!=2697
+NomalWindowMsg:\n\n보물자루를 찾아서 이런 외런곳까지 오다니\n이 돌을 자네에게 줄태니 보물자루들을\n잘라보게나！보물자루에는 무시무시한\n페트가 숨어있을수도 있으니 조심하게나！
+ItemFullMsg:\n\n아이템칸이 부족한거같은데？\n여유공간 한공간을 남겨두게나
+GetItem:2697
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV!=37&ENDEV!=37&LV>39&ITEM!=2697
+AcceptMsg:\n\n\n젊은이가 이런곳은 무슨일인가！
+ThanksMsg:\n\n보물자루를 찾아서 이런 외런곳까지 오다니\n이 돌을 자네에게 줄태니 보물자루들을\n잘라보게나！보물자루에는 무시무시한\n페트가 숨어있을수도 있으니 조심하게나！
+ItemFullMsg:\n아이템칸이 부족한거같은데？\n여유공간 한공간을 남겨두게나
+GetItem:2697
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n젊은이가 이런곳까지 오다니 허허\n고생이 많았을탠대···\n그 돌로 미로에 있는 자루들을 잘라보게나
+EventEnd
+

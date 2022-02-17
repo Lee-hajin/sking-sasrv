@@ -1,0 +1,526 @@
+#debug 荤侩 饭骇
+debuglevel=3
+
+# 游戏版本由服务端控制(1为低版本，2为中版本，3为高版本)
+##低版本无下身，无宠装，无职业
+##中版本有下身，无宠装，有职业
+##高版本有下身，有宠装，有职业
+DIYVERSION=3
+
+# 性能调节，诺想CPU使用率大些的请把值设大些
+CPUUSE=1
+# 运行等级 范围是-20~19 其中-20的运行级别最高
+runlevel=0
+
+# 每内存单元大小 单位：字节
+usememoryunit=128
+
+# 有多少个内存单元
+usememoryunitnum=16000000
+
+# 帐号服务器 SAAC的服务器IP地址
+acserv=172.30.0.10
+# 帐号服务器 SAAC的服务器端口
+acservport=10001
+# 连接到帐号服务器 SAAC的密码
+acpasswd=test
+# 服务器名字
+gameservname=Test
+# 星球的ID
+gameservlistid=1
+# 服务器的ID
+gameservid=1
+
+# 霸烙辑滚 器飘
+port=19065
+# 该线路SN
+servernumber=1
+# 当端口被占用的情况下会不断重试使用该端口
+reuseaddr=1
+# socket套接字延迟 TCP_NODELAY 不建议开放
+nodelay=0
+
+#以下请设置为0 不写日志
+log_write_time=0
+log_io_time=0
+log_game_time=0
+
+# 记录netloop_faster() 函数的LOG
+log_netloop_faster=0
+
+# recvbuffer表示每个玩家接收缓冲区大小 范围0K-128K
+recvbuffer=64
+# recvbuffer表示每个玩家发送缓冲区大小 范围0K-128K
+sendbuffer=64
+# readbuffer表示每个玩家接收缓冲区下限 范围128-1024
+recvlowatbuffer=128
+
+# 同一IP登陆数
+sameiponlinenum=10
+# 信任IP
+serverip=127.0.0.1,192.168.1.1
+
+# 防攻击策略
+NOATTTYPE=0
+NOATTTIME=15
+
+####################################摆摊相关######################################
+# 几转才可以摆摊
+streetvendortrans=0
+# 自定义摆摊可使用货币 (0关闭, 1开放) (石币, 声望, 气势, DP, 积分, 金币, 泡点)
+STREETENABLE=1,1,0,0,0,1,1
+# 摆摊税率(石币, 声望, 气势, DP, 银币, MySQL点, 泡点)
+STREETFAX=5,5,5,5,5,3,10
+# 道具第一次交易自动绑定
+FirstLockItem=-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+
+###################  目录设置  ###################
+# 顶层文件夹
+topdir=. 
+# 甘叼泛配府
+mapdir=data/map
+# 甘况橇汲沥
+maptilefile=data/map/mapset.txt
+# 海撇甘?
+battlemapfile=data/map/battlemap.txt
+# 酒捞袍悸
+itemset6file=data/itemset6.txt
+itemset5file=data/itemset5.txt
+itemset4file=data/itemset4.txt
+itemset3file=data/itemset3.txt
+# 其飘 瓷仿摹 汲沥 巩辑
+enemybasefile=./data/enemybase1.txt
+# 其飘 汲沥 巩辑
+enemyfile=./data/enemy1.txt
+# 巩辑
+invinciblefile=data/inv.txt
+# 巩辑
+appearpositionfile=data/appear.txt
+# 所有名称文件
+titlenamefile=data/titlename.txt
+# 巩辑
+titleconfigfile=./data/titleconfig.txt
+# 巩辑
+encountfile=./data/encount.txt
+# 巩辑
+groupfile=./data/group1.txt
+# 巩辑
+magicfile=./data/magic.txt
+# 巩辑
+attmagicfile=./data/attmagic.bin
+# 其飘胶懦巩辑
+petskillfile2=./data/petskill2.txt
+petskillfile1=./data/petskill.txt
+# 家犁汲沥 巩辑
+itematomfile=./data/itematom.txt
+# 未知文件
+effectfile=data/effect.txt
+# 柠令 龙巩 汲沥巩辑
+quizfile=data/question.txt
+# 人物职业技能数据
+profession=./data/profession.txt
+# 退出团队的道具
+itemquitparty=./data/itemquitparty.txt
+# 蜡历EXP巩辑
+USEREXP=data/exp.txt
+# 未知文件
+#lsgenlogfilename=log/genlog
+# gm汲沥巩辑
+gmsetfile=./data/gmset.txt
+#疙飞绢 鞠龋 [gm
+chatmagicpasswd=gm
+#GM 疙飞绢 鞠龋
+#0=穿备唱 GM 疙飞绢甫 荤侩且荐 乐促.
+#1=瘤沥等 荤侩磊父 GM 疙飞绢甫 荤侩且荐 乐促.
+chatmagiccdkeycheck=1
+# 还原玩家资料目录 可防止当机回档
+storedir=../saac/char
+# NPC目录
+npcdir=data/npc
+# 日志目录
+logdir=./log
+# 日志配置文件
+logconfname=log.cf
+#ifdef _STORECHAR
+#   { "storechar", config.storechar, sizeof( config.storechar),NULL,0},
+#endif
+
+# 新地图文件夹
+mapdir2=./data/map2
+# Map2 tile file directory(新地图设置文件)
+maptilefile2=./data/map2/mapset2.txt
+
+
+###################  数目设置  ###################
+# 每次读取SAAC的数目
+saacwritenum=10000
+# 每次写入SAAC的数目
+saacreadnum=10000
+# 弥措 荐侩牢盔
+fdnum=800
+# 最大在线人数
+charnum=800
+# 弥措其飘
+petnum=40000
+# 扁鸥 弥措 箭磊. NPC狼 箭磊器窃+蜡历荐
+othercharnum=20000
+# 最大OBJ对象数目
+objnum=50000
+# 最大道具数目
+itemnum=100000
+# 最大战斗数目
+battlenum=1200
+# NPC最大数
+npccreatenum=10000
+# NPC下最大使用文件总数
+filesearchnum=10000
+# 注册NPC类型文件最大数
+npctemplatenum=1000
+# 名片相关的设置 好象是发送名片最大限制 没仔细看过
+addressbookoffmesgnum=10000
+# 接口频率调整 值越大频率越慢越节省资源
+protocolreadfrequency=200
+# 每个连接错误上限 超过这个上限的连接将被关闭
+allowerrornum=20
+# 战斗错误消息
+battledebugmsg=0
+# 客户端验证码 大陆无效
+encodekey=1
+# 往writebuffer缓冲区写数据大小 单位字节
+acwritesize=16384
+# 缓冲区大小
+acwbsize=17000000
+# 如果发现玩家使用非法手段 比如说改封包跳NPC判断 或者点数异常 则关进监狱
+erruser_down=1
+
+###################  时间设置  ###################
+# Walk Send Interval
+# 叭扁矫埃埃拜. (GMSV俊辑 MUTLITHREAD甫 救闹阑矫 葛靛 "镜单绝促.")
+walkinterval=10
+# CA send interval (ms)
+# CleanAll埃拜 (GMSV俊辑 MUTLITHREAD甫 救闹阑矫 葛靛 "镜单绝促.")
+CAinterval=10
+# CD send interval (ms)
+# CleanDest埃拜 (GMSV俊辑 MUTLITHREAD甫 救闹阑矫 葛靛 "镜单绝促.")
+CDinterval=10
+# Character data save interval 
+# (单捞磐技捞矫埃芭府?)
+CharSaveinterval=900
+# 执行一次 netloop_faster 所消耗时间
+Onelooptime=10
+# 滚赴 其飘 昏力矫埃(檬)窜困
+Petdeletetime=300
+# 滚赴 酒捞袍 昏力矫埃(檬)窜困
+Itemdeletetime=300
+# 滚赴榜靛 昏力矫埃(檬)窜困
+Golddeletetime=30
+# 执行记录log时间
+loghour=0
+# 战斗回合延迟(毫秒)
+battletime=1
+
+###################  出生设置  ###################
+# 檬扁券积汲沥
+TRANS=0
+# 檬扁饭骇汲沥
+LV=1
+#纳腐磐 积魂矫 啪铰 其飘 瘤鞭(1 海福啊辆幅，2 橇扼虐辆幅, 3 海福啊,橇扼虐 辆幅)
+NPRIDE=1
+# 自定义出生宠物
+PET1=-1
+PET2=-1
+PET3=-1
+PET4=-1
+# 自定义出生物品
+ITEM1=
+ITEM2=
+ITEM3=
+ITEM4=
+ITEM5=
+ITEM6=
+ITEM7=
+ITEM8=
+ITEM9=
+ITEM10=
+ITEM11=
+ITEM12=
+ITEM13=
+ITEM14=
+ITEM15=
+# 自定义出生宠物等级
+PETLV=1
+# 自定义出生石币数
+GOLD=0
+# 自定义出生能骑多少级以下的宠物
+RIDEPETLEVEL=140
+# 自定义出生积分数
+GIVEJFPOINT=0
+
+###################  功能设置  ###################
+#玩家上线提示
+#0登陆公告与会员上线提示不使用
+#1使用登陆公告和会员上线提示
+#2使用登陆公告但不使用会员上线提示
+#3会员不显示登陆公告且会员上线提示
+LOGINDISPLAY=3
+
+# 辑滚硅啦汲沥
+battleexp=1
+# EXP傍蜡咯何 汲沥 (0 涝仿 矫 no)
+EXPSHARE=0
+# 伤害比例(人物和宠物伤害百分比)
+playdammagecalc=85
+petdammagecalc=100
+
+#会员点PK地图扣点设置(地图顺序11111,22222,33333,44444)
+PKMAP=10,20,30,40
+#会员点PK每次胜利收取手续费
+PKMAPCOST=10
+
+#乱舞PK每天几点开始(-1不启用)
+AUTOPK=-1
+#参加乱舞资格转数方可入场
+AUTOPKTRANS=1
+#参加乱舞资格等级方可入场
+AUTOPKLV=100
+#乱舞开始赠送积分
+AUTOPKPOINT=100
+#乱舞每杀一人获得积分
+KILLPOINT=10
+
+#战斗获得物品设置(越前面机率越低)
+BATTLEGETITEMRATE=-1
+#战斗获得物品地图设置
+BATTLEGETITEMRATEMAP=0
+
+#删除指定ID的宠物(可定义30)
+AUTODELPET=-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+#删除指定ID的道具(可定义30)
+AUTODELITEM=-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+
+# 新增禁止玩家互相传送地区
+UNLAWWARPFLOOR=32021,8213,850,30695,60034,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+# 禁止组队地图设置
+NOJOINFLOOR=33020,33040,33060,33080,33100,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+# 禁止原登地图设置
+UNLAWTHISLOGOUT=-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+# 禁止逃跑的地图
+NOTESCAPE=
+# 玩家重叠时立即PK地图
+PLAYEROVERLAPPK=-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+# 不可以HELP的地图
+nohelpmap=
+
+# 是否所有地图可观战
+WATCHFLOOR=0
+# 自定义可观战地图
+WATCHFLOOR1=
+WATCHFLOOR2=
+WATCHFLOOR3=
+WATCHFLOOR4=
+WATCHFLOOR5=
+# 是否允许所有地图强制战斗(1为是0为不是)
+BATTLEFLOOR=0
+# 可强制战斗地图
+BATTLEFLOORCF=-1,-1,-1,-1,-1
+# 禁止使用以下人物名称(原系统支持)
+NAME1=
+NAME2=
+NAME3=
+NAME4=
+NAME5= 
+
+# 融合是否可以转生
+#(0不可转生，1为可以1转，最大只能2转)
+FUSIONBEIT=1
+
+#纳腐磐 弥措 券积
+CHARTRANS=5
+#脐 券荐(捞吧汲沥窍谷 蓝钦脐档 父肪 檬苞啊瓷)(汲沥救且矫 -1)
+PETTRANS=0
+# 弥措饭骇 汲沥 (150 涝仿 矫 5券积 锭 150鳖瘤 己厘 啊瓷)
+MAXLEVEL=140
+# 饭骇汲沥(弥措券积 器窃X)
+LEVEL=140
+#蜡历啊 弥措肪阑 顿绢逞菌阑矫 弥措饭骇肺 官层滚赴促.
+REVLEVEL=1
+# 禁止点数上限复点(当POINT=0时,每转点数上限生效)
+POINT=1
+# 每转点数上限定义(-1表示默认)
+TRANSPOINTUP=-1,-1,-1,-1,-1,610,-1
+# 正常点数可超越(指得是使用多少祝福点数)
+TRANS0=5
+TRANS1=10
+TRANS2=15
+TRANS3=20
+TRANS4=30
+TRANS5=40
+TRANS6=5
+TRANS7=5
+
+# 自定义升级点数
+SKILLUPPOINT=3
+
+# 丢出来的宠是否可以给别人捡获(0为否，1为是)
+PETUP=1
+# 丢出来的道具是否可以给别人捡获(0为否，1为是)
+ITEMUP=1
+
+# 是否禁止PK(0为不禁止,1为禁止)
+Functionfile=0
+
+# 恶魔宝石遇敌时间倍数(遇敌时间0.1秒*倍数)--失效
+CHARLOOPS=1
+
+#敲饭捞绢啊 吧阑锭 利 父朝犬伏 临捞扁
+#臭栏搁 利阑 父唱扁啊 歹 塞惦
+#蜡历啊 焊青吝 各捞 吧府绰 浚墨款磐伏 硅荐
+ENEMYACTION=3
+
+# 玩家使用大瞬移每次所需点数(-1为关闭)
+PMOVE=0
+
+#啊楼蜡历甫 眠啊茄促(技捞宏器牢飘 犬牢矫:啊楼蜡历+柯扼牢蜡历+罚待蜡历)
+PLAYERNUM=0
+#硅撇捞 场唱搁 lvl*x 父怒狼 榜靛甫 罐嚼聪促
+#傈捧饶 罐绰捣(纳腐肪狼 硅荐)
+BATTLEGOLD=0
+
+# 非法宠物检查(1为检查,0为不检查)
+CHECKPEPEAT=0
+
+# 使用世界频道条件(THEWORLDTRANS转数,THEWORLDLEVEL等级,THEWORLDSNED消耗的声望)
+THEWORLDTRANS=1
+THEWORLDLEVEL=100
+THEWORLDSNED=1
+
+# 使用星球频道所需条件(ALLSERVTRANS转数,ALLSERVLEVEL等级,ALLSERVSNED消耗的声望)
+ALLSERVTRANS=5
+ALLSERVLEVEL=140
+ALLSERVSNED=5
+
+#设置宠物转生后能力值增长
+#该选择是宠转转后额外增加点数，如设置2，一转就加2，二转则翻倍就是增4
+PETTRANSABILITY=0
+#以下两项是防一转二转成长过大的限制设置
+#一转默认200
+PETTRANSABILITY1=150
+#二转默认200
+PETTRANSABILITY2=200
+
+# 是否道具仓库进行强存
+# 0为可以强存
+# 1为仓库可以强库但共同仓库不能强存
+# 2为共同仓库可以强库但仓库不能强存
+# 3禁止强存
+POOLITEMBUG=0
+
+# 禁止外挂快速遇敌(0为不改变,1为禁止快速遇敌,2为当外挂快速遇敌时,自动原地遇敌)
+NOSTWENEMY=0
+# 当NOSTWENEMY=2时,每次成功快速遇敌自动扣除石币点数
+NOSTWENEMYGOLD=0
+
+#当ITEMPETLOCKED=0时则不使用安全锁功能
+ITEMPETLOCKED=0
+
+# 设置战斗NPC和道具对话验证答案范围
+TALKCHECKMIN=50
+TALKCHECKMAX=100
+
+# 当DELNEEDITEM=0时,抓宠所需的物品不自动删除
+DELNEEDITEM=1
+
+# 宠物升级声望模式（0为默认，1为自定义）
+PETUPGETEXP=1
+
+#不加声望地图
+NOFAMEMAP=34567
+
+# 暂时无用的
+Connectnum=40
+
+# 原地延时
+BATTLESPEED=1000
+
+# 定义精灵0转100级以下不扣气
+NOMPMAGIC=,10,
+
+# 遇不到什么敌人(短编号)
+NOENEMYIDGROUP=
+
+#说话最小音量和最大音量
+TALKMIN=2
+TALKMAX=3
+
+#【光明】【黑暗】精灵扣气比例在精灵前加[光][暗]
+FMMAGICMPRATE1=0.2
+FMMAGICMPRATE2=0.2
+
+#带宽优化,原地状态下VS不显(1全部开启,2单人开启,3队员开启,0关闭)
+VSFLG=3
+
+#不可卖宠物店的宠物编号
+NOSELLPETID=-1
+
+#乱敏幅度修复(默认为1)
+BATTLERANDDEX=30
+
+#副本地图起始编号
+CopymapStartingID=50000
+
+###################  骑宠相关  ###################
+#骑宠模式
+#0为正常8.0
+#1为正常2.0带骑证模式(光明骑蓝暴，黑暗骑红暴)
+#2为正常2.0非骑证模式(光明骑蓝暴，黑暗骑红暴)
+#3可自由骑任意骑宠
+RIDEMODE=3
+
+# 自定义骑宠相差等级
+RIDELEVEL=5
+# 自定义可骑乘最大转数的骑宠
+RIDETRANS=1
+
+###################  精灵召唤  ###################
+#六转是否取消精召任务判断(1是0否)
+CANCELANGLETRANS=1
+#玫荤 家券 矫埃
+#沥飞家券 矫埃芭府(ANGELPLAYERTIME/柯扼牢蜡历荐)盒吝
+ANGELPLAYERTIME=5000
+#玫荤甫 家券窍妨搁 柯扼牢 蜡历啊 乐绢具钦聪促. 利绢档 2疙
+#沥飞家券捞 啊瓷茄 弥家蜡历荐(弥家2鳖瘤 啊瓷) 
+ANGELPLAYERMUN=1000
+
+###################  族战系列  ###################
+# 是否允许族战(已作废)
+allowmanorpk=1
+
+# 自定义族战开关(分别1~10,1为开，0为关)
+AllowFMPK=1,1,1,1,1,1,1,1,1,1
+# 族战关闭时返回的对话
+FMPKNoMsg=该线路不可申请踢馆，请到族战线路申请踢馆！
+
+# 自定义庄园数目
+FAMLYNUM=4
+
+# 家族退出再加的时间限制(小时)
+JOINFAMILYTIME=0
+
+# 庄园家族互抢庄园模式
+FMPOINTPK=1
+
+# 自定义族战开片时间,次日几点,-1则为下战书的时间（暂时无用）
+FIMALYPKTIME=20
+
+# 是否禁止魔法熟练升降(1为禁止升降，0为不禁止)
+MAGICNOEXP1=0
+# 是否禁止魔法抗性升降(1为禁止升降，0为不禁止)
+MAGICNOEXP2=0
+
+# 2D人龙进化后是否随机给予颜色(1为是，0为否)
+DragonFunsionRand=1
+# 2D人龙任务给的2D人龙转数
+DragonTrans=2
+# 2D人龙进化后的编号(分别5个编号，编号顺序：利则诺顿,扬奇洛斯,邦浦洛斯,邦奇诺,布鲁顿)
+# 该设定项如果5个全部-1的话，则默认服务端内部编号(5020,5021,5024,5022,5023)
+DragonFunsionId=5020,5021,5024,5022,5023

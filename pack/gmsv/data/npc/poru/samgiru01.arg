@@ -1,0 +1,21 @@
+NEWNPCENEMY
+
+entype:2
+startmsg:잠든 기계문명을 깨운자가 누군가?
+dieact:1
+warpfl:0
+warpx:0
+warpy:0
+B_evnow:73
+enemyno:1586,1585,1585,1587,1588,1589,1589,1589,1589,1589
+deniedmsg:기계문명은 잠들어있습니다.
+alreadymsg:나약하구나
+onebattle:1
+OVER
+
+NEWEVENT1:
+FREE:LV>0&NOWEV=73&ITEM!=20002
+WARP:1006,15,22
+AddItem:20002
+endmsg:이런···
+OVER

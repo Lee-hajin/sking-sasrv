@@ -1,0 +1,174 @@
+NomalMainMsg:일손이 부족한데... 믿을만한 사람이 없구만
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM!=2478&ITEM=2468
+NomalWindowMsg:뭐야.!\n허가증을 잃어버리다니.!\n그럼 보수를 지급할수 없지
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*14
+AcceptMsg:앗! 그렇게 많이 가져오다니.
+ThanksMsg:수고했어!\n이것은 약속한 보수야.\n그리고 이건 특별 보너스야.\n이렇게 많이 모아 올거라고는\n굼에도 생각하지 못했어.
+GetStone:20000
+GetItem:2481
+DelItem:2468,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+ItemFullMsg:뭐야！\n가방이 가득찬거 같은데?
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*13
+AcceptMsg:앗! 그렇게 많이 가져오다니!\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:16000
+DelItem:2468,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*12
+AcceptMsg:앗! 그렇게 많이 가져오다니!\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:12000
+DelItem:2468,2478
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*11
+AcceptMsg:앗! 그렇게 많이 가져오다니!\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:10000
+DelItem:2468,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*10
+AcceptMsg:앗! 그렇게 많이 가져오다니!\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:8000
+DelItem:2468,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*9
+AcceptMsg:오! 꾀 많이 가져왔네!\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:7200
+DelItem:2468,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*8
+AcceptMsg:오! 꾀 많이 가져왔네!\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:6400
+DelItem:2468,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*7
+AcceptMsg:오! 꾀 많이 가져왔네!\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:5600
+DelItem:2468,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*6
+AAcceptMsg:오! 꾀 많이 가져왔네!\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:4800
+DelItem:2468,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*5
+AcceptMsg:오! 꾀 많이 가져왔네!\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:4000
+DelItem:2468,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*4
+AcceptMsg:흠.. 별로 못 가져왔군.\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:3200
+DelItem:2468*4,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*3
+AcceptMsg:흠.. 별로 못 가져왔군.\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:2400
+DelItem:2468*3,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*2
+AcceptMsg:흠.. 별로 못 가져왔군.\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:1600
+DelItem:2468*2,2478,2467
+StoneFullMsg::뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM=2468*1
+AcceptMsg:흠.. 별로 못 가져왔군.\n목재와 허가증을 주고 보수를 받겠나?
+ThanksMsg:수고했어!\n이것은 약속한 보수야.
+GetStone:400
+DelItem:2468*1,2478,2467
+StoneFullMsg:뭐야.! 소지할수 있는 스톤이 가득찬거 같군.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2478&ITEM!=2468
+AcceptMsg:뭐야? 벌써 포기하려고?
+ThanksMsg:일손도 부족한데..\n근성이 없는거 같군.
+DelItem:2478
+EventEnd
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:ITEM=2467
+RequestMsg:어! 그건 소개장이잖아.\n너 일하러 왔니?
+ThanksMsg:안그래도 지금 일손이 부족한데.....\n일은 간단해.\n숲에 들어가서 목재를 모으는 일이지.\n많이 모아올수록 그만큼의 보수를 줄께.\n그리고 이건 벌채허가증이니까 가지고 가.
+StopMsg:뭐야? 못하겠나?
+EndStopMsg:일손이 부족한데... 이런
+NoStopMsg:그래~ 숲에 들어가서 목재를 캐와줘.!
+GetItem:2478*1
+DelItem:2467*1
+ItemFullMsg:뭐야！\n가방이 가득차서 허가증을 받을 수 없어.
+EventEnd
+
+
+

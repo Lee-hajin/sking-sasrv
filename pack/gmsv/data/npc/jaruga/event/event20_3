@@ -1,0 +1,26 @@
+NomalMainMsg:동생은 무사할까... 걱정이 되는군
+
+EventNo:20
+TYPE:ACCEPT
+EVENT:NOWEV=20&ITEM!=2487
+AcceptMsg:이게 유일하게 동생에게 기억에 남아있을\n거라고 생각되는 엄마의 헤어 브릿지야.\n어릴때는 이것을 가지고 놀곤했지.\n동생을 보게되면 꼭 데리고 와 줘.
+ThanksMsg:고마워!\n헤어브릿지를 동생이 알아볼꺼야\n고야산에는 산적들이 많으니 다치지 않게 조심하고.!
+ItemFullMsg:이런. 가방이 무거워서 헤어 브릿지를 줄수 없어!
+GetItem:2487
+EventEnd
+
+
+EventNo:20
+TYPE:MESSAGE
+EVENT:NOWEV=20&ITEM=2487
+NomalMsg:꼭 부탁할께. 동생은 그 헤어 브릿지를 알고 있을거야.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&ENDEV=21
+NomalMsg:동생은 잘 지내나 보군요. 동생의 소식을 들을수 있어 감사합니다.
+EventEnd
+
+

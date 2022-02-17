@@ -1,0 +1,15 @@
+LIMITSHOP
+sell_rate:1.0
+buy_msg:사다,정말로,kau,buy
+main_msg:안녕하세요.
+sell_msg:팔다,sell,uru
+sell_main:무엇을 판매하시겠습니까？
+sellonly_msg:\n\n 채석증명서의 환전소입니다.\n매입만 하는데 괜찮습니까？
+stone_msg:보유 스톤이 가득찾습니다.
+realy_msg:정말 괜찮겠습니까？
+LimitItemNo:2472-2474
+special_item:2474
+special_rate:1.1
+
+
+

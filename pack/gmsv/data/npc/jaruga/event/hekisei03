@@ -1,0 +1,19 @@
+NomalMainMsg:허허... 이 외딴곳엔 무슨일인가?
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&ENDEV=46
+NomalWindowMsg:\n\n\n오오! 물의 정복자로군.
+EventEnd
+
+
+EventNo:46
+TYPE:ACCEPT
+EVENT:LV>64&NOWEV=46&ITEM=2767&ITEM=2768,LV>64&NOWEV=46&ITEM!=2769
+AcceptMsg:\n\n나에게 벽청을 수정을 만들어 달라고 부탁하러 왔는가?
+ThanksMsg:그러면, 감벽의 돌과 군청의 물을 나한테\n줘봐라. 이 돌과 물에 의해서 벽청의 수정\n이 만들어진다.\n사실대로라면 수정이 만들어지기까지는 긴시간이 걸리지만...\n음. 완성 되었다. 가지고 가거라.\n뭐야, 답례같은 것은 필요없어.
+ItemFullMsg:가방이 무거운것 같군.
+DelItem:2767,2768
+GetItem:2769
+EventEnd

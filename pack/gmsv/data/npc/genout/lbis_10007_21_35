@@ -1,0 +1,15 @@
+LIMITSHOP
+sell_rate:0.8
+buy_msg:안녕하세요,감사합니다,사다,사다,사다,감사합니다,사다,사다,정말로,kau,buy,주십시오
+main_msg:안녕하세요.
+sell_msg:팔다,팔다,팔다,팔다,팔다,sell,uru
+sell_main:무엇을 판매하시겠습니까？
+sellonly_msg:공룡의 고기를 구입하고있습니다！\n혹시 판매할 고기가 있으십니까？
+stone_msg:보유 스톤이 가득찾습니다.
+realy_msg:정말 괜찮겠습니까？
+LimitItemNo:1234-1249
+
+special_rate:0.5
+
+
+

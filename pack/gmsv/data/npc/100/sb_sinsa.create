@@ -1,0 +1,23 @@
+NPCCREATE
+{
+floorid=10919
+borncenter=4,7,1,1
+movecenter=20,20,100,100
+createnum=1
+time=60000
+dir=4
+graphicname=100407
+name=SBC 심사원
+enemy=sb_sbc|file:100/sb_sbc.arg
+}
+{
+floorid=20711
+borncenter=19,4,1,1
+movecenter=20,20,100,100
+createnum=1
+time=60000
+dir=5
+graphicname=100437
+name=JBA 심사원
+enemy=sb_jba|file:100/sb_jba.arg
+}

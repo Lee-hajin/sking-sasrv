@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=10202
+borncorner=31,13,31,13
+time=0
+createnum=1
+dir=5
+ignoreinvincible=1
+graphicname=16207
+name=¹®Áö±â
+enemy=npcgen_warpman|file:genout/wpm_10202_31_13
+}

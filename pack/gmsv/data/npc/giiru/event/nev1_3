@@ -1,0 +1,23 @@
+NomalMainMsg:불의 수호를 ..
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2530
+NomalWindowMsg:\n4개의 장신구를 모아 석상에 넣어보거라.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n잘왔다. 너는 이『불의 장신구』를\n받기에 적합한 인물이야.
+ItemFullMsg:가방이 가득찬거 같군.
+GetItem:2530
+EventEnd
+
+
+
+
+
+
+
+

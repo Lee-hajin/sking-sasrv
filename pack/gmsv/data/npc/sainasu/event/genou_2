@@ -1,0 +1,49 @@
+NomalMainMsg:당신은 누구십니까?
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=42&ENDEV=4&PET>60-95,&ITEM=2758LV>0&PET>59-95&ITEM=2758
+AcceptMsg:\n\n바람을 휘감는 공룡 부르돈과 이 세계의 바람을 수호하는 팔찌를 바람의 신전에 봉납하시겠습니까?
+ThanksMsg:\n\n좋습니다.\n당신에게 바람의 가호가 있기를..
+ItemFullMsg:가방이 가득 차신거 같군요.
+DelPet:PET>59-95*1
+DelItem:2758
+GetRandItem:73,173,375,574,774,973,1075,2695
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=42&ENDEV=4&PET>42-95&ITEM=2758,LV>0&PET>42-95&ITEM=2758
+AcceptMsg:\n\n바람을 휘감는 공룡 부르돈과 이 세계의 바람을 수호하는 팔찌를 바람의 신전에 봉납하시겠습니까?
+ThanksMsg:\n\n좋습니다.\n당신에게 바람의 가호가 있기를..
+ItemFullMsg:가방이 가득 차신거 같군요.
+DelPet:PET>42-95*1
+DelItem:2758
+GetRandItem:67,167,271,473,676,872,1175,2691,167,271,676,872,1175
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=42&ENDEV=4&PET>0-95&ITEM=2758,LV>0&PET>0-95&ITEM=2758
+AcceptMsg:\n\n바람을 휘감는 공룡 부르돈과 이 세계의 바람을 수호하는 팔찌를 바람의 신전에 봉납하시겠습니까?
+ThanksMsg:\n\n좋습니다.\n당신에게 바람의 가호가 있기를..
+ItemFullMsg:가방이 가득 차신거 같군요.
+DelPet:PET>0-95*1
+DelItem:2758
+GetRandItem:71,171,372,571,772,972,1074,2694,71,171,372,571,772,972
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=4&ENDEV=42
+NomalWindowMsg:\n\n당신은 바람의 가호가 있으시군요.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n\n\n당신은 누구십니까?
+EventEnd
+
+

@@ -1,0 +1,98 @@
+NomalMainMsg:아니.. 당신은 누구신데 이곳까지 찾아 온것인가요?
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=40&ITEM=2706
+NomalWindowMsg:\n그 깃털은 불사조의 깃털이군요\n깃털을 가지고 이라님을 만나보십시오.\n불의 가호를 받으실수 있으실겁니다.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=40
+NomalWindowMsg:\n불의 가호를 받기위해선 불사조의 깃털이 필요할텐데.....
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2708,LV>0&ITEM=2709,LV>0&ITEM=2710,LV>0&ITEM=2711
+NomalWindowMsg:\n당신은 불을 사랑하는 마을을 가지고 있지 않습니다.\n\n자신의 일을 잊어버리는것에 대한 준비가 안됬습니다.
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2712
+AcceptMsg:\n여기까지 오느라 수고했습니다..\n친절하신 이라님 께서\n상금을 지급하였습니다.\n자, 바남의 항아리를 내밀어보세요.!
+ThanksMsg:\n\n상품을 받을 공간이 부족한거 같아요.!
+GetRandItem:1352,1466,2566
+DelItem:2712
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2713
+AcceptMsg:\n여기까지 오느라 수고했습니다..\n친절하신 이라님 께서\n상금을 지급하였습니다.\n자, 바남의 항아리를 내밀어보세요.!
+ThanksMsg:\n\n상품을 받을 공간이 부족한거 같아요.!
+GetRandItem:1451,2567
+DelItem:2713
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2714
+AcceptMsg:\n여기까지 오느라 수고했습니다..\n친절하신 이라님 께서\n상금을 지급하였습니다.\n자, 바남의 항아리를 내밀어보세요.!
+ThanksMsg:\n\n상품을 받을 공간이 부족한거 같아요.!
+GetRandItem:1165,2568,11907,2614
+DelItem:2714
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2715
+AcceptMsg:\n여기까지 오느라 수고했습니다..\n친절하신 이라님 께서\n상금을 지급하였습니다.\n자, 바남의 항아리를 내밀어보세요.!
+ThanksMsg:\n\n상품을 받을 공간이 부족한거 같아요.!
+GetRandItem:1052,1269,11836,2565
+DelItem:2715
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2716
+AcceptMsg:\n여기까지 오느라 수고했습니다..\n친절하신 이라님 께서\n상금을 지급하였습니다.\n자, 바남의 항아리를 내밀어보세요.!
+ThanksMsg:\n\n상품을 받을 공간이 부족한거 같아요.!
+GetRandItem:2692,2695,251,562
+DelItem:2716
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2717
+AcceptMsg:\n여기까지 오느라 수고했습니다..\n친절하신 이라님 께서\n상금을 지급하였습니다.\n자, 바남의 항아리를 내밀어보세요.!
+ThanksMsg:\n\n상품을 받을 공간이 부족한거 같아요.!
+GetRandItem:2693,2696,256,459,1460
+DelItem:2717
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2718
+AcceptMsg:\n여기까지 오느라 수고했습니다..\n친절하신 이라님 께서\n상금을 지급하였습니다.\n자, 바남의 항아리를 내밀어보세요.!
+ThanksMsg:\n\n상품을 받을 공간이 부족한거 같아요.!
+GetRandItem:2691,2694,65,266,364,971
+DelItem:2718
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=40
+NomalWindowMsg:\n불의 가호를 받으셨군요.\n이제 더 나아가 새로운 새로운 삶을 찾아보십시오.\n
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n\n\n아니.. 당신은 누구신데 이곳까지 찾아 온것인가요?
+EventEnd
+
+

@@ -1,0 +1,34 @@
+NomalMainMsg:乖봤벧태가！侶쟁돕뇹떼唐옵태돨왜질！
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙에도 무서운 공룡이있어？\n제발...
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:난 반드시 큰형처럼 용감해질꺼야!
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63
+NomalWindowMsg:우리 형앞에선 다른공룡도 공격 못해!
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:방금 큰 공룡이 우리를 덮쳤어!\n우리 큰형이 공룡을 무찔러줬지!!
+EventEnd
+
+
+

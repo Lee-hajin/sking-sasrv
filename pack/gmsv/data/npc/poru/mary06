@@ -1,0 +1,39 @@
+NomalMainMsg:뭐야? 나에게 다른 용건이 있나?
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙?? 엄청 기대되는군~~
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=56
+NomalWindowMsg:\n좋아! 해냈구나 아주 잘했어
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=56&PET=30-719&ITEM=2478
+NomalWindowMsg:\n오! 디오와「벌목 허가증」이군!\n어서 빨리 두목님께 드려 아주 좋아하실거야
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=56
+NomalWindowMsg:디오를 어서빨리 육성해 오라고!\n아참「벌목 허가증」도 같이 가져오라고!
+EventEnd
+ 
+ 
+EventNo:56
+TYPE:ACCEPT
+EVENT:NOWEV=67
+AcceptMsg:미란다 두목이 나를 찾으라고 했다고?
+ThanksMsg:아, 그렇군!\n이 디오를 잘 성장시켜 오면 두목님도 참 좋아하실거야!\n어서 출발하라고.
+PetFullMsg:뭐야? 페트를 너무 많이 데리고 있는거 같은데?
+GetPet:1481
+EndSetFlg:67
+EventEnd

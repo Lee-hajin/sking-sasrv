@@ -1,0 +1,19 @@
+NomalMainMsg:당신은 무슨일때문에 오셨나요?
+
+EventNo:17
+TYPE:ACCEPT
+EVENT:NOWEV=17&ITEM=2457&ITEM=2458&ITEM=2459&ITEM=2505
+AcceptMsg:당신은 용의 창을 가지고 싶어 하군요?
+ThanksMsg:여의주는 제가 가지고 가겠습니다.\n자, 용의 창을 가져가세요.!
+ItemFullMsg:가방이 무거우신것 같습니다.
+GetItem:2460
+DelItem:2457,2458,2459,2505
+EndSetFlg:17
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=17
+NomalMsg:자연의 균형을 이해하셨나요?\n여의주를 가져다주셔서 감사합니다.
+EventEnd
+

@@ -1,0 +1,18 @@
+NomalMainMsg:심심해...
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=63&ITEM=18538&ITEM=18539&ITEM=18540&ITEM=18541&ITEM=18542
+AcceptMsg:너는 샴기르의 갈고리 모양 옥을 가지고 있어?
+ThanksMsg1:우와! 할아버지가 가지고 계시던건데?\n어떻게 이걸 가지고 있어?\n나 이거 가질래!!!!!\n대신 할아버지가 선물로 주신거 너에게 줄게!!
+ItemFullMsg:뭐야 가방이 너무 무거운거 같은데?
+DelItem:18538,18539,18540,18541,18542
+GetItem:18537,18543*5
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:히히- 어때 이거 정말 맘에든다!
+EventEnd
+

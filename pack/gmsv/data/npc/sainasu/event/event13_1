@@ -1,0 +1,39 @@
+NomalMainMsg:허허허··· 이 외딴곳엔 무슨 일이지?
+
+EventNo:13
+TYPE:ACCEPT
+EVENT:NOWEV=13&ITEM=2428&ITEM=2429&ITEM=2430
+AcceptMsg:오오오!\n대대로 전해 내려오는 세 종류의 신기를\n도적들에게서 찾아주었군!
+ThanksMsg:정말로 고마워!\n내 비록 가진건 없지만 이건 자그만한 보답의 선물이야. 받아두게나!
+GetItem:2450
+DelItem:2428,2429,2430,2431
+ItemFullMsg:가방이 너무 무거운거 같군.\n가방을 비워주게나
+EndSetFlg:13
+EventEnd
+
+EventNo:13
+TYPE:MESSAGE
+EVENT:NOWEV=13&ITEM!=2431
+NomalWindowMsg:이런 발자취를 잃어버린게나?\n하나더 있는걸 줄태니 다신 잃어버리지 말게나
+GetItem:2431
+ItemFullMsg:가방이 너무 무거운거 같군.\n가방을 비워주게나
+EventEnd
+
+EventNo:13
+TYPE:REQUEST
+EVENT:LV>15
+RequestMsg:우우우···\n범인에게 가보를 빼앗겨 버렸다네···\n되찾고 싶은 마음은 굴뚝같지만···\n도저히 이 몸으론···\n무리한 일인줄은 알지만 부탁하네.\n가보인『세종류의 신기』를 되찾아주게!
+ThanksMsg:오옹오오!\n정말로? 그들의 발자취를 쫒다보면 찾아낼 수 있을거야\n조심해 그들은 강력한 무기를 지니고 있으니깐.
+StopMsg:왜그래? 못찾겠나?
+EndStopMsg:정말 아쉽구만···\n마음이 바뀌면 다시오게나
+NoStopMsg:그래 잘생각했어 고맙구나 정말로··
+GetItem:2431*1
+ItemFullMsg:가방이 너무 무거운거 같군.\n가방을 비워주게나
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=13
+NomalWindowMsg:정말로 고맙네.\n이 가보가 없었다면 생각도 하기 싫구만
+EventEnd

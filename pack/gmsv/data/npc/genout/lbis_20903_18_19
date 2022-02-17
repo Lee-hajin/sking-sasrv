@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:0.6
+buy_msg:안녕하세요,사다,buy
+sell_msg:팔다,sell
+main_msg:어서오세요.
+sell_main:난 이곳 공룡들의 고기만 구매하고있어\n어떤 고기를 팔건가？
+other_msg:고기,niku
+hint_msg:고기를 구입하는 상인
+sellonly_msg:고기를 구매하고 있어\n고기가 있다면 나에게 팔지 않을래？
+stone_msg:보유 스톤이 가득찾습니다.
+realy_msg:정말 괜찮겠습니까？
+LimitItemNo:1234-1249
+
+special_rate:1.0
+
+
+

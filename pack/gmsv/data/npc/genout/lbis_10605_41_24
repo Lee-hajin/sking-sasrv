@@ -1,0 +1,15 @@
+LIMITSHOP
+sell_rate:0.3
+buy_msg:사다,정말로,kau,buy
+main_msg:안녕하세요.
+sell_msg:팔다,sell,uru
+sell_main:무엇을 판매하시겠습니까？
+sellonly_msg:광석을 싼가격에 구매하고 있는데\n필요없는 광석이 있다면 나에게 팔래？
+stone_msg:보유 스톤이 가득찾습니다.
+realy_msg:정말 괜찮겠습니까？
+LimitItemNo:2469-2471
+special_item:2471
+special_rate:0.4
+
+
+

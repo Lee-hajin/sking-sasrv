@@ -1,0 +1,18 @@
+NomalMainMsg:윽... 너무 목이말라요... 물이 필요해요...
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=18560*1
+AcceptMsg:어? 그것은 물이군요!!!
+ThanksMsg:정말로 감사합니다.\n물을 주셔서 이것은 보답입니다.
+StoneFullMsg:이런... 소유할수 있는 스톤이 너무 많으신거 같네요..
+DelItem:18560*1
+GetStone:100
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n윽... 너무 목이말라요... 물이 필요해요...
+EventEnd
+

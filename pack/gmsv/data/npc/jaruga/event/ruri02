@@ -1,0 +1,37 @@
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=39&ITEM!=2699
+AcceptMsg:\n\n이런···목걸이를 잃어버렸나요?
+ThanksMsg:\n\n여분이 있긴 했는데.. 다신 잃어버리지 말아주세요.
+ItemFullMsg:\n\n가방이 너무 무거워서 목걸이를 다시 드릴수 없어요.
+GetItem:2699
+EventEnd
+
+EventNo:39
+TYPE:REQUEST
+EVENT:LV>0&ENDEV=4
+RequestMsg:\n당신은 이미『성인의 의식』을\n끝낸 것 같군요.\n\n내 부탁을 들어주지 않겠습니까?
+ThanksMsg:\n2주일 전에 아들인 이브가 집 청소를\n하다가 14년전에 집을 나간\n엄마의 일기를 보고 말았어요.\n아들에게는 엄마는 죽었다고 했었는데...
+ThanksMsg2:\n그 일기에는 사실이 적혀져 있고\n아들은 사실을 들려달라고 했어요.\n그러나 저는 아들이 성인의식을 끝낸\n후에나 말할려고 했었기 때문에\n아무 말도 들려줄 수 없었죠.그런데,\n아들이 일기를 가지고 집을 나가버렸어요.
+ThanksMsg3:\n분명히 유리동굴에 있는\n티아트를 찾으러 갔을거에요.\n그애는 아직 성인의식도 끝내지 않아\n엄마가 어디에 있는지도 모를텐데..\n만일 장소를 안다고 해도 유리동굴의\n안까지 들어가는 것은 불가능하죠.
+ThanksMsg4:\n미안한 부탁이지만\n이브로부터 일기를 되찾아\n나의 추억이 담긴 목걸이와 함께\n내 처인 티아트에게 건네주지 않겠습니까?
+StopMsg:\n\n너무 무리한 부탁이었나요..?
+EndStopMsg:\n\n알겠습니다. 하지만 언제든지 다시 와주세요. 기다리고 있겠습니다.
+NoStopMsg:\n\n감사합니다. 아들에게 일기를 찾아 티아트에게 건네주세요.
+ItemFullMsg:\n\n가방이 너무 무거운것 같아요.
+GetItem:2699
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=39
+NomalWindowMsg:티아르를 만나뵌거 같군요.\n(소식을 듣는다)\n그렇군요.. 저와 아들은 잘 기다리겠습니다.\n정말로 감사드립니다.!!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n아들이 가출을 해버렸어요.. 어서 돌아와야 할탠데...
+EventEnd
+
+

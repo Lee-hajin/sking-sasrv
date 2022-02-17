@@ -1,0 +1,15 @@
+routenum:1
+routeto1:5000,43,59;5000,43,60;300,165,94;300,166,94
+routename1:후르도~가우린
+denieditem:2402,403,2404,2405,2406,2407,2408,2409,2410,2411,2412,2413
+needstone:3000
+pickupitem:0
+waittime:180
+msg_gettingon:삐~익
+msg_notparty:삐~익 (출발합니다.)
+msg_overparty:삐~익 (더 이상 자리가 없어요.)
+msg_denieditem:삐~익 (화물은 소지할 수 없습니다.)
+msg_stone:삐~익 (스톤이 부족합니다.)
+msg_start:삐~익 (출발 합니다.)
+msg_end:삐~익 (도착하였습니다.)
+oneway:1

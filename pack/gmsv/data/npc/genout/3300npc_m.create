@@ -1,0 +1,100 @@
+NPCCREATE
+{
+floorid=3300
+borncorner=45,65,45,65
+time=0
+createnum=1
+graphicname=16221
+name=청년
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|우루리 마을에 어서오세요!
+}
+{
+floorid=3300
+borncorner=71,44,71,44
+time=0
+createnum=1
+graphicname=16212
+name=마을 사람
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|우루리 마을에 어서오세요!
+}
+{
+floorid=3300
+borncorner=54,49,54,49
+time=0
+createnum=1
+graphicname=16219
+name=마을 소녀
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|축제는 역시 좋아!
+}
+{
+floorid=3300
+borncorner=51,69,51,69
+time=0
+createnum=1
+graphicname=16218
+name=마을 소녀
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|쟈루섬의 편의점이 개점했다!
+}
+{
+floorid=3300
+borncorner=64,67,64,67
+time=0
+createnum=1
+graphicname=16217
+name=마을 소녀
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|그렇게 큰 몸으로 불편하지 않습니까?
+}
+{
+floorid=3300
+borncorner=54,69,54,69
+time=0
+createnum=1
+graphicname=16220
+name=마을 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|정글이 넓으니까 우리들은 페트를 타고 이동해!
+}
+{
+floorid=3305
+borncorner=16,12,16,12
+time=0
+createnum=1
+graphicname=16011
+name=꼬마
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|나도 나가서 뛰어놀고싶다····
+}
+{
+floorid=3305
+borncorner=18,14,18,14
+time=0
+createnum=1
+graphicname=16220
+name=우루리청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|우리는 병에걸리면 거인이되버려
+}
+{
+floorid=3300
+borncorner=57,44,57,44
+time=0
+createnum=1
+graphicname=16221
+name=우루리청년
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|하하 키가 작다고 무시하면 안될껄
+}

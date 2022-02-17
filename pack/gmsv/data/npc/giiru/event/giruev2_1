@@ -1,0 +1,43 @@
+NomalMainMsg:저놈의 토카 자식!,채굴권을 따와야 되는데...!
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:ENDEV=27
+RequestMsg:\n정말 우리에게 많은것을 해줘서 고마워\n덕북의 좋은 품질의 돌을 얻게 되었어\n다시 허가증을 지급받기 위해선 1000스톤이 필요해
+ThanksMsg:허가증을 지급하겠습니다.
+StopMsg:
+EndStopMsg:
+NoStopMsg:
+GetItem:2527
+DelStone:1000
+ItemFullMsg:가방이 가득찬거 같은데?\n한칸만 비워줄래?
+StoneLessMsg:지불할 비용이 없는거같은데?\n
+EventEnd
+
+EventNo:27
+TYPE:ACCEPT
+EVENT:ITEM=2533&ENDEV!=27
+AcceptMsg:정말? 채굴권을 땃다고??
+ThanksMsg:정말 고마워!!\n이제 최상층에 갈수 있게 되었어!
+GetItem:2527
+DelItem:2533
+EndSetFlg:27
+ItemFullMsg:가방이 가득찬거 같은데?\n한칸만 비워줄래?
+EventEnd
+
+EventNo:27
+TYPE:MESSAGE
+EVENT:NOWEV=27&ITEM=2535
+NomalWindowMsg:녀석들도 봤을꺼야.!
+EventEnd
+
+EventNo:27
+TYPE:REQUEST
+EVENT:LV>29&ENDEV!=27
+RequestMsg:내 이름은 데니무.\n데니무 채굴단의 단장이다.\n지금 바바로의 채굴조와 이 광산의 사용권을 걸고 시합을 하고 있지.\n그러나 놈들은 시합전에 우리 선수에게 독초를 먹여 시합에 나갈 수 없게 되어어
+RequestMsg1:선수가 부족한데...혹시 채굴권을 따내는걸 도와줄수 있겠어？\n도와만 준다면 최정상의 채굴을 할 수 있는 권한을 줄께.!\n어때? 해볼만 하지 않겠어?
+ThanksMsg:정말 고마워.!\n바바로님께 한번 찾아가봐.!
+StopMsg:왜? 출전을 할수 없을거 같아?
+EndStopMsg:이런.. 아쉽군 너만한 참가자도 없을탠대.. 큰일이야
+NoStopMsg:바바로님을 찾아가봐.!
+EventEnd

@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:그..그것은 우리들의 발자국....
+askbattlemsg2:들켜버렸다면 어쩔수 없지!
+askbattlemsg3:덤벼라!! 상대햊마
+startmsg:하하하! 지금 와서 용서를 빈다고 해드 이미 늦었다.
+dieact:0
+item:2431
+end msg:하하하·· 나약한 녀석
+enemyno:513,516
+deniedmsg:뭔대 이곳까지 온거지？난 아무것도 안했다고！
+time:300
+

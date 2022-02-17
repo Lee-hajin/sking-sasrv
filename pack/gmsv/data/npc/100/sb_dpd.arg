@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:머냐？저쪽으로 꺼져라！
+askbattlemsg2:아니면 친구를 방해할 생각인가？
+askbattlemsg3:우리들은 LV65 이상이다!!!!
+askbattlemsg4:이길 자신이 있다면 덤벼라!!!
+startmsg:덤벼보라니까！
+dieact:0
+end msg:
+enemyno:1283,1282,1284,1285,1286
+deniedmsg:저리썩 꺼저라！
+time=300

@@ -1,0 +1,44 @@
+NomalMainMsg:다나마을에 온것을 환영하네!. 잘 둘러 보게나
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=40
+NomalWindowMsg:니스대륙의 용사가 탄생할걸세..
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&NOWEV=40&ITEM=2706
+NomalWindowMsg:\n불사조의 깃털을 구해셨나?\n그럼 진홍의 동굴에 한번 가보게나.
+EventEnd
+
+EventNo:40
+TYPE:REQUEST
+EVENT:ENDEV=4
+RequestMsg:\n\n다나마을에 어서오게.\n정령의 의식을 받고싶은가?
+ThanksMsg1:\n\n\n다나의 땅에선 이라님에게 인정받기 위해서 "불사조의 깃털"을 봉납해야되.
+ThanksMsg2:\n\n\n불사조의 깃털은 신성한 기운을 가진\n불사조님이 정령의 의식을 치루기 위해서 온 자들 중에 시험을 통해 깃털을 준다고 해
+ThanksMsg3:\n\n정령의 의식을 하기 위해서는 꼭!\n"불사조의 깃털"을 구해가야되지
+StopMsg:\n\n\n그만하셔고?
+EndStopMsg:\n\n\n당신은 자신이 없는가보군
+NoStopMsg:\n\n그럼!\n니스의 용사는 충분히 가능성이 있어.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30
+NomalWindowMsg:해답을 찾은거같군.\n축하하네
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=30&NOWEV=54
+NomalWindowMsg:그래! 쿠이용에게서 진실의 안경의 해답을 찾았나보군!
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&NOWEV=30&NOWEV=54
+AcceptMsg:요즘 채석장에서 이상한 소문이 돌던데 그일때문에 왔나?
+ThanksMsg1:채석장에 채석꾼들이 들어가기 전까지 우리 마을과 후르도는 한없이 평안했었지...그런데 말이야? 채석꾼들이 채석하면서 부터 동굴에서 정령들이 보인다는 소문이 있더군..
+ThanksMsg2:그 소문에 의하면「진실의 안경」이라는게 있어야 정령들을 볼 수 있다고 하더군. 후르도장로에게 한번 가봐 뭔가를 알고 있다고 했는데 나는 귀가 먹어서 말이지..
+EventEnd

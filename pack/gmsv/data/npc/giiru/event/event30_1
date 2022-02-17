@@ -1,0 +1,43 @@
+NomalMainMsg:저는 이 채석장의 관리를 맡고 있습니다.,요즘들어 이상한 일들이 자주 발생하고 있습니다.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30&ITEM!=2391&ITEM!=2392
+AcceptMsg:\n그렇습니까?\n\n이 안에 정령들이 많이 있단말이죠···.\n이곳에서는 순도가 높은 양질의\n가우린 돌을 캘 수 있다고 생각했습니다.\n그럼 더 이상 채석을 하지\n않는 것이 좋겠군요···.
+ThanksMsg1:\n\n알겠습니다.\n\n저희들도 정령을 무시한 채\n채석을 할 수는 없으니 더 이상 채굴하지\n않도록 하겠습니다.
+ThanksMsg2:\n\n감사합니다.\n계속했다면 정령들을 화나게 할 뻔 했군요.\n\n자! 뒷정리라도 할까요···.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30&ENDEV=54&ITEM!=2549
+NomalWindowMsg:\n\n감사합니다.\n계속했다면 정령들을 화나게 할 뻔 했군요.\n\n자! 뒷정리라도 할까요···.\n이 열쇠는 더 이상 저에겐 필요가 없군요.
+ItemFullMsg:\n\n\n소지품이 가득 찬 것 같군요!\n조금 줄인 후에 다시 와주십시오.
+GetItem:2549
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&NOWEV=30&ITEM=2549,ENDEV=4&ENDEV=30&ITEM=2549,ENDEV=4&NOWEV=29&NOWEV=30&ITEM=2549
+NomalWindowMsg:\n\n\n무엇때문인지 이 원인을 반드시\n찾아주십시오.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&NOWEV=30,ENDEV=4&ENDEV=30,ENDEV=4&NOWEV=29&NOWEV=30
+AcceptMsg:\n\n\n이런! 열쇠를 잃어버린신겁니까?
+ThanksMsg:\n\n\n자! 여기 있습니다.\n이 열쇠를 문지기에게 주십시오.
+ItemFullMsg:\n\n\n소지품이 가득 찬 것 같군요!\n조금 줄인 후에 다시 와주십시오.
+GetItem:2549
+EventEnd
+
+EventNo:30
+TYPE:REQUEST
+EVENT:ENDEV=4&ENDEV!=30
+RequestMsg1:\n이 채석장은 1년전쯤 개설한 새로운\n채석장입니다. 지금까지는 가우린돌을\n채석할 때는 작은 산을 바깥쪽부터\n무너뜨리는 방식으로 채석 해 왔습니다.\n그러다 이 동굴이 발견되었습니다.\n이곳의 돌은 순도가 매우 높고 딱딱하며\n색깔도 매우 흰 양질의 돌이였습니다.
+RequestMsg2:그래서 이 채석장을 만들어 돌을 캐기\n시작했지만 개설한지 1년이 된 지금\n이상한 일들이 일어나고 있습니다.\n바람이 통하지 않는 이 동굴에서 갑자기\n횃불이 꺼지거나 지진이 일어나서\n동굴밖으로 나가보면 아무 일 없다거나··\n이런 일이 있다 보니 점점 사람들이\n그만두게 되었습니다.
+RequestMsg3:\n\n\n이 원인을 찾아 주지 않으시겠습니까?
+ThanksMsg:\n\n\n그렇습니까? 부탁드립니다.\n지금 입구는 닫혔으니 문지기에게\n이 열쇠를 주십시오.
+ItemFullMsg:\n\n\n소지품이 가득 찬 것 같군요!\n조금 줄인 후에 다시 와주십시오.
+GetItem:2549
+EventEnd

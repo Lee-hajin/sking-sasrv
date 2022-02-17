@@ -1,0 +1,122 @@
+CPUUSE 1
+##############################
+#SAAC Basic parameter setting 
+# Account server
+port 10001
+
+# Account server
+pass test
+
+# rotale_internal
+rotale_internal 1000
+
+# DBDIR file directory
+dbdir data
+
+# Log file catalog
+logdir log
+
+# Lock file directory
+lockdir lock
+
+# Char file catalog
+chardir char
+
+# Char_sleep file directory
+sleepchardir char_sleep
+
+# WKLOG file directory
+wklogdir data/wklog
+
+# Mail file directory
+maildir mail
+
+# Family file catalog
+familydir data/family
+
+# Fmpoint file directory
+fmpointdir data/fmpointdir
+
+# FMSMEMO file catalog
+fmsmemodir data/fmsmemodir
+
+# SA name
+SANAME Test
+
+# LS address
+LSADDRESS localhost
+
+# LS port
+LSPORT 3334
+
+# TEST name
+TESTNAME Test
+
+# OACBIND
+OACBIND
+
+# Realm name
+saacname Test
+
+##############################
+# Update character point interval XX
+Total_Charlist 3600
+# Update for expiration interval XX
+Expired_mail 600
+# Delete family membership XX
+Del_Family_or_Member 3600
+# Update family information interval XX
+Write_Family 600
+
+##############################
+#MYSQL basic configuration
+#ifdef _SASQL
+#sql server IP
+sql_IP          172.30.0.100
+#sql server port
+sql_Port        3306
+#sql server account
+sql_ID          root
+#sql server password
+sql_PS          password
+#sql Database name
+sql_DataBase    sa
+#sql Character information table name
+sql_Table       CSA_Login
+#sql User name
+sql_NAME        Name
+#sql Password field county
+sql_PASS        PassWord
+#sql Lock account table name
+sql_LOCK        lock
+
+########Background function############
+# It is the beginning of the station.
+openbackground  1
+#openbackground The value is 1 start below.
+sql_RegIP       IP
+sql_RegTime     RegTime
+sql_LoginTime   LoginTime
+sql_Path        Path
+sql_OnlineName  OnlineName
+############################
+
+#Whether to limit the same number of IP logins(0 is not limited)
+SameIpMun        0
+
+#Whether to use MD5(0 Whether or not)
+USEMD5           0
+
+#Automatic backup every few days
+AUTOBACKUPDAY    1   
+
+#Several automatic backup
+AUTOBACKUPHOUR   6  
+
+#Is it automatically registered?
+AutoReg          1
+
+#Liuhe color time is long
+LOTTERYSYSTEM    0
+
+#endif

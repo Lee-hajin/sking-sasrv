@@ -1,0 +1,6 @@
+WARP:21003,34,7
+FREE:LV>0&ITEM=2700,LV>0&NOWEV=39,LV>0&ENDEV=39
+MONEY:-1
+FreeMsg:대지의 깃털이 있는것 같군.\n좋아.! 이곳을 지나가도 좋아\n
+PayMsg:\n대지의 깃털이 없으면 이곳을 넘어갈수 없어.\n대지의 깃털을 가져와.!
+PartyMsg:\n\n파티상태로는 입장하실수 없습니다.

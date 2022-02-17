@@ -1,0 +1,248 @@
+NomalMainMsg:이곳은 카루타나 목장 입니다.!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2592*1&ITEM=2596
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2592*1
+GetStone:14400
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2591*1&ITEM=2596
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2591*1
+GetStone:6300
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2590*1&ITEM=2596
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2590*1
+GetStone:2860
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*4&ITEM=2596
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*4
+GetStone:2160
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*3&ITEM=2596
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*3
+GetStone:1620
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*2&ITEM=2596
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*2
+GetStone:990
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*1&ITEM=2596
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*1
+GetStone:450
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2592*1&ITEM=2595
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2592*1
+GetStone:11200
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2591*1&ITEM=2595
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2591*1
+GetStone:4900
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2590*1&ITEM=2595
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2590*1
+GetStone:2275
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*4&ITEM=2595
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*4
+GetStone:1680
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*3&ITEM=2595
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*3
+GetStone:1260
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*2&ITEM=2595
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*2
+GetStone:770
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*1&ITEM=2595
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*1
+GetStone:350
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2592*1&ITEM=2594
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2592*1
+GetStone:6400
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2591*1&ITEM=2594
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2591*1
+GetStone:2800
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2590*1&ITEM=2594
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2590*1
+GetStone:1300
+StoneFullMsg:콱봤獗唐붤뜩풀킷，杰鹿풀꼇못콱죄。
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*4&ITEM=2594
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*4
+GetStone:1030
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*3&ITEM=2594
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*3
+GetStone:780
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*2&ITEM=2594
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*2
+GetStone:480
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2589*1&ITEM=2594
+AcceptMsg:\n당신은 공룡을 조달하는 아르바이트를\n해준 사람이군요. 수고했어요!\n이 증명서에 쓰여져 있는 공룡의 수를\n돈으로 환상하시겠어요?
+ThanksMsg:\n흠! 이 증명서대로라면\n수당은 이 정도네요.\n또 시있으면 아르바이트 부탁해요.\n그 소개장을 가지고 있으면 언제라도\n가능해요.
+DelItem:2589*1
+GetStone:200
+StoneFullMsg:소지할수 있는 스톤의 양이 최대치가 초과하였습니다.
+EventEnd
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:LV>4&ITEM!=2593
+RequestMsg:카루타나목장에 오신 것을 환영합니다!\n여기서는 공룡들의 털과 등딱지를 이용해서\n가공소재를 생성하고 있어요.\n요즘 목장이 황폐해져서 공룡수가\n많이 줄었어요.\n소재공룡을 조달해서 맡기는\n아르바이트를 모집하고 있어요.\n당신도 할래요?
+ThanksMsg:소개장을 가지고 카루타나 동굴 안에 있는 관리인에게 가보세요\n당신에게 맞는 아르바이트를 찾아 줄것이에요.
+StopMsg:\n흠? 결국 못하겠습니까?
+EndStopMsg:\n그래. 다음에 관심이 있다면 다시 찾아오세요.
+NoStopMsg:\n카루타나 목장 안에있는 관리인에게 가보세요.\n당신에게 맞는 아르바이트를 찾아 줄것이에요.
+ItemFullMsg:가방이 가득차서 소개장을 지급할수 없을거 같군요.
+GetItem:2593
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM!=2596&ITEM=2589&ITEM=2593,ITEM!=2596&ITEM=2590&ITEM=2593,ITEM!=2596&ITEM=2591&ITEM=2593,ITEM!=2596&ITEM=2592&ITEM=2593,ITEM!=2595&ITEM=2589&ITEM=2593,ITEM!=2595&ITEM=2590&ITEM=2593,ITEM!=2595&ITEM=2591&ITEM=2593,ITEM!=2595&ITEM=2592&ITEM=2593,ITEM!=2594&ITEM=2589&ITEM=2593,ITEM!=2594&ITEM=2590&ITEM=2593,ITEM!=2594&ITEM=2591&ITEM=2593,ITEM!=2594&ITEM=2592&ITEM=2593
+NomalWindowMsg:\n공룡에게서 얻어온 소재를 증명서로 교환하여 가져오십시오.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>4&ITEM=2593
+NomalWindowMsg:\n\n아르바이트를 그만하시겠습니까?
+DelItem:2593
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&LV<4
+NomalWindowMsg:카루타나목장에 오신 것을 환영합니다!\n아직 당신은 레벨이 낮아 할 수 있는 아르바이트가 없습니다.!\n좀 더 수련을 하고난 후 찾아와주시기바랍니다.!
+EventEnd
+
+
+

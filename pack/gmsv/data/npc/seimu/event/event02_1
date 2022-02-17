@@ -1,0 +1,82 @@
+NomalMainMsg:안녕하세요. 저는 LV25 공룡을 모으고 있답니다.
+
+EventNo:35
+TYPE:ACCEPT
+EVENT:LV>0&PET=25-221*1&PET=25-222*1&ITEM=2607&NOWEV=35
+AcceptMsg:\n내가 부탁한 공룡을\n전부 모은것 같네!
+ThanksMsg:\n정말로 고마워!\n모두 모으리라곤 꿈에서도 생각 못했어\n처음에 약속했던대로 내가 주운 금색의\n신비한 공룡을 줄께.내 대신 소중하게\n키워줘. 그리고 내 반지는 돌려줘.
+ItemFullMsg:아이템을 받을 자리가 없는걸?
+PetFullMsg:금색펫을 받을 자리가 없는걸?
+DelPet:PET=25-221*1,PET=25-222*1
+DelItem:2607
+GetPet:1564
+EndSetFlg:35
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&NOWEV=35&ITEM=2607
+NomalWindowMsg:\n고반케스와 쟈그라는 구하고 계신가요?\n힘내세요!
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&PET=25-223*1&PET=25-224*1&ITEM!=2607&NOWEV=35
+AcceptMsg:\n내가 부탁한 LV25의 쟈그와 판지네^^\n남은것은 고반케스와 쟈그라야.\n잘 부탁할께.
+ThanksMsg:\n그리고 제가 반지를 하나드릴게요.\n이 반지는 저에게 쟈그와 판지를 줬다는 증표이기도해요.\n잃어버리면 다시 처음부터 구해와요해요!
+ItemFullMsg:반지를 받을 자리가 없군요.
+DelPet:PET=25-223*1,PET=25-224*1
+GetItem:2607
+EventEnd
+
+EventNo:35
+TYPE:REQUEST
+EVENT:LV>0&ENDEV!=35
+RequestMsg:안녕 만나서 반가워.\n나는 LV25인 공룡을 모으고 싶어서\n이 세계를 여행하고 있어.\n요전에 금색의 신비한 공룡을 주웠어.\n어, 내가 가지고 있는 공룡리스트 중에\n없는 공룡은...
+RequestMsg2:\n물에 사는 공룡인가... 이름이\n쟈그 판지 고반케스 쟈그라\n이렇게 4마리인 것 같아.\n만약 나 대신 모아주면\n이 금색의 신비한 공룡을 너에게 줄게.\n어때? 나쁜 이야기 아니지?
+ThanksMsg:\n받아주는거지?\n그렇다면 먼저 쟈그와 판지를\n모아주겠니?\n나의 페트란에는 두개밖에 공간이 없어.\n물론 LV은25야. 그럼 부탁할께.\n그 동안 나는 이 사막근처를 여행할꺼야.
+StopMsg:\n\n역시 너무 힘든가?
+EndStopMsg:\n죄송합니다.\n힘든 부탁을 드렸군요.
+NoStopMsg:\n부탁들 들어주셔서 고맙습니다.\n레벨은 꼭 25로 부탁해요~
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&PET=25-558*1&PET=25-293*1&ITEM=2607&ENDEV=35,LV>0&PET=25-292*1&PET=25-293*1&ITEM=2607&ENDEV=35
+AcceptMsg:\n내가 부탁한 공룡을\n전부 모은것 같네!
+ThanksMsg:\n정말로 고마워!\n모두 모으리라곤 꿈에서도 생각 못했어\n처음에 약속했던대로 내가 주운\n아주큰 공룡을 줄께.내 대신 소중하게\n키워줘. 그리고 내 반지는 돌려줘.
+PetFullMsg:큰 공룡을 받을 자리가 없는걸?
+ItemFullMsg:아이템칸을 비워주세요.
+DelPet:EVDEL
+DelItem:2607
+GetPet:341
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2607&ENDEV=35
+NomalWindowMsg:\n호르쿠와 쿠쿠는 구하고 계신가요?\n힘내세요!
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&PET=25-291*1&PET=25-294*1&ITEM!=2607&ENDEV=35
+AcceptMsg:\n내가 부탁한 LV25의 타키와 카키네^^\n남은것은 호르쿠와 쿠쿠야.\n잘 부탁할께.
+ThanksMsg:\n그리고 제가 반지를 하나드릴게요.\n이 반지는 저에게 타키와 카키를 줬다는 증표이기도해요.\n잃어버리면 다시 처음부터 구해와요해요!
+ItemFullMsg:반지를 받을 자리가 없군요.
+DelPet:PET=25-291*1,PET=25-294*1
+GetItem:2607
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ENDEV=35
+AcceptMsg:\n어머! 안녕 오랜만이야.\n요전에 아주 큰 공룡을 주웠어.\n어, 내가 가지고 있는 공룡리스트 중에\n없는 공룡은...
+AcceptMsg2:\n날으는 공룡일까? 이름이 타키 카키\n호르쿠 쿠쿠\n이렇게 4마리가 없는 것 같아\n만일 나 대신에 모아 준다면\n아주 큰 공룡을 너에게 줄께.\n어때? 나쁜이야기는 아니지?
+ThanksMsg:\n받아주는거지.\n그렇다면 먼저 타키와 카키를\n모아주겠니?\n나의 페트란에는 두개밖에 공간이 없어.\n물론 LV은25야. 자! 부탁할께.\n그동안 나는 사막주변을 여행하고 있을께.
+StopMsg:\n\n역시 너무 힘든가?
+EndStopMsg:\n죄송합니다.\n힘든 부탁을 드렸군요.
+NoStopMsg:\n부탁들 들어주셔서 고맙습니다.\n레벨은 꼭 25로 부탁해요~
+EventEnd

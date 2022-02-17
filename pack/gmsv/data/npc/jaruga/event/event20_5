@@ -1,0 +1,21 @@
+NomalMainMsg:뭐야! 모험가가 이곳까진 무슨일이지?
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=20&ITEM=2487
+AcceptMsg:솔직히 나도 여자애가 있어서 깜짝 놀랐어!\n우리 부부사이에는 아이도 없고 해서\n내가 키우고 싶다고 말했던 거구.\n내가 키우고 싶다고 말했던 거구.\n\n혹시 이 머리꾸미개는···\n그 애 엄마거야? 
+ThanksMsg:안좋은 일이 많았구나.\n그래 그 머리 꾸미개를 사라에게 주는것이 옳다고봐.\n사라에게 가서 건네줘.!
+EventEnd
+
+EventNo:21
+TYPE:ACCEPT
+EVENT:ENDEV=20&NOWEV=21
+AcceptMsg:사라를 만나본거구나!\n그 아이는 우리에겐 소중한 아이야.\n사라의 생각이 중요하겠지만···
+ThanksMsg:사라가 너를 부르고 있는거 같군\n한번 사라에게 가봐··\n사라도 많이 힘들거야
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&ENDEV=21
+NomalMsg:그래! 오랜만이야 사라는 잘 지내고 있어
+EventEnd

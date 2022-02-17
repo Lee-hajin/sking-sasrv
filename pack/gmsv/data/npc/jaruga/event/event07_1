@@ -1,0 +1,33 @@
+NomalMainMsg:꿀꿀！
+
+EventNo:8
+TYPE:ACCEPT
+EVENT:NOWEV=8&ITEM=2414&ITEM=2426
+AcceptMsg:꿀꿀꿀~꾸우우울!\n(번역)이전에는 고마웠어!\n내가 말한대로 꽃과 편지를\n전해주었지?\n\n뭐?우리미양이 나에게 편지를?
+ThanksMsg:꿀꿀꿀~꾸우우울!\n(번역)와! 신나는걸♪정말로 고마워.\n보답으로 나의 보물을 줄게!
+ItemFullMsg::꿀꿀꿀~꾸우우울!\n(번역)가방이 너무 무서운거 같아.!
+GetItem:1206
+DelItem:2426
+EndSetFlg:8
+EventEnd
+
+
+EventNo:7
+TYPE:REQUEST
+EVENT:LV>0&ITEM=2414
+RequestMsg:꿀꿀꿀~꾸우우울!\n(번역)처음 보는 얼굴이네?\n나는 얼마전 이 동굴로 온 우리스케라고 해\n이 동굴에 사고 있는 우리미양에게\n편지를 보내고 싶어.\n꽃과 함께 말야...\n내 소원이야. 들어주길 바래.
+ThanksMsg:고마워!\n\n우리미양에 대한 거라면 오래전부터 이곳에\n살고 있던 애들이 더 잘 알꺼야.\n개들한태 가서 물어봐.\n편지는 잃어버리지 않도록 조심해!
+ItemFullMsg:꿀꿀꿀~꾸우우울!\n(번역)가방이 너무 무거운거 같아.!
+StopMsg:꿀꿀꿀~꾸우우울!\n(번역)왜.. 편지를 전달하지 못할꺼같아?
+EndStopMsg:꿀꿀꿀~꾸우우울..\n(번역)알았어...
+NoStopMsg:꿀꿀꿀~꾸우우울!\n(번역)빨리 전해줘!\n너무 설레어!
+GetItem:2425
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=7&ENDEV=8&ITEM=2414
+NomalMsg:저번엔 정말 고마웠어.!
+EventEnd
+
+

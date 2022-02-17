@@ -1,0 +1,80 @@
+NomalMainMsg:뭐야! 넌 누구지?
+
+
+ventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n우리도 반드시 니스대륙에서 크게 성장해야지!\n정말 기대되는군.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ENDEV=55&ITEM!=18556
+NomalWindowMsg:이런... 돌을 잃어버린거야?\n하나더 줄태니깐 잃어버리지마!
+ItemFullMsg:가방이 가득찬거 같군.
+GetItem:18556
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ENDEV=55&ITEM!=18554
+NomalWindowMsg:이런... 통행증을 잃어버린거야?\n하나더 줄태니깐 잃어버리지마!
+ItemFullMsg:가방이 가득찬거 같군.
+GetItem:18554
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ENDEV=55&ITEM!=18555
+NomalWindowMsg:이런... 통행증을 잃어버린거야?\n하나더 줄태니깐 잃어버리지마!
+ItemFullMsg:가방이 가득찬거 같군.
+GetItem:18555
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ENDEV=55&ITEM=18554,ENDEV=55&ITEM=18555
+NomalWindowMsg:통행증을 가지고 가봐.
+EventEnd
+
+
+EventNo:55
+TYPE:ACCEPT
+EVENT:NOWEV=64&NOWEV=55&PET=30-720&ITEM=2474
+AcceptMsg:오! 로우를 벌써 훈련시켜 온건가?
+ThanksMsg1:로우가 최강의 기술을 배웠다니 너무좋아~~ 우리의 전투력이 향상됐어!
+ThanksMsg2:\n음하하하! 이봐~ 난 자네가 부러워~ 이것은 우리집에 내려져 오는 성스러운 돌과 두개의 통행증이야. 너에게 도움이 될거야.
+ItemFullMsg:가방이 가득찬거 같구만
+GetItem:18554,18555,18556
+EndSetFlg:55
+DelItem:2474
+DelPet:PET=30-720*1
+EventEnd
+
+
+EventNo:55
+TYPE:MESSAGE
+EVENT:NOWEV=64&NOWEV=55&PET<30-720
+NomalWindowMsg:\n음.. 아직 로우가 훈련이 덜 된거같군.\n좀 더 훈련을 시키고 와.
+EventEnd
+
+
+EventNo:66
+TYPE:MESSAGE
+EVENT:NOWEV=64&NOWEV=66
+NomalWindowMsg:\n부간은 저쪽에 있어\n나에게 무슨 용건이 있어?
+EventEnd
+
+EventNo:66
+TYPE:REQUEST
+EVENT:NOWEV=64&ENDEV=65
+RequestMsg:내가 바로 타이탄이다!\n나쁜 용들이 우리 마을을 공격한 것만 생각하면\n화가나서 미칠꺼 같아! 천지동굴을 이용해 용\n의 소굴을 공격해서 나쁜 용들을 물리칠거야!\n\n원래는 비밀인데 너가 말을 잘 들어준것 같아서\n우리팀으로 가입시키고 싶은데?
+ThanksMsg:기왕 가입했으니 전력을 다해줘 초특급 채석 감\n정서를 가져와! 그리고 로우를 레벨 30까지 훈련시켜와.\n나에게 인력이 모자랐는데 마침 네가 왔군!\n로우 쪽에 있는 부관을 찾아봐.
+EventEnd
+
+
+

@@ -1,0 +1,33 @@
+NomalMainMsg:하하 아직 먼 과거를 알기엔 어린거 같군.
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63&ITEM=18538,ENDEV=63&ITEM=18539,ENDEV=63&ITEM=18540,ENDEV=63&ITEM=18541,ENDEV=63&ITEM=18542
+NomalWindowMsg:아니 그건?\n샴기르 족장님의 옥고리 아닌가?\n샴기르님을 만난건가?!\n\n자네를 다시보게되는군.
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:그래? 과거를 다녀왔다고?\n자네가 과거 우리를 도와줬단거지 대단하다 대단해..
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>79
+NomalWindowMsg:샴기르 마을의 일에 대해 듣고 싶다고?\n하지만 난 늙어서 기억력이 좋지않아...하우리\n한테 들으면 좋을텐데..\n하우리는 나와 함께 오랫동안 같이 있어서 나보다 더 잘 알거야\n동물의 말을 알아듣고 싶다면 이상한 조개껍질을 찾아보도록 해.
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:하하하\n아직 먼 과거를 알기엔 자네가 너무 어린거 같아.
+EventEnd

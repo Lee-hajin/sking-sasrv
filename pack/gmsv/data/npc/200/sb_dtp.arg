@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:여신 티아트님을 만나려면 나를 이겨라!
+startmsg:나를 쓰러뜨리면 전진하는 것을 허락하마.
+dieact:1
+warpfl:21009
+warpx:45
+warpy:48
+end msg:
+enemyno:1148,1148,1148,1156,1156,1147,1149,1149,1157,1157
+deniedmsg:더 이상 전진할 수 없어！
+onebattle:0

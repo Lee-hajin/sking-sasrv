@@ -1,0 +1,45 @@
+NPCCREATE
+{
+floorid=3305
+borncorner=18,14,18,14
+time=0
+createnum=1
+graphicname=16220
+name=하츠
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|안녕.! 난 우루리 병원의 의사야 아직 인턴이지만..
+}
+{
+floorid=3300
+borncorner=57,44,57,44
+time=0
+createnum=1
+graphicname=16221
+name=시민
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|우루리 마을은 주민들이 키가작지만 전혀 모자란건 없지.
+}
+{
+floorid=3105
+borncorner=17,20,17,20
+time=0
+createnum=1
+graphicname=16046
+name=우루리 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|난.. 어릴적 다른곳에서 버림받고 이곳에서 길러지게 됬지
+}
+{
+floorid=3100
+borncorner=61,70,61,70
+time=0
+createnum=1
+graphicname=16044
+name=청년
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|나를 길러준 고향으로 돌아가고 싶다..
+}

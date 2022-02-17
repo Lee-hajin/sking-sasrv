@@ -1,0 +1,45 @@
+NomalMainMsg:수수께끼를 풀지 못한자는『지혜의 결정』을 손에 질수없다.
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2507*1&ITEM=2509*1&ITEM=2511*1&ITEM=2513*1&ITEM=2515*1
+AcceptMsg:\n지금까지의 문제를 전부 푼 것 같군.\n우리의 진짜 문제는 윗층에 있어.\n너는 이 앞으로 전진할 용기가 있는가?\n네가 전진할 용기를 가진 자라면 우리의\n보물인『지혜의 결정』을 주겠다.
+ThanksMsg:\n용기가 가상하군！\n\n\n자, 받아라 이것이『지헤의 결정체』다.
+ItemFullMsg:『지혜의 결정체』를 받을 공간이 부족한것 같군.
+DelItem:2507*1,2509*1,2511*1,2513*1,2515*1
+GetItem:2517*1
+EndSetFlg:28
+EventEnd
+
+EventNo:31
+TYPE:REQUEST
+EVENT:ENDEV=28&ITEM!=2517
+RequestMsg:\n무슨일인가？ 더 높은길로 올라가 진실의 문제를 풀어보거라.\n혹시『지혜의 결정체』를 잃어버린 것인가？
+RequestMsg2:\n다시『지혜의 결정체』를 줄테니 다신 잃어버리지 말도록 하거라！
+ThanksMsg:\n\n다시 한번 높은곳으로 가보거라.\n\n\n자, 받아라 이것이『지헤의 결정체』다.
+StopMsg:\n\n그래. 올라가지 않고 무슨일인가？
+EndStopMsg:\n\n여기까지와서 포기를 한다니 안타깝군.
+NoStopMsg:\n\n더 높은곳으로 올라가『지혜의 결정체』를 전하거라.  
+ItemFullMsg:『지혜의 결정체』를 받을 공간이 부족한것 같군.
+GetItem:2517*1
+EventEnd
+
+EventNo:31
+TYPE:REQUEST
+EVENT:ENDEV=28&ITEM=2517
+RequestMsg:『지혜의 결정』을 손에 넣었으면 이 위로 가서 우리의 진짜 문제에 답해라.\n이것을 우리에게 다시 돌려줄 때 너는 우리에게 인정받을 것이다.\n『지혜의 결정』은 떨어트리거나 이 세계에서 나가면 소멸한다. \n조심해서 다루거라.
+ThanksMsg:\n\n높은곳으로 나아가 우리의 문제를 풀어보도록 하거라.
+StopMsg:\n\n그래. 올라가지 않고 무슨일인가？
+EndStopMsg:\n\n여기까지와서 포기를 한다니 안타깝군.
+NoStopMsg:\n\n더 높은곳으로 올라가『지혜의 결정체』를 전하거라.  
+EventEnd
+
+
+EventNo:28
+TYPE:MESSAGE
+EVENT:NOWEV=28&ITEM!=2507,NOWEV=28&ITEM!=2509,NOWEV=28&ITEM!=2511,NOWEV=28&ITEM!=2513,NOWEV=28&ITEM!=2515
+NomalWindowMsg:문제의 해답을 찾지 못한것 같군.\n다시 문제의 해답을 찾아오거라
+DelItem:2507*1,2508*1,2509*1,2510*1,2511*1,2512*1,2513*1,2514*1,2515*1,2516*1
+EventEnd
+

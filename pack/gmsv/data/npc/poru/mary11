@@ -1,0 +1,15 @@
+NomalMainMsg:우물의 물을 판매합니다!
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg:물을 떠가시려고요?\n50스톤에 팔고 있습니다.
+ThanksMsg:감사합니다!!
+StoneLessMsg:너무 스톤이 많은신거 같은데요...
+ItemFullMsg:죄송하지만 가방좀 비워주세요.
+GetItem:18560*1
+DelStone:50
+EventEnd
+
+
+

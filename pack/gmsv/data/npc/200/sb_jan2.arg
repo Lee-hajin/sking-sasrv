@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1: 넌 누군데 이곳을 지나가려고 하지？
+askbattlemsg2:지나가기 위해서는 우리를 쓰러뜨려라.
+startmsg:애송이！덤벼라.
+dieact:1
+warpfl:20607
+warpx:36
+warpy:31
+end msg:
+enemyno:961,963,962
+deniedmsg:지나가실 수 없습니다.
+

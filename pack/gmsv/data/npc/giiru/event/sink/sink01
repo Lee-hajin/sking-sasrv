@@ -1,0 +1,27 @@
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=40
+NomalWindowMsg:\n아니..! 그때 봤던..\n이라님을 만났던것인가?
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=40&ITEM!=2706
+AcceptMsg:\n정령의 의식에 참가하고 싶나?\n내 깃털을 바쳐서 사람들에게 인정 받고\n싶은가 보구나?
+ThanksMsg:\n알았어.\n내 깃털을 네게 줄께.\n하지만! 내 깃털은 땅에 떨어뜨리면 사라지니깐 조심해.\n이제, 나는 다른 곳으로 옮길테니 기회가 있으면 또 만나도록 하자.
+ItemFullMsg:\n\n가방이 가득차서 내 깃털을 줄수 없겠군.
+NpcWarp:20309.18.13,20309.55.49,20309.32.28,20309.46.45
+GetItem:2706
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=40&ITEM=2706
+NomalWindowMsg:\n내 깃털을 가지고 있잖아..!!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n무슨일이지?\n나에게 볼일은 없는거 같은데\n이 외딴곳까지 무슨일로 온거지?
+EventEnd

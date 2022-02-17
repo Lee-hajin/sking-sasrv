@@ -1,0 +1,14 @@
+NPCTEMPLATE
+
+{
+templatename=airplane
+makeatnobody=1
+makeatnosee=1
+type=100362
+functionset=Airplane
+hp=100
+mp=100
+str=1
+tough=1
+loopfunctime=1
+}

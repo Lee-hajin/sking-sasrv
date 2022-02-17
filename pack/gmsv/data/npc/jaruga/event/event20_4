@@ -1,0 +1,44 @@
+NomalMainMsg:이 외딴곳엔 무슨일로 온건가?
+
+EventNo:20
+TYPE:ACCEPT
+EVENT:NOWEV=20&ITEM=2487
+AcceptMsg:너는 쿠키의 촌장 아들한테 부탁을\n받고 이곳에 왔는가?\n그럼 그 딸애가 살아있다면 데려가고\n싶다는 말이군!
+ThanksMsg:하지만 사라를 보낼수는 없어 17년간 사라는 우리의 손길에 자라왔으니.\n우선 헤어 브릿지를 사라에게 건네주고 와!
+EndSetFlg:20
+EventEnd
+
+EventNo:22
+TYPE:ACCEPT
+EVENT:ENDEV=20&NOWEV=21
+AcceptMsg:그런가? 사라가 그런 말을 했나?\n그애가 친부모한테 가고싶다고\n한다면 막지는 않으려고 했었지만··\n부모에게는 그애가 그렇게 말했다고 전해주게.
+ThanksMsg:아아! 여기까지 오느라 수고했네!\n그 용기를 높이사서 이것을 주마.\n반드시 도움이 될거야.\n어? 사라가 너를 부르고 있군!
+ItemFullMsg:뭐야! 가방을 한칸만 비워봐
+GetRandItem:2490,2491,2492,2493,2494
+EndSetFlg:22
+EventEnd
+
+EventNo:21
+TYPE:MESSAGE
+EVENT:ENDEV=22&NOWEV=21&ITEM!=2488
+NomalMsg:사라가 부르고 있는거 같군! 어서 사라에게 가봐
+EventEnd
+
+EventNo:21
+TYPE:MESSAGE
+EVENT:ENDEV=20&NOWEV=21&ITEM=2488
+NomalMsg:그래. 사라의 편지를 꼭 친 부모님에게 전달해줘
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&ENDEV=21&ENDEV=22
+NomalMsg:편지는 잘 전달한거 같군. 사라는 건강하게 잘 지내고 있어
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20
+NomalMsg:사라에게 한번 헤어브릿지를 건네주거라
+EventEnd
+

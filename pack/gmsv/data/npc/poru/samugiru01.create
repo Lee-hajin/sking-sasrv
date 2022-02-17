@@ -1,0 +1,41 @@
+NPCCREATE
+
+{
+name=고대학자
+floorid=1000
+borncenter=93,72,1,1
+dir=5
+createnum=1
+enemy=npcgen_man|몇몇 사람들은 과거를 다녀왔다고 해요. 저도 그게 참 궁굼하군요
+graphicname=16039
+}
+
+{
+name=소녀
+floorid=1000
+borncenter=97,32,1,1
+dir=5
+createnum=1
+enemy=npcgen_man|할아버지에게 들었어요. 샴기르님은 정말 대단하신분 같아요!
+graphicname=16028
+}
+
+{
+name=시민
+floorid=1000
+borncenter=50,106,1,1
+dir=5
+createnum=1
+enemy=npcgen_man|어렸을적...샴기르님이 우리를 구해주고 이 샴기르 마을을 만드셨지...
+graphicname=16019
+}
+
+{
+name=소녀
+floorid=1013
+borncenter=14,16,1,1
+dir=6
+createnum=1
+enemy=changeevent|file:poru/girl
+graphicname=16009
+}

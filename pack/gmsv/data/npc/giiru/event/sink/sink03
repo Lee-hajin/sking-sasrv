@@ -1,0 +1,63 @@
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2708&ITEM=2709,LV>0&ITEM=2708&ITEM=2710,LV>0&ITEM=2708&ITEM=2711,LV>0&ITEM=2708&ITEM=2712,LV>0&ITEM=2708&ITEM=2713,LV>0&ITEM=2708&ITEM=2714,LV>0&ITEM=2708&ITEM=2715,LV>0&ITEM=2708&ITEM=2716,LV>0&ITEM=2708&ITEM=2717,LV>0&ITEM=2708&ITEM=2718
+AcceptMsg:\n\n허허허\n호수가 필요 없는가？
+ThanksMsg:\n흠,그러면 그 항아리를 줄래\n항아리를 돈을주고 사들이지.
+StoneFullMsg:소지할수 있는 스톤이 가득찬거 같군.
+DelItem:2708
+GetStone:1149
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2708&ITEM!=2709&ITEM!=2710&ITEM!=2711&ITEM!=2712&ITEM!=2713&ITEM!=2714&ITEM!=2715&ITEM!=2716&ITEM!=2717&ITEM!=2718
+AcceptMsg:\n\n허허허\n항아리의 물을 가득 받고싶나？
+ThanksMsg:\n흠,그러면 그 항아리를 줄래?\n자 받아라···\n\n가득 찼네.\n떨어뜨려서 깨뜨리지 않도록해.
+ItemFullMsg:가방이 무거워서 들수 없을것 같은데?
+KeyWord:많이
+DelItem:2708
+GetItem:2709
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2708&ITEM!=2709&ITEM!=2710&ITEM!=2711&ITEM!=2712&ITEM!=2713&ITEM!=2714&ITEM!=2715&ITEM!=2716&ITEM!=2717&ITEM!=2718
+AcceptMsg:\n\n허허허\n항아리의 물을 받고싶나？
+ThanksMsg:\n흠,그러면 그 항아리를 줄래?\n자 받아라···\n\n찰랑찰랑 찼네.\n떨어뜨려서 깨뜨리지 않도록해.
+ItemFullMsg:가방이 무거워서 들수 없을것 같은데?
+KeyWord:보통
+DelItem:2708
+GetItem:2710
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2708&ITEM!=2709&ITEM!=2710&ITEM!=2711&ITEM!=2712&ITEM!=2713&ITEM!=2714&ITEM!=2715&ITEM!=2716&ITEM!=2717&ITEM!=2718
+AcceptMsg:\n\n허허허\n항아리의 물을 조금 받고싶나？
+ThanksMsg:\n흠,그러면 그 항아리를 줄래?\n자 받아라···\n\n조금 찼네.\n떨어뜨려서 깨뜨리지 않도록해.
+ItemFullMsg:가방이 무거워서 들수 없을것 같은데?
+KeyWord:조금
+DelItem:2708
+GetItem:2711
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2708
+NomalWindowMsg:\n나는 여기서 여행객에게 물을 나눠주고 있지.\n\n물이 필요하다면 말하게나.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n나는 여기서 여행객에게 물을 나눠주고 있지.\n물이 필요하다면 말하게나.\n\n안내원이 있어 편리하게 올수 있을것이야\n기다리고 있겠네，허허허
+EventEnd
+
+
+
+
+

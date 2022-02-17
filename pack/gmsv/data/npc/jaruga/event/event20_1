@@ -1,0 +1,35 @@
+NomalMainMsg:안녕하세요.
+
+EventNo:21
+TYPE:ACCEPT
+EVENT:ENDEV=20&ENDEV=22&NOWEV=21&ITEM=2488
+AcceptMsg:오! 딸을 만나본건가요?
+ThanksMsg:어서 빨리 지도에게 그 편지를 건네주세요!
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=20&ENDEV=22&ENDEV=21
+AcceptMsg:감사합니다. 소식은 들었습니다.
+ThanksMsg:지도는 딸이 잘 지내는거같아 안심을 하는거 같습니다.\n덕분이에요.정말로 감사하니다!
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM!=2486
+AcceptMsg:나는 지도의 친구인 케이라고 합니다.\n지도는 16년전에 유괴되었던 딸이\n돌아오지나 않을까 늘 기다리고 있습니다.\n한번 만나 보시지 않겠습니까?
+ThanksMsg:지도는 촌장집에 있을꺼에요.\n지도에게 이 꽃을 전해주세요.\n꽃을 보면 마음이 조금이나마 나아질 수 있을거에요.
+ItemFullMsg:모험가님 가방이 너무 무거우신거 같아요.
+GetItem:2486
+EventEnd
+
+EventNo:21
+TYPE:ACCEPT
+EVENT:ITEM=2486
+AcceptMsg:꽃을 전해주시지 못할꺼 같나요?
+ThanksMsg:알겠습니다. 정말 아쉽네요.
+DelItem:2486
+EventEnd
+
+
+

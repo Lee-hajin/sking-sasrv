@@ -1,0 +1,27 @@
+NomalMainMsg:아아. 정말 감사합니다.
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&NOWEV=42
+NomalWindowMsg:\n\도와주셔서 정말로 감사합니다.
+EventEnd
+
+EventNo:42
+TYPE:REQUEST
+EVENT:LV>0&NOWEV=41&ENDEV=4
+RequestMsg:\n저를 도와주셨군요.
+ThanksMsg:\n정말 도와주셔서 감사합니다.\n\n지금 사람들의 일 말씀입니까?\n저도 잘 모르겠지만 갑자기 둘러싸여서\n...
+StopMsg:\n\n\n정말 감사합니다.
+EndStopMsg:\n\n정말 감사합니다.
+NoStopMsg:\n\n정말 감사합니다.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n저를 도와주신분이시군요.!\n정말로 감사합니다.
+EventEnd
+
+

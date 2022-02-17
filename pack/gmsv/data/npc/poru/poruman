@@ -1,0 +1,19 @@
+NomalMainMsg:다리를 넘어가려고?...\n이 앞은 너무나도 위험해！！\n반드시 조심해！！
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:용을 잡아봤어....이제 용기가 생겨나！
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:다리를 넘어가려고?...\n이 앞은 너무나도 위험해！！\n반드시 조심해！！
+EventEnd

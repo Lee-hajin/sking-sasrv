@@ -1,0 +1,31 @@
+NomalMainMsg:쿠르마을은 정말 아름다운거같아！
+
+EventNo:37
+TYPE:REQUEST
+EVENT:LV>49&ENDEV!=38
+RequestMsg:\n오！반가워\n혹시 마쥬의 미로라고 들어봤어？\n내가 거기에 전달해야될 물건이 있는데\n아르바이트 하나만 해줄수있겠어？\n부탁 좀 할께..
+ThanksMsg:정말？고마워！\n그러면 이 편지의 배달을 부탁할께\n카이토라는 사람이 어떤 미로의 구석에 살고 있다고 해.\n배달해 주면 사례로 나의 소중한 아이템을 너에게 줄께！
+StopMsg:\n\n\n무슨일이야？\n배달을 못하겠어..？
+EndStopMsg:\n내심 기대했는데 아쉽내...\n마음이 바뀌면 한번더 와！
+NoStopMsg:\n고마워！ 마쥬의 미로는 논 근처의 집에 가보면 갈수 있을꺼야！
+ItemFullMsg:\n\n편지를 받을 공간이 없는거 같아！\n아이템칸좀 비워줄래？
+GetItem:2687
+EventEnd
+
+
+EventNo:38
+TYPE:ACCEPT
+EVENT:ENDEV=37&LV>49
+AcceptMsg:\n\n오！반가워\n혹시마쥬의 미로라고 들어봤어？\n내가 거기에 전달해야될 물건이 있는···
+ThanksMsg:\n\n아！너는 우편물 배달을 도와준 그 아이구나！ 잘 전달한거 같네. 정말로 고마워！
+ItemFullMsg:\n\n보답으로 아이템을 주려고 그러는데 소지품칸이 부족한거같아！ 한칸의 소지품칸을 비워줘
+GetRandItem:2688,2689,2690
+EndSetFlg:38
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=38&LV>49
+NomalWindowMsg:\n\n우편 배달을 해줘서 정말 고마워！！
+EventEnd
+

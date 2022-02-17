@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:무슨일로 찾아온거지?
+startmsg:이곳을 넘어가고 싶은건가? 쉽게는 갈수 없지.
+dieact:1
+warpfl:30008
+warpx:79
+warpy:77
+end msg:
+enemyno:1239,1240,1240,1241,1241,1242,1243,1243,1242,1242
+deniedmsg:음하하하 넌 이곳을 지나갈수 없다
+onebattle:0

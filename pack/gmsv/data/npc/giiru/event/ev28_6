@@ -1,0 +1,36 @@
+NomalMainMsg:·····
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2509
+AcceptMsg:\n\n\n　　　정답을４４４ＫＧ으로 바꾸시겠습니까？
+ThanksMsg:\n\n　　　정답을 교체하였습니다.
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+DelItem:2509*1
+GetItem:2510*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2510
+AcceptMsg:\n\n\n　　　정답을４４４ＫＧ으로 바꾸시겠습니까？
+ThanksMsg:\n\n　　　정답을 교체하였습니다.
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+DelItem:2510*1
+GetItem:2510*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM!=2509,NOWEV=28&ITEM!=2510
+AcceptMsg:\n\n\n　　　정답이４４４ＫＧ라고 생각하십니까？
+ThanksMsg:\n\n　　　정답을 선택하였습니다.
+ItemFullMsg:\n\n　　　아이템칸이 부족합니다.
+GetItem:2510*1
+EventEnd
+
+
+
+

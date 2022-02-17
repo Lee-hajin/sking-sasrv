@@ -1,0 +1,41 @@
+# Issues & fixes
+## timezone fix
+https://stackoverflow.com/questions/47215214/why-is-the-gettimeofday-timezone-wrong
+
+
+## linking error fix
+https://stackoverflow.com/questions/31600907/linking-error-with-cmake
+- solved with (NOT REALLY)
+    - set(CMAKE_C_STANDARD 11)
+- solved by installing proper Lua 5.1.4 and link
+
+
+/usr/lib/libz.so: error adding symbols: File in wrong format
+??
+
+linker issues?
+- check CMAKE
+- E.g., MYSQL_LIBRARIES not MYSQL_LIBRARY
+
+## encoding issue
+chardetect ./*
+
+## GMSV memory?
+
+
+
+# SQLs
+INSERT INTO `CSA_Login` (`Name`, `PassWord`)
+VALUES ("qwe", "qwe")
+
+# DDOS
+https://javapipe.com/blog/iptables-ddos-protection/
+https://lartc.org/howto/lartc.cookbook.synflood-protect.html
+https://github.com/timeweb/ddosdetector
+https://github.com/ekovegeance/DDOS
+
+# Utils
+https://github.com/netdata/netdata
+
+
+# Tools

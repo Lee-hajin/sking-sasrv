@@ -1,0 +1,14 @@
+LIMITSHOP
+sell_rate:1.0
+main_msg:안녕하세요.
+buy_msg:사다,kau,buy,menu,감사합니다
+sell_msg:팔다,sell,uru
+sell_main:무엇을 판매하시겠습니까？
+sellonly_msg:고기를 매입하고 있습니다.\n판매하실 고기가 있으십니까？
+stone_msg:보유 스톤이 가득찾습니다.
+realy_msg:정말 괜찮겠습니까？
+LimitItemNo:1234-1249
+special_rate:1.0
+
+
+

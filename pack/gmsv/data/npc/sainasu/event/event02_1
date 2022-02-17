@@ -1,0 +1,36 @@
+NomalMainMsg:마리너스는 참 아름다워!
+
+EventNo:-1
+TYPE:CLEAN
+EVENT:ENDEV=2&ITEM!=2414&SP=0,ENDEV=2&ITEM!=2414&SP=3
+CleanFlg:2
+CleanFlgMsg:어머? 이상한 조개를 잃어버렸구나.
+CleanMainMsg:은경이에게 꽃을 다시 받아오면 이상한 조개를 줄게!
+EventEnd
+
+
+EventNo:2
+TYPE:ACCEPT
+EVENT:NOWEV=2&ITEM=2415
+AcceptMsg:샴기르의 은경이가 이것을?
+ThanksMsg:고마워! 답례로 이 조개껍질을 줄게.\n어딘가에 살고 있는 페트의 이야기를\n이해하는데 도움이 될지도 몰라.
+ItemFullMsg:이런! 가방이 가득차서 답례를 줄 수 없어!
+GetItem:2414
+DelItem:2415
+EndSetFlg:2
+EventEnd
+
+
+EventNo:2
+TYPE:REQUEST
+EVENT:LV>0&SP=1,LV>0&SP=2
+RequestMsg:\n부탁할게 있는데 들어줄래?
+ThanksMsg:이 조개는 오늘 아침에 주은거야!\n이 조개껍질을 샴기르에 살고 있는\n은경이에게 전해줬으면 해!\n
+StopMsg:뭐야? 조개를 못전달해주겠어?
+EndStopMsg:이런.. 아쉽네\n은경이가 좋아했을탠데..
+NoStopMsg:그래! 고마워.\n은경이는는 샴기르마을에 있을거야!
+ItemFullMsg:이런! 가방이 가득차서 꽃을 넣을 공간이 없어!
+GetItem:2414
+EventEnd
+
+

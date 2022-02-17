@@ -1,0 +1,23 @@
+NomalMainMsg:당신은 누구십니까? 왜 이런곳까지 오신겁니까?
+
+EventNo:39
+TYPE:ACCEPT
+EVENT:LV>0&NOWEV=39&ITEM=2698&ITEM=2699
+AcceptMsg:\n이 유리의 동굴을 잘 제패했습니다.\n\n그 일기는···\n당신은 라루와 이브를 만난 적이\n있었습니까?
+ThanksMsg:\n\n(지금까지의 경위를 티아트에게 말했다)\n···그렇습니까? 라루와 이브가\n그런 짓을···
+ThanksMsg2:\n아무 것도 알리지 않고 일기만 남기고\n사라진 나를 원망하고 있을 거라고\n생각했었습니다.\n\n나는 50년의 사명을 완수할 때까지\n이 땅을 떠날 수 없는 몸···이지만 이곳에서 라루와 이브의 행복을
+ThanksMsg3:\n라루와 이브에게 전해주세요.\n이 사명을 끝내고 다시 만날 것을···\n그리고 이브가 만나러 오는 것을\n기다리고 있겠다고···\n그리고 이『대지의 인연』을 가져가세요.\n반드시 당신에게 도움이 될겁니다.\n앞으로의 미래에 대지의 가호가 있기를.
+ItemFullMsg:가방이 무거워『대지의 인연』을 가져가실 수 없어요.
+DelItem:2698,2699
+GetItem:2701
+Charm:1
+EndSetFlg:39
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=39
+NomalWindowMsg:\n당신에게 대지의 가호이 있기를...\n정말로 감사합니다.\n
+EventEnd
+
+

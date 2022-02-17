@@ -1,0 +1,65 @@
+NomalMainMsg:빛의 힘으로 이 마을을 지킬것이다.
+
+EventNo:34
+TYPE:REQUEST
+EVENT:ENDEV=4&ENDEV=33&ENDEV=32
+RequestMsg:\n\n그대여.. 혹시 나를도와줄 생각이 없는가？\n나는 빛을 지키는 대리인 이라네..\n이곳은 아주 평화로운 마을이였는데..
+RequestMsg2:\n\n사악한 무리가 들어온뒤론\n그 무리가 「몽환의 동굴」을 장악했다네..\n「몽환의 동굴」에 있는 선인에게 전해줄것이 있다네.  나를 대신하여 전해주겟나？
+ThanksMsg:\n\n정말 고맙다네！\n이것은 「빛의 선견」이라는 아주 중효한 물품이라네！\n안전하게 전해주길 바라네.
+ThanksMsg2:\n\n「몽환의 동굴」에는 사악한 무리가 존재하니..\n조심히 다녀오길 바라네！
+StopMsg:\n\n\n\n「빛의 선견」을 전해주지 못하겟나..？
+EndStopMsg:\n\n\n\n 내가 자네를 잘못본 모양이군..
+NoStopMsg:\n\n\n\n 그렇다면 빨리「빛의 선인」을 만나게나！
+ItemFullMsg:\n\n자네 소지품이 가득차서 줄수가 없다네.
+GetItem:2603
+EventEnd
+
+EventNo:33
+TYPE:REQUEST
+EVENT:ENDEV=4&ENDEV=32
+RequestMsg:\n\n그대여.. 혹시 나를도와줄 생각이 없는가？\n나는 빛을 지키는 대리인 이라네..\n이곳은 아주 평화로운 마을이였는데..
+RequestMsg2:\n\n사악한 무리가 들어온뒤론\n그 무리가 「몽환의 동굴」을 장악했다네..\n「몽환의 동굴」에 있는 선인에게 전해줄것이 있다네.  나를 대신하여 전해주겟나？
+ThanksMsg:\n\n정말 고맙다네！\n이것은 「빛의 선견」이라는 아주 중효한 물품이라네！\n안전하게 전해주길 바라네.
+ThanksMsg2:\n\n「몽환의 동굴」에는 사악한 무리가 존재하니..\n조심히 다녀오길 바라네！
+StopMsg:\n\n\n\n「빛의 선견」을 전해주지 못하겟나..？
+EndStopMsg:\n\n\n\n 내가 자네를 잘못본 모양이군..
+NoStopMsg:\n\n\n\n 그렇다면 빨리「빛의 선인」을 만나게나！
+ItemFullMsg:\n\n자네 소지품이 가득차서 줄수가 없다네.
+GetItem:2603
+EventEnd
+
+EventNo:32
+TYPE:REQUEST
+EVENT:ENDEV=4
+RequestMsg:\n\n그대여.. 혹시 나를도와줄 생각이 없는가？\n나는 빛을 지키는 대리인 이라네..\n이곳은 아주 평화로운 마을이였는데..
+RequestMsg2:\n\n사악한 무리가 들어온뒤론\n그 무리가 「몽환의 동굴」을 장악했다네..\n「몽환의 동굴」에 있는 선인에게 전해줄것이 있다네.  나를 대신하여 전해주겟나？
+ThanksMsg:\n\n정말 고맙다네！\n이것은 「빛의 선견」이라는 아주 중효한 물품이라네！\n안전하게 전해주길 바라네.
+ThanksMsg2:\n\n「몽환의 동굴」에는 사악한 무리가 존재하니..\n조심히 다녀오길 바라네！
+StopMsg:\n\n\n\n「빛의 선견」을 전해주지 못하겟나..？
+EndStopMsg:\n\n\n\n 내가 자네를 잘못본 모양이군..
+NoStopMsg:\n\n\n\n 그렇다면 빨리「빛의 선인」을 만나게나！
+ItemFullMsg:\n\n자네 소지품이 가득차서 줄수가 없다네.
+GetItem:2603
+EventEnd
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:LV>34,ENDEV=4&ENDEV=33&ENDEV=32&ENDEV=34
+RequestMsg:\n\n그대여.. 혹시 나를도와줄 생각이 없는가？\n나는 빛을 지키는 대리인 이라네..\n이곳은 아주 평화로운 마을이였는데..
+RequestMsg2:\n\n사악한 무리가 들어온뒤론\n그 무리가 「몽환의 동굴」을 장악했다네..\n「몽환의 동굴」에 있는 선인에게 전해줄것이 있다네.  나를 대신하여 전해주겟나？
+ThanksMsg:\n\n정말 고맙다네！\n이것은 「빛의 선견」이라는 아주 중효한 물품이라네！\n안전하게 전해주길 바라네.
+ThanksMsg2:\n\n「몽환의 동굴」에는 사악한 무리가 존재하니..\n조심히 다녀오길 바라네！
+StopMsg:\n\n\n\n「빛의 선견」을 전해주지 못하겟나..？
+EndStopMsg:\n\n\n\n 내가 자네를 잘못본 모양이군..
+NoStopMsg:\n\n\n\n 그렇다면 빨리「빛의 선인」을 만나게나！
+ItemFullMsg:\n\n자네 소지품이 가득차서 줄수가 없다네.
+GetItem:2603
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&LV<35
+NomalWindowMsg:\n레벨이 부족하구나..
+EventEnd
+

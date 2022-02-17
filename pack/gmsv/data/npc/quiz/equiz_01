@@ -1,0 +1,38 @@
+###########################################
+#?ⅳ?ㅅㆃ렌쿤　 ⅱⅳΖ?숑ㅁ턴ㅇⅳ?τΘ#
+# 		?ⅷⅩ잘쾨	척툭¨읍쵸#
+NomalMainMsg:볼일이 없는거 같은데?
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=47
+NomalWindowMsg:\n안녕~ 그때 그 퀴즈마스터구나!\n넌 정말 대단했어 어쩜 그런 빠른시간내에 맞출수 있는거지?
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=44&NOWEV=47&ITEM=2759
+NomalWindowMsg:\n오! 퀴즈마스터의『수수께끼 상자』를 얻었구나!\n정말 대단해 퀴즈 마스터에 대해 적합하겠어!\n마스터의 제자에게 가져다줘봐!
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=44
+NomalWindowMsg:\n그 황금색 페트를 LV 77까지 길러서 가지고와!\n멋지게 과제를 끝마치고 오라구!
+EventEnd
+
+
+EventNo:44
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:\n\n대단한걸! 12층까지 잘도 왔군!\n여기까지 온 너에게 퀴즈마스터 입문증을\n주지! 받아주겠나?
+ThanksMsg:\n\n퀴즈마스터의 길로 가려면 이나토를 찾아가봐!\n쉽지많은 않을거야.
+StopMsg:\n\n\n왜? 무슨 문제라도 있어?
+EndStopMsg:\n\n\n이런~ 입문증을 가지고 있다면 회수해갈께
+NoStopMsg:\n\n\n어서! 이나토에게 가봐
+ItemFullMsg:\n\n\n가방이 가득찬거 같아!
+GetItem:2753
+EventEnd
+

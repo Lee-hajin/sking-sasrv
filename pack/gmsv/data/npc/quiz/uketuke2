@@ -1,0 +1,28 @@
+NomalMainMsg:안녕하세요.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>69
+AcceptMsg:\n쟈쟈 도장에 어서오세요!\n이 앞에 있는「퀴즈 삼형제의 집」으로\n들어가는 입장권을 판매하고 있습니다.\n당신은 LV70이상이므로『입장권C』로\n입문하십니다.\n참가료는%8d스톤\n입니다. 괜찮으시겠습니까?
+ThanksMsg:\n\n감사합니다.\n확실히 받았습니다.\n그럼 앞으로 전진하셔서 안내C 에게\n안내받으십시오.
+DelStone:LV*40
+StoneLessMsg:\n\n보유스톤이 부족합니다.
+GetItem:2757
+ItemFullMsg:\n\n가방이 가득찾습니다.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>29&LV<70
+NomalWindowMsg:\n안녕하세요. 쟈쟈도장에 참여할 수가 없으십니다.\nLV 70 이상만이 쟈쟈의 도장을 이용하실 수 있습니다.\n마리너스 도장을 이용하여 주시기 바랍니다.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n안녕하세요. 쟈쟈도장에 참여할 수가 없으십니다.\nLV 70 이상만이 쟈쟈의 도장을 이용하실 수 있습니다.
+EventEnd
+
+

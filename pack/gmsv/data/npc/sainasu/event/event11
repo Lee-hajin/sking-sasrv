@@ -1,0 +1,51 @@
+NomalMainMsg:안녕하세요! 사막의 도시 카탄마을 입니다.
+
+EventNo:11
+TYPE:ACCEPT
+EVENT:ENDEV=10&NOWEV=11&ITEM=2420
+AcceptMsg:정말입니까? 찾아 오셨습니까?\n정말 감사합니다.
+ThanksMsg:보답으로 이것을 드리겠습니다.
+ItemFullMsg:이런! 가방이 너무 무거우시군요
+GetItem:1052
+DelItem:2420
+EndSetFlg:11,12
+Charm:1
+EventEnd
+
+EventNo:11
+TYPE:ACCEPT
+EVENT:NOWEV=11&ITEM=2420
+AcceptMsg:정말입니까? 찾아 오셨습니까?\n정말 감사합니다.
+ThanksMsg:보답으로 이것을 드리겠습니다.
+ItemFullMsg:이런! 가방이 너무 무거우시군요
+GetItem:1052
+DelItem:2420
+EndSetFlg:11
+Charm:1
+EventEnd
+
+EventNo:11
+TYPE:REQUEST
+EVENT:LV>29&ENDEV=4&NOWEV=9&NOWEV=10
+RequestMsg:쿠링과 호토르의 친구로부터 들었군요!\n도와주십시오!
+ThanksMsg:본드족 녀석들은 마을의 수호석을 훔쳐가지고 아지트로 도망갔습니다.\n꼭 필요한 수호석이니 찾아주세요.
+StopMsg:혹시 도울 수 없으실꺼 같나요?
+EndStopMsg:이런.. 알겠습니다.\n매우 아쉽군요.
+NoStopMsg:아지트를 들어가려면 암호가 필요하다고 들었습니다.
+EventEnd
+
+EventNo:11
+TYPE:REQUEST
+EVENT:LV>29&ENDEV=4&NOWEV=9
+RequestMsg:쿠링의 친구로부터 들었군요!\n도와주세요!\n카탄의 사막에 있는 도적 본드족에게\n마을을 지키는 돌을 빼앗겼습니다.
+ThanksMsg:감사합니다. 호토르마을에 친구가 있어요.\n호토르에 있는 친구에게서 소식을 들어보세요.
+StopMsg:혹시 도울 수 없으실꺼 같나요?
+EndStopMsg:이런.. 알겠습니다.\n매우 아쉽군요.
+NoStopMsg:카탄 친구를 한번 만나보십시오.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=11
+NomalMsg:정말로 감사합니다. 덕분에 수호석을 되찾을 수 있었어요.
+EventEnd

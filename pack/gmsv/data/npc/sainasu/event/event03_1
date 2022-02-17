@@ -1,0 +1,24 @@
+NomalMainMsg:카탄마을은 어떤 곳 일까?
+
+EventNo:3
+TYPE:ACCEPT
+EVENT:NOWEV=3&ITEM=2416
+AcceptMsg:할아버지가 이 도끼를 나에게?
+ThanksMsg:먼 거리인데 일부러 와 줘서 고맙군!\n\n나의 부탁도 들어줬으면 좋겠는데\n만일 괜찮다면 나중에 나에게\n와 주지 않겠어?
+DelItem:2416
+EndSetFlg:3
+EventEnd
+
+EventNo:5
+TYPE:REQUEST
+EVENT:ENDEV=3
+RequestMsg:전에 받은 도끼에 대한 감사편지를\n적었어. 내 힘으론 카탄까지 갈 수\n없을것 같으니깐 이 편지를\n할아버지에게 전해 주었으면해.\n받아주겠니?
+ThanksMsg:고마워!\n\n만약 귀찮다면 버려도 괜찮아!
+StopMsg:응? 못전해주겠어?
+EndStopMsg:이런! 할아버지에게 소식을 전해주고 싶은데.. 아쉽네
+NoStopMsg:카탄마을에 있는 할아버지에게 어서 전해줘.!
+ItemFullMsg:뭐야! 가방이 무거워서 편지를 줄 수 없어
+GetItem:2423
+EventEnd
+
+

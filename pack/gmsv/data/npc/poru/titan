@@ -1,0 +1,64 @@
+NomalMainMsg:나는 타이탄의 1등 공신!
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n오.. 니스대륙이라 미래에는 우리의 부족은 어디가있을까?
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=65&ITEM!=18553
+NomalWindowMsg:\n이런 통행증을 잃어버린거야?하나 다시드릴태니 잃어버리지 마
+ItemFullMsg:가방이 너무 무거운거 같은데?
+GetItem:18553
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=65&ITEM=18553
+NomalWindowMsg:\n넌 어디서 왔어？\n정말 대단한거 같아！
+EventEnd
+
+EventNo:65
+TYPE:ACCEPT
+EVENT:NOWEV=65&ITEM=18551&ITEM=18552
+AcceptMsg:편지를 다 찾았다고?
+ThanksMsg:편지를 찾도록 도와줘서 고마워. 만약 그렇지 않았다면 두목님께 혼났을 꺼야. 난 너무 지쳐\n있어서...우리를 도와줄수 있겠어? 우리의 통\n행증을 빌려줄께 이걸가지고 가면 두목한테 갈수있을거야!\n저쪽의 다리를 지나면 우리팀이 있어!
+ItemFullMsg:이런... 가방이 너무 무거운거 같은데?
+GetItem:18553
+DelItem:18551,18552
+EndSetFlg:65
+EventEnd
+
+
+
+EventNo:65
+TYPE:MESSAGE
+EVENT:NOWEV=65&ITEM=18551
+NomalWindowMsg:오..!하나를 찾았군\n아.. 하지만 하나가 더 필요한데\n꼭 좀 찾아줘..
+EventEnd
+
+
+
+EventNo:65
+TYPE:MESSAGE
+EVENT:NOWEV=65&ITEM=18552
+NomalWindowMsg:오..!하나를 찾았군\n아.. 하지만 하나가 더 필요한데\n꼭 좀 찾아줘..
+EventEnd
+
+
+EventNo:65
+TYPE:MESSAGE
+EVENT:NOWEV=65
+NomalWindowMsg:편지를 찾았어..?\n이런 망했다...
+EventEnd
+
+
+EventNo:65
+TYPE:REQUEST
+EVENT:NOWEV=64
+RequestMsg:진짜 망했다!\n내 편지가 어딨지? 강에서 물을 뜰때 실수로 빠뜨리고 말았나봐 머야 어떻해. 나좀 도와줘..
+ThanksMsg:두개가 떨어져버렸어... 잃어버리면 안되는 중요한건대\n나와 다른곳으로 가서 찾아봐줘. 
+EventEnd
+

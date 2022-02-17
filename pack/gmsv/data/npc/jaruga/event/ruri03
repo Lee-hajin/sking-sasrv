@@ -1,0 +1,29 @@
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=39
+NomalWindowMsg:\n엄마를 만났군요!\n저의 이야기를 전달해주셔서 정말로 감사합니다
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=39&ITEM!=2698
+AcceptMsg:\n아버지를 만났다고요?\n(라루가 말한 것을 이브에게 말했다)\n···내 지금 상태로는 엄마가 있는 유리\n동굴에 가도 엄마를 만날 수는 없을거에요.
+ThanksMsg:\n알았어요! 이 일기를 가지고\n제 대신 엄마한테 가주세요.\n언젠가 내 힘으로 엄마를 만나러 간다고\n꼭 전해주세요.\n부탁드릴게요.
+ItemFullMsg:\n\n가방이 무거워서 일기를 드릴수가 없어요.
+NpcWarp:200.215.1017,200.198.1001,200.186.1032,200.173.1008,200.99.1085,200.115.1011,200.115.1011,200.218.953,200.158.1005
+GetItem:2698
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=39&ITEM=2698
+NomalWindowMsg:\n\n일기를 가지고 제 대신 엄마를 만나서 말을 꼭 전해주세요!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n당신은 모험가시군요.!\n열심히 모험을 즐기고 있습니다.\n꼭 강해져서 엄마를 만날꺼에요!
+EventEnd
+
+

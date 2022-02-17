@@ -1,0 +1,100 @@
+NPCCREATE
+{
+floorid=802
+borncorner=29,19,29,19
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100120
+name=가위바위보 NPC
+enemy=npcgen_janken|file:genout/jan_802_29_19
+}
+{
+floorid=804
+borncorner=29,19,29,19
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100125
+name=가위바위보 NPC
+enemy=npcgen_janken|file:genout/jan_804_29_19
+}
+{
+floorid=807
+borncorner=18,19,18,19
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100130
+name=가위바위보 NPC
+enemy=npcgen_janken|file:genout/jan_807_18_19
+}
+{
+floorid=822
+borncorner=29,19,29,19
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100120
+name=가위바위보 NPC
+enemy=npcgen_janken|file:genout/jan_822_29_19
+}
+{
+floorid=824
+borncorner=29,19,29,19
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100125
+name=가위바위보 NPC
+enemy=npcgen_janken|file:genout/jan_824_29_19
+}
+{
+floorid=827
+borncorner=18,19,18,19
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100130
+name=가위바위보 NPC
+enemy=npcgen_janken|file:genout/jan_827_18_19
+}
+{
+floorid=842
+borncorner=29,19,29,19
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100120
+name=가위바위보 NPC
+enemy=npcgen_janken|file:genout/jan_842_29_19
+}
+{
+floorid=844
+borncorner=29,19,29,19
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100125
+name=가위바위보 NPC
+enemy=npcgen_janken|file:genout/jan_844_29_19
+}
+{
+floorid=847
+borncorner=18,19,18,19
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100130
+name=가위바위보 NPC
+enemy=npcgen_janken|file:genout/jan_847_18_19
+}

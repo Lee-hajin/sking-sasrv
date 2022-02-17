@@ -1,0 +1,13 @@
+cdkey:newbilu name:测试信息 data:0|0|10|200
+cdkey:newbilu name:测试信息 data:1|1|10|2000
+cdkey:newbilu name:测试信息 data:1|0|10|10000
+cdkey:newbilu name:测试信息 data:0|0|12|123
+cdkey:newbilu name:测试信息 data:0|0|10|1000
+cdkey:newbilu name:测试信息 data:1|0|10|100
+cdkey:newbilu name:测试信息 data:0|0|1|10
+cdkey:newbilu name:测试信息 data:1|1|5|100
+cdkey:newbilu name:测试信息 data:1|0|1|10
+cdkey:newbilu name:测试信息 data:1|0|1|10
+cdkey:newbilu name:测试信息 data:1|0|1|10
+cdkey:newbilu name:测试信息 data:0|0|1|100
+cdkey:newbilu name:测试信息 data:0|0|1|10

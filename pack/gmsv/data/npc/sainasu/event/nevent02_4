@@ -1,0 +1,27 @@
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM!=2447
+AcceptMsg:하하하! 그래!\n도주 후바바의 사냥법을 알고 싶다고?
+ThanksMsg:그래! 하프를토토와 우루리 사이에 있는\n해변가에서 연주해 봐라!\n반드시 도주 후바바를 만날 수 있을거다!\n단! 그 녀석들은 이름처럼 아주 빨리\n도망가니까 각오하고 싸워야한다!
+ItemFullMsg:뭐야! 가방이 너무 무겁잖아?
+KeyWord:나무열매 칵테일
+GetItem:2447
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2447
+NomalWindowMsg:뭐야?\n하프를 사용해서 후바바를 유인해봐!\n하지만 후바바를 잡는건 쉬운일이 아닐꺼야.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:나는 환상의 도주 후바바를\n사냥하는 것이 특기야!\n방법이 알고 싶다면 이 토토의 마을에서\n가장 가치있는 것을 말해 보아라!\n\n만약 말할 수 있다면 가르쳐주지!
+EventEnd
+
+
+
+
+

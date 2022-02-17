@@ -1,0 +1,40 @@
+NomalMainMsg:으쌰~ 으쌰~ 나무를 캐서 부자가 되야지.!
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=18
+NomalWindowMsg:고마워.! 새로운 도끼덕에 나무를 캘수 있게됬어.\n정말로 고마워
+EventEnd
+
+EventNo:18
+TYPE:ACCEPT
+EVENT:NOWEV=18&ITEM=2465
+AcceptMsg:어? 그건 한의 돌도끼 아냐!\n그건 나를 위해 만들어준 거였지?
+ThanksMsg:그래! 고마워.\n답례라고 하기엔 좀 뭐하지만\n좋은 아르바이트를 소개해 줄게.\n이것을 갖고 쟈쟈에 있는\n목재상인 자잔을 찾아가 봐.\n아! 그리고 부러진 도끼도 줄께.
+GetItem:2467,2484
+DelItem:2465*1
+EndSetFlg:18
+ItemFullMsg:야야! 가방이 가득찬거 같아.! 좀 비워줘
+EventEnd
+
+EventNo:18
+TYPE:MESSAGE
+EVENT:NOWEV=18&ITEM!=2466
+NomalWindowMsg:뭐야? 의뢰서를 잃어버린거야? 다시 줄태니 다신 잃어버리지마.!
+GetItem:2466
+ItemFullMsg:가방이 무거워서 의뢰서를 줄 수 없을꺼 같아.
+EventEnd
+
+EventNo:18
+TYPE:REQUEST
+EVENT:LV>14
+RequestMsg:나뭇꾼의 목숨이라고 할 수 있는 도끼를\n부러뜨리고 말았어.\n바쁘지 않으면 맡겨 놓은 도끼를\n찾아와 주지 않을래? 그렇게 해준다면\n좋은 아르바이트를 소개해 줄께.
+ThanksMsg:어? 받아주겠어?\n나한테 늘 도끼를 만들어 주는\n아름산에 위치한 한이라는 대장장이에게 부탁해봐.\n이건 작업 의뢰서야.\n한은 건망증이 심해서 도끼를 받을 때까지\n의뢰서를 잃어버리면 안되.
+StopMsg:왜? 전달을 못해주겠어?
+EndStopMsg:아쉽네.. 기대좀 했는데..
+NoStopMsg:빨리 가봐.!\n한은 아름산 정상에 있어.!
+GetItem:2466
+ItemFullMsg:가방이 무거워서 의뢰서를 줄 수 없을꺼 같아.
+EventEnd
+
+

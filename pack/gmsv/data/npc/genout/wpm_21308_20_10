@@ -1,0 +1,9 @@
+WARP:21308,20,7
+FREE:LV>64&ENDEV=4&NOWEV=46&ITEM=2767&ITEM=2768
+MONEY:-1
+FreeMsg:\n당신은 앞으로 진행할 수 있는 조건을 문제\n없이 갖추고 있군요.\n그럼, 들어가주십시오
+PayMsg:\n당신은 입장하실수 없습니다.
+PartyMsg:파티상태로는 입장하실 수 없습니다.
+MoneyMsg:금액이 부족합니다.
+
+

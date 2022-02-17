@@ -1,0 +1,95 @@
+NomalMainMsg:부히부히부히! 부우부우부히히.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2503&ITEM=2504&ITEM=2414
+AcceptMsg:부히부히부히! 부우부우부히히.\n-----번역-----\n그건『가토로 광석』과『메루나 광석』이 아닙니까? 그 두 개로『가루나 광석』이라는\n무기와 방어구의 재료가 되는 광석이\n생긴다는 것을 알고 있습니까?
+AcceptMsg2:두 개를 합성하는 일은\n나와 가로만이 할 수 있습니다.\n합성을 원하십니까?
+ThanksMsg:알았습니다.\n잠시 기다려주세요.\n····\n됐습니다.\n잠시 기다려주세요.
+DelItem:2503*1,2504*1
+GetItem:2506
+ItemFullMsg:가방이 무거운거 같아요.!!
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2503&ITEM=2504
+NomalWindowMsg:부히부히부히! 부우부우부히히.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=25&ITEM=2414,ENDEV=26&ITEM=2414
+NomalWindowMsg:부히부히부히! 부우부우부히히.\n-----번역-----\n이제야 두 부족이\n대화를 하기로 했습니까?\n앞으로 사이좋은 하나의 부족이\n됐으면 좋겠습니다.
+EventEnd
+
+EvebtNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2883
+NomalWinodowMsg:부히부히부히! 부우부우부히히.\n-----번역-----\n좌좌콱옵鹿횻乖쳬궤늪람갖돨瞳寧폅
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=25,ENDEV=26
+NomalWindowMsg:부히부히부히! 부우부우부히히.
+EventEnd
+
+EventNo:24
+TYPE:ACCEPT
+EVENT:NOWEV=24&ITEM=2414
+AcceptMsg:부히부히부히! 부우부우부히히.\n-----번역-----\n잔바가 나를\n찾고 있습니까···\n잔바에게는 돌아갈 마음이 없다고\n대신 전해주세요.\n나는 가로와 함께 있는 것을\n선택했어요.
+ThanksMsg:사랑하는 자와의 시간만큼\n소중한 것은 없어요.\n족장에게 자신의 마을에 솔직했으면\n좋겠다고 전해주세요.
+EndSetFlg:24
+EventEnd
+
+EventNo:24
+TYPE:MESSAGE
+EVENT:NOWEV=24
+NomalWindowMsg:부히부히부히! 부우부우부히히.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=24&ITEM=2414
+NomalWindowMsg:부히부히부히! 부우부우부히히.\n-----번역-----\n사랑하는 자와의 시간만큼\n소중한 것은 없어요.\n족장에게 자신의 마을에 솔직했으면\n좋겠다고 전해주세요.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=24
+NomalWindowMsg:부히부히부히! 부우부우부히히.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=23&ITEM=2414
+NomalWindowMsg:부히부히부히! 부우부우부히히.\n-----번역-----\n두 부족 사람들도\n빨리 알았으면 좋겠네요.\n서로 이해하면\n보다 행복할 수 있다는 것을···
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=23
+NomalWindowMsg:부히부히부히! 부우부우부히히.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=23&ITEM=2414
+NomalWindowMsg:부히부히부히! 부우부우부히히.\n-----번역-----\n두 부족 사람들도\n빨리 알았으면 좋겠네요.\n서로 이해하면\n보다 행복할 수 있다는 것을···
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=23
+NomalWindowMsg:부히부히부히! 부우부우부히히.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2414
+NomalWindowMsg:부히부히부히! 부우부우부히히.\n-----번역-----\n당신은 누구신데 여기까지 오셨나요?
+EventEnd
+
+
+

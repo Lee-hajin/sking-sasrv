@@ -1,0 +1,41 @@
+START_MSG:嗨！你想要传送到其他地方吗?\n\n那请你先熟读下列规则：\n如果你有携带会消失的物品，依照工会规定是不能帮你传送的。
+MenuHead:选择目的地：
+
+#尼克斯
+{
+MenuStr:尼克斯城      1000石币
+FREE:LV>0&GOLD>999
+DelGold:1000
+WARPPOINT:7200,37,33
+}
+
+#弗烈顿
+{
+MenuStr:弗烈顿城      1000石币
+FREE:LV>0&GOLD>999
+DelGold:1000
+WARPPOINT:7300,87,101
+}
+
+#亚伊欧
+{
+MenuStr:亚伊欧城      1000石币
+FREE:LV>0&GOLD>999
+DelGold:1000
+WARPPOINT:7400,99,90
+}
+
+#伊甸园
+{
+MenuStr:伊甸园　      1000石币
+FREE:LV>0&GOLD>999
+DelGold:1000
+WARPPOINT:7000,35,128
+}
+
+
+{
+MenuStr:玛丽娜丝渔村  免费
+FREE:LV>0
+WARPPOINT:2000,65,58
+}

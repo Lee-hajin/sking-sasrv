@@ -1,0 +1,14 @@
+NomalMainMsg:저에게는 무슨 볼일 이십니까?
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2700
+NomalWindowMsg:\n대지의 깃털을 사용하여 앞 두 보따리를 열 수 있습니다.\n큰것과 작은것 당신의 지혜를 보겠습니다.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=39
+NomalWindowMsg:\n\n당신에게서「대지의 가호」가 느껴집니다.\n티아르님에게 가호를 받으셨군요.
+EventEnd
+

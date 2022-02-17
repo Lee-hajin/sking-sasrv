@@ -1,0 +1,8 @@
+WARP:116,12,17
+FREE:LV>0&ITEM!=2609
+MONEY:-1
+FreeMsg:\n이곳을 나가시겠습니까？
+PayMsg:\n마이크를 소지하고 계시면 나가실수 없습니다.\n마이크를 놓고 가십시오！
+PartyMsg:\n파티상태로는 나가실수 없습니다.
+MoneyMsg:\n금액이 부족합니다.
+

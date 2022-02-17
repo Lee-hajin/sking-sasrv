@@ -1,0 +1,32 @@
+NomalMainMsg:음..? 자네는 누군대 이곳까지 온겐가?
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙의 이야기를 좀더 듣고싶군요...\n하지만 니스대륙으로 가기전에 저는 이미 세상을 떠났겠군요.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:정말 고맙습니다!!\n저는 나쁜 공룡들이 잡아간줄 알았는데 길을 잃었던것 뿐이내요..\n정말로 감사드립니다..
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=63
+NomalWindowMsg:손녀가 어떻게 됬을까....\n걱정이 너무나도 되는군.....\n만약 무슨일이라도 생겼다면 어쩌지....
+EventEnd
+
+EventNo:63
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:내 손녀가 나쁜 공룡에게 잡혀갔어.\n샴기르가 내 손녀를 구할수 있을까...\n걱정돼....\n샴기르가 지금 어떤 상황인지 나에게 알려줄수\n있어? 그도 아직은 어려!\n그를 만나게되면 도와주길 바래.
+ThanksMsg:그래...고마워\n샴기르는 다른 납치된 아이들을 찾으러 밖으로 나갔어 한번 찾아봐!
+StopMsg:음 이런.. 샴기르를 찾아보지 못한겐가?
+NoStopMsg:이런.. 안타갑군
+EndStopMsg:고맙네...꼭 찾아주게나!
+EventEnd
+
+
+

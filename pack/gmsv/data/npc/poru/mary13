@@ -1,0 +1,44 @@
+NomalMainMsg:넌 뭐지? 나에게 무슨용건인가
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙으로 간다고? 그래 더 나은세상으로 가는거야!
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ITEM=18561
+NomalWindowMsg:\n아직은 너의 물건을 찾을 수 없어!
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=64&ITEM=18544*2
+AcceptMsg:\n이 곳에 물건을 묻는것은 역사의 발자취를 남기는 중요한 일이라고 생각해!\n너도 물건을 묻고 싶어?
+ThanksMsg:용왕의 수호 2개....\n문제 없어. 내가 묻어줄께.\n이 열쇠를 너에게 줄테니 나중에 와서 열어봐.
+ItemFullMsg:가방이 너무 무거운거 같은데?
+DelItem:18544*2
+GetItem:18562
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=64&ITEM=18544*1
+AcceptMsg:\n이 곳에 물건을 묻는것은 역사의 발자취를 남기는 중요한 일이라고 생각해!\n너도 물건을 묻고 싶어?
+ThanksMsg:용왕의 수호 1개....\n문제 없어. 내가 묻어줄께.\n이 열쇠를 너에게 줄테니 나중에 와서 열어봐.
+ItemFullMsg:가방이 너무 무거운거 같은데?
+DelItem:18544*1
+GetItem:18561
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64
+NomalWindowMsg:\n난 이곳에 역사에 남을 물건을 묻어둘거야!
+EventEnd

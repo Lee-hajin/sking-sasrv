@@ -1,0 +1,34 @@
+#talklog=talk.log
+itemlog=item.log
+petlog=pet.log
+#tenseilog=tensei.log
+tradelog=trade.log
+#stonelog=stone.log
+killlog=kill.log
+hacklog=hack.log
+#speedlog=speed.log
+#proc=proc.log
+fmpklog=fmpk.log
+gmlog=gm.log
+#赌场轮盘	宝宝小猪 
+#gamblelog=gamble.log
+#没用
+#creatpetlog=
+#creatpetavglog=
+#loginlog=
+#pettranslog=
+#增加庄园战胜负Log
+#fmpkresultlog=fmpkresult.log
+#新增家族个人银行存取Log (不含家族银行)
+#bankstonelog=bankstone.log
+#acmessagelog=acmessage.log
+#pkcontendlog=pkcontend.log
+#摆滩
+StreetVendorlog=StreetVendor.log
+#精灵召唤
+#angellog=angel.log
+#杂项讯息专用LOG
+#otherlog=other.log
+#新庄园规则LOG
+#FMPKGetMoneylog=FMPKGetMoney.log
+#FMFameShoplog=FMFameShop.log

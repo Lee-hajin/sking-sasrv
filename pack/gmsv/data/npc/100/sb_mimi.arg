@@ -1,0 +1,10 @@
+entype:2
+askbattlemsg1:자루를 발견하였습니다.
+askbattlemsg2:끈으로 자루를 자르시겠습니까？
+startmsg:자루에서 몬스터들이 나타났다！
+item:2697
+dieact:0
+enemyno:1117,1117,1117,1117,1117,1117,1117,1117,1117,1117
+deniedmsg:자루를 자를 돌이 필요합니다.
+time:60
+

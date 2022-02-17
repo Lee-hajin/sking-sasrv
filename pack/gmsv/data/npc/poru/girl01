@@ -1,0 +1,28 @@
+NomalMainMsg:이곳은 무서워...할아버지는 어디계시지...
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙이라 정말 기대된다!\n정말로 고마워요
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64
+NomalWindowMsg:\n우리 오빠가 용들에게서 날 지켜줬어
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n이곳은 무서워...할아버지는 어디계시지...
+EventEnd
+
+
+

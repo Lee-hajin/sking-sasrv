@@ -1,0 +1,10 @@
+NomalMainMsg:의식을 행하십시오.
+
+EventNo:4
+TYPE:ACCEPT
+EVENT:NOWEV=4&ITEM!=2417
+AcceptMsg:당신은 성인 의식을 하기 위해 날 찾고 있습니까?\n그렇다면 의식을 행하도록 하겠습니다.
+ThanksMsg:자, 이「의식의 구슬」을 판정가님께 가저가십시오.
+ItemFullMsg:가방이 무거워「의식의 구슬」을 받아가실 수 없겠군요.
+GetItem:2417*5
+EventEnd

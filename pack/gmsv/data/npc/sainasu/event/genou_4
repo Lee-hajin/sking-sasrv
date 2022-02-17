@@ -1,0 +1,17 @@
+NomalMainMsg:당신은『바람의 팔찌』를 가지고 계시는군요.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM!=2758
+AcceptMsg:\n이 앞으로 지나가려면『바람의 팔찌』를 가지고 가세요.
+ThanksMsg:\n이 바람의 팔찌를 유용하게 사용하세요.
+ItemFullMsg:\n가방이 가득차신거 같으시군요.\n가방을 한칸 비워주세요.
+GetItem:2758*1
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2758
+NomalWindowMsg:\n\n당신은『바람의 팔찌』를 가지고 계시는군요.
+EventEnd
+

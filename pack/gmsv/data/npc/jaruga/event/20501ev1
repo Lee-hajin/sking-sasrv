@@ -1,0 +1,68 @@
+NomalMainMsg:45년간 이곳에서 대장장이 노릇을 하고 있지.
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=19&ITEM!=2466
+NomalWindowMsg:뭐야? 도끼제작 의뢰서가 없잖아.!\n의뢰서가 있어야지만 도끼를 제작할수 있어.!
+EventEnd
+
+EventNo:19
+TYPE:ACCEPT
+EVENT:NOWEV=19&ITEM=2464&ITEM=2466
+AcceptMsg:흐음! 여기까지 잘도 찾아 왔군.\n잠깐 거기서 기다려
+ThanksMsg:쿵·쿵·깡·쾅·쿵···\n자! 됐다.\n그럼 이걸 바루에게 가지고 가!
+GetItem:2465*1
+DelItem:2464,2466,2463
+EndSetFlg:19
+ItemFullMsg:가방이 무거워 도끼를 받을수 없을꺼 같군.
+EventEnd
+
+EventNo:19
+TYPE:MESSAGE
+EVENT:NOWEV=19&ITEM!=2463&ITEM=2466
+NomalWindowMsg:뭐야? 항아리를 잃어버린건가?\n하나더 줄태니 다신 잃어버리지 말게나.!
+GetItem:2463
+ItemFullMsg:가방이 무거워 항아리를 받을 수 없겠구만.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=19&ITEM=2465
+NomalWindowMsg:도끼를 바루에게 전달해주게나.!
+EventEnd
+
+EventNo:19
+TYPE:REQUEST
+EVENT:ITEM=2466
+RequestMsg:응? 그건 바루의 작업 의뢰서잖아.\n그 녀석의 부락이라면 거절할 수 없지.\n이봐! 미안하지만 일을\n도와주지 않을래?
+ThanksMsg:좋아! 열심히 하는군.\n미안하지만 맨 밑층까지 가서\n수장한테 물을 받아오게.\n이 항아리 가득 부탁해.
+StopMsg:물을 발리 받아와주게나.!\n왜 못하겠나?
+EndStopMsg:못하겠다는건가.. 아쉽군
+NoStopMsg:수장에게서 물을 받아와주게나.!
+GetItem:2463
+ItemFullMsg:가방이 무거워 항아리를 받을 수 없겠구만.
+EventEnd
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:ITEM=2484
+RequestMsg:어라? 네가 갖고 있는 것은\n내가 만든 도끼잖아\n이게 또 부러지다니···\n이건 내가 바루한테\n만들어 준거야.
+ThanksMsg:아~ 자네가 바르를 도와 받은거구나\n좋아.! 그 도끼를 너를 위해 수리해주지\n잠시만 기다려봐！\n쿵·쿵·깡·쾅·쿵···\n자! 됐다.\n자, 받아
+GetItem:2485*1
+DelItem:2484*1
+ItemFullMsg:가방이 무거워 도끼를 받을수 없을꺼 같군.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2465
+NomalWindowMsg:도끼가 아주 좋지?\n45년의 노하우가 담긴 도끼니 잘 사용하게나.
+EventEnd
+
+EventNo:-1
+TYPE:CLEAN
+EVENT:ENDEV=19
+CleanFlg:19
+CleanFlgMsg:무슨일로 또 찾아온건가?
+CleanMainMsg:하하.\n도끼는 잘 쓰고 있는거 같구나.
+EventEnd

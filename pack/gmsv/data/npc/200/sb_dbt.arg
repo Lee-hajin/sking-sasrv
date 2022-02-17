@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:더이상은 못지나간다！
+startmsg:나를 쓰러뜨리면 전진하는 것을 허락하마.
+dieact:1
+warpfl:21015
+warpx:9
+warpy:17
+end msg:
+enemyno:1151,1153,1153,1152,1152,1155,1154,1154,1149,1149
+deniedmsg:더 이상 전진할 수 없다.
+onebattle:0

@@ -1,0 +1,79 @@
+NPCCREATE
+{
+floorid=11107
+borncorner=25,7,25,7
+time=0
+createnum=1
+graphicname=100432
+name=본드의 왼팔
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|이곳에 함부로 친입하다니··· 두목님만 아니었다면
+}
+{
+floorid=11107
+borncorner=22,7,22,7
+time=0
+createnum=1
+graphicname=100439
+name=본드의 오른팔
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|까불지마！ 봐주는것도 한계가 있어
+}
+{
+floorid=11107
+borncorner=45,21,45,21
+time=0
+createnum=1
+graphicname=100431
+name=도적
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|이곳엔 무슨일이지 저리 당장 꺼지거라！
+}
+{
+floorid=11107
+borncorner=43,14,43,14
+time=0
+createnum=1
+graphicname=100436
+name=도적
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|나한태 무슨 볼일이지？
+}
+{
+floorid=11107
+borncorner=43,41,43,41
+time=0
+createnum=1
+graphicname=16015
+name=주방 아주머니
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳은 도적단의 음식을 만드는 주방이여！
+}
+{
+floorid=100
+borncorner=443,127,443,127
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=100433
+name=도적
+enemy=npcgen_warpman|file:genout/wpm_100_443_127
+}
+#line 20
+{
+floorid=100
+borncorner=465,128,465,128
+time=0
+createnum=1
+graphicname=10096
+name=공지
+dir=4
+ignoreinvincible=1
+enemy=npcgen_signboard|file:genout/signb_100_465_128
+}

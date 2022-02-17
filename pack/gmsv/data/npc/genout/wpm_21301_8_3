@@ -1,0 +1,10 @@
+WARP:200,316,712
+FREE:LV>0
+MONEY:-1
+FreeMsg:\n\n동굴밖으로 나가시겠습니까？
+PayMsg:\n\n당신은 이곳을 나가실 수 없습니다.
+PartyMsg:파티상태로는 이동이 불가능 합니다.
+MoneyMsg:금액이 부족합니다.
+
+
+

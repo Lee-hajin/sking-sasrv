@@ -1,0 +1,39 @@
+NomalMainMsg:세르노스에는 무슨 공룡들이 존재할까요？
+
+EventNo:45
+TYPE:ACCEPT
+EVENT:LV>59&ITEM=2764&ITEM=2760&ITEM=2761&ITEM=2762&ITEM=2763
+AcceptMsg:\n\n4개의 보물을 찾으신겁니까？
+ThanksMsg:\n굉장하군요! 이것들이 네개의 보석이군요!\n정말로 고맙습니다.\n답례로 어디에서도 팔지 않는\n주술이 깃든 팔찌를 드리겠습니다.\n저는 이 보석으로 여러가지 연구를 하겠습\n니다. 언젠가 다시 만납시다.
+ItemFullMsg:아이템칸이 가득 찬거 같습니다！
+NpcWarp:4000.53.101,2000.44.39,5105.14.3,6000.58.44
+GetItem:2765
+DelItem:2764,2760,2761,2762,2763
+EndSetFlg:45
+EventEnd
+
+EventNo:45
+TYPE:REQUEST
+EVENT:LV>59
+RequestMsg:\n저는 수년간 이 세계의 역사와\n자연에 대해 연구하고 있습니다.\n최근에 연구내용은 이 세계에 흩어져 있는\n네 개의 보석의 행방을 찾는 것입니다.
+ThanksMsg:\n보석들은 자연의 힘을 간직하고 있는\n이상한 돌로 마을의 어딘가에\n봉인되어 있었지만 공룡들이\n마을을 습격했을 때 없어져 버렸습니다.\n전 그 보석을 찾아줄 사람이 필요합니다.\n보석들을 찾아 주시겠습니까？
+StopMsg:\n\n그만 두시겠습니까？
+EndStopMsg:\n아쉽내요. 4개의 보물을 찾아줄 사람을 구해봐야겠어요.
+NoStopMsg:\n감사합니다.\n4개의 보물을 찾아주세요.\n부탁 드리겠습니다.
+GetItem:2764*1
+ItemFullMsg:아이템칸이 가득 찬거 같습니다！
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>59&ENDEV=45
+NomalWindowMsg:\n\n저번에는 정말로 감사했습니다.\n덕분에 보석을 찾을수 있었습니다.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n세르노스에는 무슨 공룡들이 존재할까요？
+EventEnd
+

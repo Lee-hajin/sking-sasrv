@@ -1,0 +1,35 @@
+NomalMainMsg:정말 고마워!
+
+EventNo:6
+TYPE:ACCEPT
+EVENT:NOWEV=6&ITEM=2414*2
+AcceptMsg:이전에 부탁한 조개는 발견했니?\n오! 구해왔구나\n그걸 나에게 주겠니?
+ThanksMsg:\n고마워!!\n\n전부 나에게 주다니\n착한 사람이네! 보답으로 내게 소중한 페트를 너에게 줄테니까 잘  키워!
+DelItem:2414*1
+GetPet:44
+PetFullMsg:페트를 더 이상 들수 없을꺼같아.!
+EndSetFlg:6
+EventEnd
+
+EventNo:6
+TYPE:ACCEPT
+EVENT:NOWEV=6&ITEM=2414*1
+AcceptMsg:이전에 부탁한 조개는 발견했니?\n한 개 밖에 없는 것 같은데\n나에게 주겠니?
+ThanksMsg:\n고마워!!\n\n하나밖에 없는데도 나에게 주다니\n착한 사람이네! 보답으로 내게 소중한 페트를 너에게 줄테니까 잘  키워!
+DelItem:2414*1
+GetPet:1561
+PetFullMsg:페트를 더 이상 들수 없을꺼같아.!   
+EndSetFlg:6
+EventEnd
+
+
+EventNo:6
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:알고 있니?\n이상한 조개라는 것을 갖고 있으면\n이 동굴에 살고있는 모든 페트들과\n대화를 할 수 있대.\n만일 그 조개를 가지고 있다면\n나에게 하나 주지 않겠니?
+ThanksMsg:고마워! 잘 부탁해.\n소문으로는 최근에 카루타나에서 온\n마리너스 상인이 갖고 있다고 들었어.\n그것을 얻게 된다면 없어지지 않도록\n옆에 달고 있을거야!
+StopMsg:왜? 이상한조개를 못구해올꺼같아?
+EndStopMsg:이런! 아쉽군. 기대를 많이 했는데
+NoStopMsg:고마워! 꼭 찾아줘.! 
+EventEnd
+

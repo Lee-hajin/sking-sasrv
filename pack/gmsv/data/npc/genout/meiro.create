@@ -1,0 +1,34 @@
+NPCCREATE
+{
+floorid=119
+borncorner=99,92,99,92
+time=0
+createnum=1
+graphicname=10062
+name=공지사항
+dir=6
+ignoreinvincible=1
+enemy=npcgen_signboard|file:genout/signb_119_99_92
+}
+{
+floorid=121
+borncorner=23,15,23,15
+time=0
+createnum=1
+graphicname=16064
+name=해변가 할아버지
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|마리너스의 해안가에있는 낚시하는 노인을 보고싶군…
+}
+{
+floorid=120
+borncorner=19,15,19,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16017
+name=집주인
+enemy=npcgen_warpman|file:genout/wpm_120_19_15
+}

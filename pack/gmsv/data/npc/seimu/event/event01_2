@@ -1,0 +1,54 @@
+NomalMainMsg:.........
+
+EventNo:34
+TYPE:ACCEPT
+EVENT:ENDEV=4&ITEM=2603&ENDEV=33&ENDEV=32
+AcceptMsg:\n\n이것은 「빛의선견」！\n자네가 이것을 가져왔는가？\n이 동굴을 통과하다니..\n정말 대단하군！\n혹시 저앞 페트와 싸웟는가？
+AcceptMsg2:\n저 앞에 페트는 나쁜페트가 아닐쎄\n그저 나를 지키려 하는것 뿐이지..\n하하하하！\n여기 까지왓으니 선물을 주겟네！
+ThanksMsg:\n\n\n「빛의 선견」을 가져오면\n선물은 계속 주겟네！
+ItemFullMsg:자네 소지품이 가득찬듯 하네
+DelItem:2603
+GetItem:2604
+EndSetFlg:34
+EventEnd
+
+EventNo:33
+TYPE:ACCEPT
+EVENT:ENDEV=4&ITEM=2603&ENDEV=32
+AcceptMsg:\n\n이것은 「빛의선견」！\n자네가 이것을 가져왔는가？\n이 동굴을 통과하다니..\n정말 대단하군！\n혹시 저앞 페트와 싸웟는가？
+AcceptMsg2:\n저 앞에 페트는 나쁜페트가 아닐쎄\n그저 나를 지키려 하는것 뿐이지..\n하하하하！\n여기 까지왓으니 선물을 주겟네！
+ThanksMsg:\n\n\n「빛의 선견」을 가져오면\n선물은 계속 주겟네！
+ItemFullMsg:자네 소지품이 가득찬듯 하네
+DelItem:2603
+GetItem:2605
+EndSetFlg:33
+EventEnd
+
+EventNo:32
+TYPE:ACCEPT
+EVENT:ENDEV=4&ITEM=2603
+AcceptMsg:\n\n이것은 「빛의선견」！\n자네가 이것을 가져왔는가？\n이 동굴을 통과하다니..\n정말 대단하군！\n혹시 저앞 페트와 싸웟는가？
+AcceptMsg2:\n저 앞에 페트는 나쁜페트가 아닐쎄\n그저 나를 지키려 하는것 뿐이지..\n하하하하！\n여기 까지왓으니 선물을 주겟네！
+ThanksMsg:\n\n\n「빛의 선견」을 가져오면\n선물은 계속 주겟네！
+ItemFullMsg:자네 소지품이 가득찬듯 하네
+DelItem:2603
+GetItem:2606
+EndSetFlg:32
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&ITEM=2603&ENDEV=34&ENDEV=33&ENDEV=32,LV>34&ITEM=2603
+AcceptMsg:\n\n이것은 「빛의선견」！\n자네가 이것을 가져왔는가？\n이 동굴을 통과하다니..\n정말 대단하군！\n혹시 저앞 페트와 싸웟는가？
+AcceptMsg2:\n저 앞에 페트는 나쁜페트가 아닐쎄\n그저 나를 지키려 하는것 뿐이지..\n하하하하！\n여기 까지왓으니 선물을 주겟네！
+ThanksMsg:\n\n\n「빛의 선견」을 가져오면\n선물은 계속 주겟네！
+ItemFullMsg:자네 소지품이 가득찬듯 하네
+DelItem:2603
+GetRandItem:450,451,449,653,646,11803,11814,11853,2604,2605,2606
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0,ENDEV=4&ITEM!=2603&ITEM!=19550
+NomalWindowMsg:\n\n\n\n이곳은 「몽환의 동굴」이라네..
+EventEnd

@@ -1,0 +1,33 @@
+NomalMainMsg:아니.. 당신은 누구신데 이곳까지 찾아 온것인가?
+
+EventNo:40
+TYPE:ACCEPT
+EVENT:LV>0&NOWEV=40&ENDEV=4&ITEM=2706
+AcceptMsg:\n\n진홍의 동굴을 정복했군.
+ThanksMsg:\n불사조의 깃털을 가지고 온 너를\n「불을 정복한 사람」으로 인정하마.\n이『불의 깃털장식』을 가지고 가거라.\n\n앞으로 네게 불의 가호가 있기를...
+ItemFullMsg:가방이 무거워『불의 깃털장식』을 지닐수 없겠군.
+DelItem:2706
+GetItem:2707
+Charm:1
+EndSetFlg:40
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&NOWEV=40&ENDEV=4&ITEM!=2706
+NomalWindowMsg:\n불의 가호를 받기 위해선 불사조의 깃털이 필요해.\n불사조는 깊은 숲속에서 조용히 살고 있지.!\n
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=40
+NomalWindowMsg:\n너는 이미 이곳을 정복하였어！\n너는「불의 정복자」를 인정받아 불의 가호를 받았다.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n당신은 무엇때문에 이곳을 왔나？
+EventEnd
+
+

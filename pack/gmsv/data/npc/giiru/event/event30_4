@@ -1,0 +1,20 @@
+NomalMainMsg:후르도는 가우린 중심에 위치한 가우린 최정상 마을이지.
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=29&ENDEV=30
+NomalWindowMsg:진실의 안경에 대한 해답을 찾았나보군. 축하하네
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=4&ENDEV=30&NOWEV=54
+NomalWindowMsg:쿠이용을 만났나 보군...
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=4&NOWEV=30&NOWEV=54
+AcceptMsg:음! 너는 한·로우를 만나러 이곳에 왔군.\n그럼「진실의 안경」에 대해서 알고 싶을테지···
+ThanksMsg1:진실의 안경에 대해서는 나도 잘 모르겠군.\n대신 가우린 섬에 쿠이용할배를 찾아가보게나.\n소문에 의하면「진실의 안경」이 정령을 볼수 있게 한다고 하더군.
+EventEnd

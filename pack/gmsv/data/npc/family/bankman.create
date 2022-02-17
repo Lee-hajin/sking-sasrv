@@ -1,0 +1,13 @@
+NPCCREATE
+{
+floorid=1030
+borncenter=18,14,1,1
+movecenter=18,14,18,14
+createnum=1
+time=0
+dir=6
+ignoreinvincible=1
+graphicname=37215
+name=은행직원
+enemy=bankman|conff:family/bankman.conf
+}

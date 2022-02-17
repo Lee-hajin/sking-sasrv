@@ -1,0 +1,57 @@
+NomalMainMsg:허허허···외딴곳에 손님이 이곳엔 무슨일인가？
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=29&NOWEV=54&ITEM=2547
+AcceptMsg:어? 돌아왔군···어때「진실의 안경」을 손에 넣었는가?\n자네니까 할 수 있을거라고는 생각하고 있었지만····\n그럼 거울을 돌려주지 않겠나?
+ThanksMsg:그래 원하는 해답을 찾은거 같군.\n이「심성의 거울」이 도운거 같군.
+ThanksMsg2:정령들은 사람들을 지켜보았던것 같군.\n해답을 찾아줘서 고맙내.
+PetFullMsg:자네에게 선물 하나를 주려고 하는데 페트를 받을 칸을 비워주지 않겠나？
+DelItem:2547
+GetPet:355
+EndSetFlg:54
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=29&NOWEV=54&ITEM=2532
+AcceptMsg:어? 돌아왔군···어때「진실의 안경」을 손에 넣었는가?\n자네니까 할 수 있을거라고는 생각하고 있었지만····\n그럼 거울을 돌려주지 않겠나?
+ThanksMsg:거울이 떨어져 많이 깨져있군.. 안타깝구만
+DelItem:2532
+EndSetFlg:54
+EventEnd
+
+EventNo:54
+TYPE:ACCEPT
+EVENT:NOWEV=54&ENDEV=30&ITEM=2547,NOWEV=54&ENDEV=30&ITEM=2532
+AcceptMsg:무슨일인가？
+ThanksMsg:정령의 사자를 만나보게나\n정령의 사자는 채석장 높은곳에 있다고 하더군.
+EventEnd
+
+EventNo:54
+TYPE:ACCEPT
+EVENT:NOWEV=54&ENDEV=30&ITEM!=2547,NOWEV=54&ENDEV=30&ITEM!=2532
+AcceptMsg:뭐?「심성의 거울」을 잃어버렸다고?
+ThanksMsg:후.. 다시는 잃어버리지 말게나.
+ItemFullMsg:「심성의 거울」을 받을 공간이 부족하구만.
+GetItem:2532
+EventEnd
+
+EventNo:29
+TYPE:ACCEPT
+EVENT:NOWEV=30&NOWEV=54&ITEM!=2547
+AcceptMsg:역시···\n후르도에 말을 듣고 온건가?\n「심성의 거울」이라···그거라면 내가 가지고 있지.\n그걸 빌려달라는건가?
+ThanksMsg:자네를 믿기에 빌려는 주겠네.\n「심성의 거울」을 소지하고 있으면 정령의 사자를 볼수 있을걸세.
+ItemFullMsg:「심성의 거울」을 받을 공간이 부족하구만.
+GetItem:2547
+EndSetFlg:30
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=30&ENDEV=54
+NomalMsg:좀 더 높은곳을 향해 나아가게나.
+EventEnd
+
+
+

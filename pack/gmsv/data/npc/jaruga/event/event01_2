@@ -1,0 +1,36 @@
+NomalMainMsg:公郊老牢啊? 捞 剑篮 讣绊 柄昌秦辑 距檬甸捞 腹捞 磊扼绰镑捞具.
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2401
+NomalWindowMsg:绢辑 弊 贸赤俊霸 距檬甫 傈秦林霸唱.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=1984
+NomalWindowMsg:药粉已经确实交给你啦，尽快把这药粉送给病患吧！
+EventEnd
+
+EventNo:-1 
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=1983&ITEM=1982
+AcceptMsg1:你要我帮你把爱困草磨成药粉啊？好的，你稍等一下喔。
+ThanksMsg1:好了，拿去吧。
+ItemFullMsg:你身上的东西可以减少一点吗。
+GetItem:1984
+DelItem:1983*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=1&ITEM!=2401,NOWEV=87&ITEM!=2401,ENDEV=87&ITEM!=2401
+AcceptMsg1:公郊老肺 唱甫 茫酒柯扒啊?
+AcceptMsg2:弊犯焙.\n弊 贸赤俊霸 何殴阑 罐绊 柯巴牢啊?
+ThanksMsg1:舅疽促.\n弊矾搁 捞 距檬甫 林付.\n捞 距檬绰 捞 魂俊辑 磊扼绰 距檬肺\n缴厘捍俊 辈厘洒 亮酒.\n弧府 捞 距檬甫 弊 贸赤俊霸 爱促林霸.\n郴啊 救何 傈窍歹扼绊档 窍绊. . .
+GetItem:2401
+ItemFullMsg:啊规捞 公辑况辑 距檬甫 罐阑 傍埃捞 何练茄芭 鞍备唱.
+EventEnd
+
+
+

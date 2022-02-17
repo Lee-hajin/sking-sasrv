@@ -1,0 +1,13 @@
+NomalMainMsg: 저에겐 무슨 볼일 이신가요?
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&ITEM=2766,LV>0&ENDEV=46&ITEM=2766,LV>0&NOWEV=46&ITEM=2766
+NomalWindowMsg:\n수창의 조개를 이용하여 앞 두 상자를 열 수 있습니다.\n큰것과 작은것 당신의 지혜를 보겠습니다.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&NOWEV=46
+NomalWindowMsg:\n\n당신은「물의 정복자」이시군요.\n대단하십니다.!
+EventEnd

@@ -1,0 +1,27 @@
+NomalMainMsg:자네도 이곳에 녹이 보이는가?
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=18562
+AcceptMsg:\n매장된지 오래된 이 상자는 무엇일까? 열리지가 않아...\n열어서 보고싶지 않아?
+ThanksMsg:오! 마침 자네가 열쇠를 가지고 있었군..\n이 돌은 뭐지? 혹시 자네가 필요한건가?\n필요하다면 가져가게.
+ItemFullMsg:가방이 가득찬거 같군.
+GetItem:18558*2
+DelItem:18562
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=18561
+AcceptMsg:\n매장된지 오래된 이 상자는 무엇일까? 열리지가 않아...\n열어서 보고싶지 않아?
+ThanksMsg:오! 마침 자네가 열쇠를 가지고 있었군..\n이 돌은 뭐지? 혹시 자네가 필요한건가?\n필요하다면 가져가게.
+ItemFullMsg:가방이 가득찬거 같군.
+GetItem:18558*1
+DelItem:18561
+EventEnd
+
+
+

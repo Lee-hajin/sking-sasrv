@@ -1,0 +1,1347 @@
+NPCCREATE
+{
+floorid=1001
+borncorner=17,13,17,13
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16017
+name=무기 상인
+enemy=npcgen_shop|file:genout/ss_1001_17_13
+}
+#line 17
+{
+floorid=1001
+borncorner=17,15,17,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16018
+name=방어구 상인
+enemy=npcgen_shop|file:genout/ss_1001_17_15
+}
+#line 22
+{
+floorid=1002
+borncorner=18,15,18,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16033
+name=도구 상인
+enemy=npcgen_shop|file:genout/ss_1002_18_15
+}
+#line 27
+{
+floorid=1003
+borncorner=12,13,12,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16038
+name=페트상인
+enemy=npcgen_petshop|file:genout/ps_1003_12_13
+}
+#line 29
+{
+floorid=1003
+borncorner=14,13,14,13
+time=0
+createnum=1
+graphicname=100250
+name=우리
+dir=4
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 30
+{
+floorid=1003
+borncorner=13,13,13,13
+time=0
+createnum=1
+graphicname=100252
+name=얼룩우리
+dir=4
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 32
+{
+floorid=1003
+borncorner=18,13,18,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16047
+name=페트 기술상인
+enemy=npcgen_petskillshop|file:genout/psks_1003_18_13
+}
+#line 34
+{
+floorid=1003
+borncorner=16,13,16,13
+time=0
+createnum=1
+graphicname=16016
+name=페트 조련사
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|페트에게는 특별한 기술들을 가르칠수 있지.! 모험을 떠나기 전에는 꼭 필요한 기술들이 있을거야
+}
+#line 39
+{
+floorid=1004
+borncorner=17,13,17,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16054
+name=고기상인
+enemy=npcgen_shop|file:genout/ss_1004_17_13
+}
+#line 45
+{
+floorid=1005
+borncorner=17,13,17,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16012
+name=간호사
+enemy=npcgen_winhealer|10|0.5|2.0|2
+}
+#line 47
+{
+floorid=1005
+borncorner=14,14,14,14
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16023
+name=약사
+enemy=npcgen_shop|file:genout/ss_1005_14_14
+}
+{
+floorid=1005
+borncorner=25,15,25,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16065
+name=미용 관리사
+enemy=npcgen_charm
+}
+#line 55
+{
+floorid=1006
+borncorner=18,22,18,22
+time=0
+createnum=1
+graphicname=16210
+name=샴기르 촌장
+dir=6
+ignoreinvincible=1
+enemy=changeevent|file:poru/samgiru01
+}
+#line 58
+{
+floorid=1006
+borncorner=16,16,16,16
+time=0
+createnum=1
+graphicname=16054
+name=요리사
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|요리를 배우고싶다고？ 우선 재료들을 가지고와
+}
+{
+floorid=1020
+borncorner=18,12,18,12
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16065
+name=접수원
+enemy=npcgen_warpman|file:genout/wpm_1020_18_12
+}
+#line 100
+{
+floorid=1020
+borncorner=14,9,14,9
+time=0
+createnum=1
+graphicname=10096
+name=공지사항
+dir=4
+ignoreinvincible=1
+enemy=npcgen_signboard|file:genout/signb_1020_14_9
+}
+#line 103
+{
+floorid=1022
+borncorner=6,3,6,3
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16012
+name=간호사
+enemy=npcgen_healer|1
+}
+#line 106
+{
+floorid=1022
+borncorner=3,3,3,3
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16023
+name=약사
+enemy=npcgen_shop|file:genout/ss_1022_3_3
+}
+{
+floorid=1008
+borncorner=28,21,28,21
+time=0
+createnum=1
+graphicname=16050
+name=샴기르 사범
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|이곳까지 오다니.! 대단하구나 100인의 수련생을 이긴것을 축하한다
+
+}
+#line 112
+{
+floorid=1008
+borncorner=28,24,28,24
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16063
+name=기술 상인
+enemy=npcgen_petskillshop|file:genout/psks_1008_28_24
+}
+#line 114
+{
+floorid=1008
+borncorner=28,18,28,18
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16056
+name=도장의 상인
+enemy=npcgen_shop|file:genout/ss_1008_28_18
+}
+#line 123
+{
+floorid=1101
+borncorner=18,13,18,13
+time=0
+createnum=1
+dir=5
+ignoreinvincible=1
+graphicname=16041
+name=무기 상인
+enemy=npcgen_shop|file:genout/ss_1101_18_13
+}
+#line 126
+{
+floorid=1101
+borncorner=12,18,12,18
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16027
+name=방어구 상인
+enemy=npcgen_shop|file:genout/ss_1101_12_18
+}
+#line 131
+{
+floorid=1102
+borncorner=18,13,18,13
+time=0
+createnum=1
+dir=5
+ignoreinvincible=1
+graphicname=16029
+name=도구 상인
+enemy=npcgen_shop|file:genout/ss_1102_18_13
+}
+#line 136
+{
+floorid=1103
+borncorner=19,17,19,17
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16046
+name=페트 상인
+enemy=npcgen_petshop|file:genout/ps_1103_19_17
+}
+#line 139
+{
+floorid=1103
+borncorner=14,13,14,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16047
+name=페트 조련사
+enemy=npcgen_petskillshop|file:genout/psks_1103_14_13
+}
+#line 140
+{
+floorid=1103
+borncorner=15,13,15,13
+time=0
+createnum=1
+graphicname=100256
+name=부이
+dir=6
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 141
+{
+floorid=1103
+borncorner=12,13,12,13
+time=0
+createnum=1
+graphicname=100271
+name=노북이
+dir=4
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 146
+{
+floorid=1104
+borncorner=17,13,17,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16038
+name=고기상인
+enemy=npcgen_limitshop|file:genout/lbis_1104_17_13
+}
+#line 150
+{
+floorid=1100
+borncorner=86,107,86,107
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16018
+name=통행증 판매원
+enemy=npcgen_shop|file:genout/ss_1100_86_107
+}
+#line 155
+{
+floorid=1105
+borncorner=18,13,18,13
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16058
+name=간호사
+enemy=npcgen_winhealer|10|1.0|2.2|2
+}
+#line 157
+{
+floorid=1105
+borncorner=18,16,18,16
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16059
+name=약사
+enemy=npcgen_shop|file:genout/ss_1105_18_16
+}
+#line 159
+{
+floorid=1105
+borncorner=13,14,13,14
+time=0
+createnum=1
+graphicname=16024
+name=의사 할아버지
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|음..어디가 아픈가？
+
+}
+#line 164
+{
+floorid=1106
+borncorner=20,14,20,14
+time=0
+createnum=1
+graphicname=16001
+name=쿠오 촌장
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|쿠오마을에 온것을 환영하네！
+
+}
+#line 174
+{
+floorid=1201
+borncorner=14,13,14,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16016
+name=무기 상인
+enemy=npcgen_shop|file:genout/ss_1201_14_13
+}
+#line 177
+{
+floorid=1201
+borncorner=17,13,17,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16019
+name=방어구 상인
+enemy=npcgen_shop|file:genout/ss_1201_17_13
+}
+#line 181
+{
+floorid=1202
+borncorner=15,13,15,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16038
+name=도구 상인
+enemy=npcgen_shop|file:genout/ss_1202_15_13
+}
+#line 186
+{
+floorid=1210
+borncorner=18,15,18,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16008
+name=꼬마 상인
+enemy=npcgen_shop|file:genout/ss_1210_18_15
+}
+#line 188
+{
+floorid=1210
+borncorner=16,13,16,13
+time=0
+createnum=1
+graphicname=16024
+name=할아버지
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|돌을 제작하여 판매를 하고있어.. 
+}
+#line 194
+{
+floorid=1203
+borncorner=14,13,14,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16035
+name=페트상인
+enemy=npcgen_petshop|file:genout/ps_1203_14_13
+}
+#line 196
+{
+floorid=1203
+borncorner=18,13,18,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16027
+name=페트 조련사
+enemy=npcgen_petskillshop|file:genout/psks_1203_18_13
+}
+#line 197
+{
+floorid=1203
+borncorner=12,13,12,13
+time=0
+createnum=1
+graphicname=100277
+name=타로곤
+dir=4
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 198
+{
+floorid=1203
+borncorner=12,16,12,16
+time=0
+createnum=1
+graphicname=100280
+name=후바바
+dir=2
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 199
+{
+floorid=1203
+borncorner=12,17,12,17
+time=0
+createnum=1
+graphicname=100267
+name=베론
+dir=2
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 204
+{
+floorid=1204
+borncorner=18,15,18,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16053
+name=고기 상인
+enemy=npcgen_limitshop|file:genout/lbis_1204_18_15
+}
+#line 209
+{
+floorid=1205
+borncorner=13,7,13,7
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16012
+name=간호사
+enemy=npcgen_winhealer|10|1.5|3.0|2
+}
+#line 211
+{
+floorid=1205
+borncorner=14,14,14,14
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16059
+name=약사
+enemy=npcgen_shop|file:genout/ss_1205_14_14
+}
+#line 216
+{
+floorid=1206
+borncorner=23,16,23,16
+time=0
+createnum=1
+graphicname=16024
+name=타로
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|허허...이곳은 무슨일인가？
+
+}
+#line 228
+{
+floorid=1301
+borncorner=19,17,19,17
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16036
+name=무기 상인
+enemy=npcgen_shop|file:genout/ss_1301_19_17
+}
+#line 231
+{
+floorid=1301
+borncorner=18,13,18,13
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16030
+name=방어구 상인
+enemy=npcgen_shop|file:genout/ss_1301_18_13
+}
+#line 236
+{
+floorid=1302
+borncorner=18,13,18,13
+time=0
+createnum=1
+dir=5
+ignoreinvincible=1
+graphicname=16031
+name=도구 상인
+enemy=npcgen_shop|file:genout/ss_1302_18_13
+}
+#line 241
+{
+floorid=1303
+borncorner=16,13,16,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16048
+name=페트 상인
+enemy=npcgen_petshop|file:genout/ps_1303_16_13
+}
+#line 243
+{
+floorid=1303
+borncorner=13,13,13,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16049
+name=스킬 상인
+enemy=npcgen_petskillshop|file:genout/psks_1303_13_13
+}
+#line 244
+{
+floorid=1303
+borncorner=13,12,13,12
+time=0
+createnum=1
+graphicname=100295
+name=카비트
+dir=3
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 245
+{
+floorid=1303
+borncorner=12,12,12,12
+time=0
+createnum=1
+graphicname=100295
+name=카비트
+dir=7
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 246
+{
+floorid=1303
+borncorner=14,13,14,13
+time=0
+createnum=1
+graphicname=100296
+name=케이비
+dir=6
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 247
+{
+floorid=1303
+borncorner=12,13,12,13
+time=0
+createnum=1
+graphicname=100297
+name=큐이
+dir=5
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 248
+{
+floorid=1303
+borncorner=19,17,19,17
+time=0
+createnum=1
+graphicname=100335
+name=토리노프스
+dir=4
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 249
+{
+floorid=1303
+borncorner=19,19,19,19
+time=0
+createnum=1
+graphicname=100367
+name=타키
+dir=6
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+{
+floorid=1304
+borncorner=18,16,18,16
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16053
+name=고기 상인
+enemy=npcgen_limitshop|file:genout/lbis_1304_18_16
+}
+#line 263
+{
+floorid=1305
+borncorner=18,13,18,13
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16058
+name=간호사
+enemy=npcgen_winhealer|10|1.3|2.6|2
+}
+#line 265
+{
+floorid=1305
+borncorner=17,18,17,18
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16059
+name=약사
+enemy=npcgen_shop|file:genout/ss_1305_17_18
+}
+#line 267
+{
+floorid=1305
+borncorner=14,12,14,12
+time=0
+createnum=1
+graphicname=16024
+name=의사
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|허허... 어디가 아프신가？
+
+}
+#line 272
+{
+floorid=1306
+borncorner=20,14,20,14
+time=0
+createnum=1
+graphicname=16001
+name=호토르 촌장
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|호토르 마을에 온것을 환영하네. 보아하니 모험가인거 같구만 허허허
+
+}
+#line 281
+{
+floorid=1401
+borncorner=19,17,19,17
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16209
+name=무기 상인
+enemy=npcgen_shop|file:genout/ss_1401_19_17
+}
+#line 284
+{
+floorid=1401
+borncorner=18,13,18,13
+time=0
+createnum=1
+dir=5
+ignoreinvincible=1
+graphicname=16043
+name=방어구 상인
+enemy=npcgen_shop|file:genout/ss_1401_18_13
+}
+#line 290
+{
+floorid=1402
+borncorner=19,15,19,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16010
+name=도구 상인
+enemy=npcgen_shop|file:genout/ss_1402_19_15
+}
+#line 294
+{
+floorid=1403
+borncorner=14,13,14,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16016
+name=페트 상인
+enemy=npcgen_petshop|file:genout/ps_1403_14_13
+}
+#line 296
+{
+floorid=1403
+borncorner=19,18,19,18
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16209
+name=기술 상인
+enemy=npcgen_petskillshop|file:genout/psks_1403_19_18
+}
+#line 297
+{
+floorid=1403
+borncorner=12,13,12,13
+time=0
+createnum=1
+graphicname=100250
+name=우리
+dir=2
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 298
+{
+floorid=1403
+borncorner=16,12,16,12
+time=0
+createnum=1
+graphicname=100384
+name=바로로크스
+dir=4
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 303
+{
+floorid=1404
+borncorner=16,13,16,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16203
+name=고기 상인
+enemy=npcgen_limitshop|file:genout/lbis_1404_16_13
+}
+#line 308
+{
+floorid=1405
+borncorner=13,13,13,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16012
+name=간호사
+enemy=npcgen_winhealer|10|1.4|2.8|2
+}
+#line 310
+{
+floorid=1405
+borncorner=18,14,18,14
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16023
+name=약사
+enemy=npcgen_shop|file:genout/ss_1405_18_14
+}
+#line 312
+{
+floorid=1405
+borncorner=22,18,22,18
+time=0
+createnum=1
+graphicname=16024
+name=의사
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|어디가 아파서 왔지？여기 앉아보시게나
+
+}
+#line 317
+{
+floorid=1406
+borncorner=22,14,22,14
+time=0
+createnum=1
+graphicname=16210
+name=카탄마을 촌장
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|사막의 도시 카탄에 온것을 환영하네. 많이 둘러보게나 
+
+}
+#line 327
+{
+floorid=2001
+borncorner=18,15,18,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16017
+name=무기 상인
+enemy=npcgen_shop|file:genout/ss_2001_18_15
+}
+#line 331
+{
+floorid=2001
+borncorner=18,18,18,18
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16056
+name=방어구 상인
+enemy=npcgen_shop|file:genout/ss_2001_18_18
+}
+#line 337
+{
+floorid=2002
+borncorner=15,13,15,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16035
+name=도구 상인
+enemy=npcgen_shop|file:genout/ss_2002_15_13
+}
+#line 342
+{
+floorid=2003
+borncorner=18,17,18,17
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16036
+name=페트 상인
+enemy=npcgen_petshop|file:genout/ps_2003_18_17
+}
+#line 345
+{
+floorid=2003
+borncorner=18,14,18,14
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16046
+name=페트 조련사
+enemy=npcgen_petskillshop|file:genout/psks_2003_18_14
+}
+{
+floorid=2003
+borncorner=15,19,15,19
+time=0
+createnum=1
+graphicname=100252
+name=얼룩우리
+dir=0
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 348
+{
+floorid=2003
+borncorner=13,19,13,19
+time=0
+createnum=1
+graphicname=100251
+name=두리
+dir=7
+ignoreinvincible=1
+enemy=npcgen_mugon
+}
+#line 357
+{
+floorid=2004
+borncorner=17,13,17,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16016
+name=고기 상인
+enemy=npcgen_shop|file:genout/ss_2004_17_13
+}
+#line 362
+{
+floorid=2005
+borncorner=11,8,11,8
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16012
+name=간호사
+enemy=npcgen_winhealer|10|0.5|2.0|2
+}
+#line 364
+{
+floorid=2005
+borncorner=15,7,15,7
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16023
+name=약사
+enemy=npcgen_shop|file:genout/ss_2005_15_7
+}
+#line 366
+{
+floorid=2005
+borncorner=18,7,18,7
+time=0
+createnum=1
+graphicname=16024
+name=의사
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|앞에 앉아보게나. 어디가 아픈지 봐야겠어
+
+}
+#line 368
+{
+floorid=2005
+borncorner=19,15,19,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16065
+name=미용 관리사
+enemy=npcgen_charm
+}
+#line 372
+{
+floorid=2006
+borncorner=20,8,20,8
+time=0
+createnum=1
+graphicname=16001
+name=마리너스 촌장
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|모험가군. 어서 성장해서 모든 곳을 돌아보게나
+}
+#line 373
+{
+floorid=2006
+borncorner=16,9,16,9
+time=0
+createnum=1
+graphicname=16203
+name=촌장의 수하
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|하하.. 나도 어서 밖에 나가보고 싶군
+}
+#line 421
+{
+floorid=100
+borncorner=343,464,343,464
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16058
+name=간호사
+enemy=npcgen_winhealer|1|4.0|6.0|1
+}
+#line 422
+{
+floorid=100
+borncorner=180,339,180,339
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16012
+name=간호사
+enemy=npcgen_winhealer|1|5.0|7.0|1
+}
+{
+floorid=1009
+borncorner=27,17,27,17
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16017
+name=소재 상인1
+enemy=npcgen_shop|file:genout/ss_1009_27_17
+}
+#line 437
+{
+floorid=1009
+borncorner=27,24,27,24
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16033
+name=소재 상인2
+enemy=npcgen_shop|file:genout/ss_1009_27_24
+}
+#line 440
+{
+floorid=1009
+borncorner=27,28,27,28
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16206
+name=소재 상인3
+enemy=npcgen_shop|file:genout/ss_1009_27_28
+}
+#line 443
+{
+floorid=1009
+borncorner=27,37,27,37
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16067
+name=소재 상인4
+enemy=npcgen_shop|file:genout/ss_1009_27_37
+}
+#line 445
+{
+floorid=1009
+borncorner=14,13,14,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16055
+name=창고지기
+enemy=npcgen_poolitemshop|file:genout/pis_1009_14_13
+}
+#line 447
+{
+floorid=1009
+borncorner=27,15,27,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16208
+name=잡화상인
+enemy=npcgen_shop|file:genout/ss_1009_27_15
+}
+#line 452
+{
+floorid=1102
+borncorner=14,14,14,14
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16068
+name=잡화점 주인
+enemy=npcgen_shop|file:genout/ss_1102_14_14
+}
+#line 456
+{
+floorid=1302
+borncorner=12,15,12,15
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16201
+name=도구 상인
+enemy=npcgen_shop|file:genout/ss_1302_12_15
+}
+#line 460
+{
+floorid=1402
+borncorner=14,13,14,13
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16201
+name=도구 상인
+enemy=npcgen_shop|file:genout/ss_1402_14_13
+}
+#line 468
+{
+floorid=2009
+borncorner=27,15,27,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16053
+name=음식 상인
+enemy=npcgen_shop|file:genout/ss_2009_27_15
+}
+#line 471
+{
+floorid=2009
+borncorner=27,17,27,17
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16207
+name=재료 상인1
+enemy=npcgen_shop|file:genout/ss_2009_27_17
+}
+#line 474
+{
+floorid=2009
+borncorner=27,23,27,23
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16017
+name=재료 상인2
+enemy=npcgen_shop|file:genout/ss_2009_27_23
+}
+#line 477
+{
+floorid=2009
+borncorner=27,26,27,26
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16018
+name=재료 상인3
+enemy=npcgen_shop|file:genout/ss_2009_27_26
+}
+#line 480
+{
+floorid=2009
+borncorner=27,29,27,29
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16015
+name=재료 상인4
+enemy=npcgen_shop|file:genout/ss_2009_27_29
+}
+#line 483
+{
+floorid=2009
+borncorner=27,34,27,34
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16210
+name=특산물 상인
+enemy=npcgen_shop|file:genout/ss_2009_27_34
+}
+#line 486
+{
+floorid=2009
+borncorner=27,37,27,37
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16065
+name=특산물 상인
+enemy=npcgen_shop|file:genout/ss_2009_27_37
+}
+#line 488
+{
+floorid=2009
+borncorner=17,34,17,34
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16056
+name=창고 지기
+enemy=npcgen_poolitemshop|file:genout/pis_2009_17_34
+}
+#line 493
+{
+floorid=1000
+borncorner=64,112,64,112
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16067
+name=특산물 상인
+enemy=npcgen_shop|file:genout/ss_1000_64_112
+}
+#line 499
+{
+floorid=1100
+borncorner=59,49,59,49
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16068
+name=특산물 상인
+enemy=npcgen_shop|file:genout/ss_1100_59_49
+}
+#line 503
+{
+floorid=1300
+borncorner=56,55,56,55
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16067
+name=호토르 특산물 상인
+enemy=npcgen_shop|file:genout/ss_1300_56_55
+}

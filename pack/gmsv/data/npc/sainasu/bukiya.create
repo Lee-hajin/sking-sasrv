@@ -1,0 +1,50 @@
+NPCCREATE
+{
+floorid=1001
+borncenter=16,19,1,1
+movecenter=18,26,18,26
+createnum=1
+time=200000
+dir=6
+graphicname=16208
+name=무기 전문가
+enemy=windowman|conff:sainasu/bukiya01.conf
+}
+
+{
+floorid=2001
+borncenter=14,14,1,1
+movecenter=18,26,18,26
+createnum=1
+time=200000
+dir=4
+graphicname=16203
+name=무기 전문가
+enemy=windowman|conff:sainasu/bukiya01.conf
+}
+
+{
+floorid=3001
+borncenter=13,14,1,1
+movecenter=18,26,18,26
+createnum=1
+time=200000
+dir=4
+graphicname=16203
+name=무기 전문가
+enemy=windowman|conff:sainasu/bukiya01.conf
+}
+
+{
+floorid=4001
+borncenter=13,14,1,1
+movecenter=18,26,18,26
+createnum=1
+time=200000
+dir=4
+graphicname=16203
+name=무기 전문가
+enemy=windowman|conff:sainasu/bukiya01.conf
+}
+
+

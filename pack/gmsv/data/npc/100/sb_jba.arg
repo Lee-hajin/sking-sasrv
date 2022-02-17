@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:JBA의 심사원 입니다.
+askbattlemsg2:부리다의 인정 심사를 받겠습니까?
+startmsg:당신의 역량을 시험해 보겠습니다.
+dieact:1
+warpfl:20711
+warpx:23
+warpy:4
+end msg:
+enemyno:943,944
+deniedmsg:당신은 더이상 넘어가실수 없습니다.
+alreadymsg:당신은 더이상 넘어가실수 없습니다.。
+onebattle:1

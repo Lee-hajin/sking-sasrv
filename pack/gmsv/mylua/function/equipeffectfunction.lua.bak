@@ -1,0 +1,13 @@
+--对像装备物品时触发，返回1为可装备，返回0为不可装备
+function EquipEffectFunction( charaindex, id )
+
+	return 1;
+end
+
+function mydata()
+
+end
+
+function main()
+	mydata();
+end

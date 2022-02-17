@@ -1,0 +1,18 @@
+NomalMainMsg:채팅방 관리인 입니다.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg:채팅방 관리인 입니다.\n채팅방에 입장할수 있는 티켓을 지급받으시겠습니까？
+ThanksMsg:티켓이 지급되었습니다.
+ItemFullMsg:아이템칸이 가득 찾습니다.
+GetItem:2524
+DelItem:2521,2522,2523,2597,2598,2599,2600,2601,2602
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2524
+NomalMsg:티켓을 소지하고 계십니다.
+EventEnd

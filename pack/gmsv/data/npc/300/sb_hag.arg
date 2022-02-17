@@ -1,0 +1,10 @@
+entype:2
+askbattlemsg1:안에 숨겨진 무언가를 노리고 있는거 같군
+askbattlemsg2:앞으로 전진하겠는가?
+start msg:쉽게는 못들어갈꺼야！
+dieact:0
+end msg:
+enemyno:1003
+deniedmsg:넌 들어갈 자격이 없어···
+time:180
+

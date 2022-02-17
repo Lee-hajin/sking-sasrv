@@ -1,0 +1,25 @@
+buy_rate:1.0
+sell_rate:0.5
+buy_msg:찜,拳狼,kau,buy
+sell_msg:찡,sell,uru
+other_msg:어떻습니까？
+hint_msg:아뿔사！최근 경기가 안좋아，장사하기가 힘들어요......
+sellonly_msg:어서오세요
+main_msg:어서오세요.
+buy_main:무엇을 하시겠습니까？
+sell_main:무엇을 파시겠습니까？
+what_msg:몇개를 구매하시겠습니까？
+stone_msg:보유 스톤이 초과하였습니다.
+level_msg:해당 아이템은 레벨이 부족합니다.
+realy_msg:정말로 구매하시겠습니까？
+itemfull_msg:죄송합니다. 아이템칸이 부족합니다!
+ItemList:1724
+LimitItemNo:
+CostFame:6000
+ChangeItemCost:400000
+special_rate:
+special_item:
+
+
+
+

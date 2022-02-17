@@ -1,0 +1,37 @@
+NomalMainMsg:안녕하세요.
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>69
+NomalWindowMsg:\n레벨 70이상은 저희 마리너스 도장을 이용하실 수 없습니다.\n쟈쟈도장을 이용해주시기 바랍니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>49
+AcceptMsg:\n마리너스 도장에 어서오세요!\n이 앞에 있는「퀴즈 삼형제의 집」으로\n들어가는 입장권을 판매하고 있습니다.\n당신은 LV30이상이므로『입장권B』로\n입문하십니다.\n참가료는%8d스톤\n입니다. 괜찮으시겠습니까?
+ThanksMsg:\n\n감사합니다.\n확실히 받았습니다.\n그럼 앞으로 전진하셔서 안내B 에게\n안내받으십시오.
+DelStone:LV*40
+StoneLessMsg:\n\n보유스톤이 부족합니다.
+GetItem:2756
+ItemFullMsg:\n\n가방이 가득찾습니다.
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>29
+AcceptMsg:\n마리너스 도장에 어서오세요!\n이 앞에 있는「퀴즈 삼형제의 집」으로\n들어가는 입장권을 판매하고 있습니다.\n당신은 LV30이상이므로『입장권A』로\n입문하십니다.\n참가료는%8d스톤\n입니다. 괜찮으시겠습니까?
+ThanksMsg:\n\n감사합니다.\n확실히 받았습니다.\n그럼 앞으로 전진하셔서 안내A 에게\n안내받으십시오.
+DelStone:LV*20
+StoneLessMsg:\n\n보유스톤이 부족합니다.
+GetItem:2755
+ItemFullMsg:\n\n가방이 가득찾습니다.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n안녕하세요. 당신은 아직 도장에 입장하실 수 없습니다.\nLV30 이상이 되면 다시 찾아와주십시오.
+EventEnd
+
+

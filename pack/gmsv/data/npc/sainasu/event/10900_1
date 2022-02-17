@@ -1,0 +1,24 @@
+NomalMainMsg:안녕하세요. SBC 본부접수팀 입니다.
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM!=2479&ITEM!=2480
+AcceptMsg:＝＝＝＝＝＝　접수처　＝＝＝＝＝＝\n\n사이너스 사육가위원회 본부에 어서오세요!\n소지하고 계신 JBA의 인정서는 회수처리 해야지만 SBC 인정서를 발급받으실수 있습니다.\SBC 인정서를 발급 받으시겠습니까?
+ThanksMsg:이것이 SBC인증서 입니다.\n이것이 있으면 3층에서 직접 위쪽으로\n올 수 있습니다. 본인에게만 유효하므로\n인증서를 지면에 놓거나 페트메일로\n보낼 수 없습니다.\n재발행할 경우는 다시 와주십시오.
+ItemFullMsg:\n\n 가방이 가득차서 인정서를 지급할수 없습니다.
+GetItem:2479
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM!=2479&ITEM=2480
+AcceptMsg:＝＝＝＝＝＝　접수처　＝＝＝＝＝＝\n\n사이너스 사육가위원회 본부에 어서오세요!\nSBC의 인증서 발행이군요!
+ThanksMsg:이것이 SBC인증서 입니다.\n이것이 있으면 3층에서 직접 위쪽으로\n올 수 있습니다. 본인에게만 유효하므로\n인증서를 지면에 놓거나 페트메일로\n보낼 수 없습니다.\n재발행할 경우는 다시 와주십시오.
+ItemFullMsg:\n\n 가방이 가득차서 인정서를 지급할수 없습니다.
+DelItem:2480
+GetItem:2479
+EventEnd
+
+
+

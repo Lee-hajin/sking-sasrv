@@ -1,0 +1,30 @@
+NomalMainMsg:꿀꿀
+
+EventNo:7
+TYPE:ACCEPT
+EVENT:NOWEV=7&ITEM=2414&ITEM=2424&ITEM=2425
+AcceptMsg:꿀꿀꿀~꾸우우울!\n(번역)야~아 달맞이 꽃이다.!\n이것을 주러 여기까지 왔니?
+ThanksMsg:꿀꿀꿀~꾸우우울!\n(번역)앗! 편지까지..!\n1층에 있는 우리스케씨가 준거야?\n\n먼곳까지 전해주러 와서 고마워.\n빨리 읽고 답장을 쓸께!\n괜찮다면 조금 후에 다시 와 줄래?
+DelItem:2425,2424
+EndSetFlg:7
+EventEnd
+
+EventNo:8
+TYPE:REQUEST
+EVENT:LV>0&ENDEV=7&ITEM=2414
+RequestMsg:꿀꿀꿀~꾸우우울!\n(번역)어! 다시 와 주었구나!!\n우리스케씨에게 답장을 썻어!\n\n이 편지를 우리스케씨에게 전해줄래?
+ThanksMsg:꿀꿀꿀~꾸우우울!\n(번역)부탁할게\n잃어버리지 않도록 조심해야해~~
+StopMsg:왜 무슨일있어?
+EndStopMsg:이런.. 전해주지 못하겠다니.. 어쩌지..
+NoStopMsg:우리스케씨에게 꼭 좀 전해줘.!
+ItemFullMsg:가방이 너무 무서워서 편지를 들 수 없을꺼 같아!
+GetItem:2426
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2414
+NomalMsg:안녕? 나에게 무슨 볼일이 있어?
+EventEnd
+

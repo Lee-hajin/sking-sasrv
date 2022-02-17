@@ -1,0 +1,15 @@
+NomalMainMsg:당신은 이용하실수 없습니다.
+
+EventNo:-1
+TYPE:REQUEST
+EVENT:ENDEV=25,ENDEV=26
+RequestMsg:족장에게 이야기 들었습니다.\n광석을 사러 오셨군요.\n하나에 3000스톤인데 구매하실건가요?
+ThanksMsg:감사합니다.\n광석을 지급해드리겠습니다.
+StopMsg:구매를 원하시지 않으신가요?
+EndStopMsg:알겠습니다.
+NoStopMsg:알겠습니다.
+GetItem:2503
+DelStone:3000
+ItemFullMsg:가방에 광석을 받으실 공간이 없으신것 같습니다.\n가방을 비워주세요.
+StoneLessMsg:어머!\n스톤이 부족하신거 같은데요?
+EventEnd

@@ -1,0 +1,336 @@
+function StringSplit(_data, _splitint)-- 分割处理函数（返回数组）
+	local StartIndex = 1;
+	local SplitIndex = 1;
+	local SplitArray = {};
+	while true do
+		local FindLastIndex = string.find(_data, _splitint, StartIndex);
+		if not FindLastIndex then
+			SplitArray[SplitIndex] = string.sub(_data, StartIndex, string.len(_data));
+			break ;
+		end
+		SplitArray[SplitIndex] = string.sub(_data, StartIndex, FindLastIndex - 1);
+		StartIndex = FindLastIndex + string.len(_splitint);
+		SplitIndex = SplitIndex + 1;
+	end
+	return SplitArray;
+end
+
+--整理发送
+function ShopZLFS(talkerindex,_Num1,_Num2)--Num1 类型选择 Num2商品选择页数
+	local point = sasql.getVipPoint(talkerindex);
+	local itemnum = char.GetEmptyItemNum(talkerindex);--取得道具栏数量
+	local petnum = char.GetEmptyPetNum(talkerindex);--取得宠物栏数量
+	
+	local maxpage = 0;
+	if _Num1 > 0 then
+		maxpage = math.ceil(table.getn(itemid[_Num1])/8);--总页数
+	end
+	local retoken = costtype.."商城|"..costtype.."|"..point.."|"..itemnum.."|"..petnum.."|".._Num1.."|".._Num2.."|"..maxpage;
+	--print(retoken);
+	for i=1,5 do
+		if shoptype[i] ~= nil then
+			retoken = retoken .. "\n".. shoptype[i];
+		else
+			retoken = retoken .. "\n暂无选项";
+		end
+	end
+	--商品信息整理
+	if _Num1 > 0 then
+		local maxpage = _Num2 * 8;--商品结束索引
+		local idindex1 = maxpage-7;--商品开始索引
+		local retoken2 = "";--商品开始索引
+		for i=idindex1,maxpage do
+			--1商品类型(1道具,2宠物,0点数),2商品编号,3商品价格，4商品图号，5商品名字，6商品说明
+			--商品名字|商品类型|商品价格|商品图号|商品说明
+			if itemid[_Num1][i] ~= nil then
+				retoken2 = itemid[_Num1][i][5]--名字
+								.. "|" .. itemid[_Num1][i][1]--辆幅
+								.. "|" .. itemid[_Num1][i][3]--价格
+								.. "|" .. itemid[_Num1][i][4]--图号
+								.. "|" .. itemid[_Num1][i][6];--说明
+				retoken = retoken .. "\n" .. retoken2;
+			end
+		end
+	end
+	--print(retoken);
+	return retoken;
+end
+
+function FreeShopVip(charaindex)
+	local token = ShopZLFS(charaindex,1,1);
+	lssproto.windows(charaindex, 1013, 8, 0, char.getWorkInt( npcindex, "对象"), token);
+	--return 1;
+end
+
+--NPC对话事件(NPC索引)
+function Talked(meindex, talkerindex , szMes, color )
+	if npc.isFaceToFace(meindex, talkerindex) == 1 then
+		local token = ShopZLFS(talkerindex,1,1);
+		lssproto.windows(talkerindex, 1013, 8, 0, char.getWorkInt( npcindex, "对象"), token);
+	end
+end
+
+--NPC窗口事件(NPC索引)
+function WindowTalked ( _meindex, _talkerindex, _seqno, _select, _data)
+	if (_select==8) then
+		return ;
+	end
+	if(_seqno==0)then
+		local shopdata = StringSplit(_data, "|");--分割客户端传递信息
+		if shopdata[1] == "类型选择" then
+			if table.getn(shopdata) >= 2 then--该操作需要2个函数
+				local token = ShopZLFS(_talkerindex,other.atoi(shopdata[2]),1);
+				lssproto.windows(_talkerindex, 1013, 8, 0, char.getWorkInt( _meindex, "对象"), token);
+			end
+		elseif shopdata[1] == "页数选择" then
+			if table.getn(shopdata) >= 3 then--该操作需要3个函数
+				local token = ShopZLFS(_talkerindex,other.atoi(shopdata[2]),other.atoi(shopdata[3]));
+				lssproto.windows(_talkerindex, 1013, 8, 0, char.getWorkInt( _meindex, "对象"), token);
+			end
+		elseif shopdata[1] == "购买商品" then
+			if table.getn(shopdata) >= 5 then--该操作需要5个函数
+				local sellindex = other.atoi(shopdata[2]);--项目索引
+				local sellpage = other.atoi(shopdata[3]);--选择页数
+				local sellid = other.atoi(shopdata[4]);--选择项目
+				local sellnum = other.atoi(shopdata[5]);--购买数量
+				local sellidindex = sellid + ((sellpage-1)*8);--计算出选择物品索引
+				if sellnum <= 0 then
+					char.TalkToCli(_talkerindex, _meindex, "啊规傍埃捞 何练钦聪促！", "红色");
+					return ;
+				end
+				local sellpoint = itemid[sellindex][sellidindex][3] * sellnum;--计算出总价格
+				local token = "\n\n"
+										.."["..itemid[sellindex][sellidindex][5].."] x " .. sellnum.."俺"
+										.."\n魄概啊拜:"..sellpoint.. costtype .."！！"
+										.."\n\n捞 前格栏肺 急琶窍妨绊？";
+				--print(token)
+				lssproto.windows(_talkerindex, 0, 12, 1, char.getWorkInt( _meindex, "对象"), token);
+				char.setWorkChar(_talkerindex, "临时字串1" , _data);
+			end
+		end
+	elseif(_seqno==1)then
+		local shopdata = StringSplit(char.getWorkChar(_talkerindex, "临时字串1"), "|");--分割客户端传递信息
+		if table.getn(shopdata) >= 5 then--该操作需要5个函数
+			local sellindex = other.atoi(shopdata[2]);--项目索引
+			local sellpage = other.atoi(shopdata[3]);--选择页数
+			local sellid = other.atoi(shopdata[4]);--选择项目
+			local sellnum = other.atoi(shopdata[5]);--购买数量
+			local sellidindex = sellid + ((sellpage-1)*8);--计算出选择物品索引
+			if sellnum <= 0 then
+				char.TalkToCli(_talkerindex, _meindex, "购买数量不能为0！", "红色");
+				return ;
+			end
+			local sellpoint = itemid[sellindex][sellidindex][3] * sellnum;--计算出总价格
+			local point = sasql.getVipPoint(_talkerindex);
+			if point < sellpoint then
+				char.TalkToCli(_talkerindex, _meindex, "您帐号剩余的".. costtype .."不足，无法购买！", "红色");
+				return ;
+			end
+			if itemid[sellindex][sellidindex][1] == 1 then
+				local itemnum = char.GetEmptyItemNum(_talkerindex);--取得道具栏数量
+				if itemnum < sellnum then
+					char.TalkToCli(_talkerindex, _meindex, "道具栏位不足。", "红色");
+					return ;
+				end
+			elseif itemid[sellindex][sellidindex][1] == 2 then
+				local petnum = char.GetEmptyPetNum(_talkerindex);--取得宠物栏数量
+				if petnum < sellnum then
+					char.TalkToCli(_talkerindex, _meindex, "宠物栏位不足。", "红色");
+					return ;
+				end
+			end
+			if itemid[sellindex][sellidindex][1] == 1 then--给道具
+				for i=1,sellnum do
+					local itemindex = char.Additem( _talkerindex, itemid[sellindex][sellidindex][2]);
+					--item.setInt(itemindex,"绑定",1);
+				end
+			elseif itemid[sellindex][sellidindex][1] == 2 then--给宠物
+				for i=1,sellnum do
+					local petindex = char.AddPet( _talkerindex, itemid[sellindex][sellidindex][2],1);
+					--char.setInt(petindex,"绑定",1);
+				end
+			end
+			sasql.setVipPoint(_talkerindex,point-sellpoint);
+			char.TalkToCli(_talkerindex, _meindex, "备概己傍 [".. itemid[sellindex][sellidindex][5].."] * ".. sellnum .."裙垫", "红色");
+			char.TalkToCli(_talkerindex, _meindex, "瘤阂陛咀 ".. sellpoint.." ".. costtype.."荤侩", "红色");
+			local logstr = os.date("%Y-%m-%d %X",os.time())
+						.."|"..char.getChar(_talkerindex, "账号")
+						.."|"..char.getChar(_talkerindex, "名字")
+						.."|"..itemid[sellindex][sellidindex][5].."("..itemid[sellindex][sellidindex][2]..")"
+						.."|"..sellnum--荐樊
+						.."|"..sellpoint--器牢飘
+						.."|"..tostring(point-sellpoint)--剩余
+						.."\n";
+			local f = assert(io.open("./mylua/log/VipShop/"..os.date("%Y%m%d",os.time())..".log", "a"));
+				f:write( logstr);
+				f:close();
+		end
+	end
+end
+
+
+function Create(_name, _metamo, _floor, _x, _y, _dir)
+	npcindex = npc.CreateNpc(_name, _metamo, _floor, _x, _y, _dir);
+	char.setFunctionPointer(npcindex, "对话事件", "Talked", "");
+	char.setFunctionPointer(npcindex, "窗口事件", "WindowTalked", "");
+end
+
+function ShopSetData()
+	for i=1,table.getn(itemid) do
+		for j=1,table.getn(itemid[i]) do
+			if itemid[i][j][1] == 1 then--道具说明
+				local myitemid = itemid[i][j][2];
+				itemid[i][j][4] = item.getgraNoFromITEMtabl(myitemid);--获取图像
+				itemid[i][j][5] = item.getNameFromNumber(myitemid);--获取名字
+				itemid[i][j][6] = item.getItemInfoFromNumber(myitemid);--获取说明
+			elseif itemid[i][j][1] == 2 then--宠物说明
+				local enemybaseid = pet.getEnemyBaseIdFromEnemyId(itemid[i][j][2]);--取得enemybaseid
+				local TM_DSX = pet.getDataInt(enemybaseid, "地");
+				local TM_SSX = pet.getDataInt(enemybaseid, "水");
+				local TM_HSX = pet.getDataInt(enemybaseid, "火");
+				local TM_FSX = pet.getDataInt(enemybaseid, "风");
+				local TM_SKName = {"无","无","无","无","无","无","无"};
+				local TM_SKML = {"技能1","技能2","技能3","技能4","技能5","技能6","技能7"};
+				for t=1,table.getn(TM_SKML) do
+					local TM_SKId = pet.getDataInt(enemybaseid, TM_SKML[t]);
+					if TM_SKId >= 0 then
+						TM_SKName[t] = petskill.getChar(TM_SKId,"名称");
+					end
+				end
+				itemid[i][j][4] = pet.getDataInt(enemybaseid, "形象");
+				itemid[i][j][5] = pet.getDataChar(enemybaseid, "名字");
+				itemid[i][j][6] = string.format( "%d-%d-%d-%d-%s-%s-%s-%s-%s-%s-%s",TM_DSX,TM_SSX,TM_HSX,TM_FSX,TM_SKName[1],TM_SKName[2],TM_SKName[3],TM_SKName[4],TM_SKName[5],TM_SKName[6],TM_SKName[7]);
+			end
+		end
+	end
+end
+
+function mydata()
+	costtype = "器牢飘";
+	--类型,ID,价格,图像,名字,说明
+	itemid = {{{1,2626,25,-1,"",""}--MAX手环
+			  ,{1,2647,5,-1,"",""}--宝箱钥匙
+			  ,{1,2961,30,-1,"",""}--来吉卡
+			  ,{1,12743,10,-1,"",""}--百万石币
+			  ,{1,2962,0,-1,"",""}--回炉瓶子
+			  ,{1,23011,20,-1,"",""}--果酱包
+			  --,{1,2631,25,-1,"",""}--变色戒指(白)
+			  --,{1,2632,25,-1,"",""}--变色戒指(黑)
+			  --,{1,13002,10,-1,"",""}--四大任务
+			  ,{1,20629,1,-1,"",""}--宠物蛋特效药
+			  ,{1,20210,1,-1,"",""}--改点酒
+			  ,{1,20211,1,-1,"",""}--改点酒
+			  ,{1,20212,1,-1,"",""}--改点酒
+			  ,{1,20213,1,-1,"",""}--改点酒
+			  ,{1,20599,1,-1,"",""}--尚青啤酒
+			  ,{1,20600,1,-1,"",""}--鸡尾酒
+			  ,{1,20761,10,-1,"",""}--奥义
+			  ,{1,20762,10,-1,"",""}--奥义
+			  ,{1,21788,10,-1,"",""}--奥义
+			  ,{1,21789,10,-1,"",""}--奥义
+			  ,{1,21790,10,-1,"",""}--奥义
+			
+			  ,{1,19695,10,-1,"",""}--变幻的衣服3
+			  ,{1,4501,299,-1,"",""}--金暴骑套
+			  ,{1,2261,20,-1,"",""}--改点酒全
+			  },
+			  {{1,2923,5,-1,"",""}
+			  ,{1,2939,5,-1,"",""}
+			  ,{1,2924,3,-1,"",""}
+			  ,{1,2940,3,-1,"",""}
+			  ,{1,2925,3,-1,"",""}
+			  ,{1,2941,3,-1,"",""}
+			  ,{1,2926,3,-1,"",""}
+			  ,{1,2942,3,-1,"",""}
+			  ,{1,2927,3,-1,"",""}
+			  ,{1,2943,3,-1,"",""}
+			  ,{1,2928,3,-1,"",""}
+			  ,{1,2944,3,-1,"",""}
+			  ,{1,2929,3,-1,"",""}
+			  ,{1,2945,3,-1,"",""}
+			  ,{1,2930,3,-1,"",""}
+			  ,{1,2946,3,-1,"",""}
+			  ,{1,2931,3,-1,"",""}
+			  ,{1,2947,3,-1,"",""}
+			  ,{1,2932,3,-1,"",""}
+			  ,{1,2948,3,-1,"",""}
+			  ,{1,2933,3,-1,"",""}
+			  ,{1,2949,3,-1,"",""}
+			  ,{1,2934,3,-1,"",""}
+			  ,{1,2950,3,-1,"",""}
+			  ,{1,2935,3,-1,"",""}
+			  ,{1,2951,3,-1,"",""}
+			  ,{1,2936,3,-1,"",""}
+			  ,{1,2952,3,-1,"",""}
+			  ,{1,2937,3,-1,"",""}
+			  ,{1,2953,3,-1,"",""}
+			  ,{1,2938,3,-1,"",""}
+			  ,{1,2954,3,-1,"",""}
+			  },
+			  {{2,2571,98,-1,"",""}--火牛
+			  ,{2,2572,98,-1,"",""}--地牛
+			  ,{2,1979,30,-1,"",""}--地魔兽
+			  ,{2,1980,30,-1,"",""}--火魔兽
+			  ,{2,2057,30,-1,"",""}--水魔兽
+			  ,{2,2058,30,-1,"",""}--风魔兽
+			  --,{2,2703,50,-1,"",""}--夏克
+			  --,{2,2704,50,-1,"",""}--夏基
+			  --,{2,2788,50,-1,"",""}--夏波
+			  --,{2,2789,50,-1,"",""}--夏莫
+			  ,{2,2080,30,-1,"",""}--无魔兽
+			  ,{2,1647,60,-1,"",""}--水暴
+			  ,{2,2561,127,-1,"",""}--巴雅蝴蝶
+			  ,{2,2562,127,-1,"",""}--巴特蝴蝶
+			  --,{2,5005,100,-1,"",""}--爆裂
+			  --,{2,5006,100,-1,"",""}--爆裂
+			  --,{2,5007,100,-1,"",""}--爆裂
+			  --,{2,5008,100,-1,"",""}--爆裂
+			  ,{2,2559,98,-1,"",""}--火风蜜蜂
+			  ,{2,2560,98,-1,"",""}--地水蜜蜂
+			  ,{2,1642,60,-1,"",""}--瑞里西尔
+			  ,{2,1804,30,-1,"",""}--小GP
+			  ,{2,1926,30,-1,"",""}--大GP
+			  ,{2,1947,30,-1,"",""}--蒙奇
+			  ,{2,2212,30,-1,"",""}--波比
+			  ,{2,2480,30,-1,"",""}--麋鹿
+			  ,{2,2558,98,-1,"",""}--布里萨尔
+			  ,{2,5026,98,-1,"",""}--新鲨鱼
+			  ,{2,1610,198,-1,"",""}--佩露夏
+			  ,{2,5029,168,-1,"",""}--金猪
+			  },
+			  {{1,2746,20,-1,"",""}--月光套
+			  ,{1,12767,50,-1,"",""}--金蟒套
+			  ,{1,20595,8,-1,"",""}--月光单件
+			  ,{1,20596,8,-1,"",""}--月光单件
+			  ,{1,20597,8,-1,"",""}--月光单件
+			  ,{1,22506,20,-1,"",""}--金蟒单件
+			  ,{1,22507,20,-1,"",""}--金蟒单件
+			  ,{1,22508,20,-1,"",""}--金蟒单件
+			  },
+			 };
+	shoptype = {"扁鸥备概","某腐备概","其飘备概","厘厚备概"};
+	ShopSetData();--补足说明
+	
+	npcdata = {"瘤盔惑痢",100000,777,32,24,6,"VipShop"};
+end
+
+function reload(_charaindex, _data)
+	local mytype = other.getString(_data, " ", 1);
+	if mytype == "重读" then
+		mydata();
+		char.setChar(npcindex, "名字",npcdata[1]);
+		char.setInt(npcindex, "图像号", npcdata[2]);
+		char.setInt(npcindex, "原图像号", npcdata[2]);
+		char.WarpToSpecificPoint(npcindex, npcdata[3], npcdata[4], npcdata[5]);
+		char.setInt(npcindex, "方向", npcdata[6]);
+		char.ToAroundChar(npcindex);
+		char.TalkToCli(_charaindex, -1, "重读NPC["..char.getChar(npcindex, "名字").."]完成", 6);
+	end
+end
+
+
+function main()
+	mydata();
+	Create(npcdata[1], npcdata[2], npcdata[3], npcdata[4], npcdata[5], npcdata[6]);
+	magic.addLUAListFunction(npcdata[7], "reload", "", 3, "["..npcdata[7].."]");
+end

@@ -1,0 +1,38 @@
+NomalMainMsg:음? 나에겐 무슨일이지?
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙으로 떠나기 위해 모든사람들에게 알려야해!
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=65&ITEM=18552&ITEM=18551
+NomalWindowMsg:\n어서 사병에게 돌려주자! 정말 기뻐할거야
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=65&ITEM=18551
+AcceptMsg:\n\n오! 여기 하나더 있는거 같은데?
+ThanksMsg:\n\n이건 사병이 잃어버린 물건 아니야? 빨리 그에게 되돌려주자!
+ItemFullMsg:이런 가방이 너무 무거워서 줄수 없을것 같아..
+NpcWarp:500.306.316,500.228.293,500.163.373,500.184.373,500.184.394,500.156.373,500.218.297
+GetItem:18552
+EventEnd
+
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=65
+AcceptMsg:\n여기 한장의 종이가 있어. 빽빽하게 써져있는데\n무슨내용인지는 모르겠어!\n나에겐 가방이 없어 너에게 줄태니 보관해\n남은 하나도 빨리 찾아보자고!
+ThanksMsg:\n\n난 계속 찾아볼게. 아마 이 주변에 또 있을거야.
+ItemFullMsg:이런 가방이 너무 무거워서 줄수 없을것 같아..
+NpcWarp:500.184.373,500.184.394,500.156.373,500.218.297,500.306.316,500.228.293,500.163.373
+GetItem:18551
+EventEnd

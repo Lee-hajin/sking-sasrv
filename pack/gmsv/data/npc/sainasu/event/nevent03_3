@@ -1,0 +1,58 @@
+NomalMainMsg:나는「초특급 광석」을 감정해주고 있어. 초특급 광석을 가져와
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2471*14
+AcceptMsg:초특급 광석을 가지고 왔느냐!\n감정한 후 감정서를 사무실에 가져가면 환전해 줄거야!\n\n이것들의 가치를 감정하겠는가?
+ThanksMsg:음. 잠시만 기다리게나\n좋아 광석들의 감정이 끝났어\n감정결과 초특급 광석이 맞구나\n이정도의 양이면 감정서를 네개 주겠내.
+ItemFullMsg:뭐야!\n가방의 여유공간이 없는거 같은데?
+DelItem:2471*14
+GetItem:2474*4
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2471*11,ITEM=2471*12,ITEM=2471*13
+AcceptMsg:초특급 광석을 가지고 왔느냐!\n감정한 후 감정서를 사무실에 가져가면 환전해 줄거야!\n\n이것들의 가치를 감정하겠는가?
+ThanksMsg:음. 잠시만 기다리게나\n좋아 광석들의 감정이 끝났어\n감정결과 초특급 광석이 맞구나\n이정도의 양이면 감정서를 세개 주겠내.
+ItemFullMsg:뭐야!\n가방의 여유공간이 없는거 같은데?
+DelItem:2471*11
+GetItem:2474*3
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2471*9,ITEM=2471*8,ITEM=2471*10
+AcceptMsg:초특급 광석을 가지고 왔느냐!\n감정한 후 감정서를 사무실에 가져가면 환전해 줄거야!\n\n이것들의 가치를 감정하겠는가?
+ThanksMsg:음. 잠시만 기다리게나\n좋아 광석들의 감정이 끝났어\n감정결과 초특급 광석이 맞구나\n이정도의 양이면 감정서를 두개 주겠내.
+ItemFullMsg:뭐야!\n가방의 여유공간이 없는거 같은데?
+DelItem:2471*8
+GetItem:2474*2
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2471*7,ITEM=2471*6,ITEM=2471*5
+AcceptMsg:초특급 광석을 가지고 왔느냐!\n감정한 후 감정서를 사무실에 가져가면 환전해 줄거야!\n\n이것들의 가치를 감정하겠는가?
+ThanksMsg:음. 잠시만 기다리게나\n좋아 광석들의 감정이 끝났어\n감정결과 초특급 광석이 맞구나\n이정도의 양이면 감정서를 하나 주겠내.
+ItemFullMsg:뭐야!\n가방의 여유공간이 없는거 같은데?
+DelItem:2471*5
+GetItem:2474*1
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2471*4,ITEM=2471*3,ITEM=2471*2,ITEM=2471*1
+NomalWindowMsg:뭐야~ 아직 감정을 받기에는 너무 양이 적은거 같은데?\n더 채석하고 오는게 좋을거 같아!
+EventEnd
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+NomalMainMsg:윽..넌 누구지?
+
+EventNo:64
+TYPE:ACCEPT
+EVENT:NOWEV=64&ITEM=18556&ITEM=18557&ITEM=18558&ITEM=18559
+AcceptMsg:\n이 네개의 돌... 모두 포루섬의 성스러운 돌이야!\n드디어 이걸 가지고 니스 대륙으로 갈 수 있겠어!!!
+ThanksMsg:이 기쁜 소식을 촌장님께 알려야지!!\n고마워 이것은 할아버지가 돌보라고 주신페트지만.. 너에게 맡길게 소중히 길러줘.
+DelItem:18556,18557,18558*1,18559
+PetFullMsg:이런.. 페트를 너무 많이 가지고있는거 같아
+GetPet:1559
+EndSetFlg:64
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=64
+NomalWindowMsg:\n니스대륙이라니... 정말 기대되!!\n마리너스 여신님과 함께 니스대륙에 마을을 새울거야!\n그리고 주민들을 평화롭게 해줄거야!\n우리와 함께 가지 않을래?
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64&ITEM=18556&ITEM=18557&ITEM=18559
+NomalWindowMsg:\n세개나 모았어!\n이제 마지막 한개만 모으면되.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=64
+NomalWindowMsg:\n마리너스 여신처럼 우리는 포루섬까지 가는동안\n마을 사람들을 평화롭게 지켜줘야해.\n\n성스러운 돌을 찾으러 갈까? 우선, 이곳에 있는 3개의 팀원들을 찾아가보자!
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=63
+NomalWindowMsg:\n이곳은 해저의 궁전으로 마리너스님이 살고있는 고싱지\n나는 모험을 하다 들어온 소용돌이에 말려들어, 이곳에 오게되었어\n그리곤 마리너스님을 만나게 되었지.
+EventEnd

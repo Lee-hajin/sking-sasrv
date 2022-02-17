@@ -1,0 +1,42 @@
+NomalMainMsg:샴기르 마을에 온것을 환영하네.
+
+EventNo:210
+TYPE:ACCEPT
+EVENT:LV>139
+AcceptMsg:\n자네는 이제 뛰어난 모험가가 된거 같군\n그 강인함에 선물을 하나 주려고 하는데 괜찮은가?
+ThanksMsg:\n이 페트는 정령왕이 니스대륙의 페트를 포획하여 개조하였던 페트지만 순한 놈들이라 기르기 편할 것이네.
+PetFullMsg:\n가방이 무거운것 같군.
+GetPet:1719,1720
+EndSetFlg:210
+EventEnd
+
+EventNo:73
+TYPE:ACCEPT
+EVENT:LV>119&PET>0-758&NOWEV=73
+AcceptMsg:\n기게문명을 쓰러뜨리고 복우리를 치료한것인가？
+ThanksMsg:\n대단하군···\n자네에게 계속 도움만 받게되는군 미안하네\n고마움의 표시이니 받아두게나.
+ItemFullMsg:\n가방이 무거운것 같군.
+GetItem:20001
+GetRandItem:15801,15804,15807,15810
+DelPet:PET>0-758*1
+EndSetFlg:73
+EventEnd
+
+EventNo:73
+TYPE:MESSAGE
+EVENT:LV>119&NOWEV=73&PET>0-752
+NomalWindowMsg:\n이런···복우리가 많이다쳤군\n자네에게 미안하지만 복우리를 치료해주게나？\n정령왕이 봉인된방 뒷편에 봉인되어있는 기계문명에게서 약재를 구할수 있을거야···부탁좀 하겠네
+EventEnd
+
+EventNo:73
+TYPE:REQUEST
+EVENT:LV>119&ENDEV=67
+RequestMsg:\n오！ 자네는 과거의 그···\n이렇게 된거였군 자네덕에 무시무시한 공룡들을 피해 니스대륙 샴기르마을을 건설할수 있었네.　
+ThanksMsg1:\n혹시 자네가 과거를 한번더 갔다가 올 수 있다면 좋을꺼같은데···\n내가 아끼면서 기르던 공룡 한마리를 못데려왔어\n혹시 그 공룡을 데려와줄 수 있겠나？
+ThanksMsg2:\n한번 나의 페트를 다시한번 눈으로 볼수있다면 얼마나 좋을까···\n자네가 가능만 하다면 무리한 부탁좀 해보겠어！
+StopMsg:음··· 그건 무리인거 같나？
+EndStopMsg:매우 아쉽구만 하지만 추억에 묻어둬야지.
+NoStopMsg:오! 자네는 정말 믿음직스럽구만
+ItemFullMsg:\n가방이 너무 무거운거 같구나
+GetItem:20003
+EventEnd

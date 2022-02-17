@@ -1,0 +1,44 @@
+NomalMainMsg:뭐야! 이곳까지 날 찾아온 이유가 뭐지?
+
+EventNo:12
+TYPE:ACCEPT
+EVENT:NOWEV=9&NOWEV=10&NOWEV=11&ITEM!=2419&ITEM!=2420
+AcceptMsg:용건은 돌에 관한 것이지?
+ThanksMsg:음~그래 돌을 다시 주겠어\n우리 본드족을 쓰러뜨리고 여기까지 오다니 정말 대단하군..
+ItemFullMsg:뭐야! 가방이 무거워서 돌을 가질 수 없겠는걸?
+GetItem:2419,2420
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=12&ITEM=2736,ENDEV=42&ITEM=2736,ENDEV=41&ITEM=2736
+NomalWindowMsg:\n\n\n우리는 스스로를 의적이라 부르지\n남들은 도적이라 부르지만 하하\n뭐 어떤가 좋은 걸 가지는 것인데
+EventEnd
+ 
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ENDEV=41&ITEM!=2736&ENDEV=4&NOWEV=42
+AcceptMsg:\n\n하프를 떨어뜨렸지?
+ThanksMsg:이런, 아까 이 주변에서 하프를 발견했다고 하더군\n잃어버리지 말게.
+ItemFullMsg:가방을 비워야 할것 같군데?
+GetItem:2736
+EventEnd
+
+EventNo:41
+TYPE:ACCEPT
+EVENT:LV>0&NOWEV=41&ENDEV=4&NOWEV=42
+AcceptMsg:\n\n용건은 바람의 하프에 관한 것이지?
+ThanksMsg:고우와 단을 쓰러뜨리는 것이 네가\n해야 할 일이다. 허둥대도 소용없다.\n훔친 그 녀석들보다도 너희들이 더 잘활용할것 같군!|n하지만 무척이나 강한 놈들이지!
+ItemFullMsg:가방을 비워야 할것 같군데?
+GetItem:2736
+Charm:1
+EndSetFlg:41
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=12,ENDEV=41
+NomalWindowMsg:이녀석 왜이렇게 많이 나를 찾아오는건가.
+EventEnd
+

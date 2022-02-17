@@ -1,0 +1,15 @@
+NomalMainMsg:배가고파요...혹시 뭐 먹을게 없나요？
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2344,ITEM=2345,ITEM=2346,ITEM=2347,ITEM=2348,ITEM=2349
+StopMsg:매우 배가고파....
+NoStopMsg:매우 배가고파....
+EndStopMsg:매우 배가고파....
+AcceptMsg:오... 혹시 저에게 주실 고기가 있으신가요?\n작은고기도 괜찮아요...\n배가 너무 고파요....
+ThanksMsg1:정말로 감사합니다.!\n......\n.....\n덕분에 살수 있었어요!\n이건 감사의 표시에요 이 해변에서 주은 조개에요!
+ItemFullMsg:이런 가방이 가득차신거 같군요..
+GetItem:2414
+DelItem:2248,2249,2250,2251,2252,2253
+EventEnd
+

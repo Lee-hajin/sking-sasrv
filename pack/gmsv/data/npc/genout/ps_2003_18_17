@@ -1,0 +1,13 @@
+nomal_rate:1.0
+main_msg:안녕하세요.\n무엇을 하시겠습니까？
+realy_msg:정말로 판매하시겠습니까？
+over_msg:최대 소지금이 초과되었습니다.\n남은 금액은 은행으로 입금됩니다.
+thanks_msg:이용해주셔서 감사합니다.
+cost_msg:금액이 부족합니다.
+pooltanks_msg:감사합니다.
+poolfull_msg:감사합니다.
+getfull_msg:가득 찾습니다.
+pool_flg:1
+pool_cost:200
+special_rate:1.5
+special_pet:

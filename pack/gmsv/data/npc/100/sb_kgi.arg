@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:이 앞으로 전진하고 싶다면 날 쓰러뜨리는게 좋을걸
+startmsg:날 쓰러뜨리면 전진하는걸 허락하지
+dieact:1
+warpfl:11215
+warpx:9
+warpy:16
+end msg:
+enemyno:1271,1274,1274,1281,1281,1276,1279,1279,1276,1276
+deniedmsg:넌 이곳을 지나갈수 없어！
+onebattle:0

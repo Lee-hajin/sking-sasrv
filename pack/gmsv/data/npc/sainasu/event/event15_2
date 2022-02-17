@@ -1,0 +1,7 @@
+NomalMainMsg:나는 꼭 공룡의 박사가 될꺼야.!
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=15
+NomalMsg:그게말이죠! 박사님이 말씀하신 루니라고 하는 공룡은 사이너스 북쪽에 있습니다. 레벨 15이상의 루니가 필요합니다. 만약 레벨 15가 되지 않았으면 키워도 상관없습니다.
+EventEnd

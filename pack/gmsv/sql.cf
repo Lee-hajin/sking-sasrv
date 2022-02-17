@@ -1,0 +1,32 @@
+##############################
+#MYSQL基本配置
+#sql服务器IP
+sql_IP          172.30.0.100
+#sql服务器端�?
+sql_Port        3306
+#sql服务器账�?
+sql_ID          root
+#sql服务器密�?
+sql_PS          password
+#sql数据库名
+sql_DataBase    sa
+#sql人物信息表名
+sql_Table       CSA_Login
+#sql用户名字�?
+sql_NAME        Name
+#sql密码字段�?
+sql_PASS        PassWord
+#sql锁定账号表名
+sql_LOCK        lock
+
+########后台功能############
+#是台开始后台功�?
+openbackground  1
+#openbackground值为1则开始以下功�?
+sql_RegIP       IP
+sql_RegTime     RegTime
+sql_LoginTime   LoginTime
+sql_Path        Path
+sql_OnlineName  OnlineName
+############################
+

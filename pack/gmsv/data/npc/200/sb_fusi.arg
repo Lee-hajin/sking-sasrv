@@ -1,0 +1,10 @@
+entype:2
+askbattlemsg1:아무래도 이 공룡을 죽이지 않으면
+askbattlemsg2:불사조에게는 갈 수 없을 것 같군.
+askbattlemsg3:쓰러뜨린 후 전진하겠습니까？
+dieact:0
+end msg:
+enemyno:1247,1245,1245,1244,1244,1245,1247,1247,1246,1246
+deniedmsg:지나가실 수 없습니다.
+time=300
+

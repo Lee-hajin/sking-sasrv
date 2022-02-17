@@ -1,0 +1,34 @@
+NPCCREATE
+{
+floorid=40
+borncorner=1,8,1,8
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16204
+name=해저터널 문지기
+enemy=npcgen_warpman|file:genout/wpm_40_1_8
+}
+{
+floorid=40
+borncorner=13,1,13,1
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16204
+name=해저터널 문지기
+enemy=npcgen_warpman|file:genout/wpm_40_13_1
+}
+{
+floorid=40
+borncorner=12,18,12,18
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16207
+name=해저터널 문지기
+enemy=npcgen_warpman|file:genout/wpm_40_12_18
+}

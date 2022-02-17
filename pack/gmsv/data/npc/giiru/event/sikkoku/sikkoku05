@@ -1,0 +1,57 @@
+EventNo:53
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2701&ITEM=2707&ITEM=2735&ITEM=2770
+AcceptMsg:\n\n정령에게서 받은 증거를 가지고 여기까지 오셨군요.
+ThanksMsg:\n\n이것은 정령들의 힘이 깃든 활 입니다.\n활을 꼭 간직하십시오.
+ItemFullMsg:\n\n\n가방이 무거워 활을 받을 공간이 없으신거 같습니다.
+GetItem:2775
+Charm:1
+EndSetFlg:53
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=52
+NomalWindowMsg:\n\n당신은 이미 최상의 힘을 얻었습니다.\n
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=51&ITEM=2771&ITEM=2772&ITEM=2773&ITEM=2774
+NomalWindowMsg:\n새로운 힘을 얻기 위해선「모든 수호 짐승」이 필요할것 입니다.\n수호짐승을 가지고 새로운 힘을 얻어보십시오.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=50&ITEM=2771&ITEM=2772&ITEM=2773&ITEM=2774
+NomalWindowMsg:\n새로운 힘을 얻기 위해선「바람의 수호 짐승」이 필요할것 입니다.\n수호짐승을 가지고 새로운 힘을 얻어보십시오.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=49&ITEM=2771&ITEM=2772&ITEM=2773&ITEM=2774
+NomalWindowMsg:\n새로운 힘을 얻기 위해선「불의 수호 짐승」이 필요할것 입니다.\n수호짐승을 가지고 새로운 힘을 얻어보십시오.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=48&ITEM=2771&ITEM=2772&ITEM=2773&ITEM=2774
+NomalWindowMsg:\n새로운 힘을 얻기 위해선「물의 수호 짐승」이 필요할것 입니다.\n수호짐승을 가지고 새로운 힘을 얻어보십시오.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2771&ITEM=2772&ITEM=2773&ITEM=2774
+NomalWindowMsg:\n새로운 힘을 얻기 위해선「대지의 수호 짐승」이 필요할것 입니다.\n수호짐승을 가지고 새로운 힘을 얻어보십시오.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n나에게 힌트를 얻고싶다면 네 개의 보물을 찾아오십시오.\n네 개의 보물을 올바른 길으로 당신을 인도할것 입니다.
+EventEnd

@@ -1,0 +1,49 @@
+NomalMainMsg:흐음~ 따분하군
+
+EventNo:10
+TYPE:ACCEPT
+EVENT:ENDEV=11&NOWEV=10&ITEM=2419
+AcceptMsg:그래요! 이거에요!\n이것이 우리를 지켜주는 돌입니다.
+ThanksMsg:고마워요! 이것으로 마을을 지킬 수 있게 됐군요!\n답례로 이것을 드리겠습니다.\n이것을 돈으로 바꾸면 약 2000스톤정도\n될꺼라고 생각합니다.
+ItemFullMsg:이런! 가방이 너무 무거우시군요
+GetItem:2421
+DelItem:2419
+EndSetFlg:10,12
+EventEnd
+
+EventNo:10
+TYPE:ACCEPT
+EVENT:ENDEV=12&ITEM=2419
+AcceptMsg:그래요! 이거에요!\n이것이 우리를 지켜주는 돌입니다.
+ThanksMsg:고마워요! 이것으로 마을을 지킬 수 있게 됐군요!\n답례로 이것을 드리겠습니다.\n이것을 돈으로 바꾸면 약 2000스톤정도\n될꺼라고 생각합니다.
+ItemFullMsg:이런! 가방이 너무 무거우시군요
+GetItem:2421
+DelItem:2419
+EndSetFlg:10
+EventEnd
+
+EventNo:10
+TYPE:REQUEST
+EVENT:LV>29&ENDEV=4&NOWEV=9&NOWEV=11
+RequestMsg:쿠링과 카탄의 친구로부터 들었군요!\n도와주십시오!
+ThanksMsg:본드족 녀석들은 마을의 수호석을 훔쳐가지고 아지트로 도망갔습니다.\n꼭 필요한 수호석이니 찾아주세요.
+StopMsg:혹시 도울 수 없으실꺼 같나요?
+EndStopMsg:이런.. 알겠습니다.\n매우 아쉽군요.
+NoStopMsg:아지트를 들어가려면 암호가 필요하다고 들었습니다.
+EventEnd
+
+EventNo:10
+TYPE:REQUEST
+EVENT:LV>29&ENDEV=4&NOWEV=9
+RequestMsg:쿠링의 친구로부터 들었군요!\n도와주세요!\n카탄의 사막에 있는 도적 본드족에게\n마을을 지키는 돌을 빼앗겼습니다.
+ThanksMsg:감사합니다. 카탄마을에 친구가 있어요.\n카탄에 있는 친구에게서 소식을 들어보세요.
+StopMsg:혹시 도울 수 없으실꺼 같나요?
+EndStopMsg:이런.. 알겠습니다.\n매우 아쉽군요.
+NoStopMsg:카탄 친구를 한번 만나보십시오.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=10
+NomalMsg:정말로 감사합니다. 덕분에 수호석을 되찾을 수 있었어요.
+EventEnd

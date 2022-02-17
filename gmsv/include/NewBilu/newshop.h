@@ -1,0 +1,42 @@
+#ifndef _NEW_SHOP_H_
+#define _NEW_SHOP_H_
+
+#include "NewBilu/version.h"
+#include "common.h"
+
+#ifdef _ONLINE_SHOP
+#define SHOPLISTMAX 100
+#define SHOPPAGEMAX 8
+
+//����#ͼ��#����#��ɫ#�ۿ�#���#˵��
+typedef struct ONLINE_SHOP_t
+{
+	BOOL use;
+	int id;
+	int picid;
+	char name[64];
+	int color;
+	int percentage;
+	int price;
+	char readme[256];
+} Online_Shop_t;
+
+typedef enum
+{
+	ONLINESHOP_PET,
+	ONLINESHOP_ITEM,
+	ONLINESHOP_HEALER,
+	ONLINESHOP_COMPOSE,
+	ONLINESHOP_MISSION,
+	ONLINESHOP_OTHER,
+	ONLINESHOP_AMPOINT,
+	ONLINESHOP_NUM
+} CHAR_ONLINESHOP;
+
+BOOL OnlineShop_init();
+void OnlineShop_ShowList(int fd, int charaindex, int type, int page);
+void OnlineShop_Buy(int fd, int charaindex, int type, int page, int id, int num);
+
+#endif
+
+#endif

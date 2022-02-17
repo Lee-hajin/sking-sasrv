@@ -1,0 +1,7 @@
+NomalMainMsg:꿀꿀
+
+EventNo:7
+TYPE:MESSAGE
+EVENT:ITEM=2414
+NomalMsg:사람이잖아! 이곳엔 무슨일이야?
+EventEnd

@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:너도 새로운 힘을 얻기 위해 왔는가?
+askbattlemsg2:그러나 새로운 힘을 받을수 있는 정령왕은 이 안에 봉인해 두었다.
+askbattlemsg3:봉인을 풀고 새로운 힘을 얻기위해서는 나를 이겨라.
+start msg:
+dieact:1
+warpfl:32021
+warpx:29
+warpy:57
+end msg:
+enemyno:1404,1406,1407,1405,1408,1410,1409,1411,1412,1413
+deniedmsg: 애송이 넌 더이상 지나갈 수 없어！
+onebattle:0

@@ -1,0 +1,41 @@
+EventNo:46
+TYPE:REQUEST
+EVENT:LV>64&ENDEV=4&ENDEV=39
+RequestMsg:\n당신은 대지의 가호를 가지고 있습니다.\n대지의 여신님의 가호를 받은 사람이라면\n나의 주인의 기원을 들어주실 지도 모릅니다.\n어쨋든 말씀이라도 드려보지 않겠습니까?
+ThanksMsg:\n고맙습니다.\n사실 요 몇년간 세계의 물이\n너무나 더러워져서\n물을 관리하는 나의 주인이 곤란해 하고 있습니다.\n여기서 북쪽에 있는 벽청돌굴의 땅밑 호수에 있는 주인에게 상세한 내용을 들어보세요.
+StopMsg:\n\n물의 여신님을 못찾으시겠습니까?
+EndStopMsg:\n\n'물의 수호를 받지 못한자'
+NoStopMsg:\n\n벽청의 동굴 주인을 찾아가보십시오.
+EventEnd
+
+EventNo:46
+TYPE:REQUEST
+EVENT:LV>64&ENDEV=4&ENDEV=40
+RequestMsg:\n당신은 불의 가호를 가지고 있습니다.\n불의 여신님의 가호를 받은 사람이라면\n나의 주인의 기원을 들어주실 지도 모릅니다.\n어쨋든 말씀이라도 드려보지 않겠습니까?
+ThanksMsg:\n고맙습니다.\n사실 요 몇년간 세계의 물이\n너무나 더러워져서\n물을 관리하는 나의 주인이 곤란해 하고 있습니다.\n여기서 북쪽에 있는 벽청돌굴의 땅밑 호수에 있는 주인에게 상세한 내용을 들어보세요.
+StopMsg:\n\n물의 여신님을 못찾으시겠습니까?
+EndStopMsg:\n\n'물의 수호를 받지 못한자'
+NoStopMsg:\n\n벽청의 동굴 주인을 찾아가보십시오.
+EventEnd
+
+EventNo:46
+TYPE:REQUEST
+EVENT:LV>64&ENDEV=4&ENDEV=42
+RequestMsg:\n당신은 바람의 가호를 가지고 있습니다.\n바람의 여신님의 가호를 받은 사람이라면\n나의 주인의 기원을 들어주실 지도 모릅니다.\n어쨋든 말씀이라도 드려보지 않겠습니까?
+ThanksMsg:\n고맙습니다.\n사실 요 몇년간 세계의 물이\n너무나 더러워져서\n물을 관리하는 나의 주인이 곤란해 하고 있습니다.\n여기서 북쪽에 있는 벽청돌굴의 땅밑 호수에 있는 주인에게 상세한 내용을 들어보세요.
+StopMsg:\n\n물의 여신님을 못찾으시겠습니까?
+EndStopMsg:\n\n'물의 수호를 받지 못한자'
+NoStopMsg:\n\n벽청의 동굴 주인을 찾아가보십시오.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&ENDEV=46
+NomalWindowMsg:\n여신님을 만나셨군요.!\n인정을 받으셨다니 정말 대단하시군요.
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n요 몇년간 너무 물이 더러워지고 있습니다.
+EventEnd

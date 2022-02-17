@@ -1,0 +1,16 @@
+NomalMainMsg:관리인에게 팔찌를 받아와.\n관리인은 레벨에 맞는 팔찌를 지급해줄꺼야
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2594
+NomalWindowMsg:\n당신은 초록 조교팔찌를 가지고 있군.\n초록팔찌는 이곳 1층에서 아르바이트를 진행하면 되.!\n\n증명서의 교환소는 목장에 있으니까\n잃어버리지 않도록해.
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM!=2594
+NomalWindowMsg:\n관리인에게 팔찌를 받아와.\n관리인은 레벨에 맞는 팔찌를 지급해줄꺼야
+EventEnd
+
+

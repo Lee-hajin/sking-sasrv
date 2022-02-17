@@ -1,0 +1,46 @@
+NomalMainMsg:뭐야? 내 방엔 무슨일이죠?
+
+EventNo:21
+TYPE:ACCEPT
+EVENT:NOWEV=21&ENDEV=22&ITEM!=2488
+AcceptMsg:곰곰히 생각해 봤지만 나에게는 지금의\n부모님이 제겐 소중해요.\n물론 친부모님도 소중하지만···\n그래서 말인데요.. 부탁이 있어요!\n이 편지를 친부모님께 전해주시겠어요?
+ThanksMsg:감사합니다!\n저는 이곳의 삶에 정말로 만족하고 있어요.\n제가 못내려가서 많이 죄송하지만 편지라도 남겨주고 싶어요.!\n부탁드립니다.
+GetItem:2488
+ItemFullMsg:가방이 너무 무거우신거 같아요.
+EventEnd
+
+
+EventNo:21
+TYPE:MESSAGE
+EVENT:NOWEV=21&ENDEV=22&ITEM=2488
+NomalMsg:편지를 부모님께 전달해주세요!
+EventEnd
+
+EventNo:21
+TYPE:REQUEST
+EVENT:ENDEV=20&ITEM=2487
+RequestMsg:뭐라고요? 무슨 용무에요?\n이 머리장식은···왠지 따뜻하고\n부드럽고 그리운 그런 느낌이....\n\n이걸 나에게···?
+ThanksMsg:어렸을때 저의 친 어머니의 유품이군요···\n친 부모님께서 저를 애타게 찾고있다니···\n하지만 전 이곳의 부모님이 중요해요!\n생각할 시간을 주시겠어요?
+StopMsg:무슨일 이시죠?
+EndStopMsg:생각할 시간을 부탁드렸지만..안타깝네요.
+NoStopMsg:좀 생각할 시간을 주세요.
+DelItem:2487
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&NOWEV=21
+NomalMsg:아버지는 뭐라고 말씀 하시나요?
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=20&ENDEV=21
+NomalMsg:감사합니다. 부모님께 편지는 잘 전달이 된거 같군요.!!
+EventEnd
+
+
+
+
+

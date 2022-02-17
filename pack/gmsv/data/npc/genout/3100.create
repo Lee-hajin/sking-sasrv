@@ -1,0 +1,156 @@
+NPCCREATE
+{
+floorid=3100
+borncorner=35,76,35,76
+time=0
+createnum=1
+graphicname=16048
+name=마을 청년
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|그러고보니 여기로부터 남쪽에 있는 동하로산에는 가우린섬으로 갈 수 있는 입구가 10년만에 뚫렸다고해!!
+}
+{
+floorid=3100
+borncorner=75,74,75,74
+time=0
+createnum=1
+graphicname=16200
+name=정보원
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|그래 가우린섬에 갈 수 있도록 된 것 같아!
+}
+{
+floorid=3110
+borncorner=14,13,14,13
+time=0
+createnum=1
+graphicname=1440
+name=쓰러진 노인
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|귀여운 손녀를 남기고 아직 죽고 싶지는····
+}
+{
+floorid=3100
+borncorner=48,54,48,54
+time=0
+createnum=1
+graphicname=16021
+name=아줌마
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|거대한 꽃의 뿌리를 갈아주면 이병은 나을 수 있을탠데····
+}
+#line 18
+{
+floorid=3100
+borncorner=41,82,41,82
+time=0
+createnum=1
+graphicname=16040
+name=아줌마
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|겨우 편의점이 문을 열었네!
+}
+{
+floorid=3100
+borncorner=40,68,40,68
+time=0
+createnum=1
+graphicname=16047
+name=마을 청년
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|이놈아! 적당히하고 2층으로 올라가····
+}
+{
+floorid=3100
+borncorner=39,68,39,68
+time=0
+createnum=1
+graphicname=100278
+name=다고스
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|후모후모후모! 후모모!!
+}
+{
+floorid=3100
+borncorner=62,75,62,75
+time=0
+createnum=1
+graphicname=16018
+name=마을 사람
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|여유를 갖고 병원에 오는것이 중요해!
+}
+{
+floorid=3100
+borncorner=57,77,57,77
+time=0
+createnum=1
+graphicname=16025
+name=마을 정보원
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|수풀의 동굴 정상에는 큰꽃이 피어 있다고해!
+}
+{
+floorid=3100
+borncorner=58,61,58,61
+time=0
+createnum=1
+graphicname=16207
+name=경비원
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|여기는 촌장댁입니다. 특별한 용무가 없는 분의 출입은 금지합니다.
+}
+{
+floorid=3100
+borncorner=58,64,58,64
+time=0
+createnum=1
+graphicname=16207
+name=경비원
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|여기는 촌장댁입니다. 특별한 용무가 없는 분의 출입은 금지합니다.
+}
+{
+floorid=3105
+borncorner=13,19,13,19
+time=0
+createnum=1
+graphicname=16011
+name=꼬마
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|나도 나가서 뛰어놀고 싶어
+}
+{
+floorid=3105
+borncorner=17,20,17,20
+time=0
+createnum=1
+graphicname=16046
+name=우루리청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|흠 이곳에 이상한 기운이 돌고있어
+}
+{
+floorid=3100
+borncorner=61,70,61,70
+time=0
+createnum=1
+graphicname=16044
+name=우루리청년
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|이상하내 무슨 냄새안나？
+}

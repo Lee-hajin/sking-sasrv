@@ -1,0 +1,4 @@
+time:AFTER
+main_msg:지금은 낮 입니다. 입장하실 수 있습니다.
+change_msg:밤에는 입장하실수 없습니다.
+change_no:16200

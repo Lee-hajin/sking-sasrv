@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:내가 강자라고 생각하는가···
+start msg:
+dieact:1
+warpfl:31706
+warpx:45
+warpy:16
+end msg:
+enemyno:1001
+deniedmsg:········
+

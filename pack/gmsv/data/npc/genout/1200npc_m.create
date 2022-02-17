@@ -1,0 +1,90 @@
+NPCCREATE
+{
+floorid=2000
+borncorner=87,95,87,95
+time=0
+createnum=1
+graphicname=16209
+name=마을 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|마리너스 마을은 해산물들이 정말 많지
+}
+{
+floorid=1200
+borncorner=37,38,37,38
+time=0
+createnum=1
+graphicname=16031
+name=마을 아가씨
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|쿠링마을은 숲속에 있는 공기가 좋은 마을이야！
+}
+{
+floorid=1200
+borncorner=58,70,58,70
+time=0
+createnum=1
+graphicname=16046
+name=마을 청년
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|흠···· 좋은 무기를 구할 방법이 없을까？
+}
+{
+floorid=1200
+borncorner=72,63,72,63
+time=0
+createnum=1
+graphicname=16008
+name=꼬마
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|꼬기 먹고싶다···
+}
+{
+floorid=1200
+borncorner=43,39,43,39
+time=0
+createnum=1
+graphicname=16047
+name=마을 청년
+dir=4
+ignoreinvincible=1
+enemy=npcgen_man|쿠링마을은 숲속 깊숙한 곳에 있는 마을이지！
+}
+{
+floorid=1200
+borncorner=66,65,66,65
+time=0
+createnum=1
+graphicname=16032
+name=쿠링 아가씨
+dir=5
+ignoreinvincible=1
+enemy=npcgen_man|쿠링마을은 정말 신기한 마을이야！
+}
+{
+floorid=1200
+borncorner=77,114,77,114
+time=0
+createnum=1
+graphicname=16056
+name=경비원
+dir=6
+ignoreinvincible=1
+enemy=npcgen_man|요즘 누군가가 우물을 몰래 퍼다가저가는거 같아
+
+}
+{
+floorid=1200
+borncorner=84,68,84,68
+time=0
+createnum=1
+graphicname=10095
+name=공지
+dir=6
+ignoreinvincible=1
+enemy=npcgen_signboard|file:genout/signb_1200_84_68
+}

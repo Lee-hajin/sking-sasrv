@@ -1,0 +1,85 @@
+NPCCREATE
+
+{
+floorid=31902
+borncorner=9,7,9,7
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16018
+name=채석 관리인
+enemy=changeevent|file:giiru/event/event30_1
+}
+
+{
+floorid=31909
+borncorner=10,8,10,8
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=14648
+name=정령의 돌
+enemy=changeevent|file:giiru/event/event30_2
+}
+
+{
+floorid=5106
+borncorner=25,15,25,15
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16024
+name=다나마을 촌장
+enemy=changeevent|file:giiru/event/event30_3
+}
+
+{
+floorid=5005
+borncorner=19,15,19,15
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16057
+name=후루도 촌장
+enemy=changeevent|file:giiru/event/event30_4
+}
+
+{
+floorid=30600
+borncorner=15,10,15,10
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=16057
+name=쿠이용 할배
+enemy=changeevent|file:giiru/event/event30_5
+}
+
+{
+floorid=31911
+borncorner=10,6,10,6
+time=0
+createnum=1
+dir=6
+ignoreinvincible=1
+graphicname=11131
+name=정령의 나무
+enemy=changeevent|file:giiru/event/event30_6
+}
+
+{
+floorid=31909
+borncorner=11,3,11,3
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=100461
+name=한의 심부름꾼
+enemy=npcgen_warpman|file:giiru/event/event30_7
+}
